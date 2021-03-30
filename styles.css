@@ -1,0 +1,16 @@
+:root {
+  --background: #fff;
+  --text: #222;
+  --text-inverted: #fff;
+
+  --link-text: #343;
+  --link__hover-text: #222;
+  --link__hover-background: #000;
+
+  --button-primary-background: #222;
+  --button-primary-text: var(--text-inverted);
+  --button-secondary-background: #343;
+  --button-secondary-text: var(--text-inverted);
+  --button__hover-background: #000;
+  --button__hover-text: #fff;
+}

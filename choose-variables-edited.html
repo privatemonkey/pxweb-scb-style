@@ -8,16 +8,21 @@
 <meta name="Description" content="Migration by region, age, period, type and sex" />
 </head>
 <body>
-  <div id="pxwebcontent" role="main">
+  <!-- NEW Header element with site logo, language selector and title -->
+  <header>
+    <img src="assets/px-web-logo.gif" alt="Logo for PxWeb 2021 v1 beta" class="siteLogo" />
+    <span class="siteName">PxWeb 2021 v1 beta</span>
+  </header>
+
+  <!-- REPLACED id="pxwbcontent" replaced with main tag-->
+  <!-- div id="pxwebcontent" role="main" -->
+  <main id="pxwebcontent">
     <form method="post" action="./" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
       <div class="aspNetHidden">
       </div>
-      <a id="ctl00_ToTheTopButton" class="top-link pxweb-btn negative hide" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ToTheTopButton ',  ' ', true,  ' ',  ' ', false, true))">
-        <svg class="icon-top-link-button" viewBox="0 0 24 24" width="40" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" >
-          <circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline><line x1="12" y1="16" x2="12" y2="8"></line>
-        </svg>To the Top</a>
         <div id="wrap">
-          <div id="header" class="header flex-row flex-wrap justify-space-between">
+          <!-- REMOVED Header written with divs-->
+          <!--<div id="header" class="header flex-row flex-wrap justify-space-between">
             <a id="ctl00_SkipToMain" class="screenreader-only pxweb-link" aria-label="Press enter to go directly to main content" href="#pxcontent">Jump to main content</a>
             <div class="headerleft flex-row" role="banner">
               <img src="../../../../../Resources/Images/px-web-logo.gif" id="ctl00_imgSiteLogo" alt="PxWeb 2021 v1 beta" class="imgSiteLogo" />
@@ -28,44 +33,32 @@
                 <div class="pxweb-link"> <a class="px-change-lang" href="/pxweb/sv/Example/Example__Misc__OfficialStatistics/officialstatistics.px/"> <span class="link-text px-change-lang">Svenska</span></a> </div>
               </div>
             </div>
-          </div>
+          </div>-->
+
+          <!-- Breadcrumb -->
           <div id="ctl00_breadcrumb1">
-
-
             <nav>
               <div id="breadcrumb" >
-                <a id="ctl00_breadcrumb1_breadcrumb1_lnkHome" href="/pxweb/en/"><img id="ctl00_breadcrumb1_breadcrumb1_imgHome" title="Home" class="breadcrumb_homebutton" src="/WebResource.axd?d=88iSQul3wcXHk-qxW8xyNJa_Mqbl_O8LuNjT7uQhfbByZjm7vFasYKRZdzP9VSqOVVdqb-wv_kQzz0kTFUdmQXy5UNyh3OuLb3_4HCRzEi1TSFYmc5_EsUv8Dy0y04TwUf_0-CpiS3qZF5FbSRRtIA2&amp;t=637523615583490580" alt="Icon representing home" /></a>
+                <a id="ctl00_breadcrumb1_breadcrumb1_lnkHome" href="/pxweb/en/"><img title="Home" class="breadcrumb_homebutton" src="assets/icon_home.png" alt="Icon representing home" /></a>
                 <span id="ctl00_breadcrumb1_breadcrumb1_lblSep1" class="breadcrumb_sep">/</span>
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkDb" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/">Example</a>
                 <span id="ctl00_breadcrumb1_breadcrumb1_lblSep2" class="breadcrumb_sep">/</span>
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkPath1" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/Example__Misc/">Misc</a>
                 <span id="ctl00_breadcrumb1_breadcrumb1_lblSep3" class="breadcrumb_sep">/</span>
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkPath2" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/Example__Misc__OfficialStatistics/">OfficialStatistics</a>
-
-
-
-
-
-
-
-
                 <span id="ctl00_breadcrumb1_breadcrumb1_lblSepBeforeTable" class="breadcrumb_sep">/</span>
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkTable" class="breadcrumb_text_nolink">Migration by region, age, period, type and sex</a>
-
-
-
               </div>
             </nav>
-
-
-
-
           </div>
-          <h1>
-            <span id="ctl00_lblH1Title" class="h1title">OfficialStatistics</span>
-          </h1>
 
-          <div id="ctl00_navigationFlowControl">
+          <!-- REMOVED Norwegian main header -->
+          <!--<h1>
+            <span id="ctl00_lblH1Title" class="h1title">OfficialStatistics</span>
+          </h1>-->
+
+          <!-- Wizard -->
+          <!--<div id="ctl00_navigationFlowControl">
 
             <nav>
               <div id="navigationFlow">
@@ -83,8 +76,10 @@
               </div>
             </nav>
 
-          </div>
-          <div id="table-title">
+          </div>-->
+
+          <!-- Table title -->
+          <!--<div id="table-title">
             <div id="place-holder-title">
 
               <h2>
@@ -101,19 +96,22 @@
               </h2>
 
             </div>
-          </div>
+          </div>-->
+
+           <!-- NEW Table name is used as main header -->
+          <h1>Migration by region, age, period, type and sex</h1>
+
+          <!-- NEW Official statistics logo -->
+          <img src=/assets/official_statistics_en.svg alt="This is official statistics of Sweden" />
 
           <div id="place-holder">
-
             <div id="SelectionPage">
+              <!-- MOVED Official statistics logo -->
+              <!--<img src=/Resources/Images/official_statistics_en.svg class="officialStatisticsImage"/>-->
 
 
-
-
-              <img src=/Resources/Images/official_statistics_en.svg class="officialStatisticsImage"/>
-
-
-              <div id="PageElements">
+              <!-- About table and view type -->
+              <!--<div id="PageElements">
                 <div class="flex-row justify-space-between">
                   <div id="ctl00_ContentPlaceHolderMain_UcAccordianAboutTable_InformationBox" class="pxweb-accordion about-table s-margin-top" role="complementary">
 
@@ -243,8 +241,10 @@
                   <div id="switchLayoutContainer" class="switch-layout-container m-margin-left">
                     <input type="submit" name="ctl00$ContentPlaceHolderMain$SwitchLayout" value="Expert view" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$SwitchLayout ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_SwitchLayout" class="variableselector-compact-view  pxweb-btn icon-placement variableselector-buttons" />
                   </div>
-                </div>
+                </div>-->
 
+                <!-- NEW A header describing the action of choosing variables -->
+                <h2>Choose variables</h2>
 
                 <div id="VariableSelection">
                   <div id="ctl00_ContentPlaceHolderMain_VariableSelector1">
@@ -276,7 +276,8 @@
 
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
 
-                                <div class="flex-row flex-wrap-reverse">
+                                <!-- REMOVED H3 and mandatory -->
+                                <!--<div class="flex-row flex-wrap-reverse">
 
                                   <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
 
@@ -287,7 +288,10 @@
                                     <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_MandatoryText" class="variableselector_valuesselect_mandatory_text">Mandatory</span>
                                     <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_MandatoryStar" class="variableselector_valuesselect_mandatory_star">*</span>
                                   </div>
-                                </div>
+                                </div>-->
+
+                                <!-- NEW Label indicating mandatory-->
+                                <label for="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_VariableTitleSecond">Type <span class="is-mandatory">(Mandatory)</span></label>
 
 
                                 <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
@@ -299,7 +303,8 @@
 
 
                               </div>
-                              <hr class="pxweb-divider type-light with-margin"/>
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
 
                                 <p>
@@ -348,7 +353,7 @@
 
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
 
-                                <div class="flex-row flex-wrap-reverse">
+                                <!--<div class="flex-row flex-wrap-reverse">
 
                                   <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
 
@@ -359,8 +364,10 @@
 
 
                                   </div>
-                                </div>
+                                </div>-->
 
+                                <!-- NEW Label indicating mandatory-->
+                                <label for="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_VariableTitleSecond">Region</label>
 
                                 <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
 
@@ -384,7 +391,9 @@
 
                               </div>
 
-                              <hr class="pxweb-divider type-light with-margin"/>
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
+
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
 
                                 <p>
@@ -442,7 +451,8 @@
 
                             <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_ValuesSelectContainerPanel" role="region" aria-label="Variable, age" onkeypress="javascript:return WebForm_FireDefaultButton(event,  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_SearchValuesButton ')">
 
-                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
+                            <!-- REMOVED H3 header and mandatory-->
+                              <!--<div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
 
                                 <div class="flex-row flex-wrap-reverse">
 
@@ -460,7 +470,10 @@
 
                                 <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
 
-                              </div>
+                              </div>-->
+
+                              <!-- NEW Label indicating mandatory-->
+                              <label for="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl03$VariableValueSelect$VariableValueSelect$SelectAllButton">Age <span class="is-mandatory">(Mandatory)</span></label>
 
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_EventButtons" class="flex-row flex-wrap align-center">
 
@@ -480,7 +493,9 @@
 
                               </div>
 
-                              <hr class="pxweb-divider type-light with-margin"/>
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
+
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
 
                                 <p>
@@ -531,7 +546,8 @@
 
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
 
-                                <div class="flex-row flex-wrap-reverse">
+                                <!-- REMOVED H3 header and mandatory -->
+                                <!--<div class="flex-row flex-wrap-reverse">
 
                                   <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
 
@@ -542,7 +558,10 @@
                                     <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_MandatoryText" class="variableselector_valuesselect_mandatory_text">Mandatory</span>
                                     <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_MandatoryStar" class="variableselector_valuesselect_mandatory_star">*</span>
                                   </div>
-                                </div>
+                                </div>-->
+
+                                <!-- NEW Label indicating mandatory-->
+                                <label for="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_VariableTitleSecond">Period <span class="is-mandatory">(Mandatory)</span></label>
 
 
                                 <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
@@ -567,7 +586,9 @@
 
                               </div>
 
-                              <hr class="pxweb-divider type-light with-margin"/>
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
+
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
 
                                 <p>
@@ -615,7 +636,8 @@
 
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
 
-                                <div class="flex-row flex-wrap-reverse">
+                                <!-- REMOVED H3 and mandatory -->
+                                <!--<div class="flex-row flex-wrap-reverse">
 
                                   <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
 
@@ -626,7 +648,10 @@
                                     <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_MandatoryText" class="variableselector_valuesselect_mandatory_text">Mandatory</span>
                                     <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_MandatoryStar" class="variableselector_valuesselect_mandatory_star">*</span>
                                   </div>
-                                </div>
+                                </div>-->
+
+                                <!-- NEW Label indicating mandatory-->
+                                <label for="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_VariableTitleSecond">Sex <span class="is-mandatory">(Mandatory)</span></label>
 
 
                                 <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
@@ -651,7 +676,9 @@
 
                               </div>
 
-                              <hr class="pxweb-divider type-light with-margin"/>
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
+
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
 
                                 <p>
@@ -798,20 +825,18 @@
 
           </div>
 
-          <div id="pxfooter">
-            <div class="footerleft">
-              <span id="ctl00_lblFooterText"></span>
-            </div>
-            <div class="footerright">
-
-
-            </div>
-            <div style="clear: both;"> </div>
-          </div>
+          <!-- pxfooter replaced with footer-->
+          <footer>
+          </footer>
         </div>
-
       </form>
-    </div>
+    </main>
+
+    <a class="top-link">
+      <svg viewBox="0 0 24 24" width="40" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" >
+        <circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline><line x1="12" y1="16" x2="12" y2="8"></line>
+      </svg>To the Top
+    </a>
   </body>
   </html>
 
