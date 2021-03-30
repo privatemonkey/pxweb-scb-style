@@ -1,16 +1,23 @@
 :root {
-  --background: #fff;
+  --page-background: #fff;
+  
+  --panel-background: #f8f7f6;
+  --panel-border-color: #949494;
+  --panel-border-width: 1px;
+  
   --text: #222;
   --text-inverted: #fff;
 
-  --link-text: #343;
+  --link-text: #007694;
   --link__hover-text: #222;
   --link__hover-background: #000;
 
   --button-primary-background: #222;
   --button-primary-text: var(--text-inverted);
+  
   --button-secondary-background: #343;
   --button-secondary-text: var(--text-inverted);
-  --button__hover-background: #000;
+  
+  --button__hover-background: #206396;
   --button__hover-text: #fff;
 }
