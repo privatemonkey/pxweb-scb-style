@@ -18,7 +18,7 @@
 
   --link-text: #007694;
   --link__hover-text: var(--text-dark);
-  --link__hover-background: rgb(129, 173, 180, 0.5);
+  --link__hover-background: #cadfe4;
 
   --selected-background: #fff495;
 
@@ -97,6 +97,7 @@ h1 {
 h2 {
   font-size: 2.063rem;
   line-height: 1.276;
+  margin-bottom: var(--space-small);
 }
 
 .variableselector_variable_box_container label, h3 {
@@ -185,7 +186,7 @@ select{
 }
 
 select[multiple] option:checked {
-  background: var(--link__hover-background) linear-gradient(0deg, var(--link__hover-background)  0%, var(--link__hover-background)  100%);
+  background: var(--link__hover-background) linear-gradient(0deg, var(--link__hover-background) 0%, var(--link__hover-background) 100%);
   -webkit-text-fill-color: var(--text-dark);
 }
 
