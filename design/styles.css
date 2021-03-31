@@ -17,9 +17,9 @@
 
   --link-text: #1E00BE;
   --link__hover-text: #1E00BE;
-  --link__hover-background: rgb(129, 173, 180);
+  --link__hover-background: rgb(30, 0, 190);
 
-  --selected-background: #fff495;
+  --selected-background: #1E00BE;
 
   --button-primary-background: #1E00BE;
   --button-primary-text: var(--text-inverted);
