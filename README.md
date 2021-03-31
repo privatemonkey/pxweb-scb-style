@@ -1,6 +1,6 @@
 # PxWeb Styling
 
-Rewrite of PX Web  default styling.
+Rewrite of PX Web default styling.
 
 ## Changelog
 
