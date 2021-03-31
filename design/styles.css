@@ -15,13 +15,13 @@
   --text-dark: #000;
   --text-inverted: #fff;
 
-  --link-text: #007694;
-  --link__hover-text: #003c4b;
+  --link-text: #1E00BE;
+  --link__hover-text: #1E00BE;
   --link__hover-background: rgb(129, 173, 180);
 
   --selected-background: #fff495;
 
-  --button-primary-background: #007694;
+  --button-primary-background: #1E00BE;
   --button-primary-text: var(--text-inverted);
 
   --button-secondary-background: #af6401;
@@ -76,7 +76,7 @@ main {
   }
 }
 
-h1, h2, h3, h4, .variableselector_variable_box_container label {
+h1, h2, h3, h4, label {
   font-weight: 700;
 }
 
@@ -90,7 +90,7 @@ h2 {
   line-height: 1.276;
 }
 
-.variableselector_variable_box_container label, h3 {
+label, h3 {
   font-size: 1.625rem;
   line-height: 1.615;
 }
