@@ -91,6 +91,7 @@ h1, h2, h3, h4, .variableselector_variable_box_container label {
 h1 {
   font-size: 2.625rem;
   line-height: 1.148;
+  margin-bottom: var(--space-small);
 }
 
 h2 {
@@ -171,7 +172,7 @@ img.logo-quality {
 }
 
 /* Panel */
-.variableselector_variable_box_container > div {
+.variableselector_variable_box_container > div, div.accordion {
   /* background-color: var(--panel-background);*/
   background-color: #fff;
   border: var(--panel-border-color) var(--panel-border-width) solid;
@@ -301,4 +302,15 @@ button.nested-accordion-header {
   display: grid;
   grid-template-columns: minmax(auto, 320px) minmax(70%, auto);
   gap: 2rem;
+}
+
+input[value="Fullscreen"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.7;
+}
+
+.commandbar-shortcuts {
+  margin-bottom: var(--space-small);
 }
