@@ -1,0 +1,845 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+  Migration by region, age, period, type and sex. PxWeb
+</title>
+<meta name="Description" content="Migration by region, age, period, type and sex" />
+
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- NEW Header element with site logo, language selector and title -->
+  <header>
+    <img src="assets/px-web-logo.gif" alt="Logo for PxWeb 2021 v1 beta" class="logo" />
+    <span class="siteName">PxWeb 2021 v1 beta</span>
+  </header>
+
+  <!-- REPLACED id="pxwbcontent" replaced with main tag-->
+  <!-- div id="pxwebcontent" role="main" -->
+  <main id="pxwebcontent">
+    <form method="post" action="./" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+      <div class="aspNetHidden">
+      </div>
+        <div id="wrap">
+          <!-- REMOVED Header written with divs-->
+          <!--<div id="header" class="header flex-row flex-wrap justify-space-between">
+            <a id="ctl00_SkipToMain" class="screenreader-only pxweb-link" aria-label="Press enter to go directly to main content" href="#pxcontent">Jump to main content</a>
+            <div class="headerleft flex-row" role="banner">
+              <img src="../../../../../Resources/Images/px-web-logo.gif" id="ctl00_imgSiteLogo" alt="PxWeb 2021 v1 beta" class="imgSiteLogo" />
+              <span class="siteLogoText">PxWeb 2021 v1 beta</span>
+            </div>
+            <div class="headerright">
+              <div class="px-change-lang-div flex-column">
+                <div class="pxweb-link"> <a class="px-change-lang" href="/pxweb/sv/Example/Example__Misc__OfficialStatistics/officialstatistics.px/"> <span class="link-text px-change-lang">Svenska</span></a> </div>
+              </div>
+            </div>
+          </div>-->
+
+          <!-- Breadcrumb -->
+          <div id="ctl00_breadcrumb1">
+            <nav>
+              <div id="breadcrumb" >
+                <a id="ctl00_breadcrumb1_breadcrumb1_lnkHome" href="/pxweb/en/">Start</a>
+                <span id="ctl00_breadcrumb1_breadcrumb1_lblSep1" class="breadcrumb_sep">/</span>
+                <a id="ctl00_breadcrumb1_breadcrumb1_lnkDb" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/">Example</a>
+                <span id="ctl00_breadcrumb1_breadcrumb1_lblSep2" class="breadcrumb_sep">/</span>
+                <a id="ctl00_breadcrumb1_breadcrumb1_lnkPath1" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/Example__Misc/">Misc</a>
+                <span id="ctl00_breadcrumb1_breadcrumb1_lblSep3" class="breadcrumb_sep">/</span>
+                <a id="ctl00_breadcrumb1_breadcrumb1_lnkPath2" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/Example__Misc__OfficialStatistics/">OfficialStatistics</a>
+                <span id="ctl00_breadcrumb1_breadcrumb1_lblSepBeforeTable" class="breadcrumb_sep">/</span>
+                <span id="ctl00_breadcrumb1_breadcrumb1_lnkTable" class="breadcrumb_text_nolink">Migration by region, age, period, type and sex</span>
+              </div>
+            </nav>
+          </div>
+
+          <!-- REMOVED Norwegian main header -->
+          <!--<h1>
+            <span id="ctl00_lblH1Title" class="h1title">OfficialStatistics</span>
+          </h1>-->
+
+          <!-- Wizard -->
+          <!--<div id="ctl00_navigationFlowControl">
+
+            <nav>
+              <div id="navigationFlow">
+                <div class="navigationFlowArea flex-row justify-center align-flex-start">
+                  <a id="ctl00_navigationFlowControl_navigationFlowControl_firstStepLink" class="flex-column justify-space-between align-center navigation-link first passive" href="/pxweb/en/Example/Example__Misc__OfficialStatistics/"><img id="ctl00_navigationFlowControl_navigationFlowControl_firstStepImage" class="nav-pic" src="../../../../../Resources/Images/svg/NavigationFlow/Step1_passive.svg" alt="Icon representing the page where you Choose table" /><span id="ctl00_navigationFlowControl_navigationFlowControl_firstStepLabel" class="pxweb-link header nav-step first passive">Choose table</span></a>
+
+                  <hr class="nav-hr-left en"/>
+
+                  <a id="ctl00_navigationFlowControl_navigationFlowControl_secondStepLink" class="flex-column justify-space-between align-center navigation-link active"><img id="ctl00_navigationFlowControl_navigationFlowControl_secondStepImage" class="nav-pic" src="../../../../../Resources/Images/svg/NavigationFlow/Step2_active.svg" alt="Icon representing the page where you Choose variable" /><span id="ctl00_navigationFlowControl_navigationFlowControl_secondStepLabel" class="pxweb-link header nav-step second active">Choose variable</span></a>
+
+                  <hr class="nav-hr-right en"/>
+
+                  <a id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepLink" class="flex-column justify-space-between align-center third navigation-link "><img id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepImage" class="nav-pic" src="../../../../../Resources/Images/svg/NavigationFlow/Step3_future.svg" alt="Icon representing the page where you Show Result" /><span id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepLabel" class="nav-step third future">Show result</span></a>
+                </div>
+              </div>
+            </nav>
+
+          </div>-->
+
+          <!-- Table title -->
+          <!--<div id="table-title">
+            <div id="place-holder-title">
+
+              <h2>
+
+                <div id="ctl00_TitlePlaceHolder_TableInformationSelect">
+                  <div id="ctl00_TitlePlaceHolder_TableInformationSelect_TableInformationSelect_TableInformationPanel" class="tableinformation_container">
+
+                    <span class="hierarchical_tableinformation_title">Migration by region, age, period, type and sex</span>
+
+
+
+                  </div>
+                </div>
+              </h2>
+
+            </div>
+          </div>-->
+
+           <!-- NEW Table name is used as main header -->
+          <h1>Migration by region, age, period, type and sex</h1>
+
+          <!-- NEW Official statistics logo -->
+          <img src=/assets/official_statistics_en.svg alt="This is official statistics of Sweden" class="logo-quality" />
+
+          <div id="place-holder">
+            <div id="SelectionPage">
+              <!-- MOVED Official statistics logo -->
+              <!--<img src=/Resources/Images/official_statistics_en.svg class="officialStatisticsImage"/>-->
+
+
+              <!-- About table and view type -->
+              <!--<div id="PageElements">
+                <div class="flex-row justify-space-between">
+                  <div id="ctl00_ContentPlaceHolderMain_UcAccordianAboutTable_InformationBox" class="pxweb-accordion about-table s-margin-top" role="complementary">
+
+                    <button type="button" class="accordion-header closed" id="InformationBoxHeader" aria-expanded="false" onclick="accordionToggle(ctl00_ContentPlaceHolderMain_UcAccordianAboutTable_InformationBox, this)" >
+                      <span class="header-text"><span id="ctl00_ContentPlaceHolderMain_UcAccordianAboutTable_lblInfo">About table</span></span>
+                    </button>
+                    <div class="accordion-body closed">
+                      <div id="ctl00_ContentPlaceHolderMain_UcAccordianAboutTable_divTableLinks"> </div>
+                      <div id="ctl00_ContentPlaceHolderMain_UcAccordianAboutTable_SelectionInformation">
+
+                        <div class="dl information_definitionlist font-normal-text">
+
+                          <div class='pxweb-nested-accordion' id='divContact'><button type='button' class='nested-accordion-header closed' id='btnContact' aria-expanded='true' onclick='nestedAccordionToggle(divContact, this)'><span class='header-text'><span>Contact</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_contact_value">
+                              Ewa Eriksson, SCB<br />Tel: +46 19-17 67 43<br />Fax: +46 19-17 69 42<br />E-mail: <a class="envelope-icon" href="mailto:befolkning@scb.se">befolkning@scb.se</a>
+
+                            </div>
+                          </div></div>
+
+                          <div class='pxweb-nested-accordion' id='divOfficialStatistics'><button type='button' class='nested-accordion-header closed' id='btnOfficialStatistics' aria-expanded='true' onclick='nestedAccordionToggle(divOfficialStatistics, this)'><span class='header-text'><span>Official statistics</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_officialstatistics_value">
+                              Yes
+
+                            </div>
+                          </div></div>
+
+                          <div class='pxweb-nested-accordion' id='divLastUpdated'><button type='button' class='nested-accordion-header closed' id='btnLastUpdated' aria-expanded='true' onclick='nestedAccordionToggle(divLastUpdated, this)'><span class='header-text'><span>Latest update</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_lastupdated_value">
+                              2/12/2004
+
+                            </div>
+                          </div></div>
+
+                          <div class='pxweb-nested-accordion' id='divUnit'><button type='button' class='nested-accordion-header closed' id='btnUnit' aria-expanded='true' onclick='nestedAccordionToggle(divUnit, this)'><span class='header-text'><span>Unit</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_unit_value">
+
+
+                              <dl>
+
+                                <div class="flex-column">
+                                  <dt class="font-heading">Inmigrated:</dt>
+                                  <dd>number</dd>
+                                </div>
+
+                                <div class="flex-column">
+                                  <dt class="font-heading">Outmigrated:</dt>
+                                  <dd>number</dd>
+                                </div>
+
+                              </dl>
+
+                            </div>
+                          </div></div>
+
+                          <div class='pxweb-nested-accordion' id='divStockFa'><button type='button' class='nested-accordion-header closed' id='btnStockFa' aria-expanded='true' onclick='nestedAccordionToggle(divStockFa, this)'><span class='header-text'><span>Data type</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_stockfa_value">
+
+
+                              <dl>
+
+                                <div class="flex-column">
+                                  <dt class="font-heading">Inmigrated:</dt>
+                                  <dd>Flow</dd>
+                                </div>
+
+                                <div class="flex-column">
+                                  <dt class="font-heading">Outmigrated:</dt>
+                                  <dd>Flow</dd>
+                                </div>
+
+                              </dl>
+
+                            </div>
+                          </div></div>
+
+                          <div class='pxweb-nested-accordion' id='divCreationDate'><button type='button' class='nested-accordion-header closed' id='btnCreationDate' aria-expanded='true' onclick='nestedAccordionToggle(divCreationDate, this)'><span class='header-text'><span>Creation date</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_creationdate_value">
+                              2/17/2005
+
+                            </div>
+                          </div></div>
+
+                          <div class='pxweb-nested-accordion' id='divCopyright'><button type='button' class='nested-accordion-header closed' id='btnCopyright' aria-expanded='true' onclick='nestedAccordionToggle(divCopyright, this)'><span class='header-text'><span>Copyright</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_copyright_value">
+                              No
+
+                            </div>
+                          </div></div>
+
+                          <div class='pxweb-nested-accordion' id='divSource'><button type='button' class='nested-accordion-header closed' id='btnSource' aria-expanded='true' onclick='nestedAccordionToggle(divSource, this)'><span class='header-text'><span>Source</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_source_value">
+                              Statistics Sweden
+
+                            </div>
+                          </div></div>
+
+                          <div class='pxweb-nested-accordion' id='divMatrix'><button type='button' class='nested-accordion-header closed' id='btnMatrix' aria-expanded='true' onclick='nestedAccordionToggle(divMatrix, this)'><span class='header-text'><span>Matrix</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_matrix_value">
+                              BE0101F1
+
+                            </div>
+                          </div></div>
+
+                          <div class='pxweb-nested-accordion' id='divDatabase'><button type='button' class='nested-accordion-header closed' id='btnDatabase' aria-expanded='true' onclick='nestedAccordionToggle(divDatabase, this)'><span class='header-text'><span>Database</span></span></button><div class='nested-accordion-body closed'>
+                            <div class="dd information_database_value">
+                              SDB
+
+                            </div>
+                          </div></div>
+
+                        </div>
+
+
+
+
+                      </div>
+                      <dl class="information_definitionlist">
+                        <dt></dt>
+                        <dd>
+
+                        </dd>
+                      </dl>
+                    </div>
+
+                  </div>
+
+                  <div id="switchLayoutContainer" class="switch-layout-container m-margin-left">
+                    <input type="submit" name="ctl00$ContentPlaceHolderMain$SwitchLayout" value="Expert view" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$SwitchLayout ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_SwitchLayout" class="variableselector-compact-view  pxweb-btn icon-placement variableselector-buttons" />
+                  </div>
+                </div>-->
+
+                <!-- NEW A header describing the action of choosing variables -->
+                <h2>Choose variables</h2>
+
+                <div id="VariableSelection">
+                  <div id="ctl00_ContentPlaceHolderMain_VariableSelector1">
+                    <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorPanel">
+
+                      <div id="pxcontent">
+                        <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_UserManualMainRegion" role="region" aria-label="PxWebSelectionUserManualScreenReaderRegion">
+
+                          <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_UserManualMain" class="screenreader-only" aria-label="PxWebSkipToSelectionLinkUserManualScreenReader">
+
+                          </div>
+
+                        </div>
+                      </div>
+
+                      <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectionValidationSummary" class="variableselector_error_summary" role="alert" style="display:none;">
+
+                      </div>
+
+                      <div class="variableselector_variable_box_container">
+
+                        <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect">
+
+
+
+                          <div class="pxbox negative variableselector_valuesselect_box m-margin-top">
+
+                            <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_ValuesSelectContainerPanel" role="region" aria-label="Variable, type" onkeypress="javascript:return WebForm_FireDefaultButton(event,  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_SearchValuesButton ')">
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
+
+                                <!-- REMOVED H3 and mandatory -->
+                                <!--<div class="flex-row flex-wrap-reverse">
+
+                                  <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
+
+                                    <h3><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_VariableTitle" class="variableselector_valuesselect_variabletitle">type</span></h3>
+
+                                  </div>
+                                  <div class="mandatory_container">
+                                    <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_MandatoryText" class="variableselector_valuesselect_mandatory_text">Mandatory</span>
+                                    <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_MandatoryStar" class="variableselector_valuesselect_mandatory_star">*</span>
+                                  </div>
+                                </div>-->
+
+                                <!-- NEW Label indicating mandatory-->
+                                <label for="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_VariableTitleSecond">Type <span class="is-mandatory">(Mandatory)</span></label>
+
+
+                                <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
+
+                              </div>
+
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_HiddenEventButtons" class="variableselector_valuesselect_hiddeneventbutton_panel">
+
+
+                              </div>
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
+
+                                <p>
+                                  <span class="variableselector_valuesselect_statistics">Selected</span>
+                                  <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_NumberValuesSelected" class="variableselector_valuesselect_statistics">1</span>
+                                  <span class="variableselector_valuesselect_statistics">of total</span>
+                                  <span class="variableselector_valuesselect_statistics">2</span>
+                                </p>
+
+                              </div>
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_ValuesSelectPanel" class="variableselector_valuesselect_valuesselect_panel">
+
+                                <select size="6" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl01$VariableValueSelect$VariableValueSelect$ValuesListBox" multiple="multiple" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_ValuesListBox" class="variableselector_valuesselect_valueslistbox" aria-label="List box of selectable values for a variabel. Click to mark one or more values." onchange="UpdateNumberSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_ValuesListBox ',  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_NumberValuesSelected ',  'Heading ', 'Cells ')">
+                                  <option selected="selected" value="BE0101F1">Inmigrated</option>
+                                  <option value="BE0101F2">Outmigrated</option>
+
+                                </select>
+
+                              </div>
+
+
+
+
+
+                              <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl01_VariableValueSelect_VariableValueSelect_MustSelectCustom" class="flex-row pxweb-input-error negative" Role="alert" style="display:none;">Select at least one value</span>
+
+
+
+                            </div>
+
+
+
+
+                          </div>
+
+                        </div>
+
+                        <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect">
+
+
+
+                          <div class="pxbox negative variableselector_valuesselect_box m-margin-top">
+
+                            <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesSelectContainerPanel" role="region" aria-label="Variable, region" onkeypress="javascript:return WebForm_FireDefaultButton(event,  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_SearchValuesButton ')">
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
+
+                                <!--<div class="flex-row flex-wrap-reverse">
+
+                                  <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
+
+                                    <h3><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_VariableTitle" class="variableselector_valuesselect_variabletitle">region</span></h3>
+
+                                  </div>
+                                  <div class="mandatory_container">
+
+
+                                  </div>
+                                </div>-->
+
+                                <!-- NEW Label indicating mandatory-->
+                                <label for="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_VariableTitleSecond">Region</label>
+
+                                <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
+
+                              </div>
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_EventButtons" class="flex-row flex-wrap align-center">
+
+
+                                <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$SelectAllButton" value="Select all" onclick="return VariableSelector_SelectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Stub ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$SelectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_SelectAllButton" title="Select all" class="variableselector_valuesselect_select_all_button pxweb-btn negative icon-placement variableselector-buttons" />
+                                <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$DeselectAllButton" value="Deselect all" onclick="return VariableSelector_DeselectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Stub ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$DeselectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_DeselectAllButton" title="Deselect all" class="variableselector_valuesselect_deselect_all_button pxweb-btn negative icon-placement variableselector-buttons" />
+
+                                <div class="link-buttons-container flex-column s-margin-top">
+                                  <div class="pxweb-link negative with-icon">
+
+                                  </div>
+                                  <div class="pxweb-link negative with-icon">
+
+                                  </div>
+                                </div>
+
+
+                              </div>
+
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
+
+                                <p>
+                                  <span class="variableselector_valuesselect_statistics">Selected</span>
+                                  <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_NumberValuesSelected" class="variableselector_valuesselect_statistics">0</span>
+                                  <span class="variableselector_valuesselect_statistics">of total</span>
+                                  <span class="variableselector_valuesselect_statistics">4</span>
+                                </p>
+
+                              </div>
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_OptionalVariablePanel" class="optional-variable-panel flex-row align-center">
+
+                                <div class="optional-variable-icon-panel">
+                                  <svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="1 1 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                    <circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="8"></line>
+                                  </svg>
+                                </div>
+                                <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_OptionalVariableText" class="optional-variable-text">Optional variable</span>
+
+                              </div>
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesSelectPanel" class="variableselector_valuesselect_valuesselect_panel">
+
+                                <select size="6" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$ValuesListBox" multiple="multiple" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesListBox" class="variableselector_valuesselect_valueslistbox" aria-label="List box of selectable values for a variabel. Click to mark one or more values." onchange="UpdateNumberSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesListBox ',  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_NumberValuesSelected ',  'Stub ', 'Cells ')">
+                                  <option value="00">00 Sweden</option>
+                                  <option value="01">01 Stockholm county</option>
+                                  <option value="0114">0114 Upplands Väsby</option>
+                                  <option value="0115">0115 Vallentuna</option>
+
+                                </select>
+
+                              </div>
+
+
+
+
+
+                              <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_MustSelectCustom" class="flex-row pxweb-input-error negative" Role="alert" style="display:none;">Select at least one value</span>
+
+
+
+                            </div>
+
+
+
+
+                          </div>
+
+                        </div>
+
+                        <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect">
+
+
+
+                          <div class="pxbox negative variableselector_valuesselect_box m-margin-top">
+
+                            <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_ValuesSelectContainerPanel" role="region" aria-label="Variable, age" onkeypress="javascript:return WebForm_FireDefaultButton(event,  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_SearchValuesButton ')">
+
+                            <!-- REMOVED H3 header and mandatory-->
+                              <!--<div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
+
+                                <div class="flex-row flex-wrap-reverse">
+
+                                  <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
+
+                                    <h3><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_VariableTitle" class="variableselector_valuesselect_variabletitle">age</span></h3>
+
+                                  </div>
+                                  <div class="mandatory_container">
+                                    <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_MandatoryText" class="variableselector_valuesselect_mandatory_text">Mandatory</span>
+                                    <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_MandatoryStar" class="variableselector_valuesselect_mandatory_star">*</span>
+                                  </div>
+                                </div>
+
+
+                                <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
+
+                              </div>-->
+
+                              <!-- NEW Label indicating mandatory-->
+                              <label for="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl03$VariableValueSelect$VariableValueSelect$SelectAllButton">Age <span class="is-mandatory">(Mandatory)</span></label>
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_EventButtons" class="flex-row flex-wrap align-center">
+
+
+                                <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl03$VariableValueSelect$VariableValueSelect$SelectAllButton" value="Select all" onclick="return VariableSelector_SelectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Stub ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl03$VariableValueSelect$VariableValueSelect$SelectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_SelectAllButton" title="Select all" class="variableselector_valuesselect_select_all_button pxweb-btn negative icon-placement variableselector-buttons" />
+                                <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl03$VariableValueSelect$VariableValueSelect$DeselectAllButton" value="Deselect all" onclick="return VariableSelector_DeselectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Stub ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl03$VariableValueSelect$VariableValueSelect$DeselectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_DeselectAllButton" title="Deselect all" class="variableselector_valuesselect_deselect_all_button pxweb-btn negative icon-placement variableselector-buttons" />
+
+                                <div class="link-buttons-container flex-column s-margin-top">
+                                  <div class="pxweb-link negative with-icon">
+
+                                  </div>
+                                  <div class="pxweb-link negative with-icon">
+
+                                  </div>
+                                </div>
+
+
+                              </div>
+
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
+
+                                <p>
+                                  <span class="variableselector_valuesselect_statistics">Selected</span>
+                                  <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_NumberValuesSelected" class="variableselector_valuesselect_statistics">0</span>
+                                  <span class="variableselector_valuesselect_statistics">of total</span>
+                                  <span class="variableselector_valuesselect_statistics">3</span>
+                                </p>
+
+                              </div>
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_ValuesSelectPanel" class="variableselector_valuesselect_valuesselect_panel">
+
+                                <select size="6" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl03$VariableValueSelect$VariableValueSelect$ValuesListBox" multiple="multiple" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_ValuesListBox" class="variableselector_valuesselect_valueslistbox" aria-label="List box of selectable values for a variabel. Click to mark one or more values." onchange="UpdateNumberSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_ValuesListBox ',  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_NumberValuesSelected ',  'Stub ', 'Cells ')">
+                                  <option value="20">20</option>
+                                  <option value="21">21</option>
+                                  <option value="22">22</option>
+
+                                </select>
+
+                              </div>
+
+
+
+
+
+                              <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_MustSelectCustom" class="flex-row pxweb-input-error negative" Role="alert" style="display:none;">Select at least one value</span>
+
+
+
+                            </div>
+
+
+
+
+                          </div>
+
+
+                        </div>
+
+                        <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect">
+
+
+
+                          <div class="pxbox negative variableselector_valuesselect_box m-margin-top">
+
+                            <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_ValuesSelectContainerPanel" role="region" aria-label="Variable, period" onkeypress="javascript:return WebForm_FireDefaultButton(event,  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_SearchValuesButton ')">
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
+
+                                <!-- REMOVED H3 header and mandatory -->
+                                <!--<div class="flex-row flex-wrap-reverse">
+
+                                  <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
+
+                                    <h3><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_VariableTitle" class="variableselector_valuesselect_variabletitle">period</span></h3>
+
+                                  </div>
+                                  <div class="mandatory_container">
+                                    <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_MandatoryText" class="variableselector_valuesselect_mandatory_text">Mandatory</span>
+                                    <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_MandatoryStar" class="variableselector_valuesselect_mandatory_star">*</span>
+                                  </div>
+                                </div>-->
+
+                                <!-- NEW Label indicating mandatory-->
+                                <label for="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_VariableTitleSecond">Period <span class="is-mandatory">(Mandatory)</span></label>
+
+
+                                <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
+
+                              </div>
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_EventButtons" class="flex-row flex-wrap align-center">
+
+
+                                <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl04$VariableValueSelect$VariableValueSelect$SelectAllButton" value="Select all" onclick="return VariableSelector_SelectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Heading ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl04$VariableValueSelect$VariableValueSelect$SelectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_SelectAllButton" title="Select all" class="variableselector_valuesselect_select_all_button pxweb-btn negative icon-placement variableselector-buttons" />
+                                <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl04$VariableValueSelect$VariableValueSelect$DeselectAllButton" value="Deselect all" onclick="return VariableSelector_DeselectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Heading ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl04$VariableValueSelect$VariableValueSelect$DeselectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_DeselectAllButton" title="Deselect all" class="variableselector_valuesselect_deselect_all_button pxweb-btn negative icon-placement variableselector-buttons" />
+
+                                <div class="link-buttons-container flex-column s-margin-top">
+                                  <div class="pxweb-link negative with-icon">
+
+                                  </div>
+                                  <div class="pxweb-link negative with-icon">
+
+                                  </div>
+                                </div>
+
+
+                              </div>
+
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
+
+                                <p>
+                                  <span class="variableselector_valuesselect_statistics">Selected</span>
+                                  <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_NumberValuesSelected" class="variableselector_valuesselect_statistics">1</span>
+                                  <span class="variableselector_valuesselect_statistics">of total</span>
+                                  <span class="variableselector_valuesselect_statistics">1</span>
+                                </p>
+
+                              </div>
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_ValuesSelectPanel" class="variableselector_valuesselect_valuesselect_panel">
+
+                                <select size="6" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl04$VariableValueSelect$VariableValueSelect$ValuesListBox" multiple="multiple" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_ValuesListBox" class="variableselector_valuesselect_valueslistbox" aria-label="List box of selectable values for a variabel. Click to mark one or more values." onchange="UpdateNumberSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_ValuesListBox ',  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_NumberValuesSelected ',  'Heading ', 'Cells ')">
+                                  <option selected="selected" value="0">2003</option>
+
+                                </select>
+
+                              </div>
+
+
+
+
+
+                              <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_MustSelectCustom" class="flex-row pxweb-input-error negative" Role="alert" style="display:none;">Select at least one value</span>
+
+
+
+                            </div>
+
+
+
+
+                          </div>
+
+                        </div>
+
+                        <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect">
+
+
+
+                          <div class="pxbox negative variableselector_valuesselect_box m-margin-top">
+
+                            <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_ValuesSelectContainerPanel" role="region" aria-label="Variable, sex" onkeypress="javascript:return WebForm_FireDefaultButton(event,  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_SearchValuesButton ')">
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_Panel1" class="variableselector_valuesselect_variabletitle_panel">
+
+                                <!-- REMOVED H3 and mandatory -->
+                                <!--<div class="flex-row flex-wrap-reverse">
+
+                                  <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
+
+                                    <h3><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_VariableTitle" class="variableselector_valuesselect_variabletitle">sex</span></h3>
+
+                                  </div>
+                                  <div class="mandatory_container">
+                                    <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_MandatoryText" class="variableselector_valuesselect_mandatory_text">Mandatory</span>
+                                    <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_MandatoryStar" class="variableselector_valuesselect_mandatory_star">*</span>
+                                  </div>
+                                </div>-->
+
+                                <!-- NEW Label indicating mandatory-->
+                                <label for="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl04_VariableValueSelect_VariableValueSelect_VariableTitleSecond">Sex <span class="is-mandatory">(Mandatory)</span></label>
+
+
+                                <div><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_VariableTitleSecond" class="variableselector_valuesselect_variabletitlesecond"></span></div>
+
+                              </div>
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_EventButtons" class="flex-row flex-wrap align-center">
+
+
+                                <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl05$VariableValueSelect$VariableValueSelect$SelectAllButton" value="Select all" onclick="return VariableSelector_SelectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Heading ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl05$VariableValueSelect$VariableValueSelect$SelectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_SelectAllButton" title="Select all" class="variableselector_valuesselect_select_all_button pxweb-btn negative icon-placement variableselector-buttons" />
+                                <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl05$VariableValueSelect$VariableValueSelect$DeselectAllButton" value="Deselect all" onclick="return VariableSelector_DeselectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Heading ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl05$VariableValueSelect$VariableValueSelect$DeselectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_DeselectAllButton" title="Deselect all" class="variableselector_valuesselect_deselect_all_button pxweb-btn negative icon-placement variableselector-buttons" />
+
+                                <div class="link-buttons-container flex-column s-margin-top">
+                                  <div class="pxweb-link negative with-icon">
+
+                                  </div>
+                                  <div class="pxweb-link negative with-icon">
+
+                                  </div>
+                                </div>
+
+
+                              </div>
+
+                              <!-- REMOVED Horizontal rulers -->
+                              <!--<hr class="pxweb-divider type-light with-margin"/>-->
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_SelectedStatistics" class="variableselector_valuesselect_statistics_panel">
+
+                                <p>
+                                  <span class="variableselector_valuesselect_statistics">Selected</span>
+                                  <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_NumberValuesSelected" class="variableselector_valuesselect_statistics">0</span>
+                                  <span class="variableselector_valuesselect_statistics">of total</span>
+                                  <span class="variableselector_valuesselect_statistics">2</span>
+                                </p>
+
+                              </div>
+
+                              <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_ValuesSelectPanel" class="variableselector_valuesselect_valuesselect_panel">
+
+                                <select size="6" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl05$VariableValueSelect$VariableValueSelect$ValuesListBox" multiple="multiple" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_ValuesListBox" class="variableselector_valuesselect_valueslistbox" aria-label="List box of selectable values for a variabel. Click to mark one or more values." onchange="UpdateNumberSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_ValuesListBox ',  'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_NumberValuesSelected ',  'Heading ', 'Cells ')">
+                                  <option value="1">men</option>
+                                  <option value="2">women</option>
+
+                                </select>
+
+                              </div>
+
+
+
+
+
+                              <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl05_VariableValueSelect_VariableValueSelect_MustSelectCustom" class="flex-row pxweb-input-error negative" Role="alert" style="display:none;">Select at least one value</span>
+
+
+
+                            </div>
+
+
+
+
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div class="variableselector_clearboth"></div>
+
+
+
+                      <div class ="flex-row justify-center m-margin-top">
+                        <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$ButtonViewTable" value="Show table" onclick="return ValidateAll();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$ButtonViewTable ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_ButtonViewTable" class="pxweb-btn primary-btn variableselector_continue_button justify-center" />
+                      </div>
+                      <div class ="flex-row justify-center">
+                        <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorSelectionInformation">
+                          <input name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorSelectionInformation$VariableSelectorSelectionInformation$SelectionLimitation" type="hidden" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorSelectionInformation_VariableSelectorSelectionInformation_SelectionLimitation" class="variableselector_selection_limits_number" value="100000" />
+                          <input name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorSelectionInformation$VariableSelectorSelectionInformation$NumberFormat" type="hidden" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorSelectionInformation_VariableSelectorSelectionInformation_NumberFormat" class="variableselector_selection_limits_numberformat" value="#,##0.####" />
+
+                          <div class="flex-column justify-center small-margin">
+
+                          </div>
+                          <div class="flex-column justify-center s-margin-top">
+
+                            <div class="flex-row justify-center">
+                              <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorSelectionInformation_VariableSelectorSelectionInformation_SelectedCellsLabel">Number of selected data cells are:</span><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorSelectionInformation_VariableSelectorSelectionInformation_SelectedCellsNumberLabel" class="font-bold xs-margin-left"></span>
+                            </div>
+                            <div class="flex-row justify-center">
+                              <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorSelectionInformation_VariableSelectorSelectionInformation_SelectedCellsLimitLabel">(maximum number allowed is 100,000)</span>
+                            </div>
+
+                          </div>
+
+
+                          <p><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorSelectionInformation_VariableSelectorSelectionInformation_SelectionLimitationLabel">Presentation on screen is limited to 1,000 rows and 30 columns</span></p>
+
+
+                        </div>
+                      </div>
+                      <div class="flex-row justify-center">
+                        <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectionErrorlabel" class="variableselector_selectionerror_label"></span>
+                        <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectionErrorlabelTextCells" class="variableselector_selectionerror_label_text">Number of selected cells exceeds the maximum allowed 100,000</span>
+                        <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectionErrorlabelTextColumns" class="variableselector_selectionerror_label_text"></span>
+                        <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectionErrorlabelTextRows" class="variableselector_selectionerror_label_text"></span>
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                </div>
+                <div id="SearchResults" role="status" class="screenreader-only"></div>
+                <div id="ctl00_ContentPlaceHolderMain_divFootnotes" class="settingpanel footnotes">
+                  <div id="ctl00_ContentPlaceHolderMain_SelectionFootnotes">
+
+
+                    <div class="footnotes_container">
+
+
+
+
+
+                      <div class='obs-notes flex-row flex-wrap' role='region' aria-label='Must read' ><h3 class='obs-notes-h3'>Obs:</h3><div class='footnote_definitionlist only_mandatory'>
+
+                        <span class='the_long_text notetype_note_value'>Mandatory English note</span>
+
+                        <h3 class='notetype_varnote_key'>region</h3><span class='the_long_text notetype_varnote_value'>Mandatory footnote for region.</span>
+
+                        <h3 class='notetype_varnote_key'>age</h3><span class='the_long_text notetype_varnote_value'>Mandatory footnote for age.</span>
+
+                        <h3 class='notetype_valuenote_header'>type</h3>
+
+                        <h4 class='notetype_valuenote_key'>Inmigrated</h4><span class='the_long_text notetype_valuenote_value'>Migration cannot be added with regard to regions. When, for instance, municipalities are added to metropolitan areas, migration to the region is added to migrations within the region.<br />With calcutating of age-specific rates per 1 000 of the mean population you shall use the mean population per year of birth. And some more</span>
+
+                        <h4 class='notetype_valuenote_key'>Outmigrated</h4><span class='the_long_text notetype_valuenote_value'>Migration cannot be added with regard to regions. When, for instance, municipalities are added to metropolitan areas, migration from the region is added to migrations within the region.<br />With calcutating of age-specific rates per 1 000 of the mean population you shall use the mean population per year of birth. And some more</span>
+
+                      </div></div>
+
+
+
+                      <div role='region' aria-label=Footnotes class='pxweb-accordion accordion-notes' id='FootnoteAccordion'>  <button type='button' class='accordion-header closed' onclick='accordionToggle(FootnoteAccordion, this)'>      <span role='heading' aria-level='2' class='header-text'>Footnotes </span>  </button><div class='accordion-body closed'>
+
+                        <span class='the_long_text notetype_note_value'>Test English note</span>
+
+                        <h3 class='notetype_varnote_key'>region</h3><span class='the_long_text notetype_varnote_value'>Since 1 January 1999, a new regional division has been established. Parts of Södertälje municipality (code 0181) have formed a new municipality called Nykvarn (code 0140).</span>
+
+                        <h3 class='notetype_varnote_key'>age</h3><span class='the_long_text notetype_varnote_value'>Age refers to age attained by the end of the year, i.e. in principal, an account for the year of birth.</span>
+
+                        <h3 class='notetype_valuenote_header'>type</h3>
+
+                        <h4 class='notetype_valuenote_key'>Inmigrated</h4><span class='the_long_text notetype_valuenote_value'>Request value note for inmigrated</span>
+
+                        <h4 class='notetype_valuenote_key'>Outmigrated</h4><span class='the_long_text notetype_valuenote_value'>Request footnote for outmigrated</span>
+
+                        <h3 class='notetype_cellnote_key'>type: Inmigrated , age: 20</h3><span class='the_long_text notetype_cellnote_value'>Cellnote inmigrated 20 years</span>
+
+                        <h3 class='notetype_cellnote_key'>type: Outmigrated , age: 20</h3><span class='the_long_text notetype_cellnote_value'>Cellnote outmigrated 20 years</span>
+
+                      </div></div>
+
+
+
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <input type="hidden" name="ctl00$ContentPlaceHolderMain$AboutTableSelectedAccordion" id="ctl00_ContentPlaceHolderMain_AboutTableSelectedAccordion" />
+
+            </div>
+
+          </div>
+
+          <!-- pxfooter replaced with footer-->
+          <footer>
+          </footer>
+        </div>
+      </form>
+    </main>
+
+    <a class="top-link">
+      <svg viewBox="0 0 24 24" width="40" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" >
+        <circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline><line x1="12" y1="16" x2="12" y2="8"></line>
+      </svg>To the Top
+    </a>
+  </body>
+  </html>
+
+
