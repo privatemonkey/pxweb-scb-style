@@ -59,6 +59,12 @@ body {
   margin: 0;
 }
 
+.fullscreen main {
+  max-width: calc(100vw - 2rem);
+  margin: 0;
+  padding: 1rem;
+}
+
 main {
   max-width: 70vw;
   margin:0 auto;
@@ -207,6 +213,17 @@ button:hover, button:focus, input[type=submit]:hover, input[type=submit]:focus {
 
 /* Accordions */
 
+/* Reset fieldset */
+.accordion-panels legend {
+  width: 100%;
+  padding: 0;
+}
+.accordion-panels fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
 button.accordion-header, button.nested-accordion-header {
   background-color: var(--panel-background);
   color: var(--text);
@@ -224,4 +241,11 @@ button.accordion-header, button.nested-accordion-header {
   border-radius: 0;
   text-align: left;
   padding: var(--panel-padding);
+}
+
+/* Result page specifics */
+.presentation-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 2rem;
 }
