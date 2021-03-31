@@ -76,7 +76,7 @@ main {
   }
 }
 
-h1, h2, h3, h4, label {
+h1, h2, h3, h4, .variableselector_variable_box_container label {
   font-weight: 700;
 }
 
@@ -90,7 +90,7 @@ h2 {
   line-height: 1.276;
 }
 
-label, h3 {
+.variableselector_variable_box_container label, h3 {
   font-size: 1.625rem;
   line-height: 1.615;
 }
