@@ -20,6 +20,7 @@
   <!-- div id="pxwebcontent" role="main" -->
   <main id="pxwebcontent">
     <form method="post" action="./" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+      <!-- MOVED "Move to top" is now at the bottom to avoid issues with screenreaders -->
       <div class="aspNetHidden">
       </div>
         <div id="wrap">
@@ -41,6 +42,8 @@
           <div id="ctl00_breadcrumb1">
             <nav>
               <div id="breadcrumb" >
+                <!-- REMOVED image icon replaced with a text "Start" -->
+                <!-- TODO: Text should be configurable/Language specific -->
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkHome" href="/pxweb/en/">Start</a>
                 <span id="ctl00_breadcrumb1_breadcrumb1_lblSep1" class="breadcrumb_sep">/</span>
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkDb" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/">Example</a>
@@ -59,7 +62,7 @@
             <span id="ctl00_lblH1Title" class="h1title">OfficialStatistics</span>
           </h1>-->
 
-          <!-- Wizard -->
+          <!-- REMOVED Wizard -->
           <!--<div id="ctl00_navigationFlowControl">
 
             <nav>
@@ -104,7 +107,7 @@
           <h1>Migration by region, age, period, type and sex</h1>
 
           <!-- NEW Official statistics logo -->
-          <img src=/assets/official_statistics_en.svg alt="This is official statistics of Sweden" class="logo-quality" />
+          <img src=./assets/official_statistics_en.svg alt="This is official statistics of Sweden" class="logo-quality" />
 
           <div id="place-holder">
             <div id="SelectionPage">
@@ -834,6 +837,7 @@
       </form>
     </main>
 
+    <!-- MOVED/REWRITTEN Moved and cleaned up HTML -->
     <a class="top-link">
       <svg viewBox="0 0 24 24" width="40" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" >
         <circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline><line x1="12" y1="16" x2="12" y2="8"></line>
