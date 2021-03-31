@@ -32,6 +32,7 @@
   --button__hover-text: #fff;
 
   --space-small: 1rem;
+  --space-smallest: 0.5rem;
 }
 
 html {
@@ -79,7 +80,7 @@ main {
 @media(max-width:768px) {
   main {
     max-width: calc(100vw - 2rem);
-    padding: 0.5rem;
+    padding: var(--space-smallest);
   }
 }
 
@@ -192,12 +193,12 @@ option:hover, option:active, option:focus {
 }
 
 button, input[type=submit] {
-  padding: 0.5rem 1rem;
+  padding: var(--space-smallest) var(--space-small);
   color: var(--button-primary-text);
   background-color: var(--button-primary-background);
   border-radius: 0.75rem;
   border:1px transparent solid;
-  margin-right: 0.5rem;
+  margin-right: var(--space-smallest);
   margin-top: 0.75rem;
 }
 
@@ -224,13 +225,32 @@ button:hover, button:focus, input[type=submit]:hover, input[type=submit]:focus {
   margin: 0;
 }
 
-button.accordion-header, button.nested-accordion-header {
+button.accordion-header {
   background-color: var(--panel-background);
   color: var(--text);
   width: 100%;
   border:var(--panel-border-width) solid var(--panel-border-color);
   border-radius: 0;
   text-align: left;
+}
+
+button.nested-accordion-header {
+  background-color: var(--panel-background);
+  color: var(--text);
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin-bottom: var(--space-small);
+}
+
+.pxweb-nested-accordion dl {
+  display: flex;
+  justify-content: start;
+  flex-shrink: 1;
+}
+
+.pxweb-nested-accordion dd {
+  margin-left: var(--space-smallest);
 }
 
 .accordion-body {
