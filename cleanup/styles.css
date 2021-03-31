@@ -112,10 +112,20 @@ h4, button.accordion-header {
   line-height: 1.65;
 }
 
+h5, button.nested-accordion-header, .accordion-body legend {
+  font-size: 1.15rem;
+  font-weight: 900;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin-bottom: var(--space-smallest);
+}
+
 p, input, select, option {
   font-size: 1rem;
   line-height: 1.688rem;
   font-weight: 400;
+  max-width: 100%;
 }
 
 a {
@@ -253,10 +263,6 @@ button.accordion-header.closed:before {
 button.nested-accordion-header {
   background-color: var(--panel-background);
   color: var(--text);
-  width: 100%;
-  text-align: left;
-  padding: 0;
-  margin-bottom: var(--space-small);
 }
 
 .pxweb-nested-accordion dl {
@@ -277,6 +283,17 @@ button.nested-accordion-header {
   border-radius: 0;
   text-align: left;
   padding: var(--panel-padding);
+  width: 100%;
+}
+
+.accordion-body div {
+  width: 100%;
+}
+
+.accordion-body fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* Result page specifics */
