@@ -97,7 +97,7 @@ h1 {
 h2 {
   font-size: 2.063rem;
   line-height: 1.276;
-  margin-bottom: var(--space-small);
+  margin-bottom: 0;
 }
 
 .variableselector_variable_box_container label, h3 {
@@ -314,4 +314,21 @@ input[value="Fullscreen"] {
 
 .commandbar-shortcuts {
   margin-bottom: var(--space-small);
+}
+
+/* Change variable specific */
+
+.view-state {
+  float: right;
+  margin-top: -2rem;
+  margin-bottom: var(--space-small);
+}
+
+.seperator {
+  margin: 0 0.5rem;
+  color: var(--panel-border-color);
+}
+
+.view-state span {
+  font-weight: 900;
 }
