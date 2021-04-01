@@ -96,7 +96,7 @@ label span {
   font-weight: 400;
 }
 
-h4, button.accordion-header {
+h4 {
   font-size: 1.25rem;
   line-height: 1.65;
 }
@@ -110,7 +110,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   margin-bottom: var(--space-smallest);
 }
 
-p, input, select, option, button.accordion-header.closed {
+p, input, select, option, button.accordion-header {
   font-size: 1rem;
   line-height: 1.688rem;
   font-weight: 400;
