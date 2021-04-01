@@ -163,7 +163,7 @@ select{
 }
 
 select[multiple] option:checked {
-  background: var(--link__hover-background) linear-gradient(0deg, var(--link__hover-background)  0%, var(--link__hover-background)  100%);
+  background: var(--selected-background) linear-gradient(0deg, var(--selected-background)  0%, var(--selected-background)  100%);
   -webkit-text-fill-color: var(--text-dark);
 }
 
