@@ -6,5 +6,5 @@ Rewrite of PX Web default styling.
 
 ## Changelog
 
-2021-03-30 Initial setup.
-2021-03-31 Basic styling and optimized font loading
+- 2021-03-30 Initial setup.
+- 2021-03-31 Basic styling and optimized font loading
