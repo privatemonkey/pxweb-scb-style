@@ -28,7 +28,7 @@ table > tbody > tr:last-child > td, table > tbody > tr:last-child > th {
     border-bottom: 2px solid #222;
 } 
 
-table tr th:first-child, table tr td:first-child {
+tbody tr th:first-child, tbody tr td:first-child {
     text-align: left;
     border-left: none;
 }
