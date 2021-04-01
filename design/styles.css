@@ -208,6 +208,6 @@ button:hover, button:focus, input[type=submit]:hover, input[type=submit]:focus {
   text-decoration: underline;
 }
 
-span .the_long_text notetype_varnote_value {
+.the_long_text notetype_varnote_value .flex-row justify-center {
   line-hight: 1.4;
 }
