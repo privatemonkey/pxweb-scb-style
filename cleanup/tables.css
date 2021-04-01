@@ -2,21 +2,17 @@ table {
     margin-top: 12px;
     border-spacing: 0px;
     margin-bottom: 36px;
-    font-size: 14px;
     line-height: 20px;
     overflow: hidden;
 }
 
-tbody>tr:nth-child(odd) {
-    &>td {
-        background: rgba(30, 0, 190, 0.04);
-    }
+tbody > tr:nth-child(odd) > td {
+    background: rgba(30, 0, 190, 0.04);
 }
 
-
 table thead tr:first-child > th {
-     border-top: 2px solid #222;
-   } 
+    border-top: 2px solid #222;
+} 
 
 table td, table th, table thead td, table tr.nth-of-type(2n) td {
     padding: 10px 9px;
@@ -28,25 +24,16 @@ table td, table th, table thead td, table tr.nth-of-type(2n) td {
     text-align: right;
 }
   
-table > tbody > tr:first-child {
-    &>td, &>th {
+table > tbody > tr:first-child > td, table > tbody > tr:first-child > th {
     border-top: none;
- }
 } 
 
-table > tbody > tr:last-child {
-   &>td, &>th {
-        border-bottom: 2px solid #222;
-    } 
+table > tbody > tr:last-child > td, table > tbody > tr:last-child > th {
+    border-bottom: 2px solid #222;
 } 
 
-thead {
-   /* tr:first-child th, tr:first-child td {
-        border-left: 1px solid #D2CCF2; 
-    }*/
-    tr:last-child th,tr:last-child td {
-        border-bottom: 2px solid #222;
-    }
+thead tr:last-child th,thead tr:last-child td {
+    border-bottom: 2px solid #222;
 }
 
 table tr th:first-child, table tr td:first-child {
