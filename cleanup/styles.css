@@ -111,6 +111,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
 }
 
 p, input, select, option, button.accordion-header {
+  font-family: 'Varta', "system";
   font-size: 1rem;
   line-height: 1.688rem;
   font-weight: 400;
