@@ -6,13 +6,9 @@ table {
     overflow: hidden;
 }
 
-tbody > tr:nth-child(odd) > td {
+tbody > tr:nth-child(odd) > td, tbody > tr:nth-child(odd) > th {
     background: rgba(30, 0, 190, 0.04);
 }
-
-table thead tr:first-child > th {
-    border-top: 2px solid #222;
-} 
 
 td, th {
     padding: 10px 9px;
@@ -24,17 +20,9 @@ td, th {
     text-align: right;
 }
   
-table > tbody > tr:first-child > td, table > tbody > tr:first-child > th {
-    border-top: none;
-} 
-
 table > tbody > tr:last-child > td, table > tbody > tr:last-child > th {
     border-bottom: 2px solid #222;
 } 
-
-thead tr:last-child th,thead tr:last-child td {
-    border-bottom: 2px solid #222;
-}
 
 table tr th:first-child, table tr td:first-child {
     text-align: left;
