@@ -5,9 +5,9 @@
 }
 
 :root {
-  --page-background: #fff;
+  --page-background: #f8f7f6;
 
-  --panel-background: #f8f7f6;
+  --panel-background: #fff;
   --panel-border-color: #949494;
   --panel-border-width: 1px;
   --panel-padding: 1rem 1rem;
@@ -56,7 +56,7 @@ html {
 
 body {
   font-family: 'Varta', "system";
-  background-color: var(--panel-background);
+  background-color: var(--page-background);
   margin: 0;
 }
 
