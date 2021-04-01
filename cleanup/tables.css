@@ -1,0 +1,65 @@
+table {
+    margin-top: 12px;
+    border-spacing: 0px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+tbody>tr:nth-child(odd) {
+    &>td {
+        background: rgba(30, 0, 190, 0.04);
+    }
+}
+
+
+table thead tr:first-child > th {
+     border-top: 2px solid #222;
+   } 
+
+table td, table th, table thead td, table tr.nth-of-type(2n) td {
+    padding: 10px 9px;
+    border-left: 1px solid #222;
+    border-top: 1px solid #222;
+    border-bottom: none;
+    border-right: none;
+    vertical-align: text-top;
+    text-align: right;
+}
+  
+table > tbody > tr:first-child {
+    &>td, &>th {
+    border-top: none;
+ }
+} 
+
+table > tbody > tr:last-child {
+   &>td, &>th {
+        border-bottom: 2px solid #222;
+    } 
+} 
+
+thead {
+   /* tr:first-child th, tr:first-child td {
+        border-left: 1px solid #D2CCF2; 
+    }*/
+    tr:last-child th,tr:last-child td {
+        border-bottom: 2px solid #222;
+    }
+}
+
+table tr th:first-child, table tr td:first-child {
+    text-align: left;
+    border-left: none;
+}
+
+table tr th:last-child, table tr td:last-child {
+    border-right: none;
+}
+
+thead th, thead td {
+    font-weight: bold;
+    text-align: left;
+    background-color: #fff;
+}
