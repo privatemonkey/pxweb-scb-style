@@ -38,7 +38,7 @@ thead > tr:first-child > td, thead > tr:first-child > th {
     border-top: 2px solid var(--border-color);
 }
 
-thead > tr:last-child > td, thead > tr:last-child > th {
+thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
     border-bottom: 2px solid var(--border-color);
 } 
 
