@@ -102,7 +102,6 @@ h4 {
 }
 
 h5, button.nested-accordion-header, .accordion-body legend {
-  font-size: 1.15rem;
   font-weight: 900;
   width: 100%;
   text-align: left;
@@ -244,10 +243,15 @@ button.accordion-header {
   color: var(--text);
   width: 100%;
   border:var(--panel-border-width) solid var(--panel-border-color);
+  border-bottom-width: 0;
   border-radius: 0;
   text-align: left;
   padding: var(--space-smallest);
   margin-top: 0;
+}
+
+button.accordion-header.closed {
+  border-bottom-width: var(--panel-border-width);
 }
 
 button.accordion-header:before {
@@ -279,6 +283,7 @@ button.nested-accordion-header {
   color: var(--text);
   width: 100%;
   border:var(--panel-border-width) solid var(--panel-border-color);
+  border-top: 0;
   border-radius: 0;
   text-align: left;
   padding: var(--panel-padding);
