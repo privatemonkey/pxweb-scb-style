@@ -1,3 +1,9 @@
+:root {
+    --border-color: #222;
+    --background-odd: rgba(30, 0, 190, 0.04);
+    --background-even: #fff;
+}
+
 table {
     margin-top: 12px;
     border-spacing: 0px;
@@ -7,17 +13,17 @@ table {
 }
 
 tbody > tr:nth-child(odd) > td, tbody > tr:nth-child(odd) > th {
-    background: rgba(30, 0, 190, 0.04);
+    background: var(--background-odd);
 }
 
 tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
-    background: #fff;
+    background: var(--background-even);
 }
 
 td, th {
     padding: 10px 9px;
-    border-left: 1px solid #222;
-    border-top: 1px solid #222;
+    border-left: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
     border-bottom: none;
     border-right: none;
     vertical-align: text-top;
@@ -25,7 +31,15 @@ td, th {
 }
   
 table > tbody > tr:last-child > td, table > tbody > tr:last-child > th {
-    border-bottom: 2px solid #222;
+    border-bottom: 2px solid var(--border-color);
+}
+
+thead > tr:first-child > td, thead > tr:first-child > th {
+    border-top: 2px solid var(--border-color);
+}
+
+thead > tr:last-child > td, thead > tr:last-child > th {
+    border-bottom: 2px solid var(--border-color);
 } 
 
 tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
@@ -34,7 +48,7 @@ tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
 }
 
 thead th {
-    border-left: 1px solid #222;
+    border-left: 1px solid var(--border-color);
 }
 
 table tr th:last-child, table tr td:last-child {
@@ -44,5 +58,5 @@ table tr th:last-child, table tr td:last-child {
 thead th, thead td {
     font-weight: bold;
     text-align: left;
-    background-color: #fff;
+    background-color: var(--border-color);
 }
