@@ -39,7 +39,7 @@ thead > tr:first-child > td, thead > tr:first-child > th {
 }
 
 thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 } 
 
 tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
