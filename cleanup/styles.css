@@ -171,6 +171,7 @@ img.logo-quality {
 
 select{
   appearance: none;
+  border: 1px solid var(--panel-border-color);
 }
 
 select[multiple] option:checked {
