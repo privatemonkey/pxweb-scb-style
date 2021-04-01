@@ -110,7 +110,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   margin-bottom: var(--space-smallest);
 }
 
-p, input, select, option {
+p, input, select, option, button.accordion-header.closed {
   font-size: 1rem;
   line-height: 1.688rem;
   font-weight: 400;
