@@ -71,19 +71,6 @@ main {
   margin:0 auto;
 }
 
-@media(max-width:1140px) {
-  main {
-    max-width: 90vw;
-  }
-}
-
-@media(max-width:768px) {
-  main {
-    max-width: calc(100vw - 2rem);
-    padding: var(--space-smallest);
-  }
-}
-
 h1, h2, h3, h4, .variableselector_variable_box_container label {
   font-weight: 700;
 }
@@ -332,4 +319,23 @@ input[value="Fullscreen"] {
 
 .view-state span {
   font-weight: 900;
+}
+
+/* Media queries */
+
+@media(max-width:1140px) {
+  main {
+    max-width: 90vw;
+  }
+}
+
+@media(max-width:768px) {
+  main {
+    max-width: calc(100vw - 2rem);
+    padding: var(--space-smallest);
+  }
+  
+  .view-state {
+    float: none;
+  }
 }
