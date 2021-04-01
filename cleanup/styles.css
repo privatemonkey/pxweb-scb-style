@@ -128,6 +128,7 @@ p, input, select, option {
   line-height: 1.688rem;
   font-weight: 400;
   max-width: 100%;
+  letter-spacing: 0.05rem;
 }
 
 a {
