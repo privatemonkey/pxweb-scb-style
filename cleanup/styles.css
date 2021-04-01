@@ -282,6 +282,10 @@ button.nested-accordion-header {
   width: 100%;
 }
 
+.accordion-body.closed {
+  display: none;
+}
+
 .accordion-body div {
   width: 100%;
 }
