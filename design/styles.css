@@ -185,7 +185,7 @@ option:hover, option:active, option:focus {
 }
 
 button, input[type=submit] {
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
   color: var(--button-primary-text);
   background-color: var(--button-primary-background);
   border-radius: 0.25rem;
