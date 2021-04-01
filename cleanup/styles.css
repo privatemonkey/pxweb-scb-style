@@ -245,11 +245,13 @@ button.accordion-header {
   border:var(--panel-border-width) solid var(--panel-border-color);
   border-radius: 0;
   text-align: left;
+  padding: var(--space-smallest);
+  margin-bottom: 0;
 }
 
 button.accordion-header:before {
   content: '▴';
-  padding-right: var(--space-smallest);
+  padding-right: 0;
 }
 
 button.accordion-header.closed:before {
