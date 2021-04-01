@@ -337,5 +337,6 @@ input[value="Fullscreen"] {
   
   .view-state {
     float: none;
+    margin-top: 0;
   }
 }
