@@ -101,12 +101,12 @@ label span {
 
 h4, button {
   font-size: 1.25rem;
-  line-height: 1.65;
+  line-height: 1.4;
 }
 
 p, input, select, option {
   font-size: 1rem;
-  line-height: 1.688rem;
+  line-height: 1.4;
   font-weight: 400;
 }
 
@@ -174,7 +174,7 @@ option {
 
 option:checked {
   background-color: var(--link__hover-background);
-  color: var(--text-dark);
+  color: var(--text-inverted);
   cursor: pointer;
 }
 
@@ -202,4 +202,5 @@ button:hover, button:focus, input[type=submit]:hover, input[type=submit]:focus {
   background-color: var(--button__hover-background);
   color: var(--button__hover-text);
   cursor: pointer;
+  text-decoration: underline;
 }
