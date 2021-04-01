@@ -58,5 +58,5 @@ table tr th:last-child, table tr td:last-child {
 thead th, thead td {
     font-weight: bold;
     text-align: left;
-    background-color: var(--border-color);
+    background-color: var(--background-even);
 }
