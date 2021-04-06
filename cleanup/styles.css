@@ -59,6 +59,7 @@ src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local
 html {
   font-size: 110%;
   padding: 0;
+  font-weight: 300;
 }
 
 body {
@@ -79,7 +80,7 @@ main {
 }
 
 h1, h2, h3, h4, .variableselector_variable_box_container label {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h1 {
@@ -100,7 +101,7 @@ h2 {
 }
 
 label span {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h4 {
@@ -109,7 +110,7 @@ h4 {
 }
 
 h5, button.nested-accordion-header, .accordion-body legend {
-  font-weight: 900;
+  font-weight: 500;
   width: 100%;
   text-align: left;
   padding: 0;
@@ -120,7 +121,7 @@ p, input, select, option, button.accordion-header {
   font-family: 'PublicSans', "system";
   font-size: 1rem;
   line-height: 1.688rem;
-  font-weight: 400;
+  font-weight: 00;
   max-width: 100%;
 }
 
@@ -129,7 +130,7 @@ a {
 }
 
 nav a {
-  font-weight: 500;
+  font-weight: 300;
   padding: 0.25rem 0.25rem 0.05rem;
   line-height: 100%;
 }
@@ -215,7 +216,7 @@ button, input[type=submit], input[type="button"] {
 }
 
 input, option {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 input[type="radio"] {
@@ -363,7 +364,7 @@ input[value="Fullscreen"] {
 }
 
 .view-state span {
-  font-weight: 900;
+  font-weight: 500;
 }
 
 /* Media queries */
