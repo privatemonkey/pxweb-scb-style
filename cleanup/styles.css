@@ -62,7 +62,7 @@ body {
 }
 
 .fullscreen main {
-  max-width: calc(100vw -  var(--space-large) - var(--space-large);
+  max-width: calc(100vw -  var(--space-large) - var(--space-large));
   margin: 0;
   padding:  var(--space-large);
 }
