@@ -169,9 +169,10 @@ img.logo-quality {
   padding: var(--panel-padding);
 }
 
-select{
+select {
   appearance: none;
-  border: 1px solid var(--panel-border-color);
+  border: 3px solid var(--panel-border-color);
+  padding: 0;
 }
 
 select[multiple] option:checked {
