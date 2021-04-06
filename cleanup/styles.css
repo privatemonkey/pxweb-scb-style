@@ -310,8 +310,17 @@ button.nested-accordion-header {
 .presentation-container {
   display: grid;
   grid-template-columns: minmax(auto, 320px) minmax(70%, auto);
+  grid-template-areas: 'main secondary';
   gap: 2rem;
   margin-top: 2rem;
+}
+
+.presentation-main {
+  grid-area: main;
+}
+
+.presentation-left {
+  grid-area: secondary;
 }
 
 .presentation-container h2:first-of-type {
