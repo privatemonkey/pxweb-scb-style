@@ -7,7 +7,7 @@
 :root {
   --page-background: #fff;
 
-  --panel-background: #f8f7f6;
+  --panel-background: #fff;
   --panel-border-color: #949494;
   --panel-border-width: 1px;
 
@@ -30,7 +30,7 @@
   --button__hover-background: #222;
   --button__hover-text: #fff;
 
-  --space-small: 1rem;
+  --space-small: 1.5rem;
 }
 
 html {
@@ -153,9 +153,9 @@ img.logo-quality {
 /* Panel */
 .variableselector_variable_box_container > div {
   /* background-color: var(--panel-background);*/
-  background-color: #fff;
-  border: var(--panel-border-color) var(--panel-border-width) solid;
-  margin-bottom: 1rem;
+  background-color: #f8f7f6;
+  /*border: var(--panel-border-color) var(--panel-border-width) solid;*/
+  margin-bottom: 1.5rem;
   padding: var(--space-small)
 }
 
