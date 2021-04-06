@@ -2,6 +2,7 @@
     --border-color: #222;
     --background-odd: rgba(30, 0, 190, 0.04);
     --background-even: #fff;
+    --border-outline-color: #eee;
 }
 
 table {
@@ -44,7 +45,7 @@ thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child t
 
 tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
     text-align: left;
-    border-left: none;
+    border-left: 1px solid var(--border-outline-color);
 }
 
 thead th {
@@ -52,7 +53,7 @@ thead th {
 }
 
 table tr th:last-child, table tr td:last-child {
-    border-right: none;
+    border-right: 1px solid var(--border-outline-color);
 }
 
 thead th, thead td {
