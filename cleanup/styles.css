@@ -321,11 +321,13 @@ button.nested-accordion-header {
 }
 
 .presentation-left {
+  margin-top: 3.4rem;
   grid-area: secondary;
 }
 
 .presentation-container h2:first-of-type {
   margin-top: 0;
+  border-bottom: 1px solid var(--panel-border-color);
 }
 
 input[value="Fullscreen"] {
