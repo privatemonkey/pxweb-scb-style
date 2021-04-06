@@ -311,6 +311,11 @@ button.nested-accordion-header {
   display: grid;
   grid-template-columns: minmax(auto, 320px) minmax(70%, auto);
   gap: 2rem;
+  margin-top: 2rem;
+}
+
+.presentation-container h2:first-of-type {
+  margin-top: 0;
 }
 
 input[value="Fullscreen"] {
@@ -342,7 +347,11 @@ input[value="Fullscreen"] {
 }
 
 /* Media queries */
-
+@media(min-width:1140px) {
+  .burger_menu-icon {
+    display: none;
+  }
+}
 @media(max-width:1140px) {
   main {
     max-width: 90vw;
