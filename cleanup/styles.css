@@ -309,7 +309,8 @@ button.nested-accordion-header {
 /* Result page specifics */
 .presentation-container {
   display: grid;
-  grid-template-columns: minmax(auto, 320px) minmax(70%, auto);
+  /* grid-template-columns: minmax(auto, 320px) minmax(70%, auto);*/
+  grid-template-columns: minmax(70%, auto) minmax(auto, 320px);
   grid-template-areas: 'main secondary';
   gap: 2rem;
   margin-top: 2rem;
