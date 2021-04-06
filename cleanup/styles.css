@@ -199,7 +199,7 @@ option:hover, option:active, option:focus {
 }
 
 button, input[type=submit], input[type="button"] {
-  padding: var(--space-smallest) var(--space-small);
+  padding: var(--space-smallest) var(--space-small) 0.35rem;
   color: var(--button-primary-text);
   background-color: var(--button-primary-background);
   border-radius: 0.75rem;
