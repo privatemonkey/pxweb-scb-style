@@ -338,7 +338,8 @@ input[value="Fullscreen"] {
 }
 
 .commandbar-shortcuts {
-  margin-bottom: var(--space-small);
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 /* Change variable specific */
