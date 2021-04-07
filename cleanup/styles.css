@@ -17,9 +17,10 @@
   --text-inverted: #fff;
 
   --link-text: #00ff;
-  --link__hover-text: var(--text);
+  --link__hover-text: var(--text-inverted);
   --link__hover-background: #222;
 
+  --selected-text: var(--text-inverted);
   --selected-background: #fff495;
 
   --button-primary-background: #00ff;
@@ -145,7 +146,7 @@ a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked
 }
 
 ::selection, ::-moz-selection {
-  color: var(--text-dark);
+  color: var(--selected-text);
   background-color: var(--selected-background);
 }
 
