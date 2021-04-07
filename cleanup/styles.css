@@ -59,6 +59,7 @@ src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local
 html {
   font-size: 100%;
   padding: 0;
+  line-height: 1.4;
 }
 
 body {
@@ -97,6 +98,7 @@ h2 {
 .variableselector_variable_box_container label, h3 {
   font-size: 1.4rem;
   line-height: 1.4;
+  margin-bottom: var(--space-smallest);
 }
 
 label span {
@@ -104,8 +106,10 @@ label span {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: var(--space-smallest);
 }
 
 h5, button.nested-accordion-header, .accordion-body legend {
@@ -248,15 +252,16 @@ button.accordion-header:hover {
 }
 
 button.accordion-header {
-  background-color: var(--panel-background);
+  background-color: #f7f7f7;
   color: var(--text);
   width: 100%;
   border:var(--panel-border-width) solid var(--panel-border-color);
   border-bottom-width: 0;
   border-radius: 0;
   text-align: left;
-  padding: var(--space-smallest);
+  padding: var(--space-smal);
   margin-top: 0;
+  margin-bottom: var(--space-smallest);
 }
 
 button.accordion-header.closed {
@@ -328,7 +333,7 @@ button.nested-accordion-header {
 }
 
 .presentation-left {
-  margin-top: 3.4rem;
+  /* margin-top: 3.4rem; */
   grid-area: secondary;
 }
 
@@ -345,7 +350,7 @@ input[value="Fullscreen"] {
 }
 
 .commandbar-shortcuts {
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
   margin-bottom: 2rem;
 }
 
