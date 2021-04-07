@@ -118,7 +118,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   width: 100%;
   text-align: left;
   padding: 0;
-  margin-bottom: var(--space-smallest);
+  margin-bottom: var(--space-flest);
 }
 
 p, input, select, option, button.accordion-header {
@@ -260,13 +260,17 @@ button.accordion-header {
   border-bottom-width: 0;
   border-radius: 0;
   text-align: left;
-  padding: var(--space-smal);
+  padding: var(--space-smallest);
   margin-top: 0;
-  margin-bottom: var(--space-smallest);
 }
 
 button.accordion-header.closed {
   border-bottom-width: var(--panel-border-width);
+  margin-bottom: var(--space-smallest);
+}
+
+.accordion-body {
+  margin-bottom: var(--space-smallest);
 }
 
 button.accordion-header:before {
