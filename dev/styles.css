@@ -99,7 +99,7 @@ h2 {
 .variableselector_variable_box_container label, h3 {
   font-size: 1.4rem;
   line-height: 1.4;
-  margin-bottom: var(--space-smallest);
+  margin-bottom: 0.75rem;
 }
 
 label span {
@@ -110,7 +110,7 @@ h4 {
   font-size: 1.2rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: var(--space-smallest);
+  margin-bottom: 0.3rem;
 }
 
 h5, button.nested-accordion-header, .accordion-body legend {
@@ -127,6 +127,8 @@ p, input, select, option, button.accordion-header {
   line-height: 1.4rem;
   font-weight: 400;
   max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 a {
@@ -183,11 +185,11 @@ img.logo-quality {
 
 /* Panel */
 .variableselector_variable_box_container > div, div.accordion {
-  /* background-color: var(--panel-background);*/
-  background-color: #f7f7f7;
-  border: var(--panel-border-color) var(--panel-border-width) solid;
-  margin-bottom: 1.5rem;
-  padding: 1.5rem;
+    /* background-color: var(--panel-background); */
+    background-color: #f7f7f7;
+    /* border: var(--panel-border-color) var(--panel-border-width) solid; */
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
 }
 
 select {
@@ -204,6 +206,7 @@ select[multiple] option:checked {
 option {
   padding: 0.6rem 0.75rem;
   min-width: 10rem;
+  margin-bottom: 0;
 }
 
 option:checked {
@@ -213,7 +216,7 @@ option:checked {
 }
 
 option:hover, option:active, option:focus {
-  background-color: rgba(var(--button-primary-background), 0.1);
+  background-color: rgba(30,0,190, 0.075, 0.1);
   color: var(--text-dark);
   text-decoration: underline;
 }
@@ -226,6 +229,7 @@ button, input[type=submit], input[type="button"] {
   border:1px transparent solid;
   margin-right: var(--space-smallest);
   margin-top: var(--space-small);
+  margin-bottom: var(--space-smallest);
 }
 
 input, option {
@@ -285,6 +289,7 @@ button.accordion-header.closed {
 button.accordion-header:before {
   content: '▴';
   padding-right: 0;
+  margin-right: 9px;
 }
 
 button.accordion-header.closed:before {
@@ -310,7 +315,7 @@ button.nested-accordion-header {
   background-color: var(--panel-background);
   color: var(--text);
   width: 100%;
-  border:var(--panel-border-width) solid var(--panel-border-color);
+  /* border: var(--panel-border-width) solid var(--panel-border-color); */
   border-top: 0;
   border-radius: 0;
   text-align: left;
@@ -372,7 +377,7 @@ input[value="Fullscreen"] {
 
 .view-state {
   float: right;
-  margin-top: -2rem;
+  margin-top: -3rem;
   margin-bottom: var(--space-small);
 }
 
