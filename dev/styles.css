@@ -114,7 +114,7 @@ h4 {
 }
 
 h5, button.nested-accordion-header, .accordion-body legend {
-  font-weight: 900;
+  font-weight: 500;
   width: 100%;
   text-align: left;
   padding: 0;
