@@ -114,11 +114,11 @@ h4 {
 }
 
 h5, button.nested-accordion-header, .accordion-body legend {
-  font-weight: 500;
+  font-weight: 700;
   width: 100%;
   text-align: left;
   padding: 0;
-  margin-bottom: var(--space-smallest);
+  margin-bottom: var(--space-small);
 }
 
 p, input, select, option, button.accordion-header {
