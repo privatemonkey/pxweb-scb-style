@@ -20,7 +20,7 @@
   --link__hover-text: var(--text-inverted);
   --link__hover-background: #222;
 
-  --selected-text: var(--text-inverted);
+  --selected-text: var(--text);
   --selected-background: #fff495;
 
   --button-primary-background: #00ff;
@@ -369,7 +369,7 @@ input[value="Fullscreen"] {
 }
 
 .view-state span {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 /* Media queries */
@@ -389,7 +389,7 @@ input[value="Fullscreen"] {
     max-width: calc(100vw - 2rem);
     padding: var(--space-smallest);
   }
-  
+
   .view-state {
     float: none;
     margin-top: 0;
