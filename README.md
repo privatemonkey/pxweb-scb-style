@@ -1,10 +1,21 @@
-# PxWeb Styling
+# PxWeb default style
 
-Rewrite of PX Web default styling.
+This repo is an attempt to create a more accessible default design for PX Web. 
 
-[PX Web Styling preview](https://pxweb-style.netlify.app/)
+## Constrains
 
-## Changelog
+- Only allowed to make minor adjustment to HTML
+- Limited time
+- Cannot remove CSS files yet
 
-- 2021-03-30 Initial setup.
-- 2021-03-31 Basic styling and optimized font loading
+## Goals
+
+- More semantic correct HTML (A full rewrite is not possible)
+- Shrink the number and size of CSS
+- Make it easier to override the style
+- Possible to run PX Web with only system fonts
+- Offer a lightweight default font
+
+[To the preview](https://pxweb-style.netlify.app/)
+
+[The official PX Web Repo](https://github.com/statisticssweden/PxWeb)
