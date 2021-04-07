@@ -118,7 +118,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   width: 100%;
   text-align: left;
   padding: 0;
-  margin-bottom: var(--space-flest);
+  margin-bottom: var(--space-smallest);
 }
 
 p, input, select, option, button.accordion-header {
@@ -143,6 +143,15 @@ a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked
   color: var(--link__hover-text);
   background-color: var(--link__hover-background);
   cursor: pointer;
+}
+
+input[type="radio"]+label {
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+  padding: 0.25rem;
+  line-height: 140%;
 }
 
 ::selection, ::-moz-selection {
