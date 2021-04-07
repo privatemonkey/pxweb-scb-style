@@ -107,7 +107,7 @@ label span {
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.3rem;
@@ -196,6 +196,7 @@ select {
   appearance: none;
   border: 1px solid var(--panel-border-color);
   padding: 0;
+  margin-bottom: 0;
 }
 
 select[multiple] option:checked {
@@ -275,11 +276,12 @@ button.accordion-header {
   text-align: left;
   padding: var(--space-smallest);
   margin-top: 0;
+  margin-bottom: var(--space-small);
 }
 
 button.accordion-header.closed {
-  border-bottom-width: var(--panel-border-width);
-  margin-bottom: var(--space-smallest);
+  border-bottom-width: var(--panel-border-width); */
+  margin-bottom: var(--space-small);
 }
 
 .accordion-body {
@@ -411,5 +413,23 @@ input[value="Fullscreen"] {
   .view-state {
     float: none;
     margin-top: 0;
+  }
+  
+  /* Loves tillägg */
+  
+  .variableselector_valuesselect_statistics_panel {
+    margin-top: 1rem;
+  }
+  
+  .flex-row.justify-center.m-margin-top {
+    margin-bottom: 2rem;
+  }
+  
+  .footnote_definitionlist.only_mandatory {
+    margin-bottom: 2.5rem;
+  }
+  
+  span.header-text {
+    font-weight: 700;
   }
 }
