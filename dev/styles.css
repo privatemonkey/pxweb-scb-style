@@ -270,17 +270,17 @@ button.accordion-header {
   background-color: #f7f7f7;
   color: var(--text);
   width: 100%;
-  border:var(--panel-border-width) solid var(--panel-border-color);
+  /* border: var(--panel-border-width) solid var(--panel-border-color); */
   border-bottom-width: 0;
   border-radius: 0;
   text-align: left;
-  padding: var(--space-smallest);
+  padding: var(--space-small);
   margin-top: 0;
   margin-bottom: var(--space-small);
 }
 
 button.accordion-header.closed {
-  border-bottom-width: var(--panel-border-width); */
+  /* border-bottom-width: var(--panel-border-width); */
   margin-bottom: var(--space-small);
 }
 
