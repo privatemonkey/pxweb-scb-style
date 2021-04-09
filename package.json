@@ -1,0 +1,38 @@
+{
+  "name": "pxweb-style",
+  "version": "0.0.1",
+  "description": "Default styling for PxWeb, statistical database",
+  "main": "index.html",
+  "scripts": {
+    "build": "npm-run-all build:css_main build:css_common build:css_custom minify:css_main",
+    "minify:css_main": "minify Resources/Styles/main-pxweb.css > Resources/Styles/main-pxweb.min.css",
+    "build:css_main": "sass Resources/Styles/scss/main-pxweb.scss >  Resources/Styles/main-pxweb.css",
+    "build:css_common": "sass Resources/Styles/scss/main-common.scss >  Resources/Styles/main-common.css",
+    "build:css_custom": "sass Resources/Styles/scss/main-custom.scss >  Resources/Styles/main-custom.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privatemonkey/pxweb-style.git"
+  },
+  "keywords": [
+    "statistics",
+    "pxweb",
+    "statisticssweden",
+    "database"
+  ],
+  "author": "Anders Olsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/privatemonkey/pxweb-style/issues"
+  },
+  "homepage": "https://github.com/privatemonkey/pxweb-style#readme",
+  "dependencies": {
+    "minify": "^7.0.1",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
