@@ -93,7 +93,7 @@
 
           <!-- NEW Official statistics logo -->
           <img src=./assets/official_statistics_en.svg alt="This is official statistics of Sweden" class="logo-quality" />
-          
+
           <!-- NEW Meta info moved out from about -->
           <div class="meta">
             <span>Statistics Sweden</span>
@@ -274,7 +274,89 @@
                         <div id="OptionsBody" class="accordion-body closed">
 
                           <div id="OperationsButtonsPanel" class="operations-container flex-column">
-                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotManual" value="Pivot manual" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotManual" title="Pivot manual" class="pxweb-btn icon-placement pxweb-buttons pivotManual" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotCW" value="Pivot clockwise" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotCW" title="Pivot clockwise" class="pxweb-btn icon-placement pxweb-buttons pivotCW" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotCCW" value="Pivot counterclockwise" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotCCW" title="Pivot counterclockwise" class="pxweb-btn icon-placement pxweb-buttons pivotCCW" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeValueOrder" value="Change value order" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeValueOrder" title="Change value order" class="pxweb-btn icon-placement pxweb-buttons changeValueOrder" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeDecimal" value="Change decimals" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeDecimal" title="Change decimals" class="pxweb-btn icon-placement pxweb-buttons changeDecimal" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtondeleteValue" value="Delete value" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtondeleteValue" title="Delete value" class="pxweb-btn icon-placement pxweb-buttons deleteValue" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtondeleteVariable" value="Delete variable" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtondeleteVariable" title="Delete variable" class="pxweb-btn icon-placement pxweb-buttons deleteVariable" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeTextPresentation" value="Change texts" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeTextPresentation" title="Change texts" class="pxweb-btn icon-placement pxweb-buttons changeTextPresentation" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeTextCodePresentation" value="Display text/code" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeTextCodePresentation" title="Display text/code" class="pxweb-btn icon-placement pxweb-buttons changeTextCodePresentation" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonperPart" value="Per cent" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonperPart" title="Per cent" class="pxweb-btn icon-placement pxweb-buttons perPart" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonsum" value="Sum variable values" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonsum" title="Sum variable values" class="pxweb-btn icon-placement pxweb-buttons sum" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonsubtract" value="Subtract variable values" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonsubtract" title="Subtract variable values" class="pxweb-btn icon-placement pxweb-buttons subtract" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtondivide" value="Divide variable values" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtondivide" title="Divide variable values" class="pxweb-btn icon-placement pxweb-buttons divide" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonmultiply" value="Multiply variable values" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonmultiply" title="Multiply variable values" class="pxweb-btn icon-placement pxweb-buttons multiply" />
+                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotManual" value="Pivot manual" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotManual" title="Pivot manual" class="pxweb-btn icon-placement pxweb-buttons pivotManual" />
+
+                            <!-- Pivot Manual Dialog Start -->
+                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControlHolder" class="commandbar_container">
+                              <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl">
+
+                        <div class="flex-column">
+                            <h3 class="container_titletext">
+                                Pivot manual
+                            </h3>
+                            <div class="flex-row flex-wrap s-margin-top justify-space-between">
+                                <div class="commandbar-listbox-container">
+                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubLabel" class="commandbar_pivot_title font-heading">Rows</span><br>
+                                    <select size="8" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$StubListBox" multiple="multiple" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox" class="commandbar_pivot_listbox" aria-label="Select variables to be desplayed as rows in the table">
+                                  <option value="region">region</option>
+                                  <option value="age">age</option>
+
+                                </select>
+                                        <div class="flex-column">
+                                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$MoveRightButton" value="Move to columns" onclick="return PivotManual_Switch('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox', 'ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_MoveRightButton" class="pxweb-btn icon-placement pxweb-buttons arrow-right no-margin-right" alternatetext="move right">
+                                            <div class="flex-row">
+                                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$StubUpButton" value="Move up" onclick="return PivotManual_Reorder('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox', 'top');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubUpButton" class="pxweb-btn icon-placement pxweb-buttons arrow-up" alternatetext="move up">
+                                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$StubDownButton" value="Move down" onclick="return PivotManual_Reorder('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox', 'bottom');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubDownButton" class="pxweb-btn icon-placement pxweb-buttons arrow-down no-margin-right" alternatetext="move down">
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="commandbar-listbox-container">
+                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingLabel" class="commandbar_pivot_title font-heading">Columns</span><br>
+                                    <select size="8" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$HeadingListBox" multiple="multiple" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox" class="commandbar_pivot_listbox" aria-label="Select variables to be displayed as columns in the table">
+                                  <option value="period">period</option>
+                                  <option value="type">type</option>
+                                  <option value="sex">sex</option>
+
+                                </select>
+                                        <div class="flex-column">
+                                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$MoveLeftButton" value="Move to rows" onclick="return PivotManual_Switch('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox', 'ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_MoveLeftButton" class="pxweb-btn icon-placement pxweb-buttons arrow-left no-margin-right" alternatetext="move left">
+                                            <div class="flex-row">
+                                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$HeadingUpButton" value="Move up" onclick="return PivotManual_Reorder('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox', 'top');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingUpButton" class="pxweb-btn icon-placement pxweb-buttons arrow-up" alternatetext="move up">
+                                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$HeadingDownButton" value="Move down" onclick="return PivotManual_Reorder('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox', 'bottom');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingDownButton" class="pxweb-btn icon-placement pxweb-buttons arrow-down no-margin-right" alternatetext="move down">
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="container_exit_buttons_row">
+                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$CancelButton" value="Cancel" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_CancelButton" class="pxweb-btn pxweb-buttons">
+                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ContinueButton" value="Complete" onclick="PivotManual_Submit('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox','ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ContinueButton" class="pxweb-btn primary-btn container_continuebutton pxweb-buttons">
+                            </div>
+                        </div>
+
+                              </div>
+                            </div>
+                            <!-- / Pivot Manual Dialog End-->
+
+                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotCW" value="Pivot clockwise" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotCW" title="Pivot clockwise" class="pxweb-btn icon-placement pxweb-buttons pivotCW" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotCCW" value="Pivot counterclockwise" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotCCW" title="Pivot counterclockwise" class="pxweb-btn icon-placement pxweb-buttons pivotCCW" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeValueOrder" value="Change value order" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeValueOrder" title="Change value order" class="pxweb-btn icon-placement pxweb-buttons changeValueOrder" />
+
+                            <!-- Start - Change value order dialog -->
+                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControlHolder" class="commandbar_container">
+                              <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl">
+
+                        <div class="flex-column">
+                            <h3 class="container_titletext">
+                                Change value order
+                            </h3>
+                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChooseVariablePanel" class="s-margin-top">
+                                  <fieldset>
+                                    <legend>
+                                      <span class="font-heading">Select a variablel:</span>
+                                    </legend>
+                                <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList" class="commandbar_radioButtonList"><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_0" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="region" checked="checked"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_0">region</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_1" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="age"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_1">age</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_2" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="period"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_2">period</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_3" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="type"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_3">type</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_4" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="sex"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_4">sex</label></span>
+
+                                  </fieldset>
+                                </div>
+
+                            <div class="container_exit_buttons_row">
+                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$CancelButton" value="Cancel" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_CancelButton" class="pxweb-btn pxweb-buttons">
+                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ContinueButton" value="Continue" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ContinueButton" class="pxweb-btn primary-btn pxweb-buttons container_continuebutton">
+                            </div>
+                        </div>
+                              </div>
+                            </div>
+                            <!-- End - Change value order dialog-->
+
+                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeDecimal" value="Change decimals" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeDecimal" title="Change decimals" class="pxweb-btn icon-placement pxweb-buttons changeDecimal" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtondeleteValue" value="Delete value" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtondeleteValue" title="Delete value" class="pxweb-btn icon-placement pxweb-buttons deleteValue" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtondeleteVariable" value="Delete variable" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtondeleteVariable" title="Delete variable" class="pxweb-btn icon-placement pxweb-buttons deleteVariable" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeTextPresentation" value="Change texts" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeTextPresentation" title="Change texts" class="pxweb-btn icon-placement pxweb-buttons changeTextPresentation" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeTextCodePresentation" value="Display text/code" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeTextCodePresentation" title="Display text/code" class="pxweb-btn icon-placement pxweb-buttons changeTextCodePresentation" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonperPart" value="Per cent" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonperPart" title="Per cent" class="pxweb-btn icon-placement pxweb-buttons perPart" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonsum" value="Sum variable values" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonsum" title="Sum variable values" class="pxweb-btn icon-placement pxweb-buttons sum" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonsubtract" value="Subtract variable values" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonsubtract" title="Subtract variable values" class="pxweb-btn icon-placement pxweb-buttons subtract" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtondivide" value="Divide variable values" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtondivide" title="Divide variable values" class="pxweb-btn icon-placement pxweb-buttons divide" /><input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonmultiply" value="Multiply variable values" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonmultiply" title="Multiply variable values" class="pxweb-btn icon-placement pxweb-buttons multiply" />
                           </div>
 
                         </div>
@@ -447,7 +529,7 @@
                   <div id="fullscreentitel">
                     <!-- REMOVED Should be a H3 -->
                     <!--<span id="lblFullscreenTitle" class="hierarchical_tableinformation_title">Migration by region, age, period, type and sex</span>-->
-                    
+
                     <!-- ADDED Proper semantic header level -->
                     <!--<h3>Migration by region, age, period, type and sex</h3>-->
                   </div>
