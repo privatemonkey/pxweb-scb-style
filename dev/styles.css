@@ -17,11 +17,11 @@
   --text-inverted: #fff;
 
   --link-text: #00ff;
-  --link__hover-text: var(--text-inverted);
-  --link__hover-background: #222;
+  --link__hover-text: var(--text-dark);
+  --link__hover-background: #c1c1fa;
 
-  --selected-text: var(--text);
-  --selected-background: #fff495;
+  --selected-text: var(--text-inverted);
+  --selected-background: var(--text-dark);
 
   --button-primary-background: #00ff;
   --button-primary-text: var(--text-inverted);
@@ -142,8 +142,8 @@ nav a {
 }
 
 a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked + label {
-  color: var(--link__hover-text);
-  background-color: var(--link__hover-background);
+  color: var(--selected-text);
+  background-color: var(--selected-background);
   cursor: pointer;
 }
 
@@ -200,8 +200,9 @@ select {
 }
 
 select[multiple] option:checked {
-  background: var(--link__hover-background) linear-gradient(0deg, var(--link__hover-background) 0%, var(--link__hover-background) 100%);
-  -webkit-text-fill-color: var(--text-inverted);
+  background: var(--selected-background) linear-gradient(0deg, var(--selected-background) 0%, var(--selected-background) 100%);
+  -webkit-text-fill-color: var(--selected-text);
+  color: var(--selected-text);
 }
 
 option {
@@ -211,15 +212,16 @@ option {
 }
 
 option:checked {
-  background-color: var(--link__hover-background);
-  color: var(--text-dark);
+  background-color: var(--selected-background);
+  color: var(--selected-text);
   cursor: pointer;
 }
 
 option:hover, option:active, option:focus {
-  background-color: rgba(30,0,190, 0.075, 0.1);
+  background-color: var(--link__hover-background);
   color: var(--text-dark);
   text-decoration: underline;
+  cursor: pointer;
 }
 
 button, input[type=submit], input[type="button"] {
