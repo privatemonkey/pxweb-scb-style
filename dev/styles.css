@@ -455,7 +455,7 @@ input[value="Fullscreen"] {
     margin-bottom: 2.5rem;
   }
 
-  span.header-text {
+  .header-text {
     font-weight: 700;
   }
 }
