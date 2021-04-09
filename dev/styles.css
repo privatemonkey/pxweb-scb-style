@@ -142,8 +142,8 @@ nav a {
 }
 
 a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked + label {
-  color: var(--selected-text);
-  background-color: var(--selected-background);
+  color: var(--link__hover-text);
+  background-color: var(--link__hover-background);
   cursor: pointer;
 }
 
