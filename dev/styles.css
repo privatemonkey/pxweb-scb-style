@@ -425,6 +425,14 @@ input[value="Fullscreen"] {
   }
 
   /* Loves tillägg */
+  div#navigationFlow {
+    margin: 2rem 0;
+  }
+
+  .navigationFlowArea.flex-row.justify-center.align-flex-start {
+    display: flex;
+    flex-direction: row;
+  }
 
   .variableselector_valuesselect_statistics_panel {
     margin-top: 1rem;
