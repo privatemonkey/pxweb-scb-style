@@ -263,7 +263,8 @@ button:hover, button:focus, input[type="button"]:hover,input[type="button"]:focu
 }
 
 button.accordion-header:hover {
-  color: var(--text-dark);
+  color: var(--text-inverted);
+  background: #222;
 }
 
 button.accordion-header {
@@ -281,7 +282,7 @@ button.accordion-header {
 
 button.accordion-header.closed {
   /* border-bottom-width: var(--panel-border-width); */
-  margin-bottom: var(--space-small);
+  margin-bottom: var(--space-smallest);
 }
 
 .accordion-body {
