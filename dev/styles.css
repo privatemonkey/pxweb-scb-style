@@ -170,6 +170,9 @@ nav.steps a {
   height: 100%;
 }
 
+.nav-step {
+  text-align: center;
+}
 .nav-step::before {
   content: '';
   color: var(--text-inverted);
@@ -177,8 +180,14 @@ nav.steps a {
   border: 2rem solid #00f;
   width: 2rem;
   height: 2rem;
+  font-size: 2rem;
   display: block;
   margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+a:hover .nav-step::before, a.active .nav-step::before {
+  border-color: var(--selected-background);
 }
 
 .nav-step.second::before, .nav-step.first::before {
@@ -206,7 +215,6 @@ span.step_sep {
 
 a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked + label {
   color: var(--link__hover-text);
-  background-color: var(--link__hover-background);
   cursor: pointer;
 }
 
