@@ -270,21 +270,22 @@ button.accordion-header:hover {
 }
 
 button.accordion-header {
-  background-color: #f7f7f7;
+  background-color: #fff;
   color: var(--text);
   width: 100%;
   /* border: var(--panel-border-width) solid var(--panel-border-color); */
   border-bottom-width: 0;
   border-radius: 0;
   text-align: left;
-  padding: var(--space-small);
+  padding: 1.5rem 0;
   margin-top: 0;
   margin-bottom: var(--space-small);
+  border-top: 1px solid var(--panel-border-color);
 }
 
 button.accordion-header.closed {
   /* border-bottom-width: var(--panel-border-width); */
-  margin-bottom: var(--space-smallest);
+  margin-bottom: 0;
 }
 
 .accordion-body {
@@ -324,7 +325,7 @@ button.nested-accordion-header {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: var(--panel-padding);
+  padding: 0;
   width: 100%;
 }
 
@@ -365,13 +366,14 @@ button.nested-accordion-header {
   top: 0;
   right: 0;
   background: white;
-  padding: 1rem;
-  box-shadow: -4px 0 8px rgba(25, 25, 25, 0.2);
+  padding: 1.5rem;
+  box-shadow: -2px 0 8px rgba(25, 25, 25, 0.1);
+  border-left: 1px solid #ddd;
 }
 
 .presentation-container h2:first-of-type {
   margin-top: 0;
-  border-bottom: 1px solid var(--panel-border-color);
+  /* border-bottom: 1px solid var(--panel-border-color); */
 }
 
 input[value="Fullscreen"] {
@@ -453,7 +455,7 @@ input[value="Fullscreen"] {
     margin-bottom: 2.5rem;
   }
 
-  span.header-text {
+  .header-text {
     font-weight: 700;
   }
 }
