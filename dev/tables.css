@@ -1,6 +1,6 @@
 :root {
     --border-color: #222;
-    --background-odd: rgba(30, 0, 190, 0.04);
+    --background-odd: #f6f5fd;
     --background-even: #fff;
     --border-outline-color: #eee;
 }
@@ -30,7 +30,7 @@ td, th {
     vertical-align: text-top;
     text-align: right;
 }
-  
+
 table > tbody > tr:last-child > td, table > tbody > tr:last-child > th {
     border-bottom: 2px solid var(--border-color);
 }
@@ -41,7 +41,7 @@ thead > tr:first-child > td, thead > tr:first-child > th {
 
 thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
     border-bottom: 1px solid var(--border-color);
-} 
+}
 
 tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
     text-align: left;

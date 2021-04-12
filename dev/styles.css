@@ -18,7 +18,7 @@
 
   --link-text: #00ff;
   --link__hover-text: var(--text-dark);
-  --link__hover-background: #c1c1fa;
+  --link__hover-background: #f6f5fd;
 
   --selected-text: var(--text-inverted);
   --selected-background: var(--text-dark);
