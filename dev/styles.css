@@ -23,11 +23,11 @@
   --selected-text: var(--text-inverted);
   --selected-background: var(--text-dark);
 
-  --button-primary-background: #00ff;
+  --button-primary-background: #0000ff;
   --button-primary-text: var(--text-inverted);
 
-  --button-secondary-background: #af6401;
-  --button-secondary-text: var(--text-inverted);
+  --button-secondary-background: #ffffff;
+  --button-secondary-text: #0000ff;
 
   --button__hover-background: #222;
   --button__hover-text: #fff;
@@ -35,6 +35,9 @@
   --space-large: 2rem;
   --space-small: 1rem;
   --space-smallest: 0.5rem;
+
+  --max-text-width: 720px;
+  --max-header-width: 920px;
 }
 
 html {
@@ -76,12 +79,14 @@ body {
 }
 
 main {
+  max-width: 1440px;
   max-width: 70vw;
   margin:0 auto;
 }
 
 h1, h2, h3, h4, .variableselector_variable_box_container label {
   font-weight: 700;
+  max-width: var(--max-header-width);
 }
 
 h1 {
@@ -121,7 +126,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   margin-bottom: var(--space-small);
 }
 
-p, input, select, option, button.accordion-header {
+p, input, select, option, button.accordion-header, button.nested-accordion-header {
   font-family: 'PublicSans', "system";
   font-size: 1rem;
   line-height: 1.4rem;
@@ -129,6 +134,11 @@ p, input, select, option, button.accordion-header {
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 30px;
+}
+
+p, span, a, .steps {
+  max-width: var(--max-text-width);
+  display: inline-block;
 }
 
 a {
@@ -153,7 +163,7 @@ nav.steps {
 nav.steps a {
   display: flex;
   flex-direction: column;
-  height: 2rem;
+  height: 100%;
 }
 
 nav.steps a.active {
@@ -213,6 +223,16 @@ img.logo-quality {
   margin-bottom: var(--space-small);
 }
 
+.top-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0.25rem;
+  background: var(--panel-background);
+  display: flex;
+
+}
+
 /* Panel */
 .variableselector_variable_box_container > div, div.accordion {
     /* background-color: var(--panel-background); */
@@ -259,10 +279,17 @@ button, input[type=submit], input[type="button"] {
   color: var(--button-primary-text);
   background-color: var(--button-primary-background);
   border-radius: 0.25rem;
-  border:1px transparent solid;
+  border:2px var(--button-primary-background) solid;
   margin-right: var(--space-smallest);
   margin-top: var(--space-small);
   margin-bottom: var(--space-smallest);
+}
+
+button.secondary-btn, input[type="button"].secondary-btn {
+  background-color: var(--button-secondary-background);
+  border-radius: 0.25rem;
+  border:2px var(--button-primary-background) solid;
+  color: var(--button-secondary-text);
 }
 
 input, option {
@@ -279,6 +306,7 @@ button:hover, button:focus, input[type="button"]:hover,input[type="button"]:focu
   background-color: var(--button__hover-background);
   color: var(--button__hover-text);
   cursor: pointer;
+  border-color: transparent;
 }
 
 /* Accordions */
@@ -294,17 +322,16 @@ button:hover, button:focus, input[type="button"]:hover,input[type="button"]:focu
   margin: 0;
 }
 
-button.accordion-header:hover {
-  color: var(--text-inverted);
-  background: #222;
+button.accordion-header:hover span, button.nested-accordion-header:hover, button.accordion-header:focus span, button.nested-accordion-header:focus  {
+  text-decoration: underline;
 }
 
-button.accordion-header {
+button.accordion-header, button.nested-accordion-header  {
   background-color: #fff;
   color: var(--text);
   width: 100%;
   /* border: var(--panel-border-width) solid var(--panel-border-color); */
-  border-bottom-width: 0;
+  border-width: 0;
   border-radius: 0;
   text-align: left;
   padding: 1.5rem 0;
@@ -324,6 +351,12 @@ button.accordion-header.closed {
 
 button.accordion-header:before {
   content: '▴';
+  padding-right: 0;
+  margin-right: 9px;
+}
+
+button.nested-accordion-header:before {
+  content: '▸';
   padding-right: 0;
   margin-right: 9px;
 }
