@@ -82,7 +82,10 @@ main {
   max-width: 1440px;
   max-width: 70vw;
   margin:0 auto;
-  margin-left: 320px;
+}
+
+.edit main {
+  margin-left: calc(320px + var(--space-large));
 }
 
 h1, h2, h3, h4, .variableselector_variable_box_container label {
@@ -127,7 +130,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   margin-bottom: var(--space-small);
 }
 
-p, input, select, option, button.accordion-header, button.nested-accordion-header {
+p, input, select, option, button.accordion-header, button.nested-accordion-header, button {
   font-family: 'PublicSans', "system";
   font-size: 1rem;
   line-height: 1.4rem;
@@ -165,6 +168,25 @@ nav.steps a {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.nav-step::before {
+  content: '';
+  color: var(--text-inverted);
+  border-radius: 2rem;
+  border: 2rem solid #00f;
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.nav-step.second::before, .nav-step.first::before {
+  content: '✔';
+}
+
+.nav-step.third::before {
+  content: '✘';
 }
 
 nav.steps a.active {
@@ -207,6 +229,10 @@ header {
   margin-bottom: 1rem;
   padding: 1rem;
   background-color: #fff;
+}
+
+.edit header {
+  padding-left: calc(320px + var(--space-large));
 }
 
 .siteName {
@@ -275,20 +301,24 @@ option:hover, option:active, option:focus {
   cursor: pointer;
 }
 
+input {
+  padding: var(--space-smallest);
+  color: var(--text);
+}
+
 button, input[type=submit], input[type="button"] {
   padding: var(--space-smallest) var(--space-small);
-  color: var(--button-primary-text);
-  background-color: var(--button-primary-background);
   border-radius: 0.25rem;
-  border:2px var(--button-primary-background) solid;
   margin-right: var(--space-smallest);
   margin-top: var(--space-small);
   margin-bottom: var(--space-smallest);
+  color: var(--button-primary-text);
+  background-color: var(--button-primary-background);
+  border:2px var(--button-primary-background) solid;
 }
 
 button.secondary-btn, input[type="button"].secondary-btn {
   background-color: var(--button-secondary-background);
-  border-radius: 0.25rem;
   border:2px var(--button-primary-background) solid;
   color: var(--button-secondary-text);
 }
@@ -472,6 +502,12 @@ input[value="Fullscreen"] {
 
 .view-state span {
   font-weight: 700;
+}
+
+/* Choose variables trigger */
+.justify-center {
+  display: flex;
+  justify-content: center;
 }
 
 /* Media queries */
