@@ -39,20 +39,29 @@
           </div>-->
 
           <!-- Breadcrumb -->
+          <!-- Added:
+            - aria-label
+            - new class "breadcrumb" to nav
+            - aria-current = location on curent page
+            - aria-hidden on seperators. And removed id.
+
+          -->
+          <!-- TODO: LANGUAGE HANDLE ARIA-LABEL -->
+          <!-- TODO: Remove divs -->
           <div id="ctl00_breadcrumb1">
-            <nav>
+            <nav aria-label="Breadcrumb" class="breadcrumb">
               <div id="breadcrumb" >
                 <!-- REMOVED image icon replaced with a text "Start" -->
                 <!-- TODO: Text should be configurable/Language specific -->
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkHome" href="/pxweb/en/">Start</a>
-                <span id="ctl00_breadcrumb1_breadcrumb1_lblSep1" class="breadcrumb_sep">/</span>
+                <span class="breadcrumb_sep" aria-hidden="true">/</span>
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkDb" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/">Example</a>
-                <span id="ctl00_breadcrumb1_breadcrumb1_lblSep2" class="breadcrumb_sep">/</span>
+                <span class="breadcrumb_sep" aria-hidden="true">/</span>
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkPath1" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/Example__Misc/">Misc</a>
-                <span id="ctl00_breadcrumb1_breadcrumb1_lblSep3" class="breadcrumb_sep">/</span>
+                <span class="breadcrumb_sep" aria-hidden="true">/</span>
                 <a id="ctl00_breadcrumb1_breadcrumb1_lnkPath2" class="pxweb-link breadcrumb_text" href="/pxweb/en/Example/Example__Misc__OfficialStatistics/">OfficialStatistics</a>
-                <span id="ctl00_breadcrumb1_breadcrumb1_lblSepBeforeTable" class="breadcrumb_sep">/</span>
-                <span id="ctl00_breadcrumb1_breadcrumb1_lnkTable" class="breadcrumb_text_nolink">Migration by region, age, period, type and sex</span>
+                <span class="breadcrumb_sep" aria-hidden="true">/</span>
+                <span id="ctl00_breadcrumb1_breadcrumb1_lnkTable" class="breadcrumb_text_nolink" aria-current="location">Migration by region, age, period, type and sex</span>
               </div>
             </nav>
           </div>
@@ -63,22 +72,24 @@
           </h1>-->
 
           <!-- TODO: REMOVE Wizard -->
+          <!-- Added:
+            - class "steps" to nav element
+            - new seperator with aria-hidden
+            - removed the two extra div levels
+            - moved id to nav element
+        -->
           <div id="ctl00_navigationFlowControl">
 
-            <nav>
-              <div id="navigationFlow">
-                <div class="navigationFlowArea flex-row justify-center align-flex-start">
+            <nav class="steps" id="navigationFlow">
                   <a id="ctl00_navigationFlowControl_navigationFlowControl_firstStepLink" class="flex-column justify-space-between align-center navigation-link first passive" href="/pxweb/en/Example/Example__Misc__OfficialStatistics/"><img id="ctl00_navigationFlowControl_navigationFlowControl_firstStepImage" class="nav-pic" src="../../../../../Resources/Images/svg/NavigationFlow/Step1_passive.svg" alt="Icon representing the page where you Choose table" /><span id="ctl00_navigationFlowControl_navigationFlowControl_firstStepLabel" class="pxweb-link header nav-step first passive">Choose table</span></a>
 
-                  <hr class="nav-hr-left en"/>
+                  <span class="step_sep" aria-hidden="true">&nbsp;</span>
 
                   <a id="ctl00_navigationFlowControl_navigationFlowControl_secondStepLink" class="flex-column justify-space-between align-center navigation-link active"><img id="ctl00_navigationFlowControl_navigationFlowControl_secondStepImage" class="nav-pic" src="../../../../../Resources/Images/svg/NavigationFlow/Step2_active.svg" alt="Icon representing the page where you Choose variable" /><span id="ctl00_navigationFlowControl_navigationFlowControl_secondStepLabel" class="pxweb-link header nav-step second active">Choose variable</span></a>
 
-                  <hr class="nav-hr-right en"/>
+                  <span class="step_sep" aria-hidden="true">&nbsp;</span>
 
                   <a id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepLink" class="flex-column justify-space-between align-center third navigation-link "><img id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepImage" class="nav-pic" src="../../../../../Resources/Images/svg/NavigationFlow/Step3_future.svg" alt="Icon representing the page where you Show Result" /><span id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepLabel" class="nav-step third future">Show result</span></a>
-                </div>
-              </div>
             </nav>
 
           </div>

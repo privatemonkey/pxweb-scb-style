@@ -133,12 +133,42 @@ p, input, select, option, button.accordion-header {
 
 a {
   color: var(--link-text);
+  text-decoration: underline;
 }
 
 nav a {
   font-weight: 500;
   padding: 0.25rem 0.25rem 0.05rem;
   line-height: 100%;
+}
+
+nav.steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5rem;
+  margin: 2rem 0;
+}
+
+nav.steps a {
+  display: flex;
+  flex-direction: column;
+  height: 2rem;
+}
+
+nav.steps a.active {
+  color: var(--text);
+  text-decoration: none;
+}
+
+nav.steps img {
+  margin: 0.5rem;
+}
+
+span.step_sep {
+  flex-grow: 2;
+  border-bottom: 2px solid var(--panel-border-color);
+  height: 50%;
 }
 
 a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked + label {
