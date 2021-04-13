@@ -168,6 +168,7 @@ nav.steps a {
   display: flex;
   flex-direction: column;
   height: 100%;
+  line-height: 0;
 }
 
 .nav-step {
@@ -374,8 +375,7 @@ button.accordion-header, button.nested-accordion-header  {
   border-radius: 0;
   text-align: left;
   padding: 1.5rem 0;
-  margin-top: 0;
-  margin-bottom: var(--space-small);
+  margin: 0;
   border-top: 1px solid var(--panel-border-color);
 }
 
