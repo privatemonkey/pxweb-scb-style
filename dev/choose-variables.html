@@ -78,7 +78,7 @@
             - removed the two extra div levels
             - moved id to nav element
         -->
-          <div id="ctl00_navigationFlowControl">
+          <div id="ctl00_navigationFlowControl" style="display: none;">
 
             <nav class="steps" id="navigationFlow">
                   <a id="ctl00_navigationFlowControl_navigationFlowControl_firstStepLink" class="flex-column justify-space-between align-center navigation-link first passive" href="/pxweb/en/Example/Example__Misc__OfficialStatistics/"><span id="ctl00_navigationFlowControl_navigationFlowControl_firstStepLabel" class="pxweb-link header nav-step first passive">Choose table</span></a>
@@ -409,8 +409,8 @@
                               <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_EventButtons" class="flex-row flex-wrap align-center">
 
 
-                                <button type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$SelectAllButton" onclick="return VariableSelector_SelectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Stub ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$SelectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_SelectAllButton" title="Select all" class="secondary-btn">✔ Select all</button>
-                                <button type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$DeselectAllButton" onclick="return VariableSelector_DeselectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Stub ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$DeselectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_DeselectAllButton" title="Deselect all" class="secondary-btn">✘ Deselect all</button>
+                                <button type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$SelectAllButton" onclick="return VariableSelector_SelectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Stub ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$SelectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_SelectAllButton" title="Select all" class="secondary-btn">Select all</button>
+                                <button type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$DeselectAllButton" onclick="return VariableSelector_DeselectAllAndUpdateNrSelected( 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_ValuesListBox ', 'ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_NumberValuesSelected ', 'Stub ', 'Cells ');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl02$VariableValueSelect$VariableValueSelect$DeselectAllButton ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_DeselectAllButton" title="Deselect all" class="secondary-btn">Deselect all</button>
 
                                 <div class="link-buttons-container flex-column s-margin-top">
                                   <div class="pxweb-link negative with-icon">
@@ -491,13 +491,9 @@
 
                                           <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_VariableTitlePanel">
 
-                                              <h3><span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_VariableTitle" class="variableselector_valuesselect_variabletitle">period</span></h3>
+                                            <label for="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$VariableSelectorValueSelectRepeater$ctl03$VariableValueSelect$VariableValueSelect$SelectAllButton">Period <span class="is-mandatory">(Mandatory)</span></label>
 
                                     </div>
-                                          <div class="mandatory_container">
-                                          <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_MandatoryText" class="variableselector_valuesselect_mandatory_text">Mandatory</span>
-                                          <span id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl03_VariableValueSelect_VariableValueSelect_MandatoryStar" class="variableselector_valuesselect_mandatory_star">*</span>
-                                          </div>
                                       </div>
 
 
@@ -872,7 +868,7 @@
 
 
                       <div class ="flex-row justify-center m-margin-top">
-                        <input type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$ButtonViewTable" value="Show table" onclick="return ValidateAll();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$ButtonViewTable ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_ButtonViewTable" class="pxweb-btn primary-btn variableselector_continue_button justify-center" />
+                        <button type="submit" name="ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$ButtonViewTable" value="" onclick="return ValidateAll();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions( 'ctl00$ContentPlaceHolderMain$VariableSelector1$VariableSelector1$ButtonViewTable ',  ' ', true,  ' ',  ' ', false, false))" id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_ButtonViewTable" class="pxweb-btn primary-btn variableselector_continue_button justify-center">Show table</button>
                       </div>
                       <div class ="flex-row justify-center">
                         <div id="ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorSelectionInformation">
