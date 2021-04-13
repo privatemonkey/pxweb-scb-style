@@ -159,91 +159,14 @@
                         <div id="OptionsBody" class="accordion-body">
 
                           <div id="OperationsButtonsPanel" class="operations-container flex-column">
-                            <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotManual" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotManual" class="nested-accordion-header">Pivot manual</button>
-
-                            <!-- Pivot Manual Dialog Start -->
-                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControlHolder" class="commandbar_container">
-                              <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl">
-
-                        <div class="flex-column">
-                            <h3 class="container_titletext">
-                                Pivot manual
-                            </h3>
-                            <div class="flex-row flex-wrap s-margin-top justify-space-between">
-                                <div class="commandbar-listbox-container">
-                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubLabel" class="commandbar_pivot_title font-heading">Rows</span><br>
-                                    <select size="8" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$StubListBox" multiple="multiple" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox" class="commandbar_pivot_listbox" aria-label="Select variables to be desplayed as rows in the table">
-                                  <option value="region">region</option>
-                                  <option value="age">age</option>
-
-                                </select>
-                                        <div class="flex-column">
-                                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$MoveRightButton" value="Move to columns" onclick="return PivotManual_Switch('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox', 'ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_MoveRightButton" class="pxweb-btn icon-placement pxweb-buttons arrow-right no-margin-right" alternatetext="move right">
-                                            <div class="flex-row">
-                                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$StubUpButton" value="Move up" onclick="return PivotManual_Reorder('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox', 'top');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubUpButton" class="pxweb-btn icon-placement pxweb-buttons arrow-up" alternatetext="move up">
-                                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$StubDownButton" value="Move down" onclick="return PivotManual_Reorder('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox', 'bottom');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubDownButton" class="pxweb-btn icon-placement pxweb-buttons arrow-down no-margin-right" alternatetext="move down">
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="commandbar-listbox-container">
-                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingLabel" class="commandbar_pivot_title font-heading">Columns</span><br>
-                                    <select size="8" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$HeadingListBox" multiple="multiple" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox" class="commandbar_pivot_listbox" aria-label="Select variables to be displayed as columns in the table">
-                                  <option value="period">period</option>
-                                  <option value="type">type</option>
-                                  <option value="sex">sex</option>
-
-                                </select>
-                                        <div class="flex-column">
-                                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$MoveLeftButton" value="Move to rows" onclick="return PivotManual_Switch('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox', 'ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_MoveLeftButton" class="pxweb-btn icon-placement pxweb-buttons arrow-left no-margin-right" alternatetext="move left">
-                                            <div class="flex-row">
-                                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$HeadingUpButton" value="Move up" onclick="return PivotManual_Reorder('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox', 'top');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingUpButton" class="pxweb-btn icon-placement pxweb-buttons arrow-up" alternatetext="move up">
-                                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$HeadingDownButton" value="Move down" onclick="return PivotManual_Reorder('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox', 'bottom');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingDownButton" class="pxweb-btn icon-placement pxweb-buttons arrow-down no-margin-right" alternatetext="move down">
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="container_exit_buttons_row">
-                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$CancelButton" value="Cancel" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_CancelButton" class="pxweb-btn pxweb-buttons">
-                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ContinueButton" value="Complete" onclick="PivotManual_Submit('ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_HeadingListBox','ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_StubListBox');" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ContinueButton" class="pxweb-btn primary-btn container_continuebutton pxweb-buttons">
-                            </div>
-                        </div>
-
-                              </div>
-                            </div>
-                            <!-- / Pivot Manual Dialog End-->
+                            <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotManual" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotManual" class="nested-accordion-header closed">Pivot manual</button>
 
                             <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotCW" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotCW" title="Pivot clockwise" class="secondary-btn pxweb-btn icon-placement pxweb-buttons pivotCW">↩ Pivot clockwise</button>
 
                             <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonpivotCCW" value="Pivot counterclockwise" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonpivotCCW" title="Pivot counterclockwise" class="secondary-btn pxweb-btn icon-placement pxweb-buttons pivotCCW">↪ Pivot counterclockwise</button>
 
-                            <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeValueOrder"  id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeValueOrder" title="Change value order" class="nested-accordion-header">Change value order</button>
+                            <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeValueOrder"  id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeValueOrder" title="Change value order" class="nested-accordion-header closed">Change value order</button>
 
-                            <!-- Start - Change value order dialog -->
-                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControlHolder" class="commandbar_container">
-                              <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl">
-
-                        <div class="flex-column">
-                            <h3 class="container_titletext">
-                                Change value order
-                            </h3>
-                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChooseVariablePanel" class="s-margin-top">
-                                  <fieldset>
-                                    <legend>
-                                      <span class="font-heading">Select a variablel:</span>
-                                    </legend>
-                                <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList" class="commandbar_radioButtonList"><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_0" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="region" checked="checked"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_0">region</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_1" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="age"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_1">age</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_2" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="period"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_2">period</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_3" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="type"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_3">type</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_4" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableList" value="sex"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableList_4">sex</label></span>
-
-                                  </fieldset>
-                                </div>
-
-                            <div class="container_exit_buttons_row">
-                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$CancelButton" value="Cancel" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_CancelButton" class="pxweb-btn pxweb-buttons">
-                                <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ContinueButton" value="Continue" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ContinueButton" class="pxweb-btn primary-btn pxweb-buttons container_continuebutton">
-                            </div>
-                        </div>
-                              </div>
-                            </div>
-                            <!-- End - Change value order dialog-->
 
                             <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeDecimal"  id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeDecimal" title="Change decimals" class="nested-accordion-header closed ">Change decimals</button>
 
@@ -251,145 +174,11 @@
 
                             <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtondeleteVariable"  id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtondeleteVariable" title="Delete variable" class="nested-accordion-header closed">Delete variable</button>
 
-                            <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeTextPresentation" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeTextPresentation" title="Change texts" class="nested-accordion-header">Change texts</button>
-
-                            <!-- Start - Change texts dialog -->
-                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControlHolder" class="commandbar_container">
-                              <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl">
-
-
-                        <div>
-                            <h3 class="container_titletext">Change texts</h3>
-
-                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextPanel">
-
-                                <p><span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextTextLabel" class="commandbar_changepresentation_changetext">Make your text changes and press 'Continue'</span></p>
-                                <p class="commandbar_changepresentation_inputrow">
-                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ContentsTextLabel" class="commandbar_changepresentation_changetext">Contents</span>
-                                    <input name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ContentsTextTextBox" type="text" value="Migratddion" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ContentsTextTextBox" class="commandbar_changepresentation_textbox">
-                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_lblContentsError" class="errorMessage"></span>
-                                </p>
-                                <p class="commandbar_changepresentation_inputrow">
-                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_UnitsTextLabel" class="commandbar_changepresentation_changetext">Unit</span>
-                                    <input name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$UnitsTextTextBox" type="text" value="number" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_UnitsTextTextBox" class="commandbar_changepresentation_textbox">
-                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_lblUnitsError" class="errorMessage"></span>
-                                </p>
-                                <p><span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariablesTextLabel" class="commandbar_changepresentation_changetext">Variables</span></p>
-
-
-                                                <p class="commandbar_changepresentation_inputrow">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl01_ValueListLabel" class="commandbar_changepresentation_changetext">1</span>
-                                                    <input name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ChangeTextRepeater$ctl01$ValueNameTextbox" type="text" value="region" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl01_ValueNameTextbox" class="commandbar_changepresentation_textbox" variablecode="region">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl01_lblError" class="errorMessage"></span>
-                                                </p>
-
-
-                                                <p class="commandbar_changepresentation_inputrow">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl02_ValueListLabel" class="commandbar_changepresentation_changetext">2</span>
-                                                    <input name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ChangeTextRepeater$ctl02$ValueNameTextbox" type="text" value="age" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl02_ValueNameTextbox" class="commandbar_changepresentation_textbox" variablecode="age">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl02_lblError" class="errorMessage"></span>
-                                                </p>
-
-
-                                                <p class="commandbar_changepresentation_inputrow">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl03_ValueListLabel" class="commandbar_changepresentation_changetext">3</span>
-                                                    <input name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ChangeTextRepeater$ctl03$ValueNameTextbox" type="text" value="period" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl03_ValueNameTextbox" class="commandbar_changepresentation_textbox" variablecode="period">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl03_lblError" class="errorMessage"></span>
-                                                </p>
-
-
-                                                <p class="commandbar_changepresentation_inputrow">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl04_ValueListLabel" class="commandbar_changepresentation_changetext">4</span>
-                                                    <input name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ChangeTextRepeater$ctl04$ValueNameTextbox" type="text" value="type" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl04_ValueNameTextbox" class="commandbar_changepresentation_textbox" variablecode="type">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl04_lblError" class="errorMessage"></span>
-                                                </p>
-
-
-                                                <p class="commandbar_changepresentation_inputrow">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl05_ValueListLabel" class="commandbar_changepresentation_changetext">5</span>
-                                                    <input name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ChangeTextRepeater$ctl05$ValueNameTextbox" type="text" value="sex" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl05_ValueNameTextbox" class="commandbar_changepresentation_textbox" variablecode="sex">
-                                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextRepeater_ctl05_lblError" class="errorMessage"></span>
-                                                </p>
-
-
-
-
-                                <div class="container_exit_buttons_row">
-                                    <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$CancelButton" value="Cancel" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_CancelButton" class="pxweb-btn pxweb-buttons">
-                                    <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ChangeText_ContinueButton" value="Continue" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeText_ContinueButton" class="pxweb-btn primary-btn pxweb-buttons">
-                                </div>
-
-
-                                </div>
-
-
-
-                            <!-- Errormessage  -->
-
-
-                        </div>
-
-
-                              </div>
-                            </div>
-                            <!-- End - Change texts dialog -->
+                            <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeTextPresentation" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeTextPresentation" title="Change texts" class="nested-accordion-header closed">Change texts</button>
 
                             <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonchangeTextCodePresentation" value="Display text/code" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonchangeTextCodePresentation" class="nested-accordion-header closed">Display text/code</button>
 
                             <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonperPart" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonperPart" title="Per cent" class="nested-accordion-header closed">Per cent</button><button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonsum" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonsum" title="Sum variable values" class="nested-accordion-header closed">Sum variable values</button>
-
-                            <!-- Start - Sum variables dialog -->
-                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControlHolder" class="commandbar_container">
-                              <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl">
-
-
-                        <div>
-                            <h3 class="container_titletext">
-                                Sum variable values
-                            </h3>
-
-                            <!-- Select variable -->
-                            <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_SelectVariableOptionsPanel" class="flex-column">
-
-                                <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChooseVariablePanel">
-                                    <fieldset>
-                                      <legend>
-                                        <span class="font-heading">Select a variablel:</span>
-                                      </legend>
-                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableToSumRadioButtonList" class="commandbar_sum_radiobuttonlist"><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableToSumRadioButtonList_0" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableToSumRadioButtonList" value="region" checked="checked"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableToSumRadioButtonList_0">region</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableToSumRadioButtonList_1" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableToSumRadioButtonList" value="age"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableToSumRadioButtonList_1">age</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableToSumRadioButtonList_2" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableToSumRadioButtonList" value="period"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableToSumRadioButtonList_2">period</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableToSumRadioButtonList_3" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$VariableToSumRadioButtonList" value="sex"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_VariableToSumRadioButtonList_3">sex</label></span>
-
-                                    </fieldset>
-                                  </div>
-                                <div id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_SumOptionPanel">
-                                    <fieldset>
-                                      <legend>
-                                        <span class="font-heading">Which values do you want to sum?</span>
-                                      </legend>
-                                    <span id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_SumOptionsRadioButtonList" class="commandbar_sum_radiobuttonlist"><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_SumOptionsRadioButtonList_0" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$SumOptionsRadioButtonList" value="SumAll" checked="checked"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_SumOptionsRadioButtonList_0">Sum all values</label><br><input id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_SumOptionsRadioButtonList_1" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$SumOptionsRadioButtonList" value="SumSelected"><label for="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_SumOptionsRadioButtonList_1">Sum selected values</label></span>
-
-                                    </fieldset>
-                                  </div>
-                                <div class="container_exit_buttons_row">
-                                    <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$CancelButton" value="Cancel" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$CancelButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_CancelButton" class="commandbar_cancelbutton pxweb-btn ">
-                                    <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ContinueButtonSelectVariables" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$PluginControl$PluginControl$ContinueButtonSelectVariables&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ContinueButtonSelectVariables" class="pxweb-btn primary-btn container_continuebutton">
-                                </div>
-
-                                </div>
-
-                            <!-- Select values -->
-
-
-                            <!-- Name on new variable -->
-
-                            <!-- Errormessage -->
-
-
-                        </div>
-
-
-                              </div>
-                            </div>
-                            <!-- End - Sum variables diaglog -->
 
                             <button type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$CommandBar1$CommandBar1$ImageButtonsubtract"  id="ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_ImageButtonsubtract" title="Subtract variable values" class="nested-accordion-header closed">Subtract variable values</button>
 
@@ -430,97 +219,9 @@
                 </div>
                 <div id="ctl00_ctl00_ContentPlaceHolderMain_SaveQueryPanel" class="pxweb-accordion">
 
-                  <button type="button" class="accordion-header" id="SaveQueryHeader" onclick="accordionToggle(ctl00_ctl00_ContentPlaceHolderMain_SaveQueryPanel, this)" >
+                  <button type="button" class="accordion-header closed" id="SaveQueryHeader" onclick="accordionToggle(ctl00_ctl00_ContentPlaceHolderMain_SaveQueryPanel, this)" >
                     <span class="header-text"><span id="ctl00_ctl00_ContentPlaceHolderMain_SaveQueryLabel">Save your query</span></span>
                   </button>
-                  <div class="accordion-body" id="SaveQueryBody">
-
-
-                    <div class="savequery_container" >
-
-                      <a id="tableSavequerycontrol"></a>
-                      <div id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_pnl2_SaveQuerySelection" class="settingpanel savequery" style="display:inline-block;">
-
-                        <div id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_pnlSettings" class="px-settings">
-
-
-                          <div id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_pnlForRbl">
-                            <fieldset>
-                              <legend>
-                                <span class='font-heading'>What do you want to do with your saved query if the tables are updated with new time periods?</span>
-                              </legend>
-                              <span id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_rblTimePeriod" class="savequery_rblist"><input id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_rblTimePeriod_0" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$rblTimePeriod" value="top" checked="checked" /><label for="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_rblTimePeriod_0">Update the query with a rolling start time point and an unchanged number of time periods</label><br /><input id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_rblTimePeriod_1" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$rblTimePeriod" value="from" /><label for="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_rblTimePeriod_1">Update the query with a fixed starting time point and the new time periods </label><br /><input id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_rblTimePeriod_2" type="radio" name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$rblTimePeriod" value="item" /><label for="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_rblTimePeriod_2">Don't update the query, but show the same time periods as selected</label></span>
-
-                            </fieldset>
-                          </div>
-                          <div id="divSaveAs" class="flex-column s-margin-top">
-                            <label for="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_ddlOutputFormats" id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_lblResultAs" class="font-heading">Save the result as (mandatory):</label>
-                            <select name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$ddlOutputFormats" id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_ddlOutputFormats" class="commandbar_saveas_dropdownlist saveas_dropdownlist xs-margin-top">
-                              <option value="selectFormat">Select format</option>
-                              <option selected="selected" value="SCREEN">Same as shown on screen</option>
-                              <option value="FileTypePX">PX-file</option>
-                              <option value="FileTypeExcel">Excel workbook (xml)</option>
-                              <option value="FileTypeExcelDoubleColumn">Excel workbook (xml) with code and text</option>
-                              <option value="FileTypeCsvWithHeadingAndTabulator">Tab delimited with heading</option>
-                              <option value="FileTypeCsvWithoutHeadingAndTabulator">Tab delimited without heading</option>
-                              <option value="FileTypeCsvWithHeadingAndComma">Comma delimited with heading</option>
-                              <option value="FileTypeCsvWithoutHeadingAndComma">Comma delimited without heading</option>
-                              <option value="FileTypeCsvWithHeadingAndSpace">Space delimited with heading</option>
-                              <option value="FileTypeCsvWithoutHeadingAndSpace">Space delimited without heading</option>
-                              <option value="FileTypeCsvWithHeadingAndSemiColon">Semicolon delimited with heading</option>
-                              <option value="FileTypeCsvWithoutHeadingAndSemiColon">Semicolon delimited without heading</option>
-                              <option value="FileTypeHtml">Html file (htm)</option>
-                              <option value="FileTypeRelational">Relational file (txt)</option>
-                              <option value="FileTypeExcelX">Excel (xlsx)</option>
-                              <option value="FileTypeExcelXDoubleColumn">Excel (xlsx) with code and text column</option>
-                              <option value="FileTypeJsonStat">JSON-stat file (json)</option>
-                              <option value="FileTypeJsonStat2">JSON-stat 2 file (json)</option>
-                              <option value="FileTypeHtml5Table">Html5 table (htm)</option>
-                              <option value="FileTypeJson">Json file (json)</option>
-
-                            </select>
-                            <span id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_lblFormatError" class="savequery_error"></span>
-                          </div>
-                          <div class="container_exit_buttons_row">
-                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$btnCancelSaveQuery" value="Cancel" onclick="cancelSavequery(); return false;" id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_btnCancelSaveQuery" class="pxweb-btn" />
-                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$btnCreateSaveQuery" value="Finish" id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_btnCreateSaveQuery" class="pxweb-btn primary-btn container_continuebutton " />
-
-                          </div>
-
-                        </div>
-
-                      </div>
-                      <div id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_pnl3_ShowSaveQueryUrl" class="settingpanel" style="display:none;">
-
-                        <div id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_pnlUrl" class="px-settings">
-
-                          <div id="divQuerySummary" class="querySummary flex-column">
-                            <div class="flex-row flex-wrap">
-                              <span id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_lblUpdateSummaryHeading" class="querySummaryItem font-heading">Update alternatives:</span>
-                              <span id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_lblUpdateSummaryValue" class=" querySummaryItem querysummary-value"></span>
-                            </div>
-                            <div class="flex-row">
-                              <span id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_lblOutputSummaryHeading" class="querySummaryItem font-heading">Format:</span>
-                              <span id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_lblOutputSummaryValue" class=" querySummaryItem querysummary-value"></span>
-                            </div>
-                          </div>
-                          <span id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_lblWithdrawInformation" class="font-heading">Saved query is available at the address below:</span>
-                          <input name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$txtSaveQueryUrl" type="text" readonly="readonly" id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_txtSaveQueryUrl" class="savequery_url s-margin-top" aria-label="Address for saved query" />
-                          <div class="container_exit_buttons_row">
-                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$btnCancelSaveQueryEnd" value="Cancel" onclick="cancelSavequeryEnd(); return false;" id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_btnCancelSaveQueryEnd" class="pxweb-btn" />
-                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$btnbookMark" value="Bookmark" onclick="Bookmark(); return false;" id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_btnbookMark" class="pxweb-btn savequery_novisibility" />
-                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$btnCopyToClipboard" value="Copy" onclick="CopyToClipboard();return false;" id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_btnCopyToClipboard" class="pxweb-btn savequery_novisibility" />
-                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderMain$SavedQueryFeature$btnMailSaveQuery" value="Send as e-mail" onclick="document.location = sendMail(); return false;" id="ctl00_ctl00_ContentPlaceHolderMain_SavedQueryFeature_btnMailSaveQuery" class="pxweb-btn no-margin-right savequery_novisibility" />
-                          </div>
-
-                        </div>
-
-
-
-                      </div>
-
-                    </div>
-                  </div>
 
                 </div>
 
@@ -569,8 +270,6 @@
                     </div>
 
                     <button name="ctl00$ctl00$ContentPlaceHolderMain$btnfullscreen" type="button" id="btnfullscreen" class="pxweb-btn secondary-btn pxweb-buttons maximize-icon with-icon" onclick="ToggleFullscreen();">◱ Fullscreen</button>
-                  </div>
-                    <input name="ctl00$ctl00$ContentPlaceHolderMain$btnfullscreen" type="button" id="btnfullscreen" class="pxweb-btn secondary-btn pxweb-buttons maximize-icon with-icon" onclick="ToggleFullscreen();" value="◱ Fullscreen" />
                   </div>
                   <div id="fullscreentitel">
                     <!-- REMOVED Should be a H3 -->

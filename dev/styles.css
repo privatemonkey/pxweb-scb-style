@@ -11,6 +11,7 @@
   --panel-border-color: #222;
   --panel-border-width: 1px;
   --panel-padding: 1rem 1rem;
+  --panel-width: 476px;
 
   --text: #222;
   --text-dark: #000;
@@ -81,11 +82,7 @@ body {
 main {
   max-width: 1440px;
   max-width: 70vw;
-  margin:0 auto;
-}
-
-.edit main {
-  margin-left: calc(320px + var(--space-large));
+  margin:0 auto 0 calc(var(--panel-width) + var(--space-large));;
 }
 
 h1, h2, h3, h4, .variableselector_variable_box_container label {
@@ -105,10 +102,14 @@ h2 {
   margin-bottom: 1.5rem 0;
 }
 
-.variableselector_variable_box_container label, h3 {
+h3, .variableselector_variable_box_container label {
   font-size: 1.4rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
+}
+
+h3.container_titletext {
+  margin-top: 0;
 }
 
 label span {
@@ -238,10 +239,7 @@ header {
   margin-bottom: 1rem;
   padding: 1rem;
   background-color: #fff;
-}
-
-.edit header {
-  padding-left: calc(320px + var(--space-large));
+  padding-left: calc(var(--panel-width ) + var(--space-large));
 }
 
 .siteName {
@@ -281,6 +279,23 @@ img.logo-quality {
 select {
   appearance: none;
   border: 1px solid var(--panel-border-color);
+}
+
+select {
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 255 255' width='18' height='18' xmlns='http://www.w3.org/2000/svg'><g><polygon points='0,63.75 127.5,191.25 255,63.75' fill='black' /></g></svg>") no-repeat;
+	background-position: 97% center;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+select[multiple] {
+  appearance: none;
+  border: 1px solid var(--panel-border-color);
+  background: transparent;
   padding: 0;
   margin-bottom: 0;
 }
@@ -310,13 +325,13 @@ option:hover, option:active, option:focus {
   cursor: pointer;
 }
 
-input {
+input, select {
   padding: var(--space-smallest);
   color: var(--text);
   margin-bottom: 0;
 }
 
-button, input[type=submit], input[type="button"] {
+button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
   padding: var(--space-smallest) var(--space-small);
   border-radius: 0.25rem;
   margin-right: var(--space-smallest);
@@ -327,10 +342,21 @@ button, input[type=submit], input[type="button"] {
   border:2px var(--button-primary-background) solid;
 }
 
-button.secondary-btn, input[type="button"].secondary-btn {
+button.secondary-btn, input[type="button"].secondary-btn, input[type="submit"] {
   background-color: var(--button-secondary-background);
   border:2px var(--button-primary-background) solid;
   color: var(--button-secondary-text);
+}
+
+input[type="submit"].icon-placement {
+  background-color: transparent;
+  text-decoration: underline;
+  padding: 0.25rem;
+  margin: 0;
+  border-color: transparent;
+  border-radius: 0;
+  float: left;
+  clear: left;
 }
 
 input, option {
@@ -378,11 +404,17 @@ button.accordion-header, button.nested-accordion-header  {
   padding: 1.5rem 0;
   margin: 0;
   border-top: 1px solid var(--panel-border-color);
+  font-weight: 700;
 }
 
-button.accordion-header.closed {
-  /* border-bottom-width: var(--panel-border-width); */
+button.accordion-header.closed, button.nested-accordion-header.closed {
   margin-bottom: 0;
+  font-weight: 400;
+  display: inline-block;
+}
+
+button.nested-accordion-header {
+  display: none;
 }
 
 .accordion-body {
@@ -395,10 +427,16 @@ button.accordion-header:before {
   margin-right: 9px;
 }
 
-button.nested-accordion-header:before {
-  content: '▸';
-  padding-right: 0;
-  margin-right: 9px;
+.operations-container button:first-of-type {
+  border-top-width: 0;
+  padding-top: 0;
+}
+
+.operations-container .secondary-btn {
+  margin-top: 0;
+  margin-left: 1.25rem;
+  float: left;
+  clear: left;
 }
 
 button.accordion-header.closed:before {
@@ -408,6 +446,8 @@ button.accordion-header.closed:before {
 button.nested-accordion-header {
   background-color: var(--panel-background);
   color: var(--text);
+  padding-left: 1.25rem;
+  display:
 }
 
 .pxweb-nested-accordion dl {
@@ -465,7 +505,7 @@ button.nested-accordion-header {
   position: fixed;
   overflow: auto;
   height: 100vh;
-  width: 320px;
+  width: var(--panel-width);
   top: 0;
   left: 0;
   background: white;
@@ -492,8 +532,14 @@ input[value="Fullscreen"] {
 }
 
 .commandbar_container {
-  border-top: 1px solid var(--panel-border-color);
   border-bottom: 1px solid var(--panel-border-color);
+  clear: left;
+}
+
+.container_exit_buttons_row {
+  margin-top: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid #ccc;
 }
 
 /* Change variable specific */
@@ -517,6 +563,17 @@ input[value="Fullscreen"] {
 .justify-center {
   display: flex;
   justify-content: center;
+}
+
+/* Utility classes */
+.aflex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 /* Media queries */
