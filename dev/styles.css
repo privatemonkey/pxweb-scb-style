@@ -91,9 +91,9 @@ body {
 
 main {
   max-width: 1440px;
-  max-width: 70vw;
   margin:0 auto;
   margin-right: calc(var(--panel-width) + var(--space-large));
+  padding-left: var(--space-large);
 }
 
 h1, h2, h3, h4, .variableselector_variable_box_container label {
@@ -267,7 +267,7 @@ header {
   margin-bottom: 1rem;
   padding: 1rem;
   background-color: #fff;
-  padding-left: calc(var(--panel-width ) + var(--space-large));
+  padding-left: var(--space-large);
 }
 
 .siteName {
@@ -616,6 +616,7 @@ input[value="Fullscreen"] {
   main {
     max-width: 90vw;
     margin:0 calc(var(--panel-width-small) + var(--space-large)) 0 auto;
+    padding-left: var(--space-large);
   }
 
   .flex-row {
