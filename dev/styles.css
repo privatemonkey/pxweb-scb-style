@@ -180,7 +180,7 @@ nav.steps a {
   content: '';
   color: var(--text-inverted);
   border-radius: 2rem;
-  border: 2rem solid #00f;
+  border: 2rem solid #006E91;
   width: 2rem;
   height: 2rem;
   font-size: 2rem;
