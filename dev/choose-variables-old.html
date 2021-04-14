@@ -48,6 +48,7 @@
           -->
           <!-- TODO: LANGUAGE HANDLE ARIA-LABEL -->
           <!-- TODO: Remove divs -->
+          <!-- TODO: Future class on wrong tag. Move to anchor-->
           <div id="ctl00_breadcrumb1">
             <nav aria-label="Breadcrumb" class="breadcrumb">
               <div id="breadcrumb" >
@@ -75,6 +76,7 @@
             - new seperator with aria-hidden
             - removed the two extra div levels
             - moved id to nav element
+            - moved class future and second up to anchor link
         -->
           <div id="ctl00_navigationFlowControl">
 
@@ -83,11 +85,11 @@
 
                   <span class="step_sep" aria-hidden="true">&nbsp;</span>
 
-                  <a id="ctl00_navigationFlowControl_navigationFlowControl_secondStepLink" class="flex-column justify-space-between align-center navigation-link active"><span id="ctl00_navigationFlowControl_navigationFlowControl_secondStepLabel" class="pxweb-link header nav-step second active">Choose variable</span></a>
+                  <a id="ctl00_navigationFlowControl_navigationFlowControl_secondStepLink" class="flex-column justify-space-between align-center navigation-link second active"><span id="ctl00_navigationFlowControl_navigationFlowControl_secondStepLabel" class="pxweb-link header nav-step second active">Choose variable</span></a>
 
-                  <span class="step_sep" aria-hidden="true">&nbsp;</span>
+                  <span class="step_sep future" aria-hidden="true">&nbsp;</span>
 
-                  <a id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepLink" class="flex-column justify-space-between align-center third navigation-link "><span id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepLabel" class="nav-step third future">Show result</span></a>
+                  <a id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepLink" class="flex-column justify-space-between align-center third navigation-link future"><span id="ctl00_navigationFlowControl_navigationFlowControl_thirdStepLabel" class="nav-step third ">Show result</span></a>
             </nav>
 
           </div>

@@ -17,6 +17,7 @@
 
   --text: #222;
   --text-dark: #000;
+  --text-inactive: #999;
   --text-inverted: #fff;
 
   --link-text: #00ff;
@@ -40,6 +41,11 @@
   --space-large: 2rem;
   --space-small: 1rem;
   --space-smallest: 0.5rem;
+
+  --stepper-1-adjust: -2rem;
+  --stepper-2-adjust: -2.5rem;
+  --stepper-3-adjust: -2rem;
+  --stepper-left-space: 2rem;
 
   --max-text-width: 720px;
   --max-header-width: 920px;
@@ -164,56 +170,76 @@ nav.steps {
   justify-content: space-between;
   height: 5rem;
   margin: 2rem 0;
+  margin-left: var(--stepper-left-space);
 }
 
-nav.steps a {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  line-height: 0;
+/* Adjust text position of stepp */
+.steps a.first span {
+  margin-left: var(--stepper-1-adjust);
 }
 
-.nav-step {
-  text-align: center;
+.steps a.second span {
+  margin-left: var(--stepper-2-adjust);
 }
-.nav-step::before {
-  content: '';
-  color: var(--text-inverted);
-  border-radius: 2rem;
-  border: 2rem solid #00f;
-  width: 2rem;
-  height: 2rem;
+
+.steps a.third span {
+  margin-left:var(--stepper-3-adjust);
+}
+
+.steps a {
+  display: inline-block;
+  padding: 0;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+.steps a span {
+  position: absolute;
+  margin-top: 1rem;
+}
+
+.steps a::before {
   font-size: 2rem;
   display: block;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
 }
 
-a:hover .nav-step::before, a.active .nav-step::before {
-  border-color: var(--selected-background);
+.steps a.active::before {
+  content: '◉';
+  color: var(--text);
 }
 
-.nav-step.second::before, .nav-step.first::before {
-  content: '✔';
+.steps a.future::before {
+  content: '○';
+  color: var(--text-inactive);
 }
 
-.nav-step.third::before {
-  content: '✘';
+.steps a.passive::before {
+  content: '○';
+  color: var(--text);
 }
 
-nav.steps a.active {
+.steps a.passive span, .steps a.active span {
+  text-decoration: underline;
+}
+
+.steps a.future span {
+  color: var(--text-inactive);
+}
+
+.steps a.active {
   color: var(--text);
   text-decoration: none;
 }
 
-nav.steps img {
-  margin: 0.5rem;
-}
-
 span.step_sep {
   flex-grow: 2;
-  border-bottom: 2px solid var(--panel-border-color);
-  height: 50%;
+  border-top: 2px solid var(--panel-border-color);
+  margin-top: 0.7rem;
+}
+
+span.step_sep.future {
+  border-color: var(--text-inactive);
+  border-top-style: dashed;
 }
 
 a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked + label {
