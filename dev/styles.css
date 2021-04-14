@@ -19,7 +19,7 @@
   --text-dark: #000;
   --text-inverted: #fff;
 
-  --link-text: #007EB4;
+  --link-text: #007791;
   --link__hover-text: var(--text-dark);
   --link__hover-background: #f6f5fd;
 
@@ -28,11 +28,11 @@
 
   --field-background: #fff;
 
-  --button-primary-background: #007EB4;
+  --button-primary-background: #007791;
   --button-primary-text: var(--text-inverted);
 
   --button-secondary-background: #ffffff;
-  --button-secondary-text: #007EB4;
+  --button-secondary-text: #007791;
 
   --button__hover-background: #222;
   --button__hover-text: #fff;
