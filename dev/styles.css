@@ -93,7 +93,7 @@ main {
   max-width: 1440px;
   max-width: 70vw;
   margin:0 auto;
-  margin-left: calc(var(--panel-width) + var(--space-large));
+  margin-right: calc(var(--panel-width) + var(--space-large));
 }
 
 h1, h2, h3, h4, .variableselector_variable_box_container label {
@@ -533,7 +533,7 @@ button.nested-accordion-header {
   height: 100vh;
   width: var(--panel-width);
   top: 0;
-  left: 0;
+  right: 0;
   background-color: var(--panel-left-background);
   padding: 1.5rem;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
@@ -615,7 +615,7 @@ input[value="Fullscreen"] {
 @media(max-width:1140px) {
   main {
     max-width: 90vw;
-    margin:0 auto 0 calc(var(--panel-width-small) + var(--space-large));
+    margin:0 calc(var(--panel-width-small) + var(--space-large)) 0 auto;
   }
 
   .flex-row {
