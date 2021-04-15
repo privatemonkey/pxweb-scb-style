@@ -448,7 +448,7 @@ button.nested-accordion-header {
   display: none;
   font-weight: 400;
   border-top: none;
-  padding: 0.5rem;
+  padding: var(--space-small);
 }
 
 .accordion-body {
@@ -481,7 +481,7 @@ button.accordion-header.closed:before {
 button.nested-accordion-header {
   background-color: var(--panel-background);
   color: var(--text);
-  padding-left: 1.25rem;
+  padding-left: 0;
   display:
 }
 
