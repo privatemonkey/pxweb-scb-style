@@ -442,6 +442,8 @@ button.accordion-header.closed, button.nested-accordion-header.closed {
 button.nested-accordion-header {
   display: none;
   font-weight: 400;
+  border-top: none;
+  padding: 0.5rem;
 }
 
 .accordion-body {
