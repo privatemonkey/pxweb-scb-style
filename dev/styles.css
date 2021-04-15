@@ -650,7 +650,9 @@ input[value="Fullscreen"] {
     margin-top: 0;
   }
 
-  /* Loves tillägg */
+}
+
+/* Loves tillägg */
   div#navigationFlow {
     margin: 2rem 0;
   }
@@ -675,4 +677,8 @@ input[value="Fullscreen"] {
   .header-text {
     font-weight: 700;
   }
-}
+	
+  li.AspNet-TreeView-Root {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid var(--panel-border-color);
+  }
