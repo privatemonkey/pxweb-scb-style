@@ -235,7 +235,7 @@ nav.steps {
 span.step_sep {
   flex-grow: 2;
   border-top: 2px solid var(--panel-border-color);
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
 }
 
 span.step_sep.future {
