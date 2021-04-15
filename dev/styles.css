@@ -545,7 +545,7 @@ button.nested-accordion-header {
   top: 0;
   right: 0;
   background-color: var(--panel-left-background);
-  padding: 1rem 1.5rem 0;
+  padding: 0.5rem 1.5rem 1rem;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
   border-left: 1px solid #ddd;
 }
