@@ -327,6 +327,7 @@ select[multiple] {
   background-image: none;
   padding: 0;
   margin-bottom: var(--space-small);
+  border-radius: 4px;
 }
 
 select[multiple] option:checked {
