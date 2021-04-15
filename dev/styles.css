@@ -452,6 +452,7 @@ button.nested-accordion-header {
 
 .accordion-body {
   margin-bottom: 2.5rem;
+  padding-left: var(--space-small);
 }
 
 button.accordion-header:before {
@@ -501,7 +502,7 @@ button.nested-accordion-header {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: 0 0 0 1rem
+  padding: 0
   width: 100%;
 }
 
