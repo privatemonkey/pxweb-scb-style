@@ -119,6 +119,10 @@ h3, .variableselector_variable_box_container label {
   margin-bottom: 0.75rem;
 }
 
+h3, .container_titletext {
+  margin-top: 1rem;
+}
+
 label span {
   font-weight: 400;
 }
