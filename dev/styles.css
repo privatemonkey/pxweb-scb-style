@@ -435,12 +435,13 @@ button.accordion-header, button.nested-accordion-header  {
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
   margin-bottom: 0;
-  font-weight: 400;
+  /* font-weight: 400; */
   display: inline-block;
 }
 
 button.nested-accordion-header {
   display: none;
+  font-weight: 400;
 }
 
 .accordion-body {
