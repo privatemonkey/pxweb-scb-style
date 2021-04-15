@@ -677,8 +677,12 @@ input[value="Fullscreen"] {
   .header-text {
     font-weight: 700;
   }
+
+ul {
+  padding-left: 0;
+}
 	
-  li.AspNet-TreeView-Root {
-    padding: 1rem 1.5rem;
-    border-top: 1px solid var(--panel-border-color);
-  }
+li.AspNet-TreeView-Root {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--panel-border-color);
+}
