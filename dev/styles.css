@@ -120,7 +120,7 @@ h3, .variableselector_variable_box_container label {
 }
 
 .container_titletext {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 label span {
@@ -269,18 +269,18 @@ input[type="radio"]+label {
 header {
   border-bottom: 1px solid var(--panel-border-color);
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0.75rem;
   background-color: #fff;
   padding-left: var(--space-large);
 }
 
 .siteName {
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 img.logo {
-  max-height: 64px;
+  max-height: 50px;
   margin-right: 1rem;
 }
 
@@ -326,7 +326,7 @@ select[multiple] {
   border: 1px solid var(--panel-border-color);
   background-image: none;
   padding: 0;
-  margin-bottom: 0;
+  margin-bottom: var(--space-small);
 }
 
 select[multiple] option:checked {
@@ -364,8 +364,8 @@ button, input[type=submit], input[type="button"], input[type="submit"].container
   padding: var(--space-smallest) var(--space-small);
   border-radius: 0.25rem;
   margin-right: var(--space-smallest);
-  margin-top: var(--space-small);
-  margin-bottom: var(--space-smallest);
+  /* margin-top: var(--space-small); */
+  margin-bottom: 0.75rem;
   color: var(--button-primary-text);
   background-color: var(--button-primary-background);
   border:2px var(--button-primary-background) solid;
@@ -451,7 +451,7 @@ button.nested-accordion-header {
 }
 
 .accordion-body {
-  margin-bottom: var(--space-smallest);
+  margin-bottom: 2.5rem;
 }
 
 button.accordion-header:before {
@@ -501,7 +501,7 @@ button.nested-accordion-header {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: 0;
+  padding: 0 0 0 1rem
   width: 100%;
 }
 
