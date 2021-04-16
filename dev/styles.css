@@ -472,7 +472,7 @@ button.accordion-header:before {
 
 .operations-container .secondary-btn {
   margin-top: 0;
-  /* margin-left: 1.25rem; */
+  margin-left: 1rem;
   float: left;
   clear: left;
 }
