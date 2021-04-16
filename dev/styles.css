@@ -359,6 +359,7 @@ input, select {
   padding: var(--space-smallest);
   color: var(--text);
   margin-bottom: 0;
+  margin-right: var(--space-smallest);
 }
 
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
@@ -544,14 +545,14 @@ button.nested-accordion-header {
   width: var(--panel-width);
   top: 0;
   right: 0;
-  background-color: var(--panel-left-background);
+  background-color: #f7f7f7;
   padding: 0.5rem 1.5rem 1rem;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
   border-left: 1px solid #ddd;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
-  background-color: var(--panel-left-background);
+  background-color: #f7f7f7;
 }
 
 input[value="Fullscreen"] {
