@@ -145,11 +145,11 @@ h5, button.nested-accordion-header, .accordion-body legend {
 p, input, select, option, button.accordion-header, button.nested-accordion-header, button {
   font-family: 'PublicSans', "system";
   font-size: 1rem;
-  line-height: 1.4rem;
+  line-height: 1.4;
   font-weight: 400;
   max-width: 100%;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
 }
 
 p, span, a, .steps {
