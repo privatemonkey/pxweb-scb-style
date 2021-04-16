@@ -572,7 +572,7 @@ input[value="Fullscreen"] {
 .commandbar_container {
   /* border-top: 1px solid var(--panel-border-color); */
   clear: left;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 }
 
 .container_exit_buttons_row {
