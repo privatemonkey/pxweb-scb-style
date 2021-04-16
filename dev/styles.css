@@ -690,3 +690,7 @@ li.AspNet-TreeView-Root {
   padding: 1rem 1.5rem;
   border-top: 1px solid var(--panel-border-color);
 }
+
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_Panel1 {
+    margin-bottom: 1.5rem;
+}
