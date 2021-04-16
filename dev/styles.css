@@ -434,7 +434,7 @@ button.accordion-header, button.nested-accordion-header  {
   border-width: 0;
   border-radius: 0;
   text-align: left;
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
   margin: 0;
   border-top: 1px solid var(--panel-border-color);
   font-weight: 700;
@@ -456,7 +456,7 @@ button.nested-accordion-header {
 
 .accordion-body {
   margin-bottom: 2.5rem;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 
 button.accordion-header:before {
@@ -572,6 +572,7 @@ input[value="Fullscreen"] {
 .commandbar_container {
   /* border-top: 1px solid var(--panel-border-color); */
   clear: left;
+  padding: 0 1rem;
 }
 
 .container_exit_buttons_row {
