@@ -102,19 +102,19 @@ h1, h2, h3, h4, .variableselector_variable_box_container label {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.25rem;
   line-height: 1.4;
   margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.6875rem;
   line-height: 1.4;
   margin: 2rem 0 1.5rem;
 }
 
 h3, .variableselector_variable_box_container label {
-  font-size: 1.4rem;
+  font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
@@ -128,7 +128,7 @@ label span {
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.3rem;
