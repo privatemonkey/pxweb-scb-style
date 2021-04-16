@@ -451,11 +451,11 @@ button.nested-accordion-header {
   display: none;
   font-weight: 400;
   border-top: none;
-  padding: var(--space-small);
+  padding: 1.5rem;
 }
 
 .accordion-body {
-  margin-bottom: 2.5rem;
+  /* margin-bottom: 2.5rem; */
   padding: 0 1rem;
 }
 
