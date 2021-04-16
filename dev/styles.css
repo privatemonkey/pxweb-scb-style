@@ -467,7 +467,8 @@ button.accordion-header:before {
 
 .operations-container button:first-of-type {
   border-top-width: 0;
-  padding-top: 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--panel-border-color);
 }
 
 .operations-container .secondary-btn {
@@ -484,7 +485,7 @@ button.accordion-header.closed:before {
 button.nested-accordion-header {
   background-color: var(--panel-background);
   color: var(--text);
-  padding-left: 0;
+  padding-left: 0.5rem;
   padding-right: 0;
   display:
 }
