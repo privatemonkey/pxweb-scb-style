@@ -434,7 +434,7 @@ button.accordion-header, button.nested-accordion-header  {
   border-width: 0;
   border-radius: 0;
   text-align: left;
-  padding: 1.5rem 0;
+  padding: 1.5rem;
   margin: 0;
   border-top: 1px solid var(--panel-border-color);
   font-weight: 700;
@@ -444,6 +444,7 @@ button.accordion-header.closed, button.nested-accordion-header.closed {
   margin-bottom: 0;
   /* font-weight: 400; */
   display: inline-block;
+  border-top: 1px solid var(--panel-border-color);
 }
 
 button.nested-accordion-header {
@@ -455,7 +456,7 @@ button.nested-accordion-header {
 
 .accordion-body {
   margin-bottom: 2.5rem;
-  padding-left: var(--space-small);
+  padding: 0 2.5rem;
 }
 
 button.accordion-header:before {
@@ -484,6 +485,7 @@ button.nested-accordion-header {
   background-color: var(--panel-background);
   color: var(--text);
   padding-left: 0;
+  padding-right: 0;
   display:
 }
 
@@ -546,7 +548,7 @@ button.nested-accordion-header {
   top: 0;
   right: 0;
   background-color: #f7f7f7;
-  padding: 0.5rem 1.5rem 1rem;
+  padding: 0;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
   border-left: 1px solid #ddd;
 }
