@@ -695,3 +695,7 @@ li.AspNet-TreeView-Root {
 #ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_Panel1 {
     margin-bottom: 1.5rem;
 }
+
+.savequery_container {
+    margin: 0 0.5rem;
+}
