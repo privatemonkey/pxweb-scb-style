@@ -547,14 +547,14 @@ button.nested-accordion-header {
   width: var(--panel-width);
   top: 0;
   right: 0;
-  background-color: #f7f7f7;
+  background-color: #f8f8f8;
   padding: 0;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
   border-left: 1px solid #ddd;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
-  background-color: #f7f7f7;
+  background-color: #f8f8f8;
 }
 
 input[value="Fullscreen"] {
