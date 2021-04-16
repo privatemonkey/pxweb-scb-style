@@ -285,8 +285,8 @@ img.logo {
 }
 
 img.logo-quality {
-  max-width: 240px;
-  margin-bottom: var(--space-small);
+  max-width: 220px;
+  margin-bottom: var(--space-smallest);
 }
 
 .top-link {
