@@ -456,7 +456,7 @@ button.nested-accordion-header {
 
 .accordion-body {
   margin-bottom: 2.5rem;
-  padding: 0 2.5rem;
+  padding: 0 2rem;
 }
 
 button.accordion-header:before {
