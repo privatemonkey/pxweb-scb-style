@@ -9,10 +9,6 @@
 }
 
 #pxwebcontent .search_label {
-    /*font-family: Verdana;*/
-    /*@include pxweb-font;*/
-    /*font-size: 0.9em;*/
-    @include roboto-condenced;
     font-size: 15px;
     margin-top: 5px;
     display: block;
@@ -31,8 +27,6 @@
 }
 
 #pxwebcontent .search_error {
-    /*font-family: Verdana;*/
-    @include pxweb-font;
     font-size: 0.9em;
     color: #B0272E;
     display: block;

@@ -1,7 +1,6 @@
 @include file-header("common/_checkbox.scss");
 
 #{$selector_prefix}-checkbox {
-  @include roboto;
   /*color: $pxweb-dark-6;*/
   cursor: pointer;
   display: block;

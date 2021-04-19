@@ -1,0 +1,18 @@
+/*
+Default theme
+*/
+
+// Text related colors
+$text: #222;
+$text-dark: #000;
+$text-inactive: #999;
+$text-inverted: #fff;
+
+$link-text: #006E91;
+$link__hover-text: var($text-dark);
+$link__hover-background: #EEEEEE;
+
+$selected-text: var($text-inverted);
+$selected-background: var($text-dark);
+
+// Borders, panels etc.

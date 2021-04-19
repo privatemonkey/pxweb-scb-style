@@ -1,7 +1,6 @@
 @include file-header("common/_input.scss");
 
 #{$selector_prefix}-input {
-    @include roboto;
     cursor: text;
     display: flex;
     flex-direction: column;
@@ -47,7 +46,6 @@
     }
 
     input {
-        @include roboto2;
         background: $pxweb-white;
         border: 1px solid $pxweb-dark-5;
         box-sizing: border-box;
@@ -68,7 +66,7 @@
         }
 
         &:focus {
-            
+
             outline: 2px solid $pxweb-purple-3;
             outline-offset: 2px;
         }

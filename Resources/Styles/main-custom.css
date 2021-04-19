@@ -25,6 +25,7 @@ $pxweb-purple-1: #f2f0ff;
 $scrollbar-color: #b0b0b0;
   */
 /*#endregion*/
+/* Only used in JqueryUI */
 @keyframes fadein {
   from {
     opacity: 0;

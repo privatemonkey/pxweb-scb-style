@@ -2,7 +2,6 @@
 
 #{$selector_prefix}-btn {
   @include focus-marker;
-  @include roboto;
   @include reset-button;
   align-items: center;
   background-color: $pxweb-btn-bg;

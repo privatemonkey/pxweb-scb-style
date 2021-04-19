@@ -41,15 +41,9 @@ $global-padding-size: 8px;
 $max-content-size: 1200px;
 $max-readable-width: 580px;
 
+/* Only used in JqueryUI */
 @mixin pxweb-font {
     @include roboto;
-}
-
-@mixin pxweb-input-list-font {
-    font-size: 100%;
-    font-family: 'Open Sans', sans-serif !important;
-    font-stretch: normal;
-    font-weight: normal;
 }
 
 @mixin pxweb-table-title {
@@ -116,7 +110,7 @@ $max-readable-width: 580px;
 }
 
 @mixin reset-button {
-  background-color: transparent;  
+  background-color: transparent;
   border: none;
   color: inherit;
   cursor: pointer;

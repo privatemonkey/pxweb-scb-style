@@ -7,7 +7,6 @@
   .accordion-header {
     @include focus-marker;
     @include reset-button;
-    @include roboto-condenced;
     font-size: 20px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -75,7 +74,6 @@
   }
 
   .accordion-body {
-    @include roboto;
     color: $pxweb-dark-6;
     font-size: 16px;
     padding: $global-padding-size 50px $global-padding-size 0;

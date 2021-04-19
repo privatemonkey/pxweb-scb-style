@@ -35,7 +35,6 @@ $icon-padding: 8px;
   }
 
   &.header {
-    @include roboto;
     border-bottom-width: 2px;
     font-size: $header-font-size;
     font-weight: bold;
