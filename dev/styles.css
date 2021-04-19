@@ -9,7 +9,7 @@
 
   --panel-left-background: #fff;
   --panel-background: #fff;
-  --panel-border-color: #222;
+  --panel-border-color: #949494;
   --panel-border-width: 1px;
   --panel-padding: 1rem 1rem;
   --panel-width: 476px;
@@ -22,7 +22,7 @@
 
   --link-text: #006E91;
   --link__hover-text: var(--text-dark);
-  --link__hover-background: #f6f5fd;
+  --link__hover-background: #EEEEEE;
 
   --selected-text: var(--text-inverted);
   --selected-background: var(--text-dark);
@@ -102,21 +102,25 @@ h1, h2, h3, h4, .variableselector_variable_box_container label {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.25rem;
   line-height: 1.4;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.6875rem;
   line-height: 1.4;
-  margin-bottom: 1.5rem 0;
+  margin: 2rem 0 1.5rem;
 }
 
 h3, .variableselector_variable_box_container label {
-  font-size: 1.4rem;
+  font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
+}
+
+.container_titletext {
+  margin-top: 0;
 }
 
 label span {
@@ -124,7 +128,7 @@ label span {
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.3rem;
@@ -141,11 +145,11 @@ h5, button.nested-accordion-header, .accordion-body legend {
 p, input, select, option, button.accordion-header, button.nested-accordion-header, button {
   font-family: 'PublicSans', "system";
   font-size: 1rem;
-  line-height: 1.4rem;
+  line-height: 1.4;
   font-weight: 400;
   max-width: 100%;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
 }
 
 p, span, a, .steps {
@@ -235,7 +239,7 @@ nav.steps {
 span.step_sep {
   flex-grow: 2;
   border-top: 2px solid var(--panel-border-color);
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
 }
 
 span.step_sep.future {
@@ -265,24 +269,24 @@ input[type="radio"]+label {
 header {
   border-bottom: 1px solid var(--panel-border-color);
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0.75rem;
   background-color: #fff;
   padding-left: var(--space-large);
 }
 
 .siteName {
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 img.logo {
-  max-height: 64px;
+  max-height: 50px;
   margin-right: 1rem;
 }
 
 img.logo-quality {
-  max-width: 240px;
-  margin-bottom: var(--space-small);
+  max-width: 220px;
+  margin-bottom: var(--space-smallest);
 }
 
 .top-link {
@@ -322,7 +326,8 @@ select[multiple] {
   border: 1px solid var(--panel-border-color);
   background-image: none;
   padding: 0;
-  margin-bottom: 0;
+  margin-bottom: var(--space-small);
+  border-radius: 4px;
 }
 
 select[multiple] option:checked {
@@ -354,14 +359,15 @@ input, select {
   padding: var(--space-smallest);
   color: var(--text);
   margin-bottom: 0;
+  margin-right: var(--space-smallest);
 }
 
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
   padding: var(--space-smallest) var(--space-small);
   border-radius: 0.25rem;
   margin-right: var(--space-smallest);
-  margin-top: var(--space-small);
-  margin-bottom: var(--space-smallest);
+  /* margin-top: var(--space-small); */
+  margin-bottom: 0.75rem;
   color: var(--button-primary-text);
   background-color: var(--button-primary-background);
   border:2px var(--button-primary-background) solid;
@@ -383,6 +389,7 @@ input[type="submit"].icon-placement {
   border-radius: 0;
   float: left;
   clear: left;
+  font-weight: 700;
 }
 
 input, option {
@@ -427,7 +434,7 @@ button.accordion-header, button.nested-accordion-header  {
   border-width: 0;
   border-radius: 0;
   text-align: left;
-  padding: 1.5rem 0;
+  padding: 1.5rem 1rem;
   margin: 0;
   border-top: 1px solid var(--panel-border-color);
   font-weight: 700;
@@ -435,16 +442,21 @@ button.accordion-header, button.nested-accordion-header  {
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
   margin-bottom: 0;
-  font-weight: 400;
+  /* font-weight: 400; */
   display: inline-block;
+  border-top: 1px solid var(--panel-border-color);
 }
 
 button.nested-accordion-header {
   display: none;
+  font-weight: 400;
+  border-top: none;
+  padding: 1.5rem;
 }
 
 .accordion-body {
-  margin-bottom: var(--space-smallest);
+  /* margin-bottom: 2.5rem; */
+  padding: 0 2rem;
 }
 
 button.accordion-header:before {
@@ -455,12 +467,13 @@ button.accordion-header:before {
 
 .operations-container button:first-of-type {
   border-top-width: 0;
-  padding-top: 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--panel-border-color);
 }
 
 .operations-container .secondary-btn {
   margin-top: 0;
-  margin-left: 1.25rem;
+  margin-left: 0.5rem;
   float: left;
   clear: left;
 }
@@ -472,7 +485,8 @@ button.accordion-header.closed:before {
 button.nested-accordion-header {
   background-color: var(--panel-background);
   color: var(--text);
-  padding-left: 1.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0;
   display:
 }
 
@@ -494,7 +508,7 @@ button.nested-accordion-header {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: 0;
+  padding: 0
   width: 100%;
 }
 
@@ -534,14 +548,14 @@ button.nested-accordion-header {
   width: var(--panel-width);
   top: 0;
   right: 0;
-  background-color: var(--panel-left-background);
-  padding: 1.5rem;
+  background-color: #f8f8f8;
+  padding: 0;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
   border-left: 1px solid #ddd;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
-  background-color: var(--panel-left-background);
+  background-color: #f8f8f8;
 }
 
 input[value="Fullscreen"] {
@@ -557,14 +571,15 @@ input[value="Fullscreen"] {
 }
 
 .commandbar_container {
-  border-top: 1px solid var(--panel-border-color);
+  /* border-top: 1px solid var(--panel-border-color); */
   clear: left;
+  padding: 1.5rem 0.5rem 2rem;
 }
 
 .container_exit_buttons_row {
   margin-top: 1rem;
-  padding: 1rem 0;
-  border-top: 1px solid #ccc;
+  /* padding: 1rem 0; */
+  /* border-top: 1px solid #ccc; */
 }
 
 /* Change variable specific */
@@ -640,7 +655,9 @@ input[value="Fullscreen"] {
     margin-top: 0;
   }
 
-  /* Loves tillägg */
+}
+
+/* Loves tillägg */
   div#navigationFlow {
     margin: 2rem 0;
   }
@@ -665,4 +682,20 @@ input[value="Fullscreen"] {
   .header-text {
     font-weight: 700;
   }
+
+ul {
+  padding-left: 0;
+}
+	
+li.AspNet-TreeView-Root {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--panel-border-color);
+}
+
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_VariableSelectorValueSelectRepeater_ctl02_VariableValueSelect_VariableValueSelect_Panel1 {
+    margin-bottom: 1.5rem;
+}
+
+.savequery_container {
+    margin: 0 0.5rem;
 }
