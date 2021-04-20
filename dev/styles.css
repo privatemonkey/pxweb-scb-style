@@ -270,6 +270,10 @@ input[type="radio"]+label, input[type="checkbox"]+label {
   line-height: 140%;
 }
 
+fieldset {
+  width: 100%;
+}
+
 ::selection, ::-moz-selection {
   color: var(--selected-text);
   background-color: var(--selected-background);
@@ -456,16 +460,17 @@ button.accordion-header.closed, button.nested-accordion-header.closed {
   border-top: 1px solid var(--panel-border-color);
 }
 
+/* Handling About section */
+.information_definitionlist button.nested-accordion-header.closed {
+  border-top: none;
+  padding: 0;
+}
+
 button.nested-accordion-header {
   display: none;
   font-weight: 400;
   border-top: none;
   padding: 1.5rem;
-}
-
-.accordion-body {
-  /* margin-bottom: 2.5rem; */
-  padding: 0 2rem;
 }
 
 button.accordion-header:before {
@@ -517,7 +522,8 @@ button.nested-accordion-header {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: 0;
+  padding: 0 2rem;
+  margin-bottom: 2.5rem;
   width: 100%;
 }
 
@@ -581,8 +587,8 @@ input[value="Fullscreen"] {
 
 .commandbar_container {
   /* border-top: 1px solid var(--panel-border-color); */
-  clear: left;
-  padding: 1.5rem 0.5rem 2rem;
+  padding: 0 2rem;
+  width: 100%;
 }
 
 .container_exit_buttons_row {
@@ -628,6 +634,10 @@ input[value="Fullscreen"] {
 .flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 /* Media queries */
