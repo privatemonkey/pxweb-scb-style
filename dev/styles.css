@@ -19,7 +19,7 @@
   --text-dark: #000;
   --text-inactive: #999;
   --text-inverted: #fff;
-	
+
   --text-weight-normal: 400;
   --text-weight-medium: 500;
   --text-weight-bold: 700;
@@ -512,7 +512,6 @@ button.nested-accordion-header {
   color: var(--text);
   padding-left: 0.5rem;
   padding-right: 0;
-  display:
 }
 
 .pxweb-nested-accordion dl {
@@ -560,10 +559,6 @@ button.nested-accordion-header {
   gap: 2rem;
   margin-top: 2rem;
 }*/
-
-.presentation-main {
-  /* grid-area: main;*/
-}
 
 .presentation-left {
   /* margin-top: 3.4rem; */
@@ -716,7 +711,7 @@ input[value="Fullscreen"] {
 ul {
   padding-left: 0;
 }
-	
+
 li.AspNet-TreeView-Root {
   padding: 1rem 1.5rem;
   border-top: 1px solid var(--panel-border-color);
