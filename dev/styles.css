@@ -386,6 +386,12 @@ button, input[type=submit], input[type="button"], input[type="submit"].container
   border:2px var(--button-primary-background) solid;
 }
 
+button.primary-btn, input[type="button"].primary-btn, input[type="submit"].primary-btn {
+  color: var(--button-primary-text);
+  background-color: var(--button-primary-background);
+  border:2px var(--button-primary-background) solid;
+}
+
 button.secondary-btn, input[type="button"].secondary-btn, input[type="submit"] {
   background-color: transparent;
   border:2px var(--button-primary-background) solid;
