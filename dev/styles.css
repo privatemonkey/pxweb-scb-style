@@ -252,12 +252,16 @@ a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked
   cursor: pointer;
 }
 
+input[type="radio"]:checked + label {
+	font-weight: 600;
+}
+
 input[type="radio"]+label {
   margin-bottom: 0.5rem;
   display: inline-block;
   width: calc(100% - 2rem);
   vertical-align: top;
-  padding: 0.25rem;
+  padding: 0;
   line-height: 140%;
 }
 
@@ -508,7 +512,7 @@ button.nested-accordion-header {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: 0
+  padding: 0;
   width: 100%;
 }
 
