@@ -15,21 +15,11 @@ $color-darkest:             #000;    // Emphasized text
 /*-- Primary --*/
 $color-primary:             #006E91; // Links, button background
 $color-primary-light:       #00bdf7;
-$color-primary-dark:        #022833;   // Link hover, button hover background
-$color-primary-text:        #fff; //
+$color-primary-dark:        #001920; // Link hover, button hover background
+$color-primary-text:        #fff;    // Text on primary used as background
 
 /*-- Secondary --*/
-$color-secondary:          #006E91;
-$color-secondary-light:    #00bdf7;
-$color-secondary-dark:     #022833;
-$color-secondary-text:     #fff;
-
-/* Text */
-$color-background:          #fff;
-$color-background-inverted: #222;
-
-$color-text:                #222;
-$color-text-inverted:       #fff;
-
-$color-link:  $color-primary;
-$color-link-inverted: $color-primary-dark ;
+$color-secondary:           #006E91;
+$color-secondary-light:     #00bdf7;
+$color-secondary-dark:      #022833;
+$color-secondary-text:      #fff;

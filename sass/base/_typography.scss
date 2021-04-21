@@ -1,24 +1,30 @@
 /*
 * Text and typography
 */
-$text: #222;
-$text-dark: #000;
-$text-inactive: #999;
-$text-inverted: #fff;
 
-$link-text: #006E91;
-$link__hover-text: var($text-dark);
-$link__hover-background: #EEEEEE;
+@use '../base/sizes';
+@use '../base/colors';
 
-$selected-text: var($text-inverted);
-$selected-background: var($text-dark);
+$text:                   $color-dark;
+$text-dark:              $color-darkest;
+$text-inactive:          $color-medium;
+$text-inverted:          $color-lightest;
 
-$text-weight-normal: 400;
-$text-weight-medium: 500;
-$text-weight-bold: 700;
+$link-text:              $color-primary;
+$link__hover-text:       $color-primary-dark;
+$link__hover-background: $color-primary-text;
 
-$max-text-width: 720px;
-$max-header-width: 920px;
+$selected-text:          $color-dark;
+$selected-background:    $color-lightest;
+
+$text-weight-normal:     400;
+$text-weight-medium:     500;
+$text-weight-bold:       700;
+
+$max-text-width:         720px;
+$max-header-width:       920px;
+
+$font-base-size:         16px;
 
 @font-face {
   font-family: 'PublicSans';
@@ -33,7 +39,7 @@ src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local
 html {
   color: var(--text);
   font-size: 100%;
-  font-size: 16px;
+  font-size: $font-base-size;
   line-height: 1.4;
 }
 
@@ -44,9 +50,10 @@ body {
 /* -- Headers -- */
 
 @mixin header {
-  font-weight: var(--text-weight-bold);
-  max-width: var(--max-header-width);
+  font-weight: $text-weight-bold;
+  max-width: $max-header-width;
   text-transform: capitalize;
+  line-height: 1.2;
 }
 
 h1, h2, h3, h4 {
@@ -79,11 +86,11 @@ h4 {
 }
 
 h5 {
-  font-weight: var(--text-weight-bold);
+  font-weight: $text-weight-bold;
   width: 100%;
   text-align: left;
   padding: 0;
-  margin-bottom: var(--space-small);
+  margin-bottom: $space-small;
 }
 
 button.nested-accordion-header, .accordion-body legend {
@@ -103,7 +110,7 @@ button.nested-accordion-header, .accordion-body legend {
 }
 
 label span {
-  font-weight: var(--text-weight-normal);
+  font-weight: $text-weight-normal;
 }
 
 /* -- Regular text -- */
@@ -113,7 +120,7 @@ p, input, select, option, button.accordion-header, button.nested-accordion-heade
   font-family: 'PublicSans', "system";
   font-size: 1rem;
   line-height: 1.4;
-  font-weight: var(--text-weight-normal);
+  font-weight: $text-weight-normal;
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 22px;
