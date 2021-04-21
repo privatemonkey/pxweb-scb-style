@@ -1,13 +1,13 @@
 # PxWeb default style
 
-This repo is an attempt to create a more accessible default design for PX Web. 
+This repo is an attempt to create an alternativ default design for PX Web that is more in line with SCB brand and easy to configure for others. 
 
 ## Constrains
 
 - Only allowed to make minor adjustment to HTML
 - Limited time
 - Build on the Norwegian accessibility effort
-- Be an alternative to current styling
+- Be an alternative to current styling, not replace
 
 ## Goals
 
