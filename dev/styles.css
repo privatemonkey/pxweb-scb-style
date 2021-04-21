@@ -67,7 +67,7 @@ html {
 
 @font-face {
   font-family: 'PublicSans';
-  src: url('https://github.com/uswds/public-sans/raw/develop/fonts/variable/PublicSans%5Bwght%5D.ttf');
+  src: url('/dev/assets/PublicSans-VariableFont_wght.ttf');
 }
 
 @font-face {
