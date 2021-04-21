@@ -1,5 +1,10 @@
 /*
 * Text and typography
+*
+* Uses Public Sans variable font to allow many weights with a small footprint. The font is locally served.
+* https://public-sans.digital.gov/
+*
+* Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
 */
 
 @use '../base/sizes';
@@ -28,8 +33,10 @@ $font-base-size:         16px;
 
 @font-face {
   font-family: 'PublicSans';
-  src: url('https://github.com/uswds/public-sans/raw/develop/fonts/variable/PublicSans%5Bwght%5D.ttf');
+  src: url('/dev/assets/PublicSans-VariableFont_wght.ttf');
 }
+
+// src: url('https://github.com/uswds/public-sans/raw/develop/fonts/variable/PublicSans%5Bwght%5D.ttf');
 
 @font-face {
 font-family: system;
