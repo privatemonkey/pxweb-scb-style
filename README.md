@@ -6,7 +6,8 @@ This repo is an attempt to create a more accessible default design for PX Web.
 
 - Only allowed to make minor adjustment to HTML
 - Limited time
-- Cannot remove CSS files yet
+- Build on the Norwegian accessibility effort
+- Be an alternative to current styling
 
 ## Goals
 
@@ -15,6 +16,7 @@ This repo is an attempt to create a more accessible default design for PX Web.
 - Make it easier to override the style
 - Possible to run PX Web with only system fonts
 - Offer a lightweight default font
+- Create a more maintainable CSS build
 
 ## Preview
 
