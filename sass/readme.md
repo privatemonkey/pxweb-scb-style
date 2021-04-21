@@ -6,6 +6,16 @@ Legacy specific CSS may live within any file or folder but should be commented u
 
 The classic `vendor` folder is not used. Instead, move and refactor vendor created CSS into whatever module, layout or helper that fits best.
 
+## Class naming
+
+- The module `.breadcrumb` indicates the type of module. 
+- A variant such as secondary button is written `.btn-secondary`. 
+- A state is accomplished by adding `.is-closed`. 
+
+A button used as accordion:
+
+<button class="accordion is-closed">
+
 ## Folders
 
 **Base**

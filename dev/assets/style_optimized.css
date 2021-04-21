@@ -1,0 +1,202 @@
+/*
+* Default theme
+*/
+body {
+  background-color: #fff;
+}
+
+/*
+* Size related variables
+*/
+/*
+* Text and typography
+*/
+@font-face {
+  font-family: "PublicSans";
+  src: url("https://github.com/uswds/public-sans/raw/develop/fonts/variable/PublicSans%5Bwght%5D.ttf");
+}
+@font-face {
+  font-family: system;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+html {
+  color: var(--text);
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "PublicSans", "system";
+}
+
+/* -- Headers -- */
+h1, h2, h3, .variableselector_variable_box_container label, .container_titletext, h4 {
+  font-weight: var(--text-weight-bold);
+  max-width: var(--max-header-width);
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.6875rem;
+  line-height: 1.4;
+  margin: 2rem 0 1.5rem;
+}
+
+h3, .variableselector_variable_box_container label, .container_titletext {
+  font-size: 1.3125rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+h5, button.nested-accordion-header, .accordion-body legend {
+  font-weight: var(--text-weight-bold);
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin-bottom: var(--space-small);
+}
+
+.container_titletext {
+  margin-top: 0;
+}
+
+.variableselector_variable_box_container label, label, input[type=radio]:checked + label {
+  font-weight: var(--text-weight-bold);
+  max-width: var(--max-header-width);
+  text-transform: capitalize;
+}
+
+label span {
+  font-weight: var(--text-weight-normal);
+}
+
+/* -- Regular text -- */
+p, input, select, option, button.accordion-header, button.nested-accordion-header, button {
+  font-family: "PublicSans", "system";
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: var(--text-weight-normal);
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+/*
+* Accordions
+*/
+button.accordion-header, button.nested-accordion-header.closed, .closed .accordion-body {
+  background-color: #f8f8f8;
+}
+
+.accordion-body.closed {
+  display: none;
+}
+
+.accordion-body div {
+  width: 100%;
+}
+
+.accordion-body fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+* Generic form related styling. Buttons, inputs, select.
+*/
+/*
+* Buttons
+* Basic button is styled as primary button
+*/
+button, input[type=button], input[type=submit] {
+  background-color: #006E91;
+  color: #fff;
+  border: 2px #006E91 solid;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+button:hover, button:active, button:focus, input[type=button]:hover, input[type=button]:active, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
+  color: #fff;
+  background-color: #222;
+}
+
+/*
+* Input fields
+*/
+/*
+* Select boxs
+*/
+/*
+* Default table styling
+*/
+table {
+  margin-top: 12px;
+  border-spacing: 0px;
+  margin-bottom: 36px;
+  line-height: 20px;
+  overflow: hidden;
+}
+
+tbody > tr:nth-child(odd) > td, tbody > tr:nth-child(odd) > th {
+  background: #f8f8f8;
+}
+
+tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
+  background: #fff;
+}
+
+td, th {
+  padding: 10px 9px;
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+  border-bottom: none;
+  border-right: none;
+  vertical-align: text-top;
+  text-align: right;
+}
+
+table > tbody > tr:last-child > td, table > tbody > tr:last-child > th {
+  border-bottom: 2px solid #222;
+}
+
+thead > tr:first-child > td, thead > tr:first-child > th {
+  border-top: 2px solid #222;
+}
+
+thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
+  border-bottom: 1px solid #222;
+}
+
+tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
+  text-align: left;
+  border-left: 1px solid #eee;
+}
+
+thead th {
+  border-left: 1px solid #222;
+}
+
+table tr th:last-child, table tr td:last-child {
+  border-right: 1px solid #eee;
+}
+
+thead th, thead td {
+  font-weight: bold;
+  text-align: left;
+  background-color: #fff;
+}

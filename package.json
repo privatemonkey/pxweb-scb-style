@@ -4,11 +4,12 @@
   "description": "Default styling for PxWeb, statistical database",
   "main": "index.html",
   "scripts": {
-    "build": "npm-run-all build:css_main build:css_common build:css_custom minify:css_main",
+    "build": "npm-run-all build:css_main build:css_common build:css_custom minify:css_main build:css_optimized",
     "minify:css_main": "minify Resources/Styles/main-pxweb.css > Resources/Styles/main-pxweb.min.css",
     "build:css_main": "sass Resources/Styles/scss/main-pxweb.scss >  Resources/Styles/main-pxweb.css",
     "build:css_common": "sass Resources/Styles/scss/main-common.scss >  Resources/Styles/main-common.css",
     "build:css_custom": "sass Resources/Styles/scss/main-custom.scss >  Resources/Styles/main-custom.css",
+    "build:css_optimized": "sass sass/main.scss > dev/assets/style_optimized.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

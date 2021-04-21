@@ -1,0 +1,11 @@
+@use '../base/sizes';
+@use '_header.scss';
+@use '_panel.scss';
+
+
+main, div[role="main"] {
+  max-width: 1440px;
+  margin:0 auto;
+  margin-right: calc($panel-width + $space-large);
+  padding-left: $space-large;
+}

@@ -161,6 +161,9 @@ p, input, select, option, button.accordion-header, button.nested-accordion-heade
   margin-bottom: 22px;
 }
 
+/* --- Above moved to SASS files --*/
+
+
 p, span, a, .steps {
   max-width: var(--max-text-width);
   display: inline-block;

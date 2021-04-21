@@ -16,3 +16,105 @@ $link__hover-background: #EEEEEE;
 
 $selected-text: var($text-inverted);
 $selected-background: var($text-dark);
+
+$max-text-width: 720px;
+$max-header-width: 920px;
+
+@font-face {
+  font-family: 'PublicSans';
+  src: url('https://github.com/uswds/public-sans/raw/develop/fonts/variable/PublicSans%5Bwght%5D.ttf');
+}
+
+@font-face {
+font-family: system;
+src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+html {
+  color: var(--text);
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: 'PublicSans', "system";
+}
+
+/* -- Headers -- */
+
+@mixin header {
+  font-weight: var(--text-weight-bold);
+  max-width: var(--max-header-width);
+  text-transform: capitalize;
+}
+
+h1, h2, h3, h4 {
+  @include header;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.6875rem;
+  line-height: 1.4;
+  margin: 2rem 0 1.5rem;
+}
+
+h3 {
+  font-size: 1.3125rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+h5 {
+  font-weight: var(--text-weight-bold);
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin-bottom: var(--space-small);
+}
+
+button.nested-accordion-header, .accordion-body legend {
+  @extend h5;
+}
+
+.variableselector_variable_box_container label, .container_titletext {
+  @extend h3;
+}
+
+.container_titletext {
+  margin-top: 0;
+}
+
+.variableselector_variable_box_container label, label, input[type="radio"]:checked + label {
+  @include header;
+}
+
+label span {
+  font-weight: var(--text-weight-normal);
+}
+
+/* -- Regular text -- */
+
+
+p, input, select, option, button.accordion-header, button.nested-accordion-header, button {
+  font-family: 'PublicSans', "system";
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: var(--text-weight-normal);
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
