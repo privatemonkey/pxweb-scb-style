@@ -1,0 +1,27 @@
+/*
+* Generic form related styling. Buttons, inputs, select.
+*/
+
+$button-primary-background: #006E91;
+$button-primary-text: var($text-inverted);
+
+$button-secondary-background: #ffffff;
+$button-secondary-text: #006E91;
+
+$button__hover-background: #222;
+$button__hover-text: #fff;
+
+/*
+* Buttons
+*/
+button, input[type="button"], input[type="submit"] {
+
+}
+
+/*
+* Input fields
+*/
+
+/*
+* Select boxs
+*/

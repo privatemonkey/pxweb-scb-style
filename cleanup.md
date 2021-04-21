@@ -6,7 +6,7 @@ Choose variables:
 
 - 6 bilder, 5 typsnitt och 11 CSS filer. Totalt 300kb
 - 11 JS filer 440kb + massor av inline script. Scripten upprepas. Osäker på hur minneshanteringen är om samma 5 funktioner läses in 10 gånger men helt klart påverkar det performance
-- Olika jQuery bibiliotek tar 370kb. Och används inte.
+- Olika jQuery bibiliotek tar 370kb. Används men kan lätt bytas ut med Vanilla JS.
 
 ## Analys av main-pxweb.css
 

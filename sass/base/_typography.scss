@@ -1,0 +1,18 @@
+/*
+* Text and typography
+*/
+$text: #222;
+$text-dark: #000;
+$text-inactive: #999;
+$text-inverted: #fff;
+
+$text-weight-normal: 400;
+$text-weight-medium: 500;
+$text-weight-bold: 700;
+
+$link-text: #006E91;
+$link__hover-text: var($text-dark);
+$link__hover-background: #EEEEEE;
+
+$selected-text: var($text-inverted);
+$selected-background: var($text-dark);

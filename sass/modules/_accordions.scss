@@ -1,0 +1,20 @@
+/*
+* Accordions
+*/
+button.accordion-header, button.nested-accordion-header.closed, .closed .accordion-body {
+  background-color: #f8f8f8;
+}
+
+.accordion-body.closed {
+  display: none;
+}
+
+.accordion-body div {
+  width: 100%;
+}
+
+.accordion-body fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
