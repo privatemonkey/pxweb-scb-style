@@ -16,6 +16,10 @@ This repo is an attempt to create a more accessible default design for PX Web.
 - Possible to run PX Web with only system fonts
 - Offer a lightweight default font
 
+## Preview
+
 [To the preview](https://pxweb-style.netlify.app/)
+
+## Official PX Web Repo
 
 [The official PX Web Repo](https://github.com/statisticssweden/PxWeb)
