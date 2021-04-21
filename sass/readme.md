@@ -41,3 +41,10 @@ This will compile all common styling.
 **_shame.scss**
 
 This contains code we're ashamed of, legacy specific styling and hacks. It lives in the root folder for everyone to see it!
+
+
+## Inspiration
+
+- [7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern)
+- [SMACSS](http://smacss.com/book/)
+- [BEM](https://en.bem.info/)
