@@ -5,17 +5,17 @@
 @use '../base/sizes';
 @use '../base/colors';
 
-$text:                   $color-dark;
-$text-dark:              $color-darkest;
-$text-inactive:          $color-medium;
-$text-inverted:          $color-lightest;
+$text:                   colors.$color-dark;
+$text-dark:              colors.$color-darkest;
+$text-inactive:          colors.$color-medium;
+$text-inverted:          colors.$color-lightest;
 
-$link-text:              $color-primary;
-$link__hover-text:       $color-primary-dark;
-$link__hover-background: $color-primary-text;
+$link-text:              colors.$color-primary;
+$link__hover-text:       colors.$color-primary-dark;
+$link__hover-background: colors.$color-primary-text;
 
-$selected-text:          $color-dark;
-$selected-background:    $color-lightest;
+$selected-text:          colors.$color-dark;
+$selected-background:    colors.$color-lightest;
 
 $text-weight-normal:     400;
 $text-weight-medium:     500;
@@ -90,7 +90,7 @@ h5 {
   width: 100%;
   text-align: left;
   padding: 0;
-  margin-bottom: $space-small;
+  margin-bottom: sizes.$space-small;
 }
 
 button.nested-accordion-header, .accordion-body legend {

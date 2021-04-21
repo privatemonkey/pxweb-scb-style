@@ -6,6 +6,12 @@ body {
 }
 
 /*
+* Colors
+*/
+/*-- Base --*/
+/*-- Primary --*/
+/*-- Secondary --*/
+/*
 * Size related variables
 */
 /*
@@ -32,9 +38,10 @@ body {
 
 /* -- Headers -- */
 h1, h2, h3, .variableselector_variable_box_container label, .container_titletext, h4 {
-  font-weight: var(--text-weight-bold);
-  max-width: var(--max-header-width);
+  font-weight: 700;
+  max-width: 920px;
   text-transform: capitalize;
+  line-height: 1.2;
 }
 
 h1 {
@@ -63,11 +70,11 @@ h4 {
 }
 
 h5, button.nested-accordion-header, .accordion-body legend {
-  font-weight: var(--text-weight-bold);
+  font-weight: 700;
   width: 100%;
   text-align: left;
   padding: 0;
-  margin-bottom: var(--space-small);
+  margin-bottom: 1rem;
 }
 
 .container_titletext {
@@ -75,13 +82,14 @@ h5, button.nested-accordion-header, .accordion-body legend {
 }
 
 .variableselector_variable_box_container label, label, input[type=radio]:checked + label {
-  font-weight: var(--text-weight-bold);
-  max-width: var(--max-header-width);
+  font-weight: 700;
+  max-width: 920px;
   text-transform: capitalize;
+  line-height: 1.2;
 }
 
 label span {
-  font-weight: var(--text-weight-normal);
+  font-weight: 400;
 }
 
 /* -- Regular text -- */
@@ -89,7 +97,7 @@ p, input, select, option, button.accordion-header, button.nested-accordion-heade
   font-family: "PublicSans", "system";
   font-size: 1rem;
   line-height: 1.4;
-  font-weight: var(--text-weight-normal);
+  font-weight: 400;
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 22px;
