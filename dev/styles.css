@@ -67,7 +67,7 @@ html {
 
 @font-face {
   font-family: 'PublicSans';
-  src: url('./assets/PublicSans-VariableFont_wght.ttf');
+  src: url('https://github.com/uswds/public-sans/raw/develop/fonts/variable/PublicSans%5Bwght%5D.ttf');
 }
 
 @font-face {
@@ -87,13 +87,13 @@ body {
   margin: 0;
 }
 
-.fullscreen main {
+.fullscreen main, .fullscreen div[role="main"]  {
   max-width: calc(100vw -  var(--space-large) - var(--space-large));
   margin: 0;
   padding: 0 var(--space-large);
 }
 
-main {
+main, div[role="main"] {
   max-width: 1440px;
   margin:0 auto;
   margin-right: calc(var(--panel-width) + var(--space-large));
@@ -103,6 +103,7 @@ main {
 h1, h2, h3, h4, .variableselector_variable_box_container label {
   font-weight: var(--text-weight-bold);
   max-width: var(--max-header-width);
+  text-transform: capitalize;
 }
 
 h1 {
@@ -117,7 +118,7 @@ h2 {
   margin: 2rem 0 1.5rem;
 }
 
-h3, .variableselector_variable_box_container label {
+h3, .variableselector_variable_box_container label, .container_titletext {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
@@ -183,6 +184,10 @@ nav.steps {
   height: 5rem;
   margin: 2rem 0;
   margin-left: var(--stepper-left-space);
+}
+
+.steps a img {
+  display: none;
 }
 
 /* Adjust text position of stepp */
@@ -284,7 +289,7 @@ fieldset legend {
   background-color: var(--selected-background);
 }
 
-header {
+header, #header {
   border-bottom: 1px solid var(--panel-border-color);
   margin-bottom: 1rem;
   padding: 0.75rem;
@@ -297,12 +302,12 @@ header {
   font-size: 1rem;
 }
 
-img.logo {
+img.logo, .imgSiteLogo {
   max-height: 50px;
   margin-right: 1rem;
 }
 
-img.logo-quality {
+img.logo-quality, .officialStatisticsImage {
   max-width: 220px;
   margin-bottom: var(--space-smallest);
 }
@@ -324,6 +329,11 @@ img.logo-quality {
     /* border: var(--panel-border-color) var(--panel-border-width) solid; */
     margin-bottom: 1.5rem;
     padding: 1.5rem;
+}
+
+/* backwards compabilityt */
+.commandbar_container .variableselector_variable_box_container > div {
+  padding: 0;
 }
 
 select {
