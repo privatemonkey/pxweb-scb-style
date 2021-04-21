@@ -1,4 +1,35 @@
 
+/*
+* Colors
+*/
 
+/*-- Text, borders, panels --*/
+$color-lightest:            #fff;    // Backgrounds, inverted text
+$color-light:               #ccc;    // Alternate backgrounds
+$color-medium:              #949494; // Borders
+$color-dark:                #222;    // Text, Inverted background
+$color-darkest:             #000;    // Emphasized text
 
+/*-- Active and hover colors --*/
 
+/*-- Primary --*/
+$color-primary:             #006E91; // Links, button background
+$color-primary-light:       #00bdf7;
+$color-primary-dark:        #022833;   // Link hover, button hover background
+$color-primary-text:        #fff; //
+
+/*-- Secondary --*/
+$color-secondary:          #006E91;
+$color-secondary-light:    #00bdf7;
+$color-secondary-dark:     #022833;
+$color-secondary-text:     #fff;
+
+/* Text */
+$color-background:          #fff;
+$color-background-inverted: #222;
+
+$color-text:                #222;
+$color-text-inverted:       #fff;
+
+$color-link:  $color-primary;
+$color-link-inverted: $color-primary-dark ;
