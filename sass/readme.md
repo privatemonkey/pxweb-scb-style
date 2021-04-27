@@ -1,21 +1,19 @@
 # SASS files
 
-Our CSS is structure with inspiration from SMACSS/BEM and the 7–1 Pattern.
+Our CSS is structured with inspiration from SMACSS/BEM and the 7–1 Pattern.
 
-Legacy specific CSS may live within any file or folder but should be commented upon. For the big hacks, use the \_shame.scss file. Comments should be placed directly before the legacy specific styling.
+Legacy specific CSS may live together with other code but should be commented upon. Place a comment directly before styling with the format `/* -- Legacy: .container_titletext should be replaced with H3:s --*/`
+
+For the big hacks, use the `\_shame.scss` file. 
 
 The classic `vendor` folder is not used. Instead, move and refactor vendor created CSS into whatever module, layout or helper that fits best.
 
 ## Coding
 ### Class naming
 
-- The module `.breadcrumb` indicates the type of module. 
-- A variant such as secondary button is written `.btn-secondary`. 
-- A state is accomplished by adding `.is-closed`. 
-
-A button used as accordion:
-
-<button class="accordion is-closed">
+- Modules should be written with a full name. Ex: `button`. 
+- Variants of a module should contain all the original code of the parent so writing `button-secondary` as the only class is sufficient. 
+- A state is accomplished by adding `is-closed`.
 
 ### SASS and CSS variables
 
