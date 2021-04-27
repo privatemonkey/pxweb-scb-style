@@ -1,33 +1,24 @@
-@use "../base/_sizes";
+@use "../base/sizes";
+@use "../base/colors";
 /*
 * Generic form related styling. Buttons, inputs, select.
 */
 
-$button-primary-background: #006E91;
-$button-primary-text: #fff;
-
-$button-secondary-background: #ffffff;
-$button-secondary-text: #006E91;
-
-$button__hover-background: #222;
-$button__hover-text: #fff;
-
-$field-background: #fff;
 
 /*
 * Buttons
 * Basic button is styled as primary button
 */
 button, input[type="button"], input[type="submit"] {
-  background-color: $button-primary-background;
-  color: $button-primary-text;
-  border: 2px $button-primary-background solid;
+  background-color: colors.$button-primary-background;
+  color: colors.$button-primary-text;
+  border: 2px colors.$button-primary-background solid;
   padding: sizes.$space-smallest sizes.$space-small;
   border-radius: 0.25rem;
 
   &:hover, &:active, &:focus {
-    color: $button__hover-text;
-    background-color: $button__hover-background;
+    color: colors.$button__hover-text;
+    background-color: colors.$button__hover-background;
   }
 }
 
