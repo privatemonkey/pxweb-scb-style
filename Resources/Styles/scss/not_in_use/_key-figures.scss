@@ -3,7 +3,7 @@ $medium-size: 150px;
 $small-size: 108px;
 
 .ssb-key-figures {
-  @include roboto;
+
   color: $pxweb-dark-5;
   display: flex;
 
@@ -31,7 +31,7 @@ $small-size: 108px;
     }
 
     .changes-period {
-      font-size: 16px;
+      font-size: $font-size-normal;
     }
   }
 
@@ -102,13 +102,13 @@ $small-size: 108px;
   }
 
   .kf-time {
-    @include open-sans;
-    font-size: 16px;
+
+    font-size: $font-size-normal;
     margin-top: 4px;
   }
 
   .kf-title {
-    @include roboto;
+
     font-size: 20px;
     font-weight: bold;
     line-height: normal;
@@ -120,7 +120,7 @@ $small-size: 108px;
   }
 
   .no-number {
-    @include roboto;
+
     color: $pxweb-dark-3;
     font-size: 20px;
     font-weight: bold;

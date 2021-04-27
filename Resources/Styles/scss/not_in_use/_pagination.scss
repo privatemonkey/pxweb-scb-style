@@ -2,7 +2,7 @@ $direction-button-height: 30px;
 $direction-button-width: 80px;
 
 .ssb-pagination {
-  @include roboto;
+
   align-items: center;
   display: flex;
   line-height: 1.25;
@@ -49,7 +49,7 @@ $direction-button-width: 80px;
     border: 1px solid transparent;
     cursor: pointer;
     display: flex;
-    font-size: 16px;
+    font-size: $font-size-normal;
     height: $direction-button-height;
     justify-content: center;
     padding: 4px 10px;
@@ -61,7 +61,7 @@ $direction-button-width: 80px;
 
     .chevron-icon {
       color: $pxweb-green-4;
-      font-size: 16px;
+      font-size: $font-size-normal;
     }
 
     &:hover {

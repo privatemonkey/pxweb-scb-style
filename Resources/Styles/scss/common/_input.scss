@@ -1,6 +1,7 @@
 @include file-header("common/_input.scss");
 
 #{$selector_prefix}-input {
+
     cursor: text;
     display: flex;
     flex-direction: column;
@@ -40,17 +41,18 @@
     label {
         color: $pxweb-dark-6;
         cursor: text;
-        font-size: 14px;
+        font-size: $font-size-small;
         margin-bottom: 4px;
         user-select: none;
     }
 
     input {
+
         background: $pxweb-white;
         border: 1px solid $pxweb-dark-5;
         box-sizing: border-box;
         color: $pxweb-dark-4;
-        font-size: 14px;
+        font-size: $font-size-small;
         height: 34px;
         padding: 12px 12px;
         text-overflow: ellipsis;

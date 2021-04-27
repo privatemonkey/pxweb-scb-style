@@ -1,8 +1,9 @@
 #{$selector_prefix}-input-error {
+
     background: $pxweb-red-3;
     color: $pxweb-white;
     display: flex;
-    font-size: 14px;
+    font-size: $font-size-small;
     font-weight: bold;
     justify-content: center;
     line-height: normal;

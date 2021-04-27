@@ -1,7 +1,7 @@
 /*@import './color-themes/_dark.scss';*/
-/*@import './color-themes/_light.scss';
-*/
+/*@import './color-themes/_light.scss';*/
 /*#region  Active colors */
+/*$pxweb-green-1: #ecfeed;*/
 /*#endregion*/
 /*#region  Active colors inside pxbox*/
 /*#endregion*/
@@ -11,6 +11,100 @@
 /*#region Links */
 /*#endregion*/
 /*#endregion*/
+/*
+* Text and typography
+*
+* Uses Public Sans variable font to allow many weights with a small footprint. The font is locally served.
+* https://public-sans.digital.gov/
+*
+* Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
+*/
+@font-face {
+  font-family: "PublicSans";
+  src: url("/dev/assets/PublicSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: system;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+html {
+  color: #222;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "PublicSans", "system", sans-serif;
+}
+
+/* -- Headers -- */
+h1, h2, h3, .variableselector_variable_box_container label, .container_titletext, h4 {
+  font-weight: 700;
+  max-width: 920px;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.6875rem;
+  line-height: 1.4;
+  margin: 2rem 0 1.5rem;
+}
+
+h3, .variableselector_variable_box_container label, .container_titletext {
+  font-size: 1.3125rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+h5, button.nested-accordion-header, .accordion-body legend {
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 0.25rem;
+}
+
+.container_titletext {
+  margin-top: 0;
+}
+
+.variableselector_variable_box_container label, label, input[type=radio]:checked + label {
+  font-weight: 700;
+  max-width: 920px;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+label span {
+  font-weight: 400;
+}
+
+/* -- Regular text -- */
+p, input, select, option, button.accordion-header, button.nested-accordion-header, button {
+  font-family: "PublicSans", "system";
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
 /*@import './color-themes/_screen-reader.scss';*/
 /*#region  Inactive colors - not in used */
 /*
@@ -21,11 +115,9 @@ $pxweb-red-4: #cb3713;
 $negative-red: #f8a67d;
 $pxweb-dark-1: #f0f8f9;
 $pxweb-dark-3: #62919a;
-$pxweb-purple-1: #f2f0ff;
 $scrollbar-color: #b0b0b0;
   */
 /*#endregion*/
-/* Only used in JqueryUI */
 @keyframes fadein {
   from {
     opacity: 0;
@@ -260,7 +352,6 @@ $scrollbar-color: #b0b0b0;
 
 th.pxweb-subheader {
   font-size: 1.2em !important;
-  font-family: "Roboto Condensed", sans-serif !important;
   color: #333333;
   font-weight: bold !important;
   padding-top: 2.5em !important;

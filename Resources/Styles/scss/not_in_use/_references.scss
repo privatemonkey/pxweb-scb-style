@@ -3,10 +3,10 @@
   flex-direction: column;
 
   .reference-header {
-    @include roboto;
+
     color: $pxweb-dark-6;
     font-weight: bold;
-    font-size: 16px;
+    font-size: $font-size-normal;
     line-height: 1.25;
   }
 }

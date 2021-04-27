@@ -1,6 +1,12 @@
 ﻿@include file-header("_menu.scss");
 
 #pxwebcontent .menu_databasename {
+  /*
+  font-size: 200%;
+  line-height: 100%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: block;*/
   @include pxweb-table-title;
 }
 
@@ -11,10 +17,6 @@
 #pxwebcontent .menuTopRightContent {
   float: right;
   vertical-align: top;
-}
-
-#pxwebcontent .menuExplanation {
-  @include just-open-sans-important;
 }
 
 #pxwebcontent .menuExplanationDiv {

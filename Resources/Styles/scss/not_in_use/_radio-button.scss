@@ -1,9 +1,9 @@
 .ssb-radio {
-  @include roboto;
+
   color: $pxweb-dark-6;
   cursor: pointer;
   display: block;
-  font-size: 16px;
+  font-size: $font-size-normal;
   min-width: 200px;
   outline: none;
   position: relative;

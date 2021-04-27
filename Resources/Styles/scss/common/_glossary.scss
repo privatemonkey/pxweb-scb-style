@@ -3,10 +3,10 @@
 #{$selector_prefix}-glossary {
     @include focus-marker;
     @include reset-button;
-    
+
     display: inline-block;
     position: relative;
-   
+
     .glossary-text-wrap {
         border-bottom: 1px dotted $pxweb-green-4;
         display: inline-block;
@@ -30,23 +30,23 @@
         width: 100%;
         z-index: -1;
 	}
-	
+
     &:hover , &:focus  {
-	
+
 	  .glossary-animate-background {
         height: 100%;
       }
-	  
+
       .glossary-logo {
             color: $pxweb-dark-6;
-      } 
+      }
     }
 
     .glossary-popup {
-        @include open-sans;
+
         animation: fadein .2s;
         display: none;
-        font-size: 14px;
+        font-size: $font-size-small;
         left: 50%;
         margin-left: -135px;
         opacity: 0;
@@ -87,7 +87,7 @@
                 .icon {
                     color: $pxweb-dark-5;
                     fill: $pxweb-green-2;
-                    font-size: 16px;
+                    font-size: $font-size-normal;
                 }
 
                 span {
@@ -98,7 +98,7 @@
 
             .info-text {
                 color: $pxweb-white;
-                font-size: 14px;
+                font-size: $font-size-small;
             }
         }
     }

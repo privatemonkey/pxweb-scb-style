@@ -1,0 +1,68 @@
+/*
+* Breakpoints
+* Statistics for screen size usage
+* https://gs.statcounter.com/screen-resolution-stats
+*
+* Desktop: 1920, 1366, 1536, 1600, 1280, 768, 2560, 1024
+* Mobile: 360, 375, 414, 412
+* (Tablet): 786 1280 1024 800 962 600 1366 1080
+*
+*
+Small phone
+360
+375
+412
+414
+---
+Phablet
+600
+601
+768
+---
+Tablet
+800
+810
+834
+962
+1024
+1080
+---
+Small desktop
+1280
+1366
+---
+Large desktop
+1536
+1600
+1920
+2560
+*/
+$bp-medium: 1280px;
+$width2: 1720px;
+
+:root {
+    f-size: 20px;
+    f-family: Helvetica, sans-serif;
+}
+
+@media (min-width: $width1) and (max-width: $width2) {
+    :root {
+        f-size: 22px;
+        f-family: Helvetica;
+        ;
+    }
+}
+
+@media (min-width: $mq-hhd) {
+    :root {
+        f-size: 24px;
+        f-family: sans-serif;
+        ;
+    }
+}
+
+.my-element {
+    font-size: var(f-size);
+    color: red;
+    font-family: var(f-family);
+}

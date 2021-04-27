@@ -7,20 +7,17 @@
 * Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
 */
 
-@use '../base/sizes';
-@use '../base/colors';
+$text:                   #222;
+$text-dark:              #000;
+$text-inactive:          #999;
+$text-inverted:          #fff;
 
-$text:                   colors.$color-dark;
-$text-dark:              colors.$color-darkest;
-$text-inactive:          colors.$color-medium;
-$text-inverted:          colors.$color-lightest;
+$link-text:              #0202c0;
+$link__hover-text:       $text-dark;
+$link__hover-background: #fff;
 
-$link-text:              colors.$color-primary;
-$link__hover-text:       colors.$color-primary-dark;
-$link__hover-background: colors.$color-primary-text;
-
-$selected-text:          colors.$color-dark;
-$selected-background:    colors.$color-lightest;
+$selected-text:          $text-inverted;
+$selected-background:    $text-dark;
 
 $text-weight-normal:     400;
 $text-weight-medium:     500;
@@ -29,6 +26,7 @@ $text-weight-bold:       700;
 $max-text-width:         720px;
 $max-header-width:       920px;
 
+$font-size-small:        14px;
 $font-size-normal:         16px;
 
 @font-face {
@@ -36,11 +34,9 @@ $font-size-normal:         16px;
   src: url('/dev/assets/PublicSans-VariableFont_wght.ttf');
 }
 
-// src: url('https://github.com/uswds/public-sans/raw/develop/fonts/variable/PublicSans%5Bwght%5D.ttf');
-
 @font-face {
-font-family: system;
-src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  font-family: system;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
 html {
@@ -51,7 +47,7 @@ html {
 }
 
 body {
-  font-family: 'PublicSans', "system";
+  font-family: 'PublicSans', 'system', sans-serif;
 }
 
 /* -- Headers -- */
@@ -97,7 +93,7 @@ h5 {
   width: 100%;
   text-align: left;
   padding: 0;
-  margin-bottom: sizes.$space-small;
+  margin-bottom: 0.25rem;
 }
 
 button.nested-accordion-header, .accordion-body legend {

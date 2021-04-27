@@ -3,7 +3,7 @@ $medium-number-size: 100px;
 $small-number-size: 56px;
 
 .ssb-number {
-  @include roboto-condenced;
+
   color: $pxweb-dark-5;
   line-height: normal;
   white-space: nowrap;

@@ -1,5 +1,5 @@
 #{$selector_prefix}-dropdown {
-    @include roboto;
+
     display: flex;
     flex-direction: column;
     transition: all .25s ease-in-out;
@@ -8,7 +8,7 @@
     position: relative;
 
     label {
-        font-size: 14px;
+        font-size: $font-size-small;
         line-height: normal;
         margin-bottom: 5px;
     }
@@ -38,7 +38,7 @@
             border: 1px solid $pxweb-dark-6;
             box-sizing: border-box;
             cursor: pointer;
-            font-size: 16px;
+            font-size: $font-size-normal;
             height: $input-field-height;
             padding: 4px $input-field-height 4px 12px;
             text-overflow: ellipsis;
@@ -60,7 +60,7 @@
     }
 
     .list-of-options {
-        @include roboto;
+
         background: $pxweb-white;
         border: 1px solid $pxweb-dark-6;
         left: 0;
@@ -80,11 +80,11 @@
         .option-list-element {
             @include focus-marker;
             @include reset-button;
-            @include roboto;
+
             background: $pxweb-white;
             cursor: pointer;
             display: block;
-            font-size: 16px;
+            font-size: $font-size-normal;
             font-weight: normal;
             line-height: 1.25;
             overflow: hidden;

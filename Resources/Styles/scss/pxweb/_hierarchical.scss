@@ -46,6 +46,13 @@
   font-weight: bold;
 }
 
+/*.hierarchical_tableinformation_title, #pxwebcontent .h2title h2 {
+    @include pxweb-table-title;
+}*/
+.hierarchical_tableinformation_title {
+    @include pxweb-table-title;
+}
+
 #pxwebcontent .hierarchical_tableinformation_description {
   font-weight: bold;
   margin-bottom: 20px;

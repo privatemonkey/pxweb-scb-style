@@ -1,5 +1,5 @@
 .ssb-card {
-  @include roboto;
+
 
   .clickable {
     @include focus-marker;
@@ -193,7 +193,7 @@
     }
 
     .card-action {
-      @include open-sans;
+
       align-items: center;
       display: flex;
       margin-top: 12px;
@@ -205,7 +205,7 @@
 
       .href-text {
         color: $pxweb-dark-6;
-        font-size: 16px;
+        font-size: $font-size-normal;
         font-weight: bold;
         padding: 4px;
       }
@@ -219,8 +219,8 @@
     }
 
     .card-subtitle {
-      @include open-sans;
-      font-size: 14px;
+
+      font-size: $font-size-small;
       margin-bottom: 8px;
     }
 
@@ -233,7 +233,7 @@
   }
 
   .download-section {
-    @include open-sans;
+
     align-items: center;
     border: 1px solid $pxweb-dark-2;
     cursor: pointer;
@@ -257,7 +257,7 @@
 
     span {
       color: $pxweb-dark-6;
-      font-size: 16px;
+      font-size: $font-size-normal;
     }
   }
 }

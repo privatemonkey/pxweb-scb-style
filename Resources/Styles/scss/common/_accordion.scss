@@ -7,6 +7,7 @@
   .accordion-header {
     @include focus-marker;
     @include reset-button;
+
     font-size: 20px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -15,6 +16,7 @@
 
     &.closed {
       background-image: get-icon( 'accordion-closed', $pxweb-green-4);
+      z-index: 0;
     }
 
     .header-text {
@@ -54,6 +56,10 @@
     }
   }
 
+  & button:disabled {
+    cursor: not-allowed;
+  }
+
   &.with-sub-header {
 
     .button-grid {
@@ -74,9 +80,10 @@
   }
 
   .accordion-body {
+
     color: $pxweb-dark-6;
-    font-size: 16px;
-    padding: $global-padding-size 50px $global-padding-size 0;
+    font-size: $font-size-normal;
+    padding: $global-padding-size 20px $global-padding-size 0;
 
     &.closed {
       display: none;

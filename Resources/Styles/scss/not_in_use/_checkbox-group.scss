@@ -1,5 +1,5 @@
 #{$selector_prefix}-checkbox-group {
-  @include roboto;
+
   display: inline-block;
 
   .boxes {
@@ -7,7 +7,7 @@
   }
 
   .checkbox-group-header{
-	font-size: 16px;
+	font-size: $font-size-normal;
 	font-weight: bold;
 	margin-bottom: 8px;
   }

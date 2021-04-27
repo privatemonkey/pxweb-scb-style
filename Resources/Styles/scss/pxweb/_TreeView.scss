@@ -67,12 +67,10 @@ div.AspNet-TreeView ul li {
 }*/
 
 span.AspNet-TreeView-ClickableNonLink {
-    font-family: Verdana,Arial,sans-serif;
     cursor: pointer;
-    font-family: Roboto;
     font-weight: normal;
     padding-top: 0px;
-    font-size: 16px;
+    font-size: $font-size-normal;
     line-height: 26px;
 }
 
@@ -107,7 +105,8 @@ span.AspNet-TreeView-ClickableNonLink {
 span.AspNet-TreeView-Expand, span.AspNet-TreeView-Collapse {
     background-image: none !important;
     position: relative;
-    margin-right: 12px !important;
+    margin-right: 5px !important;
+    @include focus-marker;
 }
 
 span.AspNet-TreeView-Expand::before, span.AspNet-TreeView-Collapse::before {
@@ -124,7 +123,7 @@ span.AspNet-TreeView-Expand::before, span.AspNet-TreeView-Collapse::before {
 }
 
 span.AspNet-TreeView-Expand::before {
-    content: "\e148"
+    content: "\e148";
 }
 
 span.AspNet-TreeView-Collapse::before {
@@ -144,10 +143,9 @@ span.AspNet-TreeView-Collapse::before {
 #pxwebcontent div.AspNet-TreeView a:active,
 #pxwebcontent div.AspNet-TreeView a:hover,
 #pxwebcontent div.AspNet-TreeView a:link {
-    font-family: Roboto;
     font-weight: normal;
     padding-top: 0px;
-    font-size: 16px;
+    font-size: $font-size-normal;
     line-height: 26px;
     color: $pxweb-dark-5;
     /*    text-decoration: normal;*/

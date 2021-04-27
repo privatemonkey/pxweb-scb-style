@@ -1,0 +1,6 @@
+@use '../base/colors'
+
+.dark {
+  --color-page-background: $color-darkest;
+  --color-text: $color-lightest;
+}
