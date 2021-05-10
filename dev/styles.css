@@ -572,11 +572,9 @@ button.nested-accordion-header {
   grid-template-areas: 'main secondary';
   gap: 2rem;
   margin-top: 2rem;
-}*/
+}
 
 .presentation-left {
-  /* margin-top: 3.4rem; */
-  /* grid-area: secondary; */
   position: fixed;
   overflow: auto;
   height: 100vh;
@@ -592,6 +590,7 @@ button.nested-accordion-header {
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
   background-color: #f8f8f8;
 }
+*/
 
 input[value="Fullscreen"] {
   position: absolute;
