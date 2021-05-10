@@ -9,7 +9,7 @@ $stepper-2-adjust: -2.5rem;
 $stepper-3-adjust: -2rem;
 $stepper-left-space: 2rem;
 
-.navigationFlowArea {
+nav.steps {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,76 +18,76 @@ $stepper-left-space: 2rem;
     margin-left: $stepper-left-space;
   }
   
-.navigationFlowArea a img {
+  .steps a img {
     display: none;
   }
   
   /* Adjust text position of stepp */
-.navigationFlowArea a.first span {
+  .steps a.first span {
     margin-left: $stepper-1-adjust;
   }
   
-.navigationFlowArea a.second span {
+  .steps a.second span {
     margin-left: $stepper-2-adjust;
   }
   
-.navigationFlowArea a.third span {
+  .steps a.third span {
     margin-left: $stepper-3-adjust;
   }
   
-.navigationFlowArea a {
+  .steps a {
     display: inline-block;
     padding: 0;
     line-height: 100%;
     text-decoration: none;
   }
   
-.navigationFlowArea a span {
+  .steps a span {
     position: absolute;
     margin-top: 1rem;
   }
   
-.navigationFlowArea a::before {
+  .steps a::before {
     color: typography.$text-inverted;
     font-size: 2rem;
     display: block;
   }
   
-.navigationFlowArea a.active::before {
+  .steps a.active::before {
     content: '◉';
     color: typography.$text;
   }
   
-.navigationFlowArea a.future::before {
+  .steps a.future::before {
     content: '○';
     color: typography.$text-inactive;
   }
   
-.navigationFlowArea a.passive::before {
+  .steps a.passive::before {
     content: '○';
     color: typography.$text;
   }
   
-.navigationFlowArea a.passive span, .navigationFlowArea a.active span {
+  .steps a.passive span, .steps a.active span {
     text-decoration: underline;
   }
   
-.navigationFlowArea a.future span {
+  .steps a.future span {
     color: typography.$text-inactive;
   }
   
-.navigationFlowArea a.active {
+  .steps a.active {
     color: typography.$text;
     text-decoration: none;
   }
   
-  hr {
+  span.step_sep {
     flex-grow: 2;
     border-top: 2px solid panel.$panel-border-color;
     margin-top: 0.5rem;
   }
   
-  hr.future {
+  span.step_sep.future {
     border-color: typography.$text-inactive;
     border-top-style: dashed;
   }
