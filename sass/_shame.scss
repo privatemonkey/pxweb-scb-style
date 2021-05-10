@@ -1,5 +1,6 @@
 @use 'layout/_panel.scss'; 
 @use 'base/_sizes.scss';
+@use 'base/_colors.scss';
 @use 'base/_typography.scss';
 @use 'layout/layout.scss';
 
@@ -66,6 +67,21 @@ nav a {
     display: flex;
     justify-content: center;
   }
+
+  /* Search field */
+  .search-icon {
+    background-repeat: no-repeat;
+    background-color: colors.$button-primary-background;
+    background-position: center;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .variableselector_valuesselect_search_textstart_checkbox label {
+    @include typography.text;
+    width: 100%;
+  }
+  
 
   /* Media queries */
 @media(min-width:1140px) {

@@ -755,6 +755,26 @@ nav a {
   justify-content: center;
 }
 
+/* Search field */
+.search-icon {
+  background-repeat: no-repeat;
+  background-color: #006E91;
+  background-position: center;
+  width: 2rem;
+  height: 2rem;
+}
+
+.variableselector_valuesselect_search_textstart_checkbox label {
+  font-family: "PublicSans", "Public Sans", "system";
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+  width: 100%;
+}
+
 /* Media queries */
 @media (min-width: 1140px) {
   .burger_menu-icon {
