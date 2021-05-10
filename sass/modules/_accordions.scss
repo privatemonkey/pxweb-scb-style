@@ -1,4 +1,5 @@
 @use '../layout/_panel.scss'; 
+@use '../base/_sizes.scss';
 
 /*
 * Accordions
@@ -30,8 +31,66 @@ button.accordion-header, button.nested-accordion-header  {
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
   margin-bottom: 0;
-  /* font-weight: 400; */
   display: inline-block;
   border-top: 1px solid panel.$panel-border-color;
 }
+
+button.accordion-header.closed:before {
+  content: '▾';
+}
+
+button.nested-accordion-header {
+  background-color: panel.$panel-background;
+  padding-left: 0.5rem;
+  padding-right: 0;
+}
+
+button.nested-accordion-header {
+  display: none;
+  font-weight: 400;
+  border-top: none;
+  padding: 1.5rem;
+}
+
+button.accordion-header:before {
+  content: '▴';
+  padding-right: 0;
+  margin-right: 9px;
+}
+
+.pxweb-nested-accordion dl {
+  display: flex;
+  justify-content: start;
+  flex-shrink: 1;
+}
+
+.pxweb-nested-accordion dd {
+  margin-left: sizes.$space-smallest;
+}
+
+.accordion-body {
+  background-color: transparent;
+  width: 100%;
+  border-top: 0;
+  border-radius: 0;
+  text-align: left;
+  padding: 0 2rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+}
+
+.accordion-body.closed {
+  display: none;
+}
+
+.accordion-body div {
+  width: 100%;
+}
+
+.accordion-body fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
 

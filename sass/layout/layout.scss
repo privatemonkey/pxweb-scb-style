@@ -2,6 +2,7 @@
 @use '_fullscreen.scss';
 @use '_header.scss';
 @use '_panel.scss';
+@use '_flex.scss';
 
 main, div[role="main"] {
   max-width: 1440px;

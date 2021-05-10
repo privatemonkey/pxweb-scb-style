@@ -451,6 +451,7 @@ button:hover, button:focus, input[type="button"]:hover,input[type="button"]:focu
 /* Accordions */
 
 /* Reset fieldset */
+/*
 .accordion-panels legend {
   width: 100%;
   padding: 0;
@@ -469,7 +470,6 @@ button.accordion-header, button.nested-accordion-header  {
   background-color: #fff;
   color: var(--text);
   width: 100%;
-  /* border: var(--panel-border-width) solid var(--panel-border-color); */
   border-width: 0;
   border-radius: 0;
   text-align: left;
@@ -481,12 +481,13 @@ button.accordion-header, button.nested-accordion-header  {
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
   margin-bottom: 0;
-  /* font-weight: 400; */
   display: inline-block;
   border-top: 1px solid var(--panel-border-color);
 }
+*/
 
 /* Handling About section */
+/*
 .information_definitionlist button.nested-accordion-header.closed {
   border-top: none;
   padding: 0;
@@ -543,7 +544,6 @@ button.nested-accordion-header {
   background-color: transparent;
   color: var(--text);
   width: 100%;
-  /* border: var(--panel-border-width) solid var(--panel-border-color); */
   border-top: 0;
   border-radius: 0;
   text-align: left;
@@ -564,7 +564,7 @@ button.nested-accordion-header {
   border: none;
   margin: 0;
   padding: 0;
-}
+}*/
 
 /* Result page specifics
 .presentation-container {
@@ -647,7 +647,7 @@ input[value="Fullscreen"] {
 }
 
 /* Utility classes */
-.aflex-column {
+/*.aflex-column {
   display: flex;
   flex-direction: column;
 }
@@ -659,7 +659,7 @@ input[value="Fullscreen"] {
 
 .flex-wrap {
   flex-wrap: wrap;
-}
+}*/
 
 /* Media queries */
 @media(min-width:1140px) {
