@@ -19,6 +19,11 @@
   }
 }
 
+input, option, select {
+  font-weight: typography.$text-weight-medium;
+}
+
+
 /*
 * Buttons
 * Basic button is styled as primary button
@@ -36,11 +41,62 @@ button, input[type="button"], input[type="submit"] {
   }
 }
 
+button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
+  padding: sizes.$space-smallest sizes.$space-small;
+  border-radius: 0.25rem;
+  margin-right: sizes.$space-smallest;
+  /* margin-top: sizes.$space-small); */
+  margin-bottom: 0.75rem;
+  color: colors.$button-primary-text;
+  background-color: colors.$button-primary-background;
+  border:2px colors.$button-primary-background solid;
+}
+
+button.primary-btn, input[type="button"].primary-btn, input[type="submit"].primary-btn {
+  color: colors.$button-primary-text;
+  background-color: colors.$button-primary-background;
+  border:2px colors.$button-primary-background solid;
+}
+
+button.secondary-btn, input[type="button"].secondary-btn, input[type="submit"] {
+  background-color: transparent;
+  border:2px colors.$button-primary-background solid;
+  color: colors.$button-secondary-text;
+  max-height: 2.6rem;
+}
+
+input[type="submit"].icon-placement {
+  background-color: transparent;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0 0.5rem 0.5rem 0;
+  border-color: transparent;
+  border-radius: 0;
+  float: left;
+  clear: left;
+  font-weight: typography.$text-weight-bold;
+}
+
+button:hover, button:focus, input[type="button"]:hover,input[type="button"]:focus, input[type=submit]:hover, input[type=submit]:focus {
+  background-color: colors.$button__hover-background;
+  color: colors.$button__hover-text;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+
+
 /*
 * Input fields
 */
 input {
   @include field;
+}
+
+input[type="radio"] {
+  margin-bottom: sizes.$space-small;
+  margin-right: sizes.$space-smallest;
+  display: inline-block;
 }
 
 input[type="radio"]+label, input[type="checkbox"]+label {
@@ -82,6 +138,7 @@ select[multiple] {
   @include field;
   appearance: none;
   padding: 0;
+  background-image: none;
   margin-bottom: sizes.$space-small;
   border-radius: 4px;
 }

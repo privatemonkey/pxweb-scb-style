@@ -102,6 +102,11 @@ label span {
 }
 
 /* -- Regular text -- */
+p, span, a, .steps {
+  max-width: 720px;
+  display: inline-block;
+}
+
 p {
   font-family: "PublicSans", "system";
   font-size: 1rem;
@@ -145,14 +150,22 @@ button, button.accordion-header, button.nested-accordion-header {
 }
 
 /* Links */
-a:hover, a:focus {
+a {
+  color: #006E91;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:hover, a:focus, a:active {
   color: #001920;
   cursor: pointer;
+  text-decoration: none;
 }
 
 input[type=radio] + label:hover, input[type=radio]:checked + label {
   color: #001920;
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* Selected text */
@@ -346,6 +359,10 @@ button.accordion-header:before {
 /*
 * Generic form related styling. Buttons, inputs, select.
 */
+input, option, select {
+  font-weight: 500;
+}
+
 /*
 * Buttons
 * Basic button is styled as primary button
@@ -362,6 +379,49 @@ button:hover, button:active, button:focus, input[type=button]:hover, input[type=
   background-color: #222;
 }
 
+button, input[type=submit], input[type=button], input[type=submit].container_continuebutton {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  /* margin-top: sizes.$space-small); */
+  margin-bottom: 0.75rem;
+  color: #fff;
+  background-color: #006E91;
+  border: 2px #006E91 solid;
+}
+
+button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn {
+  color: #fff;
+  background-color: #006E91;
+  border: 2px #006E91 solid;
+}
+
+button.secondary-btn, input[type=button].secondary-btn, input[type=submit] {
+  background-color: transparent;
+  border: 2px #006E91 solid;
+  color: #006E91;
+  max-height: 2.6rem;
+}
+
+input[type=submit].icon-placement {
+  background-color: transparent;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0 0.5rem 0.5rem 0;
+  border-color: transparent;
+  border-radius: 0;
+  float: left;
+  clear: left;
+  font-weight: 700;
+}
+
+button:hover, button:focus, input[type=button]:hover, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:focus {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: transparent;
+}
+
 /*
 * Input fields
 */
@@ -376,6 +436,12 @@ input {
 input:hover, input:focus, input:active {
   border: 1px solid #222;
   outline-color: #222;
+}
+
+input[type=radio] {
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  display: inline-block;
 }
 
 input[type=radio] + label, input[type=checkbox] + label {
@@ -430,6 +496,7 @@ select[multiple] {
   background-color: #fff;
   appearance: none;
   padding: 0;
+  background-image: none;
   margin-bottom: 1rem;
   border-radius: 4px;
 }
@@ -626,6 +693,12 @@ hr.future {
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
   background-color: #f8f8f8;
+}
+
+nav a {
+  font-weight: 500;
+  padding: 0.25rem 0.25rem 0.05rem;
+  line-height: 100%;
 }
 
 .commandbar-shortcuts {

@@ -126,6 +126,11 @@ label span {
 
 /* -- Regular text -- */
 
+p, span, a, .steps {
+  max-width: $max-text-width;
+  display: inline-block;
+}
+
 @mixin text {
   font-family: 'PublicSans', "system";
   font-size: 1rem;
@@ -157,16 +162,27 @@ button, button.accordion-header, button.nested-accordion-header,  {
 
 /* Links */
 @mixin textlink {
-  color: $link__hover-text;
+  color: $link-text;
   cursor: pointer;
+  text-decoration: underline;
 }
 
-a:hover, a:focus {
+@mixin textlink__hover {
+  color: $link__hover-text;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
   @include textlink;
+}
+
+a:hover, a:focus, a:active {
+  @include textlink__hover;
 }
 
 input[type="radio"] + label:hover, input[type="radio"]:checked + label {
-  @include textlink;
+  @include textlink__hover;
 }
 
 /* Selected text */

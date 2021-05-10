@@ -1,5 +1,12 @@
 @use 'layout/_panel.scss'; 
 @use 'base/_sizes.scss';
+@use 'base/_typography.scss';
+
+nav a {
+    font-weight: typography.$text-weight-medium;
+    padding: 0.25rem 0.25rem 0.05rem;
+    line-height: 100%;
+  }
 
 .commandbar-shortcuts {
     /* margin-top: 0.5rem; */
