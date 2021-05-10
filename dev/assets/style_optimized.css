@@ -222,6 +222,12 @@ main, div[role=main] {
 /*
 * Accordions
 */
+.variableselector_variable_box_container > div, div.accordion {
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+
 .accordion-panels legend {
   width: 100%;
   padding: 0;

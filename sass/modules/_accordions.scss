@@ -4,6 +4,10 @@
 /*
 * Accordions
 */
+.variableselector_variable_box_container > div, div.accordion {
+  @include panel.panel;    
+}
+
 .accordion-panels legend {
   width: 100%;
   padding: 0;

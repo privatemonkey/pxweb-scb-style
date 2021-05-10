@@ -1,3 +1,5 @@
+@use '../base/typography';
+@use '../layout/panel';
 /*
 * Stepper, the three steps of PX Web
 */
@@ -6,3 +8,87 @@ $stepper-1-adjust: -2rem;
 $stepper-2-adjust: -2.5rem;
 $stepper-3-adjust: -2rem;
 $stepper-left-space: 2rem;
+
+nav.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+    margin: 2rem 0;
+    margin-left: $stepper-left-space;
+  }
+  
+  .steps a img {
+    display: none;
+  }
+  
+  /* Adjust text position of stepp */
+  .steps a.first span {
+    margin-left: $stepper-1-adjust;
+  }
+  
+  .steps a.second span {
+    margin-left: $stepper-2-adjust;
+  }
+  
+  .steps a.third span {
+    margin-left: $stepper-3-adjust;
+  }
+  
+  .steps a {
+    display: inline-block;
+    padding: 0;
+    line-height: 100%;
+    text-decoration: none;
+  }
+  
+  .steps a span {
+    position: absolute;
+    margin-top: 1rem;
+  }
+  
+  .steps a::before {
+    color: typography.$text-inverted;
+    font-size: 2rem;
+    display: block;
+  }
+  
+  .steps a.active::before {
+    content: '◉';
+    color: typography.$text;
+  }
+  
+  .steps a.future::before {
+    content: '○';
+    color: typography.$text-inactive;
+  }
+  
+  .steps a.passive::before {
+    content: '○';
+    color: typography.$text;
+  }
+  
+  .steps a.passive span, .steps a.active span {
+    text-decoration: underline;
+  }
+  
+  .steps a.future span {
+    color: typography.$text-inactive;
+  }
+  
+  .steps a.active {
+    color: typography.$text;
+    text-decoration: none;
+  }
+  
+  span.step_sep {
+    flex-grow: 2;
+    border-top: 2px solid panel.$panel-border-color;
+    margin-top: 0.5rem;
+  }
+  
+  span.step_sep.future {
+    border-color: typography.$text-inactive;
+    border-top-style: dashed;
+  }
+  
