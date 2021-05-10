@@ -157,8 +157,8 @@ input[type=radio] + label:hover, input[type=radio]:checked + label {
 
 /* Selected text */
 ::selection, ::-moz-selection {
-  color: #222;
-  background-color: #fff;
+  color: #fff;
+  background-color: #222;
 }
 
 .fullscreen main, .fullscreen div[role=main] {
@@ -432,9 +432,9 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
 }
 
 select[multiple] option:checked {
-  background: #fff linear-gradient(0deg, #fff 0%, #fff 100%);
-  -webkit-text-fill-color: #222;
-  color: #222;
+  background: #222 linear-gradient(0deg, #222 0%, #222 100%);
+  -webkit-text-fill-color: #fff;
+  color: #fff;
 }
 
 option {
@@ -444,8 +444,8 @@ option {
 }
 
 option:checked {
-  background-color: #fff;
-  color: #222;
+  background-color: #222;
+  color: #fff;
   cursor: pointer;
 }
 
