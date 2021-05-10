@@ -1,20 +1,37 @@
+@use '../layout/_panel.scss'; 
+
 /*
 * Accordions
 */
-button.accordion-header, button.nested-accordion-header.closed, .closed .accordion-body {
-  background-color: #f8f8f8;
-}
-
-.accordion-body.closed {
-  display: none;
-}
-
-.accordion-body div {
+.accordion-panels legend {
   width: 100%;
-}
-
-.accordion-body fieldset {
-  border: none;
-  margin: 0;
   padding: 0;
 }
+.accordion-panels fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+button.accordion-header:hover span, button.nested-accordion-header:hover, button.accordion-header:focus span, button.nested-accordion-header:focus  {
+  text-decoration: underline;
+}
+
+button.accordion-header, button.nested-accordion-header  {
+  width: 100%;
+  border-width: 0;
+  border-radius: 0;
+  text-align: left;
+  padding: 1.5rem 1rem;
+  margin: 0;
+  border-top: 1px solid panel.$panel-border-color;
+  font-weight: 700;
+}
+
+button.accordion-header.closed, button.nested-accordion-header.closed {
+  margin-bottom: 0;
+  /* font-weight: 400; */
+  display: inline-block;
+  border-top: 1px solid panel.$panel-border-color;
+}
+

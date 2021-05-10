@@ -1,7 +1,7 @@
-@use "../base/_sizes"
+@use "../base/_sizes";
 
 .fullscreen main, .fullscreen div[role="main"]  {
-  max-width: calc(100vw -  var(--space-large) - var(--space-large));
+  max-width: calc(100vw -  #{sizes.$space-large} - #{sizes.$space-large});
   margin: 0;
-  padding: 0 var(--space-large);
+  padding: 0 sizes.$space-large;
 }

@@ -292,6 +292,7 @@ fieldset legend {
   background-color: var(--selected-background);
 }
 
+/*
 header, #header {
   border-bottom: 1px solid var(--panel-border-color);
   margin-bottom: 1rem;
@@ -324,6 +325,7 @@ img.logo-quality, .officialStatisticsImage {
   display: flex;
 
 }
+*/
 
 /* Panel */
 .variableselector_variable_box_container > div, div.accordion {

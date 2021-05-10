@@ -1,0 +1,31 @@
+@use '../base/sizes';
+@use '_panel.scss'; 
+
+
+header, #header {
+    border-bottom: 1px solid panel.$panel-border-color;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background-color: #fff;
+    padding-left: sizes.$space-large;
+  }
+
+  img.logo, .imgSiteLogo {
+    max-height: 50px;
+    margin-right: 1rem;
+  }
+  
+  img.logo-quality, .officialStatisticsImage {
+    max-width: 220px;
+    margin-bottom: sizes.$space-smallest;
+  }
+  
+  .top-link {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0.25rem;
+    background: panel.$panel-background;
+    display: flex;
+  
+  }

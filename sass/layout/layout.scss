@@ -1,25 +1,12 @@
-@use '../base/_sizes';
+@use '../base/sizes';
+@use '_fullscreen.scss';
 @use '_header.scss';
 @use '_panel.scss';
 
-
 main, div[role="main"] {
   max-width: 1440px;
   margin:0 auto;
-  margin-right: calc(panel.$panel-width + $space-large);
-  padding-left: sizes.$space-large;
-}
-
-.fullscreen main, .fullscreen div[role="main"]  {
-  max-width: calc(100vw -  sizes.$space-large - sizes.$space-large);
-  margin: 0;
-  padding: 0 sizes.$space-large;
-}
-
-main, div[role="main"] {
-  max-width: 1440px;
-  margin:0 auto;
-  margin-right: calc(panel.$panel-width + panel.$space-large);
+  margin-right: calc(#{panel.$panel-width} + #{sizes.$space-large});
   padding-left: sizes.$space-large;
 }
 
