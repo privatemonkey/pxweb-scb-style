@@ -2,3 +2,7 @@
 @use 'base/base.scss';
 @use 'layout/layout.scss';
 @use 'modules/modules.scss';
+
+header::before {
+    content: 'Optimized CSS v.0.1';
+}
