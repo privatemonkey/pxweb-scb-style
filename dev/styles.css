@@ -180,7 +180,7 @@ nav a {
   line-height: 100%;
 }
 
-nav.steps {
+/*nav.steps {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -194,7 +194,7 @@ nav.steps {
 }
 
 /* Adjust text position of stepp */
-.steps a.first span {
+/*.steps a.first span {
   margin-left: var(--stepper-1-adjust);
 }
 
@@ -261,14 +261,14 @@ span.step_sep {
 span.step_sep.future {
   border-color: var(--text-inactive);
   border-top-style: dashed;
-}
+}*/
 
-a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked + label {
+/* a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked + label {
   color: var(--link__hover-text);
   cursor: pointer;
-}
+}*/
 
-input[type="radio"]+label, input[type="checkbox"]+label {
+/* input[type="radio"]+label, input[type="checkbox"]+label {
   font-weight: var(--text-weight-normal);
   margin-bottom: 0.5rem;
   display: inline-block;
@@ -290,7 +290,7 @@ fieldset legend {
 ::selection, ::-moz-selection {
   color: var(--selected-text);
   background-color: var(--selected-background);
-}
+}*/
 
 /*
 header, #header {
@@ -339,6 +339,7 @@ img.logo-quality, .officialStatisticsImage {
   padding: 0;
 }
 
+/*
 select {
   -webkit-appearance: none;
 	-moz-appearance: none;
@@ -392,7 +393,7 @@ input, select {
   margin-bottom: 0;
   margin-right: var(--space-smallest);
 }
-
+*/
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
   padding: var(--space-smallest) var(--space-small);
   border-radius: 0.25rem;

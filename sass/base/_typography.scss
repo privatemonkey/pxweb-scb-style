@@ -54,6 +54,10 @@ body {
   font-family: 'PublicSans', "system";
 }
 
+@mixin bold {
+  font-weight: bold;
+}
+
 /* -- Headers -- */
 
 @mixin header {
@@ -149,4 +153,24 @@ button, button.accordion-header, button.nested-accordion-header,  {
 
 .siteName {
   @include text;  
+}
+
+/* Links */
+@mixin textlink {
+  color: $link__hover-text;
+  cursor: pointer;
+}
+
+a:hover, a:focus {
+  @include textlink;
+}
+
+input[type="radio"] + label:hover, input[type="radio"]:checked + label {
+  @include textlink;
+}
+
+/* Selected text */
+::selection, ::-moz-selection {
+  color: $selected-text;
+  background-color: $selected-background;
 }

@@ -1,9 +1,23 @@
 @use "../base/sizes";
 @use "../base/colors";
+@use "../base/typography";
 /*
 * Generic form related styling. Buttons, inputs, select.
 */
 
+@mixin field {
+  padding: sizes.$space-smallest;
+  margin-bottom: 0;
+  margin-right: sizes.$space-smallest;
+  border: 1px solid colors.$input-border-color;
+  outline: 1px solid transparent;
+  background-color: colors.$input-background;
+
+  &:hover, &:focus, &:active {
+    border: 1px solid colors.$input-border-color__hover;
+    outline-color: colors.$input-border-color__hover;
+  }
+}
 
 /*
 * Buttons
@@ -26,10 +40,73 @@ button, input[type="button"], input[type="submit"] {
 * Input fields
 */
 input {
-  &:hover, &:active, &:focus {
-  }
+  @include field;
+}
+
+input[type="radio"]+label, input[type="checkbox"]+label {
+  @include typography.bold;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  width: calc(100% - 2rem);
+  vertical-align: top;
+  padding: 0;
+  line-height: 140%;
+}
+
+fieldset {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+fieldset legend {
+  @include typography.bold;
 }
 
 /*
-* Select boxs
+* Select boxes
 */
+
+select {
+  @include field;
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 255 255' width='18' height='18' xmlns='http://www.w3.org/2000/svg'><g><polygon points='0,63.75 127.5,191.25 255,63.75' fill='black' /></g></svg>");
+	background-position: 97% center;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+select[multiple] {
+  @include field;
+  appearance: none;
+  padding: 0;
+  margin-bottom: sizes.$space-small;
+  border-radius: 4px;
+}
+
+select[multiple] option:checked {
+  background: typography.$selected-background linear-gradient(0deg, #{typography.$selected-background} 0%, #{typography.$selected-background} 100%);
+  -webkit-text-fill-color: typography.$selected-text;
+  color: typography.$selected-text;
+}
+
+option {
+  padding: 0.6rem 0.75rem;
+  min-width: 10rem;
+  margin-bottom: 0;
+}
+
+option:checked {
+  background-color: typography.$selected-background;
+  color: typography.$selected-text;
+  cursor: pointer;
+}
+
+option:hover, option:active, option:focus {
+  background-color: typography.$link__hover-background;
+  color: typography.$text-dark;
+  text-decoration: underline;
+  cursor: pointer;
+}

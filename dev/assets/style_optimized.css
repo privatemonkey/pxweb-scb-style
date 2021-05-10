@@ -13,6 +13,7 @@ body {
 /*-- Primary --*/
 /*-- Secondary --*/
 /* Buttons */
+/* Inputs */
 /* Tables */
 /*
 * Size related variables
@@ -141,6 +142,23 @@ button, button.accordion-header, button.nested-accordion-header {
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 22px;
+}
+
+/* Links */
+a:hover, a:focus {
+  color: #001920;
+  cursor: pointer;
+}
+
+input[type=radio] + label:hover, input[type=radio]:checked + label {
+  color: #001920;
+  cursor: pointer;
+}
+
+/* Selected text */
+::selection, ::-moz-selection {
+  color: #222;
+  background-color: #fff;
 }
 
 .fullscreen main, .fullscreen div[role=main] {
@@ -340,9 +358,104 @@ button:hover, button:active, button:focus, input[type=button]:hover, input[type=
 /*
 * Input fields
 */
+input {
+  padding: 0.5rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  outline: 1px solid transparent;
+  background-color: #fff;
+}
+input:hover, input:focus, input:active {
+  border: 1px solid #222;
+  outline-color: #222;
+}
+
+input[type=radio] + label, input[type=checkbox] + label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  width: calc(100% - 2rem);
+  vertical-align: top;
+  padding: 0;
+  line-height: 140%;
+}
+
+fieldset {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
 /*
-* Select boxs
+* Select boxes
 */
+select {
+  padding: 0.5rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  outline: 1px solid transparent;
+  background-color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 255 255' width='18' height='18' xmlns='http://www.w3.org/2000/svg'><g><polygon points='0,63.75 127.5,191.25 255,63.75' fill='black' /></g></svg>");
+  background-position: 97% center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+select:hover, select:focus, select:active {
+  border: 1px solid #222;
+  outline-color: #222;
+}
+
+select[multiple] {
+  padding: 0.5rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  outline: 1px solid transparent;
+  background-color: #fff;
+  appearance: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
+  border: 1px solid #222;
+  outline-color: #222;
+}
+
+select[multiple] option:checked {
+  background: #fff linear-gradient(0deg, #fff 0%, #fff 100%);
+  -webkit-text-fill-color: #222;
+  color: #222;
+}
+
+option {
+  padding: 0.6rem 0.75rem;
+  min-width: 10rem;
+  margin-bottom: 0;
+}
+
+option:checked {
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+}
+
+option:hover, option:active, option:focus {
+  background-color: #fff;
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /*
 * Default table styling
 */
@@ -480,11 +593,13 @@ thead th, thead td {
 
 hr {
   flex-grow: 2;
+  border: none;
   border-top: 2px solid #949494;
   margin-top: 0.5rem;
 }
 
 hr.future {
+  border: none;
   border-color: #949494;
   border-top-style: dashed;
 }
