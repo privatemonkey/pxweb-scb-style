@@ -403,6 +403,92 @@ thead th, thead td {
   background-color: #fff;
 }
 
+/*
+* Stepper, the three steps of PX Web
+*/
+.navigationFlowArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5rem;
+  margin: 2rem 0;
+  margin-left: 2rem;
+}
+
+.navigationFlowArea a img {
+  display: none;
+}
+
+/* Adjust text position of stepp */
+.navigationFlowArea a.first span {
+  margin-left: -2rem;
+}
+
+.navigationFlowArea a.second span {
+  margin-left: -2.5rem;
+}
+
+.navigationFlowArea a.third span {
+  margin-left: -2rem;
+}
+
+.navigationFlowArea a {
+  display: inline-block;
+  padding: 0;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+.navigationFlowArea a span {
+  position: absolute;
+  margin-top: 1rem;
+}
+
+.navigationFlowArea a::before {
+  color: #fff;
+  font-size: 2rem;
+  display: block;
+}
+
+.navigationFlowArea a.active::before {
+  content: "◉";
+  color: #222;
+}
+
+.navigationFlowArea a.future::before {
+  content: "○";
+  color: #949494;
+}
+
+.navigationFlowArea a.passive::before {
+  content: "○";
+  color: #222;
+}
+
+.navigationFlowArea a.passive span, .navigationFlowArea a.active span {
+  text-decoration: underline;
+}
+
+.navigationFlowArea a.future span {
+  color: #949494;
+}
+
+.navigationFlowArea a.active {
+  color: #222;
+  text-decoration: none;
+}
+
+hr {
+  flex-grow: 2;
+  border-top: 2px solid #949494;
+  margin-top: 0.5rem;
+}
+
+hr.future {
+  border-color: #949494;
+  border-top-style: dashed;
+}
+
 header::before {
   content: "Optimized CSS v.0.1";
 }
