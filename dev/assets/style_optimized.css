@@ -1,5 +1,14 @@
 @charset "UTF-8";
 /*
+* Text and typography
+*
+* Uses Public Sans variable font to allow many weights with a small footprint. The font is locally served.
+* https://public-sans.digital.gov/
+*
+* Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap");
+/*
 * Default theme
 */
 body {
@@ -17,14 +26,6 @@ body {
 /* Tables */
 /*
 * Size related variables
-*/
-/*
-* Text and typography
-*
-* Uses Public Sans variable font to allow many weights with a small footprint. The font is locally served.
-* https://public-sans.digital.gov/
-*
-* Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
 */
 @font-face {
   font-family: "PublicSans";
