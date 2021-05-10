@@ -2,7 +2,8 @@
 @use 'base/base.scss';
 @use 'layout/layout.scss';
 @use 'modules/modules.scss';
+@use 'shame.scss';
 
 header::before {
-    content: 'Optimized CSS v.0.1';
+    content: 'Optimized CSS v.0.2';
 }

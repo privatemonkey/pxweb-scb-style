@@ -1,0 +1,89 @@
+@use 'layout/_panel.scss'; 
+@use 'base/_sizes.scss';
+
+.commandbar-shortcuts {
+    /* margin-top: 0.5rem; */
+    margin-bottom: 2rem;
+  }
+  
+  .commandbar_container {
+    /* border-top: 1px solid var(--panel-border-color); */
+    padding: 0 2rem;
+    width: 100%;
+  }
+
+  .commandbar_container .variableselector_variable_box_container > div {
+    padding: 0;
+  }
+  
+  .container_exit_buttons_row {
+    margin-top: 1rem;
+    /* padding: 1rem 0; */
+    /* border-top: 1px solid #ccc; */
+  }
+
+  /* Change variable specific */
+
+.view-state {
+    float: right;
+    margin-top: -3rem;
+    margin-bottom: sizes.$space-small;
+  }
+  
+  .seperator {
+    margin: 0 0.5rem;
+    color: panel.$panel-border-color;
+  }
+  
+  .view-state span {
+    font-weight: 700;
+  }
+  
+  /* Very specific styling */
+  .obs-notes {
+    margin-bottom: sizes.$space-large;
+  }
+  
+  /* Choose variables trigger */
+  .justify-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Media queries */
+@media(min-width:1140px) {
+    .burger_menu-icon {
+      display: none;
+    }
+  }
+  @media(max-width:1140px) {
+    main {
+      max-width: 90vw;
+      margin:0 calc(#{panel.$panel-width-small} + #{sizes.$space-large}) 0 auto;
+      padding-left: sizes.$space-large;
+    }
+  
+    .flex-row {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .presentation-left {
+      width: panel.$panel-width-small;
+    }
+  }
+  
+  @media(max-width:768px) {
+    main {
+      max-width: calc(100vw - 2rem);
+      padding: sizes.$space-smallest;
+    }
+  
+    .view-state {
+      float: none;
+      margin-top: 0;
+    }
+  
+  }
+  
+  

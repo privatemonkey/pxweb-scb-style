@@ -5,3 +5,10 @@
   margin: 0;
   padding: 0 sizes.$space-large;
 }
+
+input[value="Fullscreen"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.7;
+}
