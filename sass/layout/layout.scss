@@ -4,10 +4,14 @@
 @use '_panel.scss';
 @use '_flex.scss';
 
-main, div[role="main"] {
+main {
   max-width: 1440px;
   margin:0 auto;
   margin-right: calc(#{panel.$panel-width} + #{sizes.$space-large});
   padding-left: sizes.$space-large;
+}
+
+div[role="main"], #table-title, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1 {
+  @extend main;
 }
 
