@@ -52,8 +52,12 @@ html {
   line-height: 1.4;
 }
 
-body {
+@mixin fontfamily {
   font-family: 'PublicSans', 'Public Sans', "system";
+}
+
+body {
+  @include fontfamily;
 }
 
 @mixin bold {
@@ -134,7 +138,7 @@ p, span, a, .steps {
 }
 
 @mixin text {
-  font-family: 'PublicSans', "system";
+  @include fontfamily;
   font-size: 1rem;
   line-height: 1.4;
   font-weight: $text-weight-normal;

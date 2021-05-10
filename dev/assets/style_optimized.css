@@ -109,7 +109,7 @@ p, span, a, .steps {
 }
 
 p {
-  font-family: "PublicSans", "system";
+  font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
@@ -119,7 +119,7 @@ p {
 }
 
 input, select, option {
-  font-family: "PublicSans", "system";
+  font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
@@ -129,7 +129,7 @@ input, select, option {
 }
 
 button, button.accordion-header, button.nested-accordion-header {
-  font-family: "PublicSans", "system";
+  font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
@@ -141,7 +141,7 @@ button, button.accordion-header, button.nested-accordion-header {
 }
 
 .siteName {
-  font-family: "PublicSans", "system";
+  font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
