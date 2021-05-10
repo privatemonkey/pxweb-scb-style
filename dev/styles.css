@@ -180,7 +180,7 @@ nav a {
   line-height: 100%;
 }
 
-/*nav.steps {
+nav.steps {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -261,14 +261,14 @@ span.step_sep {
 span.step_sep.future {
   border-color: var(--text-inactive);
   border-top-style: dashed;
-}*/
+}
 
-/* a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked + label {
+ a:hover, a:focus, input[type="radio"] + label:hover, input[type="radio"]:checked + label {
   color: var(--link__hover-text);
   cursor: pointer;
-}*/
+}
 
-/* input[type="radio"]+label, input[type="checkbox"]+label {
+ input[type="radio"]+label, input[type="checkbox"]+label {
   font-weight: var(--text-weight-normal);
   margin-bottom: 0.5rem;
   display: inline-block;
@@ -290,9 +290,9 @@ fieldset legend {
 ::selection, ::-moz-selection {
   color: var(--selected-text);
   background-color: var(--selected-background);
-}*/
+}
 
-/*
+
 header, #header {
   border-bottom: 1px solid var(--panel-border-color);
   margin-bottom: 1rem;
@@ -325,21 +325,21 @@ img.logo-quality, .officialStatisticsImage {
   display: flex;
 
 }
-*/
+
 
 /* Panel */
-/*.variableselector_variable_box_container > div, div.accordion {
+.variableselector_variable_box_container > div, div.accordion {
     background-color: #f7f7f7;
     margin-bottom: 1.5rem;
     padding: 1.5rem;
-}*/
+}
 
 /* backwards compabilityt */
 .commandbar_container .variableselector_variable_box_container > div {
   padding: 0;
 }
 
-/*
+
 select {
   -webkit-appearance: none;
 	-moz-appearance: none;
@@ -393,7 +393,7 @@ input, select {
   margin-bottom: 0;
   margin-right: var(--space-smallest);
 }
-*/
+
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
   padding: var(--space-smallest) var(--space-small);
   border-radius: 0.25rem;
@@ -450,7 +450,7 @@ button:hover, button:focus, input[type="button"]:hover,input[type="button"]:focu
 /* Accordions */
 
 /* Reset fieldset */
-/*
+
 .accordion-panels legend {
   width: 100%;
   padding: 0;
@@ -483,10 +483,9 @@ button.accordion-header.closed, button.nested-accordion-header.closed {
   display: inline-block;
   border-top: 1px solid var(--panel-border-color);
 }
-*/
 
 /* Handling About section */
-/*
+
 .information_definitionlist button.nested-accordion-header.closed {
   border-top: none;
   padding: 0;
@@ -563,9 +562,9 @@ button.nested-accordion-header {
   border: none;
   margin: 0;
   padding: 0;
-}*/
+}
 
-/* Result page specifics
+/* Result page specifics */
 .presentation-container {
   display: grid;
   grid-template-columns: minmax(70%, auto) minmax(auto, 320px);
@@ -590,7 +589,6 @@ button.nested-accordion-header {
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
   background-color: #f8f8f8;
 }
-*/
 
 input[value="Fullscreen"] {
   position: absolute;
@@ -645,7 +643,7 @@ input[value="Fullscreen"] {
 }
 
 /* Utility classes */
-/*.aflex-column {
+.flex-column {
   display: flex;
   flex-direction: column;
 }
@@ -657,7 +655,7 @@ input[value="Fullscreen"] {
 
 .flex-wrap {
   flex-wrap: wrap;
-}*/
+}
 
 /* Media queries */
 @media(min-width:1140px) {

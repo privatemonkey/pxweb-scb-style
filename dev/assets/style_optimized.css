@@ -756,7 +756,7 @@ nav a {
   }
 }
 @media (max-width: 1140px) {
-  main {
+  main, div[role=main], #table-title, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1 {
     max-width: 90vw;
     margin: 0 calc(320px + 2rem) 0 auto;
     padding-left: 2rem;
@@ -772,7 +772,7 @@ nav a {
   }
 }
 @media (max-width: 768px) {
-  main {
+  main, div[role=main], #table-title, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1 {
     max-width: calc(100vw - 2rem);
     padding: 0.5rem;
   }

@@ -1,6 +1,11 @@
 @use 'layout/_panel.scss'; 
 @use 'base/_sizes.scss';
 @use 'base/_typography.scss';
+@use 'layout/layout.scss';
+
+div[role="main"], #table-title, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1 {
+    @extend main;
+}
 
 nav a {
     font-weight: typography.$text-weight-medium;

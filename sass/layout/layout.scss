@@ -11,7 +11,3 @@ main {
   padding-left: sizes.$space-large;
 }
 
-div[role="main"], #table-title, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1 {
-  @extend main;
-}
-
