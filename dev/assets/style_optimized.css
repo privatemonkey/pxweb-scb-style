@@ -175,7 +175,7 @@ input[type=radio] + label:hover, input[type=radio]:checked + label {
   background-color: #222;
 }
 
-.fullscreen main, .fullscreen #table-title, .fullscreen #ctl00_ctl00_navigationFlowControl, .fullscreen #ctl00_ctl00_breadcrumb1, .fullscreen div[role=main] {
+.fullscreen main, .fullscreen #table-title, .fullscreen #ctl00_navigationFlowControl, .fullscreen #ctl00_breadcrumb1, .fullscreen div[role=main] {
   max-width: calc(100vw - 2rem - 2rem);
   margin: 0;
   padding: 0 2rem;
@@ -232,7 +232,7 @@ img.logo-quality, .officialStatisticsImage {
   flex-wrap: wrap;
 }
 
-main, div[role=main], #table-title, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1 {
+main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1 {
   max-width: 1440px;
   margin: 0 auto;
   margin-right: calc(476px + 2rem);
@@ -757,7 +757,7 @@ nav a {
   }
 }
 @media (max-width: 1140px) {
-  main, div[role=main], #table-title, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1 {
+  main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1 {
     max-width: 90vw;
     margin: 0 calc(320px + 2rem) 0 auto;
     padding-left: 2rem;
@@ -773,7 +773,7 @@ nav a {
   }
 }
 @media (max-width: 768px) {
-  main, div[role=main], #table-title, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1 {
+  main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1 {
     max-width: calc(100vw - 2rem);
     padding: 0.5rem;
   }
