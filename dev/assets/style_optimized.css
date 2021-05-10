@@ -111,6 +111,29 @@ p, input, select, option, button.accordion-header, button.nested-accordion-heade
 }
 
 /*
+* Panels used in choose variables
+*/
+main, div[role=main] {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-right: calc(panel.$panel-width + $space-large);
+  padding-left: 2rem;
+}
+
+.fullscreen main, .fullscreen div[role=main] {
+  max-width: calc(100vw - sizes.$space-large - sizes.$space-large);
+  margin: 0;
+  padding: 0 2rem;
+}
+
+main, div[role=main] {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-right: calc(panel.$panel-width + panel.$space-large);
+  padding-left: 2rem;
+}
+
+/*
 * Accordions
 */
 button.accordion-header, button.nested-accordion-header.closed, .closed .accordion-body {

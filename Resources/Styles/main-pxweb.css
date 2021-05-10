@@ -22,7 +22,7 @@
 */
 @font-face {
   font-family: "PublicSans";
-  src: url("/dev/assets/PublicSans-VariableFont_wght.ttf");
+  src: url("../../Fonts/PublicSans-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: system;
@@ -1538,7 +1538,7 @@ $scrollbar-color: #b0b0b0;
   background: #25a23c;
   color: white;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 #pxwebcontent .commandbar_changevalueorder_variablelist {
@@ -1686,7 +1686,7 @@ $scrollbar-color: #b0b0b0;
 
 #pxwebcontent .commandbar_savefilelink {
   font-weight: bold;
-  font-size: medium;
+  font-size: 16px;
 }
 
 #pxwebcontent .commandbar_function_dropdownlist {
