@@ -800,6 +800,10 @@ nav a {
 }
 
 /* Change variable specific */
+.flex-row.justify-space-between {
+  flex-wrap: wrap;
+}
+
 #SelectionPage .about-table button {
   border-top: none;
   padding-left: 0;

@@ -52,6 +52,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
 
   /* Change variable specific */
+  .flex-row.justify-space-between {
+    flex-wrap: wrap;
+  }
+
   #SelectionPage .about-table button {
     border-top: none;
     padding-left: 0;
