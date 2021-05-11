@@ -817,12 +817,12 @@ nav a {
   width: 29%;
 }
 
-@media (min-width: 800px) and (max-width: 1200) {
+@media screen and (max-width: 1200) {
   .variableselector_variable_box_container > div {
     width: 48%;
   }
 }
-@media (max-width: 799px) {
+@media screen and (max-width: 799px) {
   .variableselector_variable_box_container > div {
     width: 90%;
   }
