@@ -157,14 +157,13 @@ a {
   cursor: pointer;
   text-decoration: underline;
 }
-
-a:hover:hover, a:hover:focus, a:hover:active, a:focus:hover, a:focus:focus, a:focus:active, a:active:hover, a:active:focus, a:active:active {
+a:hover, a:focus {
   color: #001920;
   cursor: pointer;
   text-decoration: none;
 }
 
-input[type=radio] + label:hover:hover, input[type=radio] + label:hover:focus, input[type=radio] + label:hover:active, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus, input[type=radio]:checked + label:active {
+input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus {
   color: #001920;
   cursor: pointer;
   text-decoration: none;
@@ -415,7 +414,6 @@ button.secondary, input[type=button].secondary-btn, input[type=submit] {
 input[type=submit].icon-placement {
   background-color: transparent;
   text-decoration: underline;
-  padding: 0;
   margin: 0 0.5rem 0.5rem 0;
   border-color: transparent;
   border-radius: 0;
@@ -787,6 +785,11 @@ hr.future {
 
 .tablequery_query {
   font-size: 1.15rem;
+}
+
+/* Menu button styling */
+.operations-container input {
+  text-align: left;
 }
 
 /* Search field */

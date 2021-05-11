@@ -176,7 +176,7 @@ button, button.accordion-header, button.nested-accordion-header,  {
 }
 
 @mixin textlink__hover {
-  &:hover, &:focus, &:active {
+  &:hover, &:focus {
     color: $link__hover-text;
     cursor: pointer;
     text-decoration: none;
@@ -185,13 +185,10 @@ button, button.accordion-header, button.nested-accordion-header,  {
 
 a {
   @include textlink;
-}
-
-a:hover, a:focus, a:active {
   @include textlink__hover;
 }
 
-input[type="radio"] + label:hover, input[type="radio"]:checked + label {
+input[type="radio"] + label, input[type="radio"]:checked + label {
   @include textlink__hover;
 }
 

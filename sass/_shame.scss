@@ -96,6 +96,11 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     font-size: typography.$font-size-medium;
   }
 
+  /* Menu button styling */
+  .operations-container input {
+    text-align: left;
+  }
+
   /* Search field */
   a.search-icon {
     @include forms.button;
