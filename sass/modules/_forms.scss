@@ -13,6 +13,7 @@
   outline: 1px solid transparent;
   background-color: colors.$input-background;
   border-radius: 4px;
+  min-width: 16rem;
 
   &:hover, &:focus, &:active {
     border: 1px solid colors.$input-border-color__hover;
@@ -23,7 +24,6 @@
 input, option, select {
   font-weight: typography.$text-weight-medium;
 }
-
 
 /*
 * Buttons
