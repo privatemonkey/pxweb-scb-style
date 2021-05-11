@@ -741,7 +741,8 @@ hr.future {
 
 /* Errors and messages */
 .px-messages {
-  padding: 1rem;
+  padding: 0 0 2rem;
+  font-weight: 700;
 }
 
 /*
@@ -836,12 +837,20 @@ nav a {
 }
 
 /* Very specific styling */
+.footnotes_container {
+  max-width: 720px;
+}
+
 .obs-notes {
   margin-bottom: 2rem;
 }
 
 .obs-notes-h3 {
   min-width: 100%;
+}
+
+.the_long_text notetype_note_value {
+  margin-bottom: 2rem;
 }
 
 /* Choose variables trigger */

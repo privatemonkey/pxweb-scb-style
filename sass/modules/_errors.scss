@@ -3,5 +3,6 @@
 /* Errors and messages */
 
 .px-messages {
-    padding: sizes.$space-small;
+    padding: 0 0 sizes.$space-large;
+    font-weight: 700;
 }
