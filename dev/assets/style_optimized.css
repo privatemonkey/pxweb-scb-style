@@ -772,6 +772,9 @@ nav a {
 /* Very specific styling */
 .obs-notes {
   margin-bottom: 2rem;
+}
+
+.obs-notes-h3 {
   min-width: 100%;
 }
 
