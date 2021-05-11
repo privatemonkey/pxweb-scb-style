@@ -758,7 +758,7 @@ nav a {
   font-weight: bold;
 }
 
-.header-text, .commandbar_changedecimal_titletext {
+.header-text, .commandbar_changedecimal_titletext, .commandbar_changetexts_titletext {
   font-weight: 700;
   max-width: 920px;
   text-transform: capitalize;
@@ -769,7 +769,7 @@ nav a {
   margin-bottom: 0.3rem;
 }
 
-.commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext {
+.commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext, .commandbar_changepresentation_changetext {
   width: 100%;
 }
 

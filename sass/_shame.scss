@@ -13,7 +13,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @include typography.bold;
 }
 
-.header-text, .commandbar_changedecimal_titletext {
+.header-text, .commandbar_changedecimal_titletext, .commandbar_changetexts_titletext {
   @include typography.header;
   font-size: 1.125rem;
   line-height: 1.4;
@@ -21,7 +21,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   margin-bottom: 0.3rem;
 }
 
-.commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext {
+.commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext, .commandbar_changepresentation_changetext {
   width: 100%;
 }
 
