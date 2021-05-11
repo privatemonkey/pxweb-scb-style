@@ -341,11 +341,14 @@ input {
   outline: 1px solid transparent;
   background-color: #fff;
   border-radius: 4px;
-  min-width: 16rem;
 }
 input:hover, input:focus, input:active {
   border: 1px solid #222;
-  outline-color: #222;
+  outline: 1px solid #222;
+}
+
+input[type=text], input[type=number], select {
+  min-width: 16rem;
 }
 
 input[type=radio] {
@@ -402,7 +405,6 @@ select {
   outline: 1px solid transparent;
   background-color: #fff;
   border-radius: 4px;
-  min-width: 16rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;
@@ -414,7 +416,7 @@ select {
 }
 select:hover, select:focus, select:active {
   border: 1px solid #222;
-  outline-color: #222;
+  outline: 1px solid #222;
 }
 
 select[multiple] {
@@ -425,7 +427,6 @@ select[multiple] {
   outline: 1px solid transparent;
   background-color: #fff;
   border-radius: 4px;
-  min-width: 16rem;
   appearance: none;
   padding: 0;
   background-image: none;
@@ -434,7 +435,7 @@ select[multiple] {
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
-  outline-color: #222;
+  outline: 1px solid #222;
 }
 
 select[multiple] option:checked {

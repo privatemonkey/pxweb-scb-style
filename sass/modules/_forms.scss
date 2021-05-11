@@ -13,11 +13,10 @@
   outline: 1px solid transparent;
   background-color: colors.$input-background;
   border-radius: 4px;
-  min-width: 16rem;
 
   &:hover, &:focus, &:active {
     border: 1px solid colors.$input-border-color__hover;
-    outline-color: colors.$input-border-color__hover;
+    outline: 1px solid colors.$input-border-color__hover;
   }
 }
 
@@ -98,6 +97,10 @@ button.secondary, input[type="button"].secondary-btn, input[type="submit"] {
 */
 input {
   @include field;
+}
+
+input[type="text"], input[type="number"], select {
+  min-width: 16rem;
 }
 
 input[type="radio"] {
