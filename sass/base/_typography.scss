@@ -188,10 +188,6 @@ a {
   @include textlink__hover;
 }
 
-input[type="radio"] + label, input[type="radio"]:checked + label {
-  @include textlink__hover;
-}
-
 /* Selected text */
 ::selection, ::-moz-selection {
   color: $selected-text;

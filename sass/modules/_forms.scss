@@ -102,6 +102,14 @@ input[type="radio"] {
   margin-bottom: sizes.$space-small;
   margin-right: sizes.$space-smallest;
   display: inline-block;
+  &:hover, &:focus, &:active {
+    color: typography.$link__hover-text;
+  }
+}
+
+input[type="radio"] + label, input[type="radio"]:checked + label {
+  @include typography.textlink__hover;
+  border-width: 0;
 }
 
 input[type="radio"]+label, input[type="checkbox"]+label {
