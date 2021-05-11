@@ -118,13 +118,14 @@ p {
   margin-bottom: 22px;
 }
 
-input, select {
+input, select, button {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 22px;
+  font-family: "PublicSans", "Public Sans", "system";
 }
 
 option {
@@ -736,6 +737,20 @@ hr.future {
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
   background-color: #f8f8f8;
+}
+
+/* Errors and messages */
+.px-messages {
+  padding: 1rem;
+}
+
+/*
+* Navigation related styling. Breadcrumbs, tree.
+*/
+nav a {
+  font-weight: 500;
+  padding: 0.25rem 0.25rem 0.05rem;
+  line-height: 150%;
 }
 
 .font-bold {

@@ -152,8 +152,9 @@ p {
   @include text;  
 }
 
-input, select {
+input, select, button {
   @include text;
+  @include fontfamily;
 }
 
 option {
