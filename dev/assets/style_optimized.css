@@ -384,7 +384,6 @@ button, input[type=submit], input[type=button], input[type=submit].container_con
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   margin-right: 0.5rem;
-  /* margin-top: sizes.$space-small); */
   margin-bottom: 0.75rem;
   color: #fff;
   background-color: #006E91;
@@ -411,8 +410,6 @@ input[type=submit].icon-placement {
   margin: 0 0.5rem 0.5rem 0;
   border-color: transparent;
   border-radius: 0;
-  float: left;
-  clear: left;
   font-weight: 700;
 }
 

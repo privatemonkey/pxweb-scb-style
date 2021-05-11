@@ -45,7 +45,6 @@ button, input[type=submit], input[type="button"], input[type="submit"].container
   padding: sizes.$space-smallest sizes.$space-small;
   border-radius: 0.25rem;
   margin-right: sizes.$space-smallest;
-  /* margin-top: sizes.$space-small); */
   margin-bottom: 0.75rem;
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
@@ -72,8 +71,6 @@ input[type="submit"].icon-placement {
   margin: 0 0.5rem 0.5rem 0;
   border-color: transparent;
   border-radius: 0;
-  float: left;
-  clear: left;
   font-weight: typography.$text-weight-bold;
 }
 
