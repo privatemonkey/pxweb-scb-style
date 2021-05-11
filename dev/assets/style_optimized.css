@@ -156,6 +156,8 @@ a {
   color: #006E91;
   cursor: pointer;
   text-decoration: underline;
+  outline-color: transparent;
+  border-color: transparent;
 }
 a:hover, a:focus {
   color: #001920;
@@ -292,18 +294,18 @@ button, input[type=submit], input[type=button], input[type=submit].container_con
   border: 2px #006E91 solid;
   outline: 1px solid transparent;
 }
-button:focus, button:hover, input[type=submit]:focus, input[type=submit]:hover, input[type=button]:focus, input[type=button]:hover, input[type=submit].container_continuebutton:focus, input[type=submit].container_continuebutton:hover {
+
+button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn {
+  color: #fff;
+  background-color: #006E91;
+  border-color: #006E91;
+}
+button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover {
   background-color: #222;
   color: #fff;
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
-}
-
-button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn {
-  color: #fff;
-  background-color: #006E91;
-  border: 2px #006E91 solid;
 }
 button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover {
   background-color: #222;
@@ -315,9 +317,8 @@ button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-b
 
 button.secondary, input[type=button].secondary-btn, input[type=submit] {
   background-color: transparent;
-  border: 2px #006E91 solid;
+  border-color: #006E91;
   color: #006E91;
-  max-height: 2.6rem;
 }
 button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn:focus, input[type=button].secondary-btn:hover, input[type=submit]:focus, input[type=submit]:hover {
   background-color: #222;

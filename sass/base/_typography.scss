@@ -173,6 +173,8 @@ button, button.accordion-header, button.nested-accordion-header,  {
   color: $link-text;
   cursor: pointer;
   text-decoration: underline;
+  outline-color: transparent;
+  border-color: transparent;
 }
 
 @mixin textlink__hover {

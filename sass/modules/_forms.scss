@@ -65,25 +65,24 @@ button, input[type="button"], input[type="submit"] {
 
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
   @include button;
-  @include button__hover;
 }
 
 @mixin primary-btn {
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
-  border:2px colors.$button-primary-background solid;
+  border-color: colors.$button-primary-background;
   @include button__hover;
 }
 
 button.primary-btn, input[type="button"].primary-btn, input[type="submit"].primary-btn {
   @include primary-btn;
+  @include button__hover;
 }
 
 @mixin secondary-btn {
   background-color: transparent;
-  border:2px colors.$button-primary-background solid;
+  border-color:colors.$button-primary-background;
   color: colors.$button-secondary-text;
-  max-height: 2.6rem;
   @include button__hover;
 }
 
