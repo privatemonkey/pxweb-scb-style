@@ -19,11 +19,16 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.3rem;
+}
+
+.commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext {
   width: 100%;
 }
 
-.commandbar_changedecimal_selectvaluetext {
-  width: 100%;
+.commandbar_changepresentation_radio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .pxweb-input {
