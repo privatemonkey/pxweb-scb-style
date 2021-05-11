@@ -733,6 +733,14 @@ nav a {
 }
 
 /* Change variable specific */
+.variableselector_variable_box_container.flex-row.flex-wrap {
+  justify-content: space-between;
+}
+
+.optional-variable-icon-panel {
+  display: none;
+}
+
 .view-state {
   float: right;
   margin-top: -3rem;
