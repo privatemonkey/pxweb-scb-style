@@ -488,7 +488,7 @@ button.accordion-header, button.nested-accordion-header {
 button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
   color: #001920;
 }
-button.accordion-header:hover .header-text span, button.accordion-header:focus .header-text span, button.nested-accordion-header:hover .header-text span, button.nested-accordion-header:focus .header-text span {
+button.accordion-header:hover > .header-text > span, button.accordion-header:focus > .header-text > span, button.nested-accordion-header:hover > .header-text > span, button.nested-accordion-header:focus > .header-text > span {
   text-decoration: underline;
 }
 button.accordion-header:active, button.nested-accordion-header:active {
@@ -728,7 +728,7 @@ hr.future {
   font-weight: bold;
 }
 
-.header-text h4 {
+.header-text {
   font-weight: 700;
   max-width: 920px;
   text-transform: capitalize;
