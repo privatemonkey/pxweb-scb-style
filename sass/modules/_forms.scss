@@ -87,11 +87,15 @@ input[type="submit"].icon-placement {
   font-weight: typography.$text-weight-bold;
 }
 
-button:hover, button:focus, input[type="button"]:hover,input[type="button"]:focus, input[type=submit]:hover, input[type=submit]:focus {
+@mixin button__hover {
   background-color: colors.$button__hover-background;
   color: colors.$button__hover-text;
   cursor: pointer;
   border-color: transparent;
+}
+
+button:hover, button:focus, input[type="button"]:hover,input[type="button"]:focus, input[type=submit]:hover, input[type=submit]:focus {
+  @include button__hover;
 }
 
 
