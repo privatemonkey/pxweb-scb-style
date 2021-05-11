@@ -43,7 +43,7 @@ html {
 }
 
 body {
-  font-family: "PublicSans", "Public Sans", "system";
+  font-family: "PublicSans", "Public Sans", "system", sans-serif;
 }
 
 /* -- Headers -- */
@@ -125,11 +125,11 @@ input, select, button {
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 22px;
-  font-family: "PublicSans", "Public Sans", "system";
+  font-family: "PublicSans", "Public Sans", "system", sans-serif;
 }
 
 option {
-  font-family: "PublicSans", "Public Sans", "system";
+  font-family: "PublicSans", "Public Sans", "system", sans-serif;
 }
 
 button, button.accordion-header, button.nested-accordion-header {

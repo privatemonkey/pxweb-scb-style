@@ -54,7 +54,7 @@ html {
 }
 
 @mixin fontfamily {
-  font-family: 'PublicSans', 'Public Sans', "system";
+  font-family: 'PublicSans', 'Public Sans', "system", sans-serif;
 }
 
 body {
