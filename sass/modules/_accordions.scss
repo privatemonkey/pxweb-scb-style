@@ -30,6 +30,7 @@ button.accordion-header, button.nested-accordion-header  {
   margin: 0;
   border-top: 1px solid panel.$panel-border-color;
   font-weight: 700;
+  outline-color: transparent;
 
   &:hover, &:focus {
     text-decoration: underline;

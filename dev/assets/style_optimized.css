@@ -470,6 +470,7 @@ button.accordion-header, button.nested-accordion-header {
   margin: 0;
   border-top: 1px solid #949494;
   font-weight: 700;
+  outline-color: transparent;
 }
 button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
   text-decoration: underline;
