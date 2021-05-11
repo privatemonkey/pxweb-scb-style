@@ -45,7 +45,6 @@ button.accordion-header, button.nested-accordion-header  {
 }
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
-  margin-bottom: 0;
   display: inline-block;
   border-top: 1px solid panel.$panel-border-color;
 }

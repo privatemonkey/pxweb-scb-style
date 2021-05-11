@@ -507,7 +507,6 @@ button.accordion-header:active, button.nested-accordion-header:active {
 }
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
-  margin-bottom: 0;
   display: inline-block;
   border-top: 1px solid #949494;
 }
@@ -802,7 +801,7 @@ nav a {
 /* Change variable specific */
 #SelectionPage .flex-row.justify-space-between {
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 #SelectionPage .about-table button {
