@@ -235,8 +235,11 @@ img.logo-quality, .officialStatisticsImage {
 main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1 {
   max-width: 1440px;
   margin: 0 auto;
-  margin-right: calc(476px + 2rem);
   padding-left: 2rem;
+}
+
+.result main, .result div[role=main], .result #table-title, .result #ctl00_navigationFlowControl, .result #ctl00_breadcrumb1 {
+  margin-right: calc(476px + 2rem);
 }
 
 /* About area */

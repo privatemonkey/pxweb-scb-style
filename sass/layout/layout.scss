@@ -7,7 +7,10 @@
 main {
   max-width: 1440px;
   margin:0 auto;
-  margin-right: calc(#{panel.$panel-width} + #{sizes.$space-large});
   padding-left: sizes.$space-large;
+}
+
+.result main {
+  margin-right: calc(#{panel.$panel-width} + #{sizes.$space-large});
 }
 
