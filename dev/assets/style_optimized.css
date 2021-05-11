@@ -819,7 +819,7 @@ nav a {
   justify-content: space-between;
 }
 
-.variableselector_variable_box_container > div, #VariableSelection {
+.variableselector_variable_box_container > div, .selectfromgroup-container {
   width: 29%;
 }
 
