@@ -96,6 +96,15 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     font-size: typography.$font-size-medium;
   }
 
+  .presentation-left input[type="submit"] {
+    background-color: transparent;
+    text-decoration: underline;
+    margin: 0 0.5rem 0.5rem 0;
+    border-color: transparent;
+    border-radius: 0;
+    font-weight: typography.$text-weight-bold;
+}
+
   /* Menu button styling */
   .operations-container input {
     text-align: left;
