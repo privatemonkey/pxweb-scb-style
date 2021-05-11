@@ -72,6 +72,7 @@ button, input[type=submit], input[type="button"], input[type="submit"].container
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
   border:2px colors.$button-primary-background solid;
+  @include button__hover;
 }
 
 button.primary-btn, input[type="button"].primary-btn, input[type="submit"].primary-btn {
@@ -83,6 +84,7 @@ button.primary-btn, input[type="button"].primary-btn, input[type="submit"].prima
   border:2px colors.$button-primary-background solid;
   color: colors.$button-secondary-text;
   max-height: 2.6rem;
+  @include button__hover;
 }
 
 button.secondary, input[type="button"].secondary-btn, input[type="submit"] {

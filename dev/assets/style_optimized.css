@@ -311,12 +311,26 @@ button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-b
   background-color: #006E91;
   border: 2px #006E91 solid;
 }
+button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: transparent;
+  outline-color: transparent;
+}
 
 button.secondary, input[type=button].secondary-btn, input[type=submit] {
   background-color: transparent;
   border: 2px #006E91 solid;
   color: #006E91;
   max-height: 2.6rem;
+}
+button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn:focus, input[type=button].secondary-btn:hover, input[type=submit]:focus, input[type=submit]:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: transparent;
+  outline-color: transparent;
 }
 
 input[type=submit].icon-placement {
