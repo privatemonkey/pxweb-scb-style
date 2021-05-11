@@ -340,6 +340,7 @@ input {
   border: 1px solid #ccc;
   outline: 1px solid transparent;
   background-color: #fff;
+  border-radius: 4px;
 }
 input:hover, input:focus, input:active {
   border: 1px solid #222;
@@ -399,6 +400,7 @@ select {
   border: 1px solid #ccc;
   outline: 1px solid transparent;
   background-color: #fff;
+  border-radius: 4px;
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;
@@ -420,6 +422,7 @@ select[multiple] {
   border: 1px solid #ccc;
   outline: 1px solid transparent;
   background-color: #fff;
+  border-radius: 4px;
   appearance: none;
   padding: 0;
   background-image: none;
@@ -889,6 +892,11 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   margin-top: 0;
   margin-bottom: 22px;
   width: 100%;
+}
+
+.variableselector_valuesselect_search_textstart_checkbox {
+  width: 100%;
+  padding: 1rem;
 }
 
 /* Media queries */

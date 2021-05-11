@@ -143,6 +143,11 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     @include typography.text;
     width: 100%;
   }
+
+  .variableselector_valuesselect_search_textstart_checkbox {
+    width: 100%;
+    padding: sizes.$space-small;
+  }
   
 
   /* Media queries */
