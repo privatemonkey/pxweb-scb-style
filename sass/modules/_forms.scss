@@ -132,7 +132,8 @@ input[type="radio"]+label, input[type="checkbox"]+label {
 
 fieldset {
   width: 100%;
-  padding-top: 1rem;
+  padding: 1rem 0;
+  border: none;
 }
 
 fieldset legend {
