@@ -48,7 +48,8 @@ button, input[type="button"], input[type="submit"] {
   margin-bottom: 0.75rem;
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
-  border:2px colors.$button-primary-background solid;
+  border:1px colors.$button-primary-background solid;
+  outline: 1px solid transparent;
 }
 
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {

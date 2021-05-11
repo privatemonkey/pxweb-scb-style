@@ -395,7 +395,8 @@ button, input[type=submit], input[type=button], input[type=submit].container_con
   margin-bottom: 0.75rem;
   color: #fff;
   background-color: #006E91;
-  border: 2px #006E91 solid;
+  border: 1px #006E91 solid;
+  outline: 1px solid transparent;
 }
 
 button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn {
@@ -800,7 +801,8 @@ a.search-icon {
   margin-bottom: 0.75rem;
   color: #fff;
   background-color: #006E91;
-  border: 2px #006E91 solid;
+  border: 1px #006E91 solid;
+  outline: 1px solid transparent;
 }
 
 a.search-icon:hover, a.search-icon:focus {
