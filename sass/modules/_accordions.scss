@@ -32,14 +32,18 @@ button.accordion-header, button.nested-accordion-header  {
   font-weight: 700;
   outline-color: transparent;
 
+  &:hover, &:focus {
+    color: typography.$link__hover-text;
+  }
+
+  &:active {
+    color: typography.$link__hover-text;
+  }
+
   .header-text {
     &:hover, &:focus {
-      color: typography.$link__hover-text;
-    }
-
-    &:active {
-      color: typography.$link__hover-text;
-    }
+      text-decoration: underline;
+    } 
   }
 }
 
