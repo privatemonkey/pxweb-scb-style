@@ -13,6 +13,14 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @include typography.bold;
 }
 
+.header-text h4 {
+  @include typography.header;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
 .pxweb-input {
     display: block;
     width: 100%;
