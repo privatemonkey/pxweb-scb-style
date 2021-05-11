@@ -52,8 +52,9 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
 
   /* Change variable specific */
-  .flex-row.justify-space-between {
+  #SelectionPage .flex-row.justify-space-between {
     flex-wrap: wrap;
+    justify-content: end;
   }
 
   #SelectionPage .about-table button {
@@ -117,6 +118,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
 
   .the_long_text notetype_note_value {
+    display: block;
     margin-bottom: sizes.$space-large;
   }
   

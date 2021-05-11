@@ -800,8 +800,9 @@ nav a {
 }
 
 /* Change variable specific */
-.flex-row.justify-space-between {
+#SelectionPage .flex-row.justify-space-between {
   flex-wrap: wrap;
+  justify-content: end;
 }
 
 #SelectionPage .about-table button {
@@ -864,6 +865,7 @@ nav a {
 }
 
 .the_long_text notetype_note_value {
+  display: block;
   margin-bottom: 2rem;
 }
 
