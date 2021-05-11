@@ -1,6 +1,7 @@
 @use '../layout/_panel.scss'; 
 @use '../base/_sizes.scss';
 @use '../base/_colors.scss';
+@use '../modules/forms';
 
 /*
 * Accordions
@@ -19,11 +20,6 @@
   margin: 0;
 }
 
-button.accordion-header:hover span, button.nested-accordion-header:hover, button.accordion-header:focus span, button.nested-accordion-header:focus  {
-  text-decoration: underline;
-  background-color: colors.$button__hover-background;
-}
-
 button.accordion-header, button.nested-accordion-header  {
   width: 100%;
   border-width: 0;
@@ -33,6 +29,8 @@ button.accordion-header, button.nested-accordion-header  {
   margin: 0;
   border-top: 1px solid panel.$panel-border-color;
   font-weight: 700;
+
+  @include forms.button__hover;
 }
 
 button.accordion-header.closed, button.nested-accordion-header.closed {

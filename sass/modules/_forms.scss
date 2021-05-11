@@ -48,12 +48,24 @@ button, input[type="button"], input[type="submit"] {
   margin-bottom: 0.75rem;
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
-  border:1px colors.$button-primary-background solid;
+  border: 2px colors.$button-primary-background solid;
   outline: 1px solid transparent;
+}
+
+
+@mixin button__hover {
+  &:focus, &:hover {
+    background-color: colors.$button__hover-background;
+    color: colors.$button__hover-text;
+    cursor: pointer;
+    border-color: transparent;
+    outline-color: transparent;
+  }
 }
 
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
   @include button;
+  @include button__hover;
 }
 
 @mixin primary-btn {
@@ -86,19 +98,6 @@ input[type="submit"].icon-placement {
   border-radius: 0;
   font-weight: typography.$text-weight-bold;
 }
-
-@mixin button__hover {
-  background-color: colors.$button__hover-background;
-  color: colors.$button__hover-text;
-  cursor: pointer;
-  border-color: transparent;
-}
-
-button:hover, button:focus, input[type="button"]:hover,input[type="button"]:focus, input[type=submit]:hover, input[type=submit]:focus {
-  @include button__hover;
-}
-
-
 
 /*
 * Input fields

@@ -266,106 +266,6 @@ main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcr
 }
 
 /*
-* Accordions
-*/
-.variableselector_variable_box_container > div, div.accordion {
-  background-color: #f7f7f7;
-  margin-bottom: 1.5rem;
-  padding: 1.5rem;
-}
-
-.accordion-panels legend {
-  width: 100%;
-  padding: 0;
-}
-
-.accordion-panels fieldset {
-  padding: 0;
-  border: 0;
-  margin: 0;
-}
-
-button.accordion-header:hover span, button.nested-accordion-header:hover, button.accordion-header:focus span, button.nested-accordion-header:focus {
-  text-decoration: underline;
-  background-color: #222;
-}
-
-button.accordion-header, button.nested-accordion-header {
-  width: 100%;
-  border-width: 0;
-  border-radius: 0;
-  text-align: left;
-  padding: 1.5rem 1rem;
-  margin: 0;
-  border-top: 1px solid #949494;
-  font-weight: 700;
-}
-
-button.accordion-header.closed, button.nested-accordion-header.closed {
-  margin-bottom: 0;
-  display: inline-block;
-  border-top: 1px solid #949494;
-}
-
-button.accordion-header.closed:before {
-  content: "▾";
-}
-
-button.nested-accordion-header {
-  background-color: #f7f7f7;
-  padding-left: 0.5rem;
-  padding-right: 0;
-}
-
-button.nested-accordion-header {
-  display: none;
-  font-weight: 400;
-  border-top: none;
-  padding: 1.5rem;
-}
-
-button.accordion-header:before {
-  content: "▴";
-  padding-right: 0;
-  margin-right: 9px;
-}
-
-.pxweb-nested-accordion dl {
-  display: flex;
-  justify-content: start;
-  flex-shrink: 1;
-}
-
-.pxweb-nested-accordion dd {
-  margin-left: 0.5rem;
-}
-
-.accordion-body {
-  background-color: transparent;
-  width: 100%;
-  border-top: 0;
-  border-radius: 0;
-  text-align: left;
-  padding: 0 2rem;
-  margin-bottom: 2.5rem;
-  width: 100%;
-}
-
-.accordion-body.closed {
-  display: none;
-}
-
-.accordion-body div {
-  width: 100%;
-}
-
-.accordion-body fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-/*
 * Generic form related styling. Buttons, inputs, select.
 */
 input, option, select {
@@ -395,8 +295,15 @@ button, input[type=submit], input[type=button], input[type=submit].container_con
   margin-bottom: 0.75rem;
   color: #fff;
   background-color: #006E91;
-  border: 1px #006E91 solid;
+  border: 2px #006E91 solid;
   outline: 1px solid transparent;
+}
+button:focus, button:hover, input[type=submit]:focus, input[type=submit]:hover, input[type=button]:focus, input[type=button]:hover, input[type=submit].container_continuebutton:focus, input[type=submit].container_continuebutton:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: transparent;
+  outline-color: transparent;
 }
 
 button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn {
@@ -419,13 +326,6 @@ input[type=submit].icon-placement {
   border-color: transparent;
   border-radius: 0;
   font-weight: 700;
-}
-
-button:hover, button:focus, input[type=button]:hover, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:focus {
-  background-color: #222;
-  color: #fff;
-  cursor: pointer;
-  border-color: transparent;
 }
 
 /*
@@ -534,6 +434,108 @@ option:hover, option:active, option:focus {
   color: #000;
   text-decoration: underline;
   cursor: pointer;
+}
+
+/*
+* Accordions
+*/
+.variableselector_variable_box_container > div, div.accordion {
+  background-color: #f7f7f7;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+
+.accordion-panels legend {
+  width: 100%;
+  padding: 0;
+}
+
+.accordion-panels fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+button.accordion-header, button.nested-accordion-header {
+  width: 100%;
+  border-width: 0;
+  border-radius: 0;
+  text-align: left;
+  padding: 1.5rem 1rem;
+  margin: 0;
+  border-top: 1px solid #949494;
+  font-weight: 700;
+}
+button.accordion-header:focus, button.accordion-header:hover, button.nested-accordion-header:focus, button.nested-accordion-header:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+button.accordion-header.closed, button.nested-accordion-header.closed {
+  margin-bottom: 0;
+  display: inline-block;
+  border-top: 1px solid #949494;
+}
+
+button.accordion-header.closed:before {
+  content: "▾";
+}
+
+button.nested-accordion-header {
+  background-color: #f7f7f7;
+  padding-left: 0.5rem;
+  padding-right: 0;
+}
+
+button.nested-accordion-header {
+  display: none;
+  font-weight: 400;
+  border-top: none;
+  padding: 1.5rem;
+}
+
+button.accordion-header:before {
+  content: "▴";
+  padding-right: 0;
+  margin-right: 9px;
+}
+
+.pxweb-nested-accordion dl {
+  display: flex;
+  justify-content: start;
+  flex-shrink: 1;
+}
+
+.pxweb-nested-accordion dd {
+  margin-left: 0.5rem;
+}
+
+.accordion-body {
+  background-color: transparent;
+  width: 100%;
+  border-top: 0;
+  border-radius: 0;
+  text-align: left;
+  padding: 0 2rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+}
+
+.accordion-body.closed {
+  display: none;
+}
+
+.accordion-body div {
+  width: 100%;
+}
+
+.accordion-body fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -801,15 +803,16 @@ a.search-icon {
   margin-bottom: 0.75rem;
   color: #fff;
   background-color: #006E91;
-  border: 1px #006E91 solid;
+  border: 2px #006E91 solid;
   outline: 1px solid transparent;
 }
 
-a.search-icon:hover, a.search-icon:focus {
+a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus, a.search-icon:focus:hover {
   background-color: #222;
   color: #fff;
   cursor: pointer;
   border-color: transparent;
+  outline-color: transparent;
 }
 
 .variableselector_valuesselect_search_textstart_checkbox label {
