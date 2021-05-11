@@ -3,6 +3,7 @@
 @use 'base/_colors.scss';
 @use 'base/_typography.scss';
 @use 'layout/layout.scss';
+@use 'modules/forms.scss';
 
 div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1 {
     @extend main;
@@ -69,12 +70,8 @@ nav a {
   }
 
   /* Search field */
-  .search-icon {
-    background-repeat: no-repeat;
-    background-color: colors.$button-primary-background;
-    background-position: center;
-    width: 2rem;
-    height: 2rem;
+  a.search-icon {
+    @include forms.button;
   }
 
   .variableselector_valuesselect_search_textstart_checkbox label {

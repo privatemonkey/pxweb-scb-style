@@ -396,7 +396,7 @@ button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-b
   border: 2px #006E91 solid;
 }
 
-button.secondary-btn, input[type=button].secondary-btn, input[type=submit] {
+button.secondary, input[type=button].secondary-btn, input[type=submit] {
   background-color: transparent;
   border: 2px #006E91 solid;
   color: #006E91;
@@ -753,12 +753,14 @@ nav a {
 }
 
 /* Search field */
-.search-icon {
-  background-repeat: no-repeat;
+a.search-icon {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.75rem;
+  color: #fff;
   background-color: #006E91;
-  background-position: center;
-  width: 2rem;
-  height: 2rem;
+  border: 2px #006E91 solid;
 }
 
 .variableselector_valuesselect_search_textstart_checkbox label {
