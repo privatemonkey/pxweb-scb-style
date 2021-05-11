@@ -35,7 +35,7 @@ button.accordion-header, button.nested-accordion-header  {
   &:hover, &:focus {
     color: typography.$link__hover-text;
     background-color: colors.$color-lightest;
-    > .header-text > span {
+    > .header-text > span, > .header-text  {
       text-decoration: underline;
     }
   }
@@ -43,10 +43,7 @@ button.accordion-header, button.nested-accordion-header  {
   &:active {
     color: typography.$link__hover-text;
   }
-  
 }
-
-
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
   margin-bottom: 0;
@@ -96,6 +93,10 @@ button.accordion-header:before {
   padding: 0 2rem;
   margin-bottom: 2.5rem;
   width: 100%;
+}
+
+.presentation-main .accordion-body {
+  padding: 0;
 }
 
 .accordion-body.closed {

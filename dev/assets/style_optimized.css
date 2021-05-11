@@ -489,7 +489,7 @@ button.accordion-header:hover, button.accordion-header:focus, button.nested-acco
   color: #001920;
   background-color: #fff;
 }
-button.accordion-header:hover > .header-text > span, button.accordion-header:focus > .header-text > span, button.nested-accordion-header:hover > .header-text > span, button.nested-accordion-header:focus > .header-text > span {
+button.accordion-header:hover > .header-text > span, button.accordion-header:hover > .header-text, button.accordion-header:focus > .header-text > span, button.accordion-header:focus > .header-text, button.nested-accordion-header:hover > .header-text > span, button.nested-accordion-header:hover > .header-text, button.nested-accordion-header:focus > .header-text > span, button.nested-accordion-header:focus > .header-text {
   text-decoration: underline;
 }
 button.accordion-header:active, button.nested-accordion-header:active {
@@ -544,6 +544,10 @@ button.accordion-header:before {
   padding: 0 2rem;
   margin-bottom: 2.5rem;
   width: 100%;
+}
+
+.presentation-main .accordion-body {
+  padding: 0;
 }
 
 .accordion-body.closed {
