@@ -122,8 +122,9 @@ input[type="radio"] + label, input[type="radio"]:checked + label {
 
 input[type="radio"]+label, input[type="checkbox"]+label {
   margin-bottom: 0.5rem;
+  margin-right: 1rem;
   display: inline-block;
-  width: calc(100% - 2rem);
+  width: 100%;
   vertical-align: top;
   padding: 0;
   line-height: 140%;
