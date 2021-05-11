@@ -289,6 +289,7 @@ button, input[type=submit], input[type=button], input[type=submit].container_con
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
+  max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
   background-color: #006E91;
@@ -750,6 +751,10 @@ hr.future {
   width: 100%;
 }
 
+.xs-margin-left {
+  margin-left: 0.5rem;
+}
+
 .commandbar-shortcuts {
   /* margin-top: 0.5rem; */
   margin-bottom: 2rem;
@@ -854,11 +859,13 @@ a.search-icon {
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
+  max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
   background-color: #006E91;
   border: 2px #006E91 solid;
   outline: 1px transparent;
+  content: "🔎︎";
 }
 
 a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus, a.search-icon:focus:hover {
