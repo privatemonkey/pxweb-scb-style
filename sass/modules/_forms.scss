@@ -105,7 +105,6 @@ input[type="radio"] {
 }
 
 input[type="radio"]+label, input[type="checkbox"]+label {
-  @include typography.bold;
   margin-bottom: 0.5rem;
   display: inline-block;
   width: calc(100% - 2rem);
