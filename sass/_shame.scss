@@ -74,6 +74,10 @@ nav a {
     @include forms.button;
   }
 
+  a.search-icon:hover, a.search-icon:focus {
+    @include forms.button__hover;
+  }
+
   .variableselector_valuesselect_search_textstart_checkbox label {
     @include typography.text;
     width: 100%;

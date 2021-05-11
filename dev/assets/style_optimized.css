@@ -763,6 +763,13 @@ a.search-icon {
   border: 2px #006E91 solid;
 }
 
+a.search-icon:hover, a.search-icon:focus {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: transparent;
+}
+
 .variableselector_valuesselect_search_textstart_checkbox label {
   font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
