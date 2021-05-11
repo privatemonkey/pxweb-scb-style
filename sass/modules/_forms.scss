@@ -49,7 +49,7 @@ button, input[type="button"], input[type="submit"] {
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
   border: 2px colors.$button-primary-background solid;
-  outline: 1px solid transparent;
+  outline: 1px transparent;
 }
 
 
@@ -58,8 +58,8 @@ button, input[type="button"], input[type="submit"] {
     background-color: colors.$button__hover-background;
     color: colors.$button__hover-text;
     cursor: pointer;
-    border-color: colors.$button__hover-background;
-    outline-color: colors.$button__hover-background;
+    border: 2px solid colors.$button__hover-background;
+    outline: 1px solid colors.$button__hover-background;
   }
 }
 

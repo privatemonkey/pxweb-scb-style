@@ -292,7 +292,7 @@ button, input[type=submit], input[type=button], input[type=submit].container_con
   color: #fff;
   background-color: #006E91;
   border: 2px #006E91 solid;
-  outline: 1px solid transparent;
+  outline: 1px transparent;
 }
 
 button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn {
@@ -304,15 +304,15 @@ button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-b
   background-color: #222;
   color: #fff;
   cursor: pointer;
-  border-color: #222;
-  outline-color: #222;
+  border: 2px solid #222;
+  outline: 1px solid #222;
 }
 button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover {
   background-color: #222;
   color: #fff;
   cursor: pointer;
-  border-color: #222;
-  outline-color: #222;
+  border: 2px solid #222;
+  outline: 1px solid #222;
 }
 
 button.secondary, input[type=button].secondary-btn, input[type=submit] {
@@ -324,8 +324,8 @@ button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn
   background-color: #222;
   color: #fff;
   cursor: pointer;
-  border-color: #222;
-  outline-color: #222;
+  border: 2px solid #222;
+  outline: 1px solid #222;
 }
 
 /*
@@ -815,6 +815,7 @@ hr.future {
   text-decoration: underline;
   margin: 0 0.5rem 0.5rem 0;
   border-color: transparent;
+  outline-color: transparent;
   border-radius: 0;
   font-weight: 700;
 }
@@ -838,15 +839,15 @@ a.search-icon {
   color: #fff;
   background-color: #006E91;
   border: 2px #006E91 solid;
-  outline: 1px solid transparent;
+  outline: 1px transparent;
 }
 
 a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus, a.search-icon:focus:hover {
   background-color: #222;
   color: #fff;
   cursor: pointer;
-  border-color: #222;
-  outline-color: #222;
+  border: 2px solid #222;
+  outline: 1px solid #222;
 }
 
 .variableselector_valuesselect_search_textstart_checkbox label {
