@@ -65,6 +65,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     justify-content: space-between;
   }
 
+  .variableselector_variable_box_container > div {
+    width: 29%;
+  }
+
   .optional-variable-icon-panel {
     display: none;
   }

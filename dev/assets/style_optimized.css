@@ -790,6 +790,10 @@ hr.future {
   justify-content: space-between;
 }
 
+.variableselector_variable_box_container > div {
+  width: 29%;
+}
+
 .optional-variable-icon-panel {
   display: none;
 }
