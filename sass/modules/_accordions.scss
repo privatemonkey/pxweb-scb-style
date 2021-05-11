@@ -34,17 +34,15 @@ button.accordion-header, button.nested-accordion-header  {
 
   &:hover, &:focus {
     color: typography.$link__hover-text;
+    .header-text {
+      text-decoration: underline;
+    }
   }
 
   &:active {
     color: typography.$link__hover-text;
   }
-
-  .header-text {
-    &:hover, &:focus {
-      text-decoration: underline;
-    } 
-  }
+  
 }
 
 

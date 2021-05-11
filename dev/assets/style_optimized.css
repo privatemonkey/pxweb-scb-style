@@ -475,11 +475,11 @@ button.accordion-header, button.nested-accordion-header {
 button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
   color: #001920;
 }
+button.accordion-header:hover .header-text, button.accordion-header:focus .header-text, button.nested-accordion-header:hover .header-text, button.nested-accordion-header:focus .header-text {
+  text-decoration: underline;
+}
 button.accordion-header:active, button.nested-accordion-header:active {
   color: #001920;
-}
-button.accordion-header .header-text:hover, button.accordion-header .header-text:focus, button.nested-accordion-header .header-text:hover, button.nested-accordion-header .header-text:focus {
-  text-decoration: underline;
 }
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
