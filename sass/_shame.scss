@@ -148,6 +148,14 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     width: 100%;
     padding: sizes.$space-small 0;
   }
+
+  .variableselector_valuesselect_aggregations {
+    margin-top: sizes.$space-large;
+  }
+
+  .optional-variable-panel {
+    
+  }
   
 
   /* Media queries */

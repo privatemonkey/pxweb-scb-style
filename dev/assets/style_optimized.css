@@ -903,6 +903,10 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   padding: 1rem 0;
 }
 
+.variableselector_valuesselect_aggregations {
+  margin-top: 2rem;
+}
+
 /* Media queries */
 @media (min-width: 1140px) {
   .burger_menu-icon {
