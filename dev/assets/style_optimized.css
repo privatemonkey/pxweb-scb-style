@@ -91,7 +91,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   margin-top: 0;
 }
 
-.variableselector_variable_box_container label, label, input[type=radio]:checked + label {
+.variableselector_variable_box_container label, input[type=radio]:checked + label {
   font-weight: 700;
   max-width: 920px;
   text-transform: capitalize;
@@ -475,7 +475,7 @@ button.accordion-header, button.nested-accordion-header {
 button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
   color: #001920;
 }
-button.accordion-header:hover .header-text, button.accordion-header:focus .header-text, button.nested-accordion-header:hover .header-text, button.nested-accordion-header:focus .header-text {
+button.accordion-header:hover .header-text span, button.accordion-header:focus .header-text span, button.nested-accordion-header:hover .header-text span, button.nested-accordion-header:focus .header-text span {
   text-decoration: underline;
 }
 button.accordion-header:active, button.nested-accordion-header:active {
@@ -798,7 +798,7 @@ hr.future {
   font-size: 1.15rem;
 }
 
-.presentation-left input[type=submit] {
+#OperationsPanel input[type=submit] {
   background-color: transparent;
   text-decoration: underline;
   margin: 0 0.5rem 0.5rem 0;

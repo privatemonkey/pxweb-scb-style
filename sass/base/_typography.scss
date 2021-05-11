@@ -123,7 +123,7 @@ button.nested-accordion-header, .accordion-body legend {
   margin-top: 0;
 }
 
-.variableselector_variable_box_container label, label, input[type="radio"]:checked + label {
+.variableselector_variable_box_container label, input[type="radio"]:checked + label {
   @include header;
   margin-bottom: sizes.$space-smallest;
 }
