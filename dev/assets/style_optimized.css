@@ -770,7 +770,7 @@ nav a {
 }
 
 .commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext, .commandbar_changepresentation_changetext {
-  width: 100%;
+  width: calc(100% - 2rem);
 }
 
 .commandbar_changepresentation_radio {
@@ -796,7 +796,7 @@ nav a {
 .commandbar_container {
   /* border-top: 1px solid var(--panel-border-color); */
   padding: 0 2rem;
-  width: 100%;
+  width: calc(100% - 2rem);
 }
 
 .commandbar_container .variableselector_variable_box_container > div {
