@@ -33,7 +33,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
 
 .pxweb-input {
     display: block;
-    width: 100%;
+    width: calc(100% - 2rem);
 }
 
 .xs-margin-left {

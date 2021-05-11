@@ -781,7 +781,7 @@ nav a {
 
 .pxweb-input {
   display: block;
-  width: 100%;
+  width: calc(100% - 2rem);
 }
 
 .xs-margin-left {
