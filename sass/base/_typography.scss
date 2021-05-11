@@ -140,7 +140,6 @@ p, span, a, .steps {
 }
 
 @mixin text {
-  @include fontfamily;
   font-size: 1rem;
   line-height: 1.4;
   font-weight: $text-weight-normal;

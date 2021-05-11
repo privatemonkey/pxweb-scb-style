@@ -110,7 +110,6 @@ p, span, a, .steps {
 }
 
 p {
-  font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
@@ -120,7 +119,6 @@ p {
 }
 
 input, select, select option {
-  font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
@@ -130,7 +128,6 @@ input, select, select option {
 }
 
 button, button.accordion-header, button.nested-accordion-header {
-  font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
@@ -142,7 +139,6 @@ button, button.accordion-header, button.nested-accordion-header {
 }
 
 .siteName {
-  font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
@@ -888,7 +884,6 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
 }
 
 .variableselector_valuesselect_search_textstart_checkbox label {
-  font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
