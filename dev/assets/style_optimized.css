@@ -119,7 +119,7 @@ p {
   margin-bottom: 22px;
 }
 
-input, select, option {
+input, select, select option {
   font-family: "PublicSans", "Public Sans", "system";
   font-size: 1rem;
   line-height: 1.4;
