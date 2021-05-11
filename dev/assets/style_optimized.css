@@ -118,13 +118,17 @@ p {
   margin-bottom: 22px;
 }
 
-input, select, select option {
+input, select {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 22px;
+}
+
+option {
+  font-family: "PublicSans", "Public Sans", "system";
 }
 
 button, button.accordion-header, button.nested-accordion-header {

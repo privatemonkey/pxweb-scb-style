@@ -152,8 +152,12 @@ p {
   @include text;  
 }
 
-input, select, select option {
+input, select {
   @include text;
+}
+
+option {
+  @include fontfamily;
 }
 
 button, button.accordion-header, button.nested-accordion-header,  {
