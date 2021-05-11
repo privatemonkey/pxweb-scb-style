@@ -1,3 +1,9 @@
+@use '../base/_typography.scss';
 /*
 * Navigation related styling. Breadcrumbs, tree.
 */
+nav a {
+    font-weight: typography.$text-weight-medium;
+    padding: 0.25rem 0.25rem 0.05rem;
+    line-height: 150%;
+}

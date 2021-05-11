@@ -9,12 +9,6 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     @extend main;
 }
 
-nav a {
-    font-weight: typography.$text-weight-medium;
-    padding: 0.25rem 0.25rem 0.05rem;
-    line-height: 100%;
-  }
-
 .font-bold {
   @include typography.bold;
 }

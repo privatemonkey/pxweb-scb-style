@@ -158,13 +158,13 @@ a {
   text-decoration: underline;
 }
 
-a:hover, a:focus, a:active {
+a:hover:hover, a:hover:focus, a:hover:active, a:focus:hover, a:focus:focus, a:focus:active, a:active:hover, a:active:focus, a:active:active {
   color: #001920;
   cursor: pointer;
   text-decoration: none;
 }
 
-input[type=radio] + label:hover, input[type=radio]:checked + label {
+input[type=radio] + label:hover:hover, input[type=radio] + label:hover:focus, input[type=radio] + label:hover:active, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus, input[type=radio]:checked + label:active {
   color: #001920;
   cursor: pointer;
   text-decoration: none;
@@ -700,12 +700,6 @@ hr.future {
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
   background-color: #f8f8f8;
-}
-
-nav a {
-  font-weight: 500;
-  padding: 0.25rem 0.25rem 0.05rem;
-  line-height: 100%;
 }
 
 .font-bold {

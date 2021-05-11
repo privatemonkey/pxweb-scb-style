@@ -176,9 +176,11 @@ button, button.accordion-header, button.nested-accordion-header,  {
 }
 
 @mixin textlink__hover {
-  color: $link__hover-text;
-  cursor: pointer;
-  text-decoration: none;
+  &:hover, &:focus, &:active {
+    color: $link__hover-text;
+    cursor: pointer;
+    text-decoration: none;
+  }
 }
 
 a {
