@@ -103,6 +103,8 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     border-color: transparent;
     border-radius: 0;
     font-weight: typography.$text-weight-bold;
+    
+    @include typography.textlink__hover;
 }
 
   /* Menu button styling */
