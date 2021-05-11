@@ -27,6 +27,8 @@
 - h1
 - metainfo
 [ ] Search box class måste upp en nivå så det går att style den
-[ ] Visa metadata
+[ ] Visa metadata, konfigurera som option
+[ ] Flytta about under. Konfigurerbar?
+[ ] Info om uttaget som ex max antal rader bör ha egen class
 [ ] Stepper - förbättra HTML, byta ut hr mot span, .future på anchor
 [ ] Submit buttons in left panel changed to .nested-accordion-panel and buttons. All other classes removed.

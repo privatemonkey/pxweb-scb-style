@@ -706,6 +706,10 @@ nav a {
   line-height: 100%;
 }
 
+.font-bold {
+  font-weight: bold;
+}
+
 .pxweb-input {
   display: block;
   width: 100%;
@@ -733,6 +737,15 @@ nav a {
 }
 
 /* Change variable specific */
+#SelectionPage .about-table button {
+  border-top: none;
+  padding-left: 0;
+}
+
+#SelectionPage .justify-center {
+  justify-content: left;
+}
+
 .variableselector_variable_box_container.flex-row.flex-wrap {
   justify-content: space-between;
 }
@@ -759,6 +772,7 @@ nav a {
 /* Very specific styling */
 .obs-notes {
   margin-bottom: 2rem;
+  min-width: 100%;
 }
 
 /* Choose variables trigger */

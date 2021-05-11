@@ -15,6 +15,10 @@ nav a {
     line-height: 100%;
   }
 
+.font-bold {
+  @include typography.bold;
+}
+
 .pxweb-input {
     display: block;
     width: 100%;
@@ -42,6 +46,15 @@ nav a {
   }
 
   /* Change variable specific */
+  #SelectionPage .about-table button {
+    border-top: none;
+    padding-left: 0;
+}
+
+#SelectionPage .justify-center {
+  justify-content: left;
+}
+
   .variableselector_variable_box_container.flex-row.flex-wrap {
     justify-content: space-between;
   }
@@ -49,7 +62,7 @@ nav a {
   .optional-variable-icon-panel {
     display: none;
   }
-  
+
 .view-state {
     float: right;
     margin-top: -3rem;
@@ -68,6 +81,7 @@ nav a {
   /* Very specific styling */
   .obs-notes {
     margin-bottom: sizes.$space-large;
+    min-width: 100%;
   }
   
   /* Choose variables trigger */
