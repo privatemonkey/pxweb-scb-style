@@ -34,6 +34,7 @@ button.accordion-header, button.nested-accordion-header  {
 
   &:hover, &:focus {
     color: typography.$link__hover-text;
+    background-color: colors.$color-lightest;
     > .header-text > span {
       text-decoration: underline;
     }

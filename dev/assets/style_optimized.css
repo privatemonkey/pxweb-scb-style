@@ -487,6 +487,7 @@ button.accordion-header, button.nested-accordion-header {
 }
 button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
   color: #001920;
+  background-color: #fff;
 }
 button.accordion-header:hover > .header-text > span, button.accordion-header:focus > .header-text > span, button.nested-accordion-header:hover > .header-text > span, button.nested-accordion-header:focus > .header-text > span {
   text-decoration: underline;
