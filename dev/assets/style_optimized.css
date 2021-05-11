@@ -376,7 +376,7 @@ input[type=radio] + label, input[type=checkbox] + label {
   margin-bottom: 0.5rem;
   margin-right: 1rem;
   display: inline-block;
-  width: 80%;
+  width: calc(100% - 2rem);
   vertical-align: top;
   padding: 0;
   line-height: 140%;
@@ -775,7 +775,7 @@ nav a {
 
 .commandbar_changepresentation_radio {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
