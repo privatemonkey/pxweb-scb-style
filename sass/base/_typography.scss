@@ -30,6 +30,7 @@ $max-text-width:         720px;
 $max-header-width:       920px;
 
 $font-size-normal:         16px;
+$font-size-medium:      1.15rem;
 
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap');
 
@@ -124,6 +125,7 @@ button.nested-accordion-header, .accordion-body legend {
 
 .variableselector_variable_box_container label, label, input[type="radio"]:checked + label {
   @include header;
+  margin-bottom: sizes.$space-smallest;
 }
 
 label span {

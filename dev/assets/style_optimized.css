@@ -96,6 +96,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   max-width: 920px;
   text-transform: capitalize;
   line-height: 1.2;
+  margin-bottom: 0.5rem;
 }
 
 label span {
@@ -175,7 +176,7 @@ input[type=radio] + label:hover, input[type=radio]:checked + label {
   background-color: #222;
 }
 
-.fullscreen main, .fullscreen #table-title, .fullscreen #ctl00_navigationFlowControl, .fullscreen #ctl00_breadcrumb1, .fullscreen div[role=main] {
+.fullscreen main, .fullscreen #table-title, .fullscreen #ctl00_navigationFlowControl, .fullscreen #ctl00_breadcrumb1, .fullscreen #ctl00_ctl00_navigationFlowControl, .fullscreen #ctl00_ctl00_breadcrumb1, .fullscreen #ctl00_breadcrumb, .fullscreen div[role=main] {
   max-width: calc(100vw - 2rem - 2rem);
   margin: 0;
   padding: 0 2rem;
@@ -232,13 +233,13 @@ img.logo-quality, .officialStatisticsImage {
   flex-wrap: wrap;
 }
 
-main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1 {
+main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb {
   max-width: 1440px;
   margin: 0 auto;
   padding-left: 2rem;
 }
 
-.result main, .result div[role=main], .result #table-title, .result #ctl00_navigationFlowControl, .result #ctl00_breadcrumb1 {
+.result main, .result div[role=main], .result #table-title, .result #ctl00_navigationFlowControl, .result #ctl00_breadcrumb1, .result #ctl00_ctl00_navigationFlowControl, .result #ctl00_ctl00_breadcrumb1, .result #ctl00_breadcrumb {
   margin-right: calc(476px + 2rem);
 }
 
@@ -784,6 +785,15 @@ nav a {
   justify-content: center;
 }
 
+/* Result page specific */
+.tablequery_informationpanel label {
+  margin-top: 1rem;
+}
+
+.tablequery_query {
+  font-size: 1.15rem;
+}
+
 /* Search field */
 a.search-icon {
   padding: 0.5rem 1rem;
@@ -820,7 +830,7 @@ a.search-icon:hover, a.search-icon:focus {
   }
 }
 @media (max-width: 1140px) {
-  main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1 {
+  main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb {
     max-width: 90vw;
     margin: 0 calc(320px + 2rem) 0 auto;
     padding-left: 2rem;
@@ -836,7 +846,7 @@ a.search-icon:hover, a.search-icon:focus {
   }
 }
 @media (max-width: 768px) {
-  main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1 {
+  main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb {
     max-width: calc(100vw - 2rem);
     padding: 0.5rem;
   }

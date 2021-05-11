@@ -5,7 +5,7 @@
 @use 'layout/layout.scss';
 @use 'modules/forms.scss';
 
-div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1 {
+div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb {
     @extend main;
 }
 
@@ -82,7 +82,7 @@ nav a {
   .obs-notes {
     margin-bottom: sizes.$space-large;
   }
-  
+
   .obs-notes-h3 {
     min-width: 100%;
   }
@@ -91,6 +91,15 @@ nav a {
   .justify-center {
     display: flex;
     justify-content: center;
+  }
+
+  /* Result page specific */
+  .tablequery_informationpanel label {
+    margin-top: 1rem;
+  }
+
+  .tablequery_query {
+    font-size: typography.$font-size-medium;
   }
 
   /* Search field */
