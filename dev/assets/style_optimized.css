@@ -757,7 +757,7 @@ nav a {
   font-weight: bold;
 }
 
-.header-text {
+.header-text, .commandbar_changedecimal_titletext {
   font-weight: 700;
   max-width: 920px;
   text-transform: capitalize;
@@ -766,6 +766,11 @@ nav a {
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.3rem;
+  width: 100%;
+}
+
+.commandbar_changedecimal_selectvaluetext {
+  width: 100%;
 }
 
 .pxweb-input {

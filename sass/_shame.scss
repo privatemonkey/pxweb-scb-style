@@ -13,12 +13,17 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @include typography.bold;
 }
 
-.header-text {
+.header-text, .commandbar_changedecimal_titletext {
   @include typography.header;
   font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.3rem;
+  width: 100%;
+}
+
+.commandbar_changedecimal_selectvaluetext {
+  width: 100%;
 }
 
 .pxweb-input {
