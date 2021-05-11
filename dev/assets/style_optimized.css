@@ -160,13 +160,13 @@ a {
 a:hover, a:focus {
   color: #001920;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus {
   color: #001920;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Selected text */
@@ -366,7 +366,7 @@ input[type=radio] + label, input[type=checkbox] + label {
 input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus {
   color: #001920;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 fieldset {

@@ -179,7 +179,7 @@ button, button.accordion-header, button.nested-accordion-header,  {
   &:hover, &:focus {
     color: $link__hover-text;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
