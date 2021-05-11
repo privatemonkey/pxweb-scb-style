@@ -1,6 +1,7 @@
 @use '../layout/_panel.scss'; 
 @use '../base/_sizes.scss';
 @use '../base/_colors.scss';
+@use '../base/_typography.scss';
 @use '../modules/forms';
 
 /*
@@ -30,7 +31,14 @@ button.accordion-header, button.nested-accordion-header  {
   border-top: 1px solid panel.$panel-border-color;
   font-weight: 700;
 
-  @include forms.button__hover;
+  &:hover, &:focus {
+    text-decoration: underline;
+    color: typography.$link__hover-text;
+  }
+
+  &:active {
+    color: typography.$link__hover-text;
+  }
 }
 
 button.accordion-header.closed, button.nested-accordion-header.closed {

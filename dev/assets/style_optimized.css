@@ -471,12 +471,12 @@ button.accordion-header, button.nested-accordion-header {
   border-top: 1px solid #949494;
   font-weight: 700;
 }
-button.accordion-header:focus, button.accordion-header:hover, button.nested-accordion-header:focus, button.nested-accordion-header:hover {
-  background-color: #222;
-  color: #fff;
-  cursor: pointer;
-  border-color: #222;
-  outline-color: #222;
+button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
+  text-decoration: underline;
+  color: #001920;
+}
+button.accordion-header:active, button.nested-accordion-header:active {
+  color: #001920;
 }
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
