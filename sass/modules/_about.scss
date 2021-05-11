@@ -1,6 +1,9 @@
 @use '../layout/_panel.scss'; 
 
 /* About area */
+.about-table {
+    min-width: 100%;
+}
 
 .information_definitionlist button.nested-accordion-header.closed {
     border-top: none;

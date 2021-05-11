@@ -243,6 +243,10 @@ main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcr
 }
 
 /* About area */
+.about-table {
+  min-width: 100%;
+}
+
 .information_definitionlist button.nested-accordion-header.closed {
   border-top: none;
   padding: 0;
