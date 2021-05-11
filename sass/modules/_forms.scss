@@ -102,8 +102,10 @@ input[type="radio"] {
   margin-bottom: sizes.$space-small;
   margin-right: sizes.$space-smallest;
   display: inline-block;
+
   &:hover, &:focus, &:active {
     color: typography.$link__hover-text;
+    border: none;
   }
 }
 
