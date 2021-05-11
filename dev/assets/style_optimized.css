@@ -288,6 +288,7 @@ main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcr
 
 button.accordion-header:hover span, button.nested-accordion-header:hover, button.accordion-header:focus span, button.nested-accordion-header:focus {
   text-decoration: underline;
+  background-color: #222;
 }
 
 button.accordion-header, button.nested-accordion-header {

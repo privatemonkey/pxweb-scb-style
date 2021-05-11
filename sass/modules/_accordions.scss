@@ -1,5 +1,6 @@
 @use '../layout/_panel.scss'; 
 @use '../base/_sizes.scss';
+@use '../base/_colors.scss';
 
 /*
 * Accordions
@@ -20,6 +21,7 @@
 
 button.accordion-header:hover span, button.nested-accordion-header:hover, button.accordion-header:focus span, button.nested-accordion-header:focus  {
   text-decoration: underline;
+  background-color: colors.$button__hover-background;
 }
 
 button.accordion-header, button.nested-accordion-header  {
