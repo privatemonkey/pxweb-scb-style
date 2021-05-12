@@ -244,6 +244,19 @@ main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcr
   min-width: 100%;
 }
 
+.information_definitionlist button.nested-accordion-header {
+  background-color: transparent;
+  margin-bottom: none;
+}
+.information_definitionlist button.nested-accordion-header:hover, .information_definitionlist button.nested-accordion-header:focus {
+  text-decoration: none;
+  cursor: none;
+}
+
+.information_definitionlist .nested-accordion-body {
+  margin-bottom: 2rem;
+}
+
 .information_definitionlist button.nested-accordion-header.closed {
   border-top: none;
   padding: 0;
@@ -769,7 +782,7 @@ nav a {
   margin-bottom: 0.3rem;
 }
 
-.commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext, .commandbar_changepresentation_changetext {
+.commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext, .commandbar_changepresentation_changetext, .commandbar_sum_sumallvaluestext {
   width: calc(100% - 2rem);
 }
 

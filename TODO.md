@@ -32,3 +32,4 @@
 [ ] Info om uttaget som ex max antal rader bör ha egen class
 [ ] Stepper - förbättra HTML, byta ut hr mot span, .future på anchor
 [ ] Submit buttons in left panel changed to .nested-accordion-panel and buttons. All other classes removed.
+[ ] About - Med eller utan accordion beteende

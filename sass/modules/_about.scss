@@ -1,8 +1,22 @@
 @use '../layout/_panel.scss'; 
+@use '../base/sizes';
 
 /* About area */
 .about-table {
     min-width: 100%;
+}
+.information_definitionlist button.nested-accordion-header {
+    background-color: transparent;
+    margin-bottom: none;
+
+    &:hover, &:focus {
+        text-decoration: none;
+        cursor: none;
+    }
+}
+
+.information_definitionlist .nested-accordion-body {
+    margin-bottom: sizes.$space-large;
 }
 
 .information_definitionlist button.nested-accordion-header.closed {
