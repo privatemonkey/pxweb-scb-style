@@ -248,7 +248,7 @@ main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcr
   background-color: transparent;
   margin-bottom: 0;
 }
-.information_definitionlist button.nested-accordion-header:hover span, .information_definitionlist button.nested-accordion-header:focus span {
+.information_definitionlist button.nested-accordion-header:hover .header-text, .information_definitionlist button.nested-accordion-header:focus .header-text {
   text-decoration: none;
   cursor: unset;
 }
@@ -552,10 +552,6 @@ button.accordion-header:before {
   display: flex;
   justify-content: start;
   flex-shrink: 1;
-}
-
-.pxweb-nested-accordion dd {
-  margin-left: 0.5rem;
 }
 
 .accordion-body {

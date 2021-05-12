@@ -9,7 +9,7 @@
     background-color: transparent;
     margin-bottom: 0;
 
-    &:hover span, &:focus span {
+    &:hover .header-text, &:focus .header-text {
         text-decoration: none;
         cursor: unset;
     }
