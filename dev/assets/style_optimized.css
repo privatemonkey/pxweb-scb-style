@@ -246,11 +246,11 @@ main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcr
 
 .information_definitionlist button.nested-accordion-header {
   background-color: transparent;
-  margin-bottom: none;
+  margin-bottom: 0;
 }
-.information_definitionlist button.nested-accordion-header:hover, .information_definitionlist button.nested-accordion-header:focus {
+.information_definitionlist button.nested-accordion-header:hover span, .information_definitionlist button.nested-accordion-header:focus span {
   text-decoration: none;
-  cursor: none;
+  cursor: unset;
 }
 
 .information_definitionlist .nested-accordion-body {

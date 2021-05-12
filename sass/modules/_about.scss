@@ -7,11 +7,11 @@
 }
 .information_definitionlist button.nested-accordion-header {
     background-color: transparent;
-    margin-bottom: none;
+    margin-bottom: 0;
 
-    &:hover, &:focus {
+    &:hover span, &:focus span {
         text-decoration: none;
-        cursor: none;
+        cursor: unset;
     }
 }
 
