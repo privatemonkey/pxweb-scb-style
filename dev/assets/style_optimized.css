@@ -250,7 +250,7 @@ main, div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcr
 }
 .information_definitionlist button.nested-accordion-header:hover .header-text, .information_definitionlist button.nested-accordion-header:focus .header-text {
   text-decoration: none;
-  cursor: unset;
+  cursor: default;
 }
 
 .information_definitionlist .nested-accordion-body {
