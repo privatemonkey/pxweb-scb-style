@@ -16,9 +16,11 @@
 }
 
 .AspNet-TreeView ul ul {
-    margin: sizes.$space-small 0 0 0;
-    padding: 0 0 0  sizes.$space-large;
     border-top: 1px solid colors.$color-light
+}
+
+.AspNet-TreeView ul ul li {
+    margin-left: sizes.$space-large;
 }
 
 .AspNet-TreeView ul li {
