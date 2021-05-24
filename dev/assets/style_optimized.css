@@ -783,6 +783,10 @@ nav a {
   padding: 18px 0 18px 0;
 }
 
+.AspNet-TreeView ul ul {
+  margin: 19px 0 0px 30px;
+}
+
 /* Expandable nodes */
 /* Expanded parent node */
 .AspNet-TreeView-Expand::before {
@@ -797,6 +801,11 @@ nav a {
 .AspNet-TreeView-Leaf {
   margin-left: 0px;
   padding-left: 12px;
+}
+
+/* Hide node */
+.AspNet-TreeView-Hide {
+  display: none;
 }
 
 /* Elements that should have been inside the main wrapper */
