@@ -180,7 +180,7 @@ a:hover, a:focus, a > span:hover, a > span:focus {
   padding: 0 2rem;
 }
 
-input[value=Fullscreen]#btnFullscreen {
+input#btnfullscreen {
   position: fixed;
   right: 476px;
   top: 0;
