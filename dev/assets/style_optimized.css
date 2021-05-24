@@ -220,7 +220,7 @@ img.logo-quality, .officialStatisticsImage {
 
 .flex-column {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .flex-row {
