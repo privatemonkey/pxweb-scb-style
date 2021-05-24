@@ -111,6 +111,7 @@ input[type="radio"] {
   &:hover, &:focus, &:active {
     color: typography.$link__hover-text;
     border: none;
+    outline: none;
   }
 }
 

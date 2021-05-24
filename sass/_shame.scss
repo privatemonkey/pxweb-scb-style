@@ -65,6 +65,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     width: 90%;
   }
 
+  #SaveAsPanel input {
+    margin-top: sizes.$space-medium;
+  }
+
   .container_exit_buttons_row {
     margin-top: 1rem;
     /* padding: 1rem 0; */
