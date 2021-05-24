@@ -6,9 +6,9 @@
   padding: 0 sizes.$space-large;
 }
 
-input[value="Fullscreen"] {
-  position: absolute;
-  right: 0;
+input[value="Fullscreen"]#btnFullscreen {
+  position: fixed;
+  right: sizes.$panel-width;
   top: 0;
   opacity: 0.7;
 }

@@ -197,6 +197,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   .optional-variable-panel {
 
   }
+
+  input.download-icon {
+    margin-top: sizes.$space-medium;
+  }
   
 
   /* Media queries */
@@ -208,7 +212,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @media(max-width:1140px) {
     main {
       max-width: 90vw;
-      margin:0 calc(#{panel.$panel-width-small} + #{sizes.$space-large}) 0 auto;
+      margin:0 calc(#{sizes.$panel-width-small} + #{sizes.$space-large}) 0 auto;
       padding-left: sizes.$space-large;
     }
   
@@ -218,7 +222,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     }
   
     .presentation-left {
-      width: panel.$panel-width-small;
+      width: sizes.$panel-width-small;
     }
   }
   

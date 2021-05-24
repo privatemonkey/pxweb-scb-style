@@ -15,6 +15,6 @@ main {
 }
 
 .result main {
-  margin-right: calc(#{panel.$panel-width} + #{sizes.$space-large});
+  margin-right: calc(#{sizes.$panel-width} + #{sizes.$space-large});
 }
 

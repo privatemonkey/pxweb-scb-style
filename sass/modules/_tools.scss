@@ -1,10 +1,11 @@
 @use '../layout/panel';
+@use '../base/sizes';
 
 .presentation-left {
     position: fixed;
     overflow: auto;
     height: 100vh;
-    width: panel.$panel-width;
+    width: sizes.$panel-width;
     top: 0;
     right: 0;
     background-color: #f8f8f8;
