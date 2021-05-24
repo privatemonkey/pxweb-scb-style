@@ -763,6 +763,47 @@ nav a {
   line-height: 150%;
 }
 
+/*
+* Treeview, used to select table
+*
+* TODO: Replace classes in HTML
+*/
+/* Reset list style */
+#TableOfContent ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Expandable nodes */
+.AspNet-TreeView-Root, .AspNet-TreeView-Parent {
+  background-image: none;
+  font-size: inherit;
+  font-family: inherit;
+  border-top: 1px solid #949494;
+  padding: 18px 0 18px 0;
+  white-space: nowrap;
+  padding: 3px 0 2px 0;
+  line-height: 135%;
+  background-position: 0em 0.75em;
+  background-repeat: no-repeat;
+}
+
+/* Expanded parent node */
+.AspNet-TreeView-Expand::before {
+  content: "";
+}
+
+.AspNet-TreeView-Collapse::before {
+  content: "";
+}
+
+/* Clickable leaf node */
+.AspNet-TreeView-Leaf {
+  margin-left: 0px;
+  padding-left: 12px;
+}
+
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
