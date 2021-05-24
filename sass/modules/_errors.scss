@@ -1,8 +1,11 @@
 @use '../base/sizes';
+@use '../base/colors';
 
 /* Errors and messages */
 
 .px-messages {
     padding: 0 0 sizes.$space-large;
     font-weight: 700;
+    margin-bottom: sizes.$space-medium;
+    background-color: colors.$message-background-default;
 }

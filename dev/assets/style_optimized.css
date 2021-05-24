@@ -24,6 +24,7 @@ body {
 /* Buttons */
 /* Inputs */
 /* Tables */
+/* Errors and messages */
 /*
 * Size related variables
 */
@@ -47,7 +48,7 @@ body {
 }
 
 /* -- Headers -- */
-h1, h2, h3, .variableselector_variable_box_container label, .container_titletext, h4 {
+h1, h2, h3, .variableselector_variable_box_container label, .container_titletext, .heading, h4 {
   font-weight: 700;
   max-width: 920px;
   text-transform: capitalize;
@@ -67,7 +68,7 @@ h2 {
   margin: 2rem 0 1.5rem;
 }
 
-h3, .variableselector_variable_box_container label, .container_titletext {
+h3, .variableselector_variable_box_container label, .container_titletext, .heading {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
@@ -775,6 +776,8 @@ hr.future {
 .px-messages {
   padding: 0 0 2rem;
   font-weight: 700;
+  margin-bottom: 1.5rem;
+  background-color: #dff7ff;
 }
 
 /*
