@@ -15,6 +15,12 @@ input#btnfullscreen {
   opacity: 0.7;
 }
 
+@media (min-width: 480px) and (max-width: 900px) {
+  input#btnfullscreen {
+    right: 0;
+  }
+}
+
 #Fullscreen {
   background-color: colors.$page-background;
   padding: sizes.$space-large;
