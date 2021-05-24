@@ -280,6 +280,10 @@ main {
   clear: left;
 }
 
+.about dd {
+  margin-left: 0;
+}
+
 /*
 * Generic form related styling. Buttons, inputs, select.
 */
