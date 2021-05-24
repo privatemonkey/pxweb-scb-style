@@ -787,6 +787,10 @@ nav a {
 .AspNet-TreeView ul li {
   background-image: none;
   border-bottom: 1px solid #ccc;
+  padding: 0;
+}
+
+.AspNet-TreeView a {
   padding: 0.5rem 0;
 }
 

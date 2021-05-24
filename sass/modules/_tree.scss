@@ -26,6 +26,10 @@
 .AspNet-TreeView ul li {
     background-image: none;
     border-bottom: 1px solid colors.$color-light;
+    padding: 0;
+}
+
+.AspNet-TreeView a {
     padding: sizes.$space-smallest 0;
 }
 
