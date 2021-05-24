@@ -16,7 +16,7 @@
 }
 
 .AspNet-TreeView ul ul {
-    margin: sizes.$space-smallest 0 0 sizes.$space-small;
+    margin: sizes.$space-smallest 0 0 sizes.$space-large;
 }
 
 .AspNet-TreeView ul li {
@@ -54,7 +54,13 @@
 }
 
 /* Clickable nodes */
-.AspNet-TreeView ul li, .AspNet-TreeView-Collapse::before, .AspNet-TreeView-Expand::before {
+.AspNet-TreeView ul li span {
     @include typography.textlink;
     @include typography.textlink__hover;
+}
+
+.AspNet-TreeView-Collapse::before, .AspNet-TreeView-Expand::before {
+    &:hover {
+        cursor: pointer;
+    }
 }

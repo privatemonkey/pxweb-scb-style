@@ -776,7 +776,7 @@ nav a {
 }
 
 .AspNet-TreeView ul ul {
-  margin: 0.5rem 0 0 1rem;
+  margin: 0.5rem 0 0 2rem;
 }
 
 .AspNet-TreeView ul li {
@@ -807,17 +807,21 @@ nav a {
 }
 
 /* Clickable nodes */
-.AspNet-TreeView ul li, .AspNet-TreeView-Collapse::before, .AspNet-TreeView-Expand::before {
+.AspNet-TreeView ul li span {
   color: #006E91;
   cursor: pointer;
   text-decoration: underline;
   outline-color: transparent;
   border-color: transparent;
 }
-.AspNet-TreeView ul li:hover, .AspNet-TreeView ul li:focus, .AspNet-TreeView-Collapse::before:hover, .AspNet-TreeView-Collapse::before:focus, .AspNet-TreeView-Expand::before:hover, .AspNet-TreeView-Expand::before:focus {
+.AspNet-TreeView ul li span:hover, .AspNet-TreeView ul li span:focus {
   color: #001920;
   cursor: pointer;
   text-decoration: underline;
+}
+
+.AspNet-TreeView-Collapse::before:hover, .AspNet-TreeView-Expand::before:hover {
+  cursor: pointer;
 }
 
 /* Elements that should have been inside the main wrapper */
