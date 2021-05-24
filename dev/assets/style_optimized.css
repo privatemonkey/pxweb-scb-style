@@ -307,7 +307,7 @@ button:hover, button:active, button:focus, input[type=button]:hover, input[type=
   background-color: #222;
 }
 
-button [disable=disabled], input [disable=disabled] {
+button[disable=disabled], input[disable=disabled] {
   border-color: #949494;
 }
 
@@ -927,7 +927,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   width: 90%;
 }
 
-#SaveAsPanel input {
+#SaveAsPanel input[type=submit] {
   margin-top: 1.5rem;
 }
 

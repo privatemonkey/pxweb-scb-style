@@ -65,7 +65,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     width: 90%;
   }
 
-  #SaveAsPanel input {
+  #SaveAsPanel input[type="submit"] {
     margin-top: sizes.$space-medium;
   }
 
