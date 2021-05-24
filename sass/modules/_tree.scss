@@ -25,17 +25,12 @@
 
 .AspNet-TreeView ul li {
     background-image: none;
-    border: 1px dotted transparent;
     border-bottom: 1px solid colors.$color-light;
     padding: sizes.$space-smallest 0;
 }
 
 .AspNet-TreeView ul li:last-of-type {
     border-bottom: none;
-}
-
-.AspNet-TreeView ul li:hover,.AspNet-TreeView ul li:focus {
-    border-color: #000;
 }
 
 /* Expandable nodes */

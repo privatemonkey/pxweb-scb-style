@@ -6,7 +6,7 @@
 
 @mixin maingrid {
   max-width: 1440px;
-  margin:0 auto;
+  margin:inherit auto;
   padding-left: sizes.$space-large;
 }
 

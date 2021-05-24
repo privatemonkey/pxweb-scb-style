@@ -231,7 +231,7 @@ img.logo-quality, .officialStatisticsImage {
 
 main {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: inherit auto;
   padding-left: 2rem;
 }
 
@@ -785,17 +785,12 @@ nav a {
 
 .AspNet-TreeView ul li {
   background-image: none;
-  border: 1px dotted transparent;
   border-bottom: 1px solid #ccc;
   padding: 0.5rem 0;
 }
 
 .AspNet-TreeView ul li:last-of-type {
   border-bottom: none;
-}
-
-.AspNet-TreeView ul li:hover, .AspNet-TreeView ul li:focus {
-  border-color: #000;
 }
 
 /* Expandable nodes */
@@ -841,7 +836,7 @@ nav a {
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: inherit auto;
   padding-left: 2rem;
 }
 
