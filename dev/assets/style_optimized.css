@@ -189,6 +189,10 @@ input#btnfullscreen {
   opacity: 0.7;
 }
 
+#Fullscreen {
+  background-color: #fff;
+}
+
 /*
 * Panels used in choose variables
 */
