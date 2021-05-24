@@ -230,6 +230,10 @@ img.logo-quality, .officialStatisticsImage {
   flex-wrap: wrap;
 }
 
+.justify-space-between {
+  justify-content: space-between;
+}
+
 main {
   max-width: 1440px;
   margin: 0 auto;
@@ -836,6 +840,11 @@ nav a {
 
 .AspNet-TreeView-Collapse:hover, .AspNet-TreeView-Expand:hover {
   cursor: pointer;
+}
+
+/* Icons */
+.AspNet-TreeView img {
+  margin-left: 1.5rem;
 }
 
 /* Elements that should have been inside the main wrapper */
