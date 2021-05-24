@@ -308,12 +308,12 @@ button:hover, button:active, button:focus, input[type=button]:hover, input[type=
   background-color: #222;
 }
 
-button:disabled, input:disabled {
+button:disabled, input:disabled, input[type=submit]:disabled {
   border-color: #949494;
   background: #ccc;
   color: #949494;
 }
-button:disabled:hover, button:disabled:focus, button:disabled:active, input:disabled:hover, input:disabled:focus, input:disabled:active {
+button:disabled:hover, button:disabled:focus, button:disabled:active, input:disabled:hover, input:disabled:focus, input:disabled:active, input[type=submit]:disabled:hover, input[type=submit]:disabled:focus, input[type=submit]:disabled:active {
   cursor: default;
   border-color: #949494;
   background: #ccc;
@@ -774,7 +774,7 @@ hr.future {
 
 /* Errors and messages */
 .px-messages {
-  padding: 0 0 2rem;
+  padding: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   background-color: #dff7ff;
