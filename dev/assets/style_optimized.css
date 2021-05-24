@@ -1149,11 +1149,6 @@ input.download-icon {
     padding-left: 2rem;
   }
 
-  .flex-row {
-    display: flex;
-    flex-direction: column;
-  }
-
   .presentation-left {
     width: 320px;
   }
