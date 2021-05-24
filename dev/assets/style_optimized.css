@@ -240,6 +240,11 @@ main {
   max-width: 1440px;
   margin: 0 auto;
 }
+@media (min-width: 480px) and (max-width: 900px) {
+  main {
+    max-width: 90vw;
+  }
+}
 
 .result main {
   margin-right: calc(476px + 2rem);
@@ -888,6 +893,11 @@ nav a span {
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
   margin: 0 auto;
+}
+@media (min-width: 480px) and (max-width: 900px) {
+  div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
+    max-width: 90vw;
+  }
 }
 
 .h1title {
