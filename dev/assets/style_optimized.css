@@ -238,7 +238,6 @@ img.logo-quality, .officialStatisticsImage {
 main {
   max-width: 1440px;
   margin: 0 auto;
-  padding-left: 2rem;
 }
 
 .result main {
@@ -888,7 +887,6 @@ nav a span {
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
   margin: 0 auto;
-  padding-left: 2rem;
 }
 
 .h1title {
