@@ -307,8 +307,16 @@ button:hover, button:active, button:focus, input[type=button]:hover, input[type=
   background-color: #222;
 }
 
-button[disable=disabled], input[disable=disabled] {
+button:disabled, input:disabled {
   border-color: #949494;
+  background: #ccc;
+  color: #949494;
+}
+button:disabled:hover, button:disabled:focus, button:disabled:active, input:disabled:hover, input:disabled:focus, input:disabled:active {
+  cursor: default;
+  border-color: #949494;
+  background: #ccc;
+  color: #949494;
 }
 
 button, input[type=submit], input[type=button], input[type=submit].container_continuebutton {
