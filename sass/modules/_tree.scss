@@ -1,5 +1,6 @@
 @use '../base/typography';
-@use '../layout/panel';
+@use '../base/colors';
+@use '../base/sizes';
 
 /*
 * Treeview, used to select table
@@ -15,15 +16,13 @@
 }
 
 .AspNet-TreeView ul ul {
-    margin: 19px 0 0px 30px;
+    margin: sizes.$space-smallest 0 0 sizes.$space-small;
 }
 
 .AspNet-TreeView ul li {
     background-image: none;
-    font-size: inherit;
-    font-family: inherit;
-    border-top: 1px solid #949494;
-    padding: 18px 0 18px 0;
+    border-top: 1px solid colors.$color-light;
+    padding: sizes.$space-smallest 0;
 }
 
 /* Expandable nodes */
@@ -46,7 +45,7 @@
 /* Clickable leaf node */
 .AspNet-TreeView-Leaf {
     margin-left: 0px;
-    padding-left: 12px;
+    padding-left: sizes.$space-smallest;
 }
 
 /* Hide node */
@@ -54,4 +53,8 @@
     display: none;
 }
 
-
+/* Clickable nodes */
+.AspNet-TreeView ul li, .AspNet-TreeView-Collapse::before, .AspNet-TreeView-Expand::before {
+    @include typography.textlink;
+    @include typography.textlink__hover;
+}
