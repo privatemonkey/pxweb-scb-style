@@ -792,6 +792,7 @@ nav a {
 
 .AspNet-TreeView a, .AspNet-TreeView-ClickableNonLink {
   padding: 0.5rem 0;
+  text-decoration: none;
 }
 
 .AspNet-TreeView ul li:last-of-type {
@@ -826,7 +827,6 @@ nav a {
   text-decoration: underline;
   outline-color: transparent;
   border-color: transparent;
-  text-decoration: none;
 }
 .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus, .AspNet-TreeView a:hover, .AspNet-TreeView a:focus {
   color: #001920;
