@@ -785,8 +785,12 @@ nav a {
 
 .AspNet-TreeView ul li {
   background-image: none;
-  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   padding: 0.5rem 0;
+}
+
+.AspNet-TreeView ul li:last-of-type {
+  border-bottom: none;
 }
 
 /* Expandable nodes */
@@ -825,7 +829,7 @@ nav a {
   text-decoration: underline;
 }
 
-.AspNet-TreeView-Collapse::before:hover, .AspNet-TreeView-Expand::before:hover {
+.AspNet-TreeView-Collapse:hover, .AspNet-TreeView-Expand:hover {
   cursor: pointer;
 }
 

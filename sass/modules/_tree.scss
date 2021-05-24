@@ -25,8 +25,12 @@
 
 .AspNet-TreeView ul li {
     background-image: none;
-    border-top: 1px solid colors.$color-light;
+    border-bottom: 1px solid colors.$color-light;
     padding: sizes.$space-smallest 0;
+}
+
+.AspNet-TreeView ul li:last-of-type {
+    border-bottom: none;
 }
 
 /* Expandable nodes */
@@ -65,7 +69,7 @@
     text-decoration: none;
 }
 
-.AspNet-TreeView-Collapse::before, .AspNet-TreeView-Expand::before {
+.AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {
     &:hover {
         cursor: pointer;
     }
