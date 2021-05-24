@@ -790,7 +790,7 @@ nav a {
   padding: 0;
 }
 
-.AspNet-TreeView a {
+.AspNet-TreeView a, .AspNet-TreeView-ClickableNonLink {
   padding: 0.5rem 0;
 }
 
@@ -820,7 +820,7 @@ nav a {
 }
 
 /* Clickable nodes */
-.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink {
+.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink, .AspNet-TreeView a {
   color: #006E91;
   cursor: pointer;
   text-decoration: underline;
@@ -828,7 +828,7 @@ nav a {
   border-color: transparent;
   text-decoration: none;
 }
-.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus {
+.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus, .AspNet-TreeView a:hover, .AspNet-TreeView a:focus {
   color: #001920;
   cursor: pointer;
   text-decoration: underline;

@@ -29,7 +29,7 @@
     padding: 0;
 }
 
-.AspNet-TreeView a {
+.AspNet-TreeView a, .AspNet-TreeView-ClickableNonLink {
     padding: sizes.$space-smallest 0;
 }
 
@@ -66,7 +66,7 @@
 }
 
 /* Clickable nodes */
-.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink {
+.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink, .AspNet-TreeView a {
     @include typography.textlink;
     @include typography.textlink__hover;
 
