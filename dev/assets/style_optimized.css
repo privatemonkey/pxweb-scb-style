@@ -424,6 +424,11 @@ input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=che
   text-decoration: underline;
 }
 
+input[type=radio]:hover + label, input[type=checkbox]:hover + label {
+  text-decoration: none;
+  cursor: default;
+}
+
 fieldset {
   width: 100%;
   padding: 1rem 0;
