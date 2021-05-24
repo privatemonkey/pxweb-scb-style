@@ -14,18 +14,17 @@
     padding: 0;
 }
 
-/* Expandable nodes */
-.AspNet-TreeView-Root, .AspNet-TreeView-Parent {
+.AspNet-TreeView ul li {
     background-image: none;
     font-size: inherit;
     font-family: inherit;
     border-top: 1px solid #949494;
     padding: 18px 0 18px 0;
-    white-space: nowrap;
-    padding: 3px 0 2px 0;
-    line-height: 135%;
-    background-position: 0em 0.75em;
-    background-repeat: no-repeat;
+}
+
+/* Expandable nodes */
+.AspNet-TreeView-Root, .AspNet-TreeView-Parent {
+
 }
 
 /* Expanded parent node */
@@ -33,11 +32,11 @@
 
 }
 .AspNet-TreeView-Expand::before {
-    content: "\e148";
+    content: "＋";
 }
 
 .AspNet-TreeView-Collapse::before {
-    content: "\e15d";
+    content: "－";
 }
 
 /* Clickable leaf node */

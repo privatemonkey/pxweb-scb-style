@@ -775,27 +775,22 @@ nav a {
   padding: 0;
 }
 
-/* Expandable nodes */
-.AspNet-TreeView-Root, .AspNet-TreeView-Parent {
+.AspNet-TreeView ul li {
   background-image: none;
   font-size: inherit;
   font-family: inherit;
   border-top: 1px solid #949494;
   padding: 18px 0 18px 0;
-  white-space: nowrap;
-  padding: 3px 0 2px 0;
-  line-height: 135%;
-  background-position: 0em 0.75em;
-  background-repeat: no-repeat;
 }
 
+/* Expandable nodes */
 /* Expanded parent node */
 .AspNet-TreeView-Expand::before {
-  content: "";
+  content: "＋";
 }
 
 .AspNet-TreeView-Collapse::before {
-  content: "";
+  content: "－";
 }
 
 /* Clickable leaf node */
