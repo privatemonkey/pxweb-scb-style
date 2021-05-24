@@ -454,7 +454,6 @@ select[multiple] {
   margin-bottom: 0.75rem;
   border-radius: 4px;
   height: 12rem;
-  overflow: scroll;
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
