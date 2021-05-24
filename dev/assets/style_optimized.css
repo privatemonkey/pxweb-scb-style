@@ -769,10 +769,14 @@ nav a {
 * TODO: Replace classes in HTML
 */
 /* Reset list style */
-#TableOfContent ul {
+.AspNet-TreeView ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.AspNet-TreeView ul ul {
+  margin: 19px 0 0px 30px;
 }
 
 .AspNet-TreeView ul li {
@@ -781,10 +785,6 @@ nav a {
   font-family: inherit;
   border-top: 1px solid #949494;
   padding: 18px 0 18px 0;
-}
-
-.AspNet-TreeView ul ul {
-  margin: 19px 0 0px 30px;
 }
 
 /* Expandable nodes */
