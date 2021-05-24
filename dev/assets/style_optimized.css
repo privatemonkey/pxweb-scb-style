@@ -307,6 +307,10 @@ button:hover, button:active, button:focus, input[type=button]:hover, input[type=
   background-color: #222;
 }
 
+button [disable=disabled], input [disable=disabled] {
+  border-color: #949494;
+}
+
 button, input[type=submit], input[type=button], input[type=submit].container_continuebutton {
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;

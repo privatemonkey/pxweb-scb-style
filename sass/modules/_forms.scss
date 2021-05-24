@@ -41,6 +41,10 @@ button, input[type="button"], input[type="submit"] {
   }
 }
 
+button [disable="disabled"], input [disable="disabled"] {
+  border-color: colors.$button__disabled;
+}
+
 @mixin button {
   padding: sizes.$space-smallest sizes.$space-small;
   border-radius: 0.25rem;
