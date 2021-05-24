@@ -9,6 +9,7 @@
 input#btnfullscreen {
   position: fixed;
   right: sizes.$panel-width;
+  margin: sizes.$space-medium;
   top: 0;
   opacity: 0.7;
 }
