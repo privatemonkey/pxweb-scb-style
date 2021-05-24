@@ -453,6 +453,7 @@ select[multiple] {
   background-image: none;
   margin-bottom: 0.75rem;
   border-radius: 4px;
+  height: 6rem;
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
