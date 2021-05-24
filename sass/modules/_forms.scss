@@ -41,7 +41,7 @@ button, input[type="button"], input[type="submit"] {
   }
 }
 
-button:disabled, input:disabled,  input[type="submit"]:disabled {
+button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="submit"].primary-btn:disabled {
   border-color: colors.$button__disabled;
   background: colors.$color-light;
   color: colors.$button__disabled;
@@ -51,6 +51,7 @@ button:disabled, input:disabled,  input[type="submit"]:disabled {
     border-color: colors.$button__disabled;
     background: colors.$color-light;
     color: colors.$button__disabled;
+    outline-color: transparent;
   }
 }
 
@@ -185,6 +186,11 @@ select[multiple] option:checked {
   background: typography.$selected-background linear-gradient(0deg, #{typography.$selected-background} 0%, #{typography.$selected-background} 100%);
   -webkit-text-fill-color: typography.$selected-text;
   color: typography.$selected-text;
+}
+
+select:disabled {
+  background-image: none;
+  background-color: transparent;
 }
 
 option {

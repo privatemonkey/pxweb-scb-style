@@ -308,16 +308,17 @@ button:hover, button:active, button:focus, input[type=button]:hover, input[type=
   background-color: #222;
 }
 
-button:disabled, input:disabled, input[type=submit]:disabled {
+button:disabled, input:disabled, input[type=submit]:disabled, input[type=submit].primary-btn:disabled {
   border-color: #949494;
   background: #ccc;
   color: #949494;
 }
-button:disabled:hover, button:disabled:focus, button:disabled:active, input:disabled:hover, input:disabled:focus, input:disabled:active, input[type=submit]:disabled:hover, input[type=submit]:disabled:focus, input[type=submit]:disabled:active {
+button:disabled:hover, button:disabled:focus, button:disabled:active, input:disabled:hover, input:disabled:focus, input:disabled:active, input[type=submit]:disabled:hover, input[type=submit]:disabled:focus, input[type=submit]:disabled:active, input[type=submit].primary-btn:disabled:hover, input[type=submit].primary-btn:disabled:focus, input[type=submit].primary-btn:disabled:active {
   cursor: default;
   border-color: #949494;
   background: #ccc;
   color: #949494;
+  outline-color: transparent;
 }
 
 button, input[type=submit], input[type=button], input[type=submit].container_continuebutton {
@@ -482,6 +483,11 @@ select[multiple] option:checked {
   background: #222 linear-gradient(0deg, #222 0%, #222 100%);
   -webkit-text-fill-color: #fff;
   color: #fff;
+}
+
+select:disabled {
+  background-image: none;
+  background-color: transparent;
 }
 
 option {
