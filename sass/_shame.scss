@@ -10,6 +10,11 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @include layout.maingrid;
 }
 
+.h1title {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .font-bold {
   @include typography.bold;
 }

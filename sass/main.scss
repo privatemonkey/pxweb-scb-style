@@ -4,7 +4,3 @@
 @use 'modules/modules.scss';
 @use 'shame.scss';
 @use 'helpers/utilities';
-
-header::before {
-    content: 'Optimized CSS v.0.2';
-}

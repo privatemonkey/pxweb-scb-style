@@ -58,6 +58,7 @@ h1 {
   font-size: 2.25rem;
   line-height: 1.4;
   margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 h2 {
@@ -231,7 +232,7 @@ img.logo-quality, .officialStatisticsImage {
 
 main {
   max-width: 1440px;
-  margin: inherit auto;
+  margin: 0 auto;
   padding-left: 2rem;
 }
 
@@ -836,8 +837,13 @@ nav a {
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
-  margin: inherit auto;
+  margin: 0 auto;
   padding-left: 2rem;
+}
+
+.h1title {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .font-bold {
@@ -1086,8 +1092,4 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
 
 .hidden {
   display: none;
-}
-
-header::before {
-  content: "Optimized CSS v.0.2";
 }
