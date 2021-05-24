@@ -1145,7 +1145,8 @@ input.download-icon {
 @media (max-width: 1140px) {
   main {
     max-width: 90vw;
-    margin: 0 calc(320px + 2rem) 0 auto;
+    /* margin:0 calc(320px + 2rem) 0 auto;*/
+    margin: 0 auto;
     padding-left: 2rem;
   }
 
