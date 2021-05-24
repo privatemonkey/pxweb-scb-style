@@ -770,6 +770,10 @@ nav a {
   vertical-align: top;
 }
 
+nav a span {
+  vertical-align: top;
+}
+
 /*
 * Treeview, used to select table
 *
@@ -908,6 +912,10 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 
 .commandbar_container .variableselector_variable_box_container > div {
   padding: 0;
+}
+
+.commandbar_saveas_dropdownlist {
+  width: 90%;
 }
 
 .container_exit_buttons_row {
