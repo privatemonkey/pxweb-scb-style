@@ -48,6 +48,7 @@ src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local
 
 html {
   color: $text;
+  background-color: colors.$page-background;
   font-size: 100%;
   font-size: $font-size-normal;
   line-height: 1.4;
