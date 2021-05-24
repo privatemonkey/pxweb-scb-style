@@ -154,14 +154,14 @@ button, button.accordion-header, button.nested-accordion-header {
 }
 
 /* Links */
-a {
+a, a > span {
   color: #006E91;
   cursor: pointer;
   text-decoration: underline;
   outline-color: transparent;
   border-color: transparent;
 }
-a:hover, a:focus {
+a:hover, a:focus, a > span:hover, a > span:focus {
   color: #001920;
   cursor: pointer;
   text-decoration: underline;

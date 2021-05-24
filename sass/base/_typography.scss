@@ -190,7 +190,7 @@ button, button.accordion-header, button.nested-accordion-header,  {
   }
 }
 
-a {
+a, a > span {
   @include textlink;
   @include textlink__hover;
 }
