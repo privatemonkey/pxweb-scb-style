@@ -84,7 +84,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   width: 100%;
   text-align: left;
   padding: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .container_titletext {
@@ -290,7 +290,7 @@ button, input[type=button], input[type=submit] {
   background-color: #006E91;
   color: #fff;
   border: 2px #006E91 solid;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
 }
 button:hover, button:active, button:focus, input[type=button]:hover, input[type=button]:active, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
@@ -299,7 +299,7 @@ button:hover, button:active, button:focus, input[type=button]:hover, input[type=
 }
 
 button, input[type=submit], input[type=button], input[type=submit].container_continuebutton {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
@@ -366,7 +366,7 @@ input[type=text], input[type=number], select {
 }
 
 input[type=radio] {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   margin-right: 0.5rem;
   display: inline-block;
 }
@@ -446,7 +446,7 @@ select[multiple] {
   appearance: none;
   padding: 0;
   background-image: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   border-radius: 4px;
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
@@ -776,7 +776,9 @@ nav a {
 }
 
 .AspNet-TreeView ul ul {
-  margin: 1rem 0 0 2rem;
+  margin: 0.75rem 0 0 0;
+  padding: 0 0 0 2rem;
+  border-top: 1px solid #ccc;
 }
 
 .AspNet-TreeView ul li {
@@ -813,6 +815,7 @@ nav a {
   text-decoration: underline;
   outline-color: transparent;
   border-color: transparent;
+  text-decoration: none;
 }
 .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus {
   color: #001920;
@@ -926,7 +929,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 .view-state {
   float: right;
   margin-top: -3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .seperator {
@@ -993,7 +996,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 
 /* Search field */
 a.search-icon {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
@@ -1026,7 +1029,7 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
 
 .variableselector_valuesselect_search_textstart_checkbox {
   width: 100%;
-  padding: 1rem 0;
+  padding: 0.75rem 0;
 }
 
 .variableselector_valuesselect_aggregations {
