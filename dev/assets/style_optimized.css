@@ -192,6 +192,7 @@ input#btnfullscreen {
   margin: 1.5rem;
   top: 0;
   opacity: 0.7;
+  transform: 0.3s;
 }
 
 .mobilemenuhidden + input#btnfullscreen {
@@ -203,8 +204,9 @@ input#btnfullscreen {
     right: 0;
   }
 }
-#Fullscreen {
+#Fullscreen:fullscreen {
   background-color: #fff;
+  padding: 2rem;
 }
 
 /*
