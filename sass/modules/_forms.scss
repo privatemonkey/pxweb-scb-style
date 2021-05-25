@@ -38,6 +38,7 @@ button, input[type="button"], input[type="submit"] {
   &:hover, &:active, &:focus {
     color: colors.$button__hover-text;
     background-color: colors.$button__hover-background;
+    opacity: 1;
   }
 }
 

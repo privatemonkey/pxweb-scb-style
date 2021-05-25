@@ -330,6 +330,7 @@ button, input[type=button], input[type=submit] {
 button:hover, button:active, button:focus, input[type=button]:hover, input[type=button]:active, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
   color: #fff;
   background-color: #222;
+  opacity: 1;
 }
 
 button:disabled, input:disabled, input[type=submit]:disabled, input[type=submit].primary-btn:disabled {
@@ -822,7 +823,6 @@ nav a {
   font-weight: 500;
   padding: 0.25rem 0.25rem 0.05rem;
   line-height: 150%;
-  vertical-align: top;
 }
 
 nav a span {
@@ -1010,7 +1010,9 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 
 .variableselector_variable_box_container > div, .selectfromgroup-container {
-  width: 29%;
+  width: 20vw;
+  margin-right: 1vw;
+  min-width: 26rem;
 }
 
 @media screen and (max-width: 1200) {

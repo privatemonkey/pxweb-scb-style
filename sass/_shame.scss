@@ -95,7 +95,9 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
 
   .variableselector_variable_box_container > div, .selectfromgroup-container {
-    width: 29%;
+    width: 20vw;
+    margin-right: 1vw;
+    min-width: 26rem;
   }
 
   @media screen and (max-width: 1200) {
