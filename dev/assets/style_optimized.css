@@ -818,16 +818,22 @@ hr.future {
   background-color: #f8f8f8;
 }
 
-.presentation-left.mobilemenuhidden {
+.presentation-left.mobile.navigationFlowAreahidden {
   width: 0;
 }
 
-.burger_menu_open-icon::before {
+.burger_.navigationFlowArea_open-icon::before {
   content: "▾☰";
 }
 
-.burger_menu-icon::before {
+.burger_.navigationFlowArea-icon::before {
   content: "▴☰";
+}
+
+/* Div containing burger .navigationFlowArea */
+div#subheader + div {
+  display: inline;
+  float: left;
 }
 
 /* Errors and messages */
