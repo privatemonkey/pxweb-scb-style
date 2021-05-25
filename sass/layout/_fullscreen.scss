@@ -15,6 +15,10 @@ input#btnfullscreen {
   opacity: 0.7;
 }
 
+.mobilemenuhidden input#btnfullscreen {
+  right: 0;
+}
+
 @media (min-width: 480px) and (max-width: 900px) {
   input#btnfullscreen {
     right: 0;
