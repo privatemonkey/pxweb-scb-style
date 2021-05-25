@@ -325,6 +325,11 @@ main {
   margin-left: 0;
 }
 
+.pxweb-accordion.about-table {
+  border-bottom: 1px solid #929d92;
+  margin-bottom: 2rem;
+}
+
 /*
 * Generic form related styling. Buttons, inputs, select.
 */
@@ -1034,6 +1039,10 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 .switch-layout-container {
   display: inline-block;
   position: absolute;
+}
+.switch-layout-container input {
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .commandbar-shortcuts {

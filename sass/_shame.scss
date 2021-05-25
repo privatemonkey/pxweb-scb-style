@@ -49,6 +49,11 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
 .switch-layout-container {
   display: inline-block;
   position: absolute;
+
+  input {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
 }
 
 .commandbar-shortcuts {
