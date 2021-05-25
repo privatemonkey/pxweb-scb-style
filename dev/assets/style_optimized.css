@@ -834,18 +834,13 @@ hr.future {
   content: "▴☰";
 }
 
-/* Div containing burger .navigationFlowArea */
-div#subheader + div {
-  display: inline;
-  float: left;
-}
-
 /* Errors and messages */
 .px-messages {
   padding: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   background-color: #dff7ff;
+  width: 100%;
 }
 
 /*

@@ -31,11 +31,4 @@
 .burger-menu-icon::before {
   content: '▴☰';
 }
-
-/* Div containing burger .navigationFlowArea */
-div#subheader + div {
-  display: inline;
-  float: left;  
-}
-
   

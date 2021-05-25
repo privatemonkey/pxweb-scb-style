@@ -15,6 +15,7 @@
     </ol>
 ```
 
+[ ] Flytta hamburgerknapp eller ge parent div en klass
 [ ] Sortable table, ändra inputs till buttons för att kunna lägga ikoner på :after
 [ ] Chart settings - Ändra text-fält till nummer fält
 [ ] Chart settings - Ta bort spans som gör checkbox listor till inline
