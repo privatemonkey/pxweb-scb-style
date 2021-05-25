@@ -179,8 +179,14 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
 
   /* Search field */
+  .search_label {
+    display: block;
+  }
+
   a.search-icon {
     @include forms.button;
+  }
+  a.search-icon::before {
     content: '🔎︎';
   }
 

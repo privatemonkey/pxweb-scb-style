@@ -1091,6 +1091,10 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 
 /* Search field */
+.search_label {
+  display: block;
+}
+
 a.search-icon {
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
@@ -1102,6 +1106,9 @@ a.search-icon {
   background-color: #006E91;
   border: 2px #006E91 solid;
   outline: 1px transparent;
+}
+
+a.search-icon::before {
   content: "🔎︎";
 }
 
