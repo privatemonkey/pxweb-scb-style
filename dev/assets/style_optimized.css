@@ -1150,11 +1150,6 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
     width: 48%;
   }
 }
-@media screen and (max-width: 799px) {
-  .variableselector_variable_box_container > div {
-    width: 100%;
-  }
-}
 .optional-variable-icon-panel {
   display: none;
 }
