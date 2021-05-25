@@ -87,6 +87,10 @@ button.accordion-header:before {
   padding: 0 2rem;
   margin-bottom: 2.5rem;
   width: 100%;
+
+  @media (max-width: 660px) {
+    padding: 0;
+  }
 }
 
 .presentation-main .accordion-body {
@@ -106,5 +110,4 @@ button.accordion-header:before {
   margin: 0;
   padding: 0;
 }
-
 
