@@ -1039,9 +1039,11 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 .switch-layout-container {
   display: inline-block;
   position: absolute;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5rem;
 }
 .switch-layout-container input {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 0;
 }
 
