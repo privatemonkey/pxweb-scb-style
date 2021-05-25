@@ -1139,6 +1139,11 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   margin-right: 1vw;
   min-width: 25.9rem;
 }
+@media (max-width: 660px) {
+  .variableselector_variable_box_container > div, .selectfromgroup-container {
+    width: revert;
+  }
+}
 
 @media screen and (max-width: 1200) {
   .variableselector_variable_box_container > div {

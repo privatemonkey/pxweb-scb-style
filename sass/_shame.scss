@@ -126,6 +126,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     width: 20vw;
     margin-right: 1vw;
     min-width: 25.9rem;
+
+    @media (max-width: 660px) {
+      width: revert;
+    }
   }
 
   @media screen and (max-width: 1200) {
