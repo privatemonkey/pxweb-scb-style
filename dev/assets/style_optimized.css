@@ -1142,6 +1142,8 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 @media (max-width: 660px) {
   .variableselector_variable_box_container > div, .selectfromgroup-container {
     width: revert;
+    min-width: unset;
+    margin-right: unset;
   }
 }
 
