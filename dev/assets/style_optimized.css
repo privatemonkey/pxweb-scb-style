@@ -195,7 +195,7 @@ input#btnfullscreen {
   transform: 0.3s;
 }
 
-.mobilemenuhidden + input#btnfullscreen {
+.mobilemenuhidden + input#btnfullscreen, :fullscreen input#btnfullscreen {
   right: 0;
 }
 
