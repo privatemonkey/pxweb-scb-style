@@ -20,15 +20,15 @@
     background-color: #f8f8f8;
   }
   
-.presentation-left.mobile.navigationFlowAreahidden {
+.presentation-left.mobilemenuhidden {
   width: 0;
 }
 
-.burger_.navigationFlowArea_open-icon::before {
+.burger_menu-open-icon::before {
   content: '▾☰';
 }
 
-.burger_.navigationFlowArea-icon::before {
+.burger-menu-icon::before {
   content: '▴☰';
 }
 
