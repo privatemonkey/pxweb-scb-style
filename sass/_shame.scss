@@ -54,7 +54,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   .commandbar_container {
     /* border-top: 1px solid var(--panel-border-color); */
     padding: 0 2rem;
-    width: calc(100%);
+    width: calc(100% - sizes.$space-large - sizes.$space-large);
   }
 
   .commandbar_container .variableselector_variable_box_container > div {
