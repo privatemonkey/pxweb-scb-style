@@ -20,7 +20,16 @@
     background-color: #f8f8f8;
   }
   
-  .presentation-left.mobilemenuhidden {
-    width: 0;
+.presentation-left.mobilemenuhidden {
+  width: 0;
 }
+
+.burger_menu_open-icon::before {
+  content: '☰▾';
+}
+
+.burger_menu-icon::before {
+  content: '☰▴';
+}
+
   

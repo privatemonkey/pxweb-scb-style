@@ -816,6 +816,14 @@ hr.future {
   width: 0;
 }
 
+.burger_menu_open-icon::before {
+  content: "☰▾";
+}
+
+.burger_menu-icon::before {
+  content: "☰▴";
+}
+
 /* Errors and messages */
 .px-messages {
   padding: 1.5rem;
