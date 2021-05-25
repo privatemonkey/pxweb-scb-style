@@ -34,6 +34,10 @@
     text-decoration: none;
 }
 
+.AspNet-TreeView-Collapse + .AspNet-TreeView-ClickableNonLink {
+    font-weigt: 700;
+}
+
 .AspNet-TreeView ul li:last-of-type {
     border-bottom: none;
 }
