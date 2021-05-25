@@ -201,7 +201,6 @@ input#btnfullscreen {
 }
 #Fullscreen {
   background-color: #fff;
-  padding: 2rem;
 }
 
 /*
@@ -446,6 +445,10 @@ input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=che
   color: #001920;
   cursor: pointer;
   text-decoration: underline;
+}
+
+fieldset input[type=radio] + label, fieldset input[type=checkbox] + label {
+  display: inline-block;
 }
 
 input[type=radio]:hover + label, input[type=checkbox]:hover + label, input[type=radio]:focus + label, input[type=checkbox]:focus + label, input[type=radio]:active + label, input[type=checkbox]:active + label {
@@ -1165,11 +1168,6 @@ input.download-icon {
 }
 
 /* Media queries */
-@media (min-width: 1140px) {
-  .burger_menu-icon {
-    display: none;
-  }
-}
 @media (max-width: 1140px) {
   main {
     max-width: 90vw;

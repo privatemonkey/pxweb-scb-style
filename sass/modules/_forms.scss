@@ -146,6 +146,12 @@ input[type="radio"]+label, input[type="checkbox"]+label {
   @include typography.textlink__hover;
 }
 
+fieldset {
+  input[type="radio"]+label, input[type="checkbox"]+label {
+    display: inline-block;
+  }
+}
+
 input[type="radio"]:hover + label, input[type="checkbox"]:hover + label, input[type="radio"]:focus + label, input[type="checkbox"]:focus + label, input[type="radio"]:active + label, input[type="checkbox"]:active + label {
   text-decoration: underline;
   cursor: pointer;
