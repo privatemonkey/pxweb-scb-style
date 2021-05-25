@@ -147,6 +147,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     max-width: typography.$max-text-width;
   }
 
+  .the_long_text.notetype_note_value {
+    margin-bottom: sizes.$space-medium;
+  }
+
   .obs-notes {
     margin-bottom: sizes.$space-large;
   }

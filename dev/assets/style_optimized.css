@@ -1144,6 +1144,10 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   max-width: 720px;
 }
 
+.the_long_text.notetype_note_value {
+  margin-bottom: 1.5rem;
+}
+
 .obs-notes {
   margin-bottom: 2rem;
 }
