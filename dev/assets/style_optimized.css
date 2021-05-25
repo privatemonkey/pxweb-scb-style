@@ -1006,7 +1006,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 
 .variableselector_variable_box_container.flex-row.flex-wrap {
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .variableselector_variable_box_container > div, .selectfromgroup-container {
