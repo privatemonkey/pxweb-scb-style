@@ -801,6 +801,8 @@ hr.future {
   padding: 0;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
   border-left: 1px solid #ddd;
+  overflow-x: hidden;
+  transition: 0.3s;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
