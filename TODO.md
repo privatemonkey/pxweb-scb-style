@@ -15,7 +15,10 @@
     </ol>
 ```
 
-
+[ ] Sortable table, ändra inputs till buttons för att kunna lägga ikoner på :after
+[ ] Chart settings - Ändra text-fält till nummer fält
+[ ] Chart settings - Ta bort spans som gör checkbox listor till inline
+[ ] Chart settings - Använd fieldset på alla checkboxlistor
 [ ] Presentation left flyttas efter huvudinnehållet
 [ ] Varje views namn läggs som class på body-taggen
 - tree
