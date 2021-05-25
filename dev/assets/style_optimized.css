@@ -1084,6 +1084,23 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   padding: 0;
 }
 
+.variableselector_valuesselect_mandatory_text::before {
+  content: "(";
+}
+
+.variableselector_valuesselect_mandatory_text::after {
+  content: ")";
+}
+
+.variableselector_valuesselect_search_textstart_checkbox {
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.variableselector_valuesselect_statistics_panel p {
+  margin-bottom: 0.5rem;
+}
+
 .commandbar_saveas_dropdownlist {
   width: 90%;
 }
@@ -1210,6 +1227,10 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 
 /* Search field */
+.search_panel input[type=text] {
+  margin-right: 0;
+}
+
 .search_label {
   display: block;
 }
