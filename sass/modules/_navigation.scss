@@ -6,6 +6,12 @@ nav a {
     font-weight: typography.$text-weight-medium;
     padding: 0.25rem 0.25rem 0.05rem;
     line-height: 150%;
+    vertical-align: top;
+}
+
+nav .breadcrumb_sep {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: baseline;
 }
 
 nav a span {
