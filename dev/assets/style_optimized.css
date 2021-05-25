@@ -812,6 +812,10 @@ hr.future {
   background-color: #f8f8f8;
 }
 
+.presentation-left.mobilemenuhidden {
+  width: 0;
+}
+
 /* Errors and messages */
 .px-messages {
   padding: 1.5rem;
