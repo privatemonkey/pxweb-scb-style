@@ -16,13 +16,16 @@
 table {
     .header::after {
         content: '↕';
+        font-size: 1.5rem;
     }
 
     .headerSortDown::after {
-        content: '↓'
+        content: '↓';
+        font-size: 1.5rem;
     }
 
     .headerSortUp::after {
         content: '↑';
+        font-size: 1.5rem;
     }
 }

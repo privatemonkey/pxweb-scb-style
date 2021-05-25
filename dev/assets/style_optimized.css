@@ -963,12 +963,15 @@ nav a span {
 
 table .header::after {
   content: "↕";
+  font-size: 1.5rem;
 }
 table .headerSortDown::after {
   content: "↓";
+  font-size: 1.5rem;
 }
 table .headerSortUp::after {
   content: "↑";
+  font-size: 1.5rem;
 }
 
 /* Elements that should have been inside the main wrapper */
