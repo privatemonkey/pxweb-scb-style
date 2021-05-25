@@ -1031,6 +1031,11 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   margin-left: 0.5rem;
 }
 
+.switch-layout-container {
+  display: inline-block;
+  position: absolute;
+}
+
 .commandbar-shortcuts {
   /* margin-top: 0.5rem; */
   margin-bottom: 2rem;
