@@ -805,6 +805,7 @@ hr.future {
   overflow: auto;
   height: 100vh;
   width: 476px;
+  max-width: 80vw;
   top: 0;
   right: 0;
   background-color: #f8f8f8;
