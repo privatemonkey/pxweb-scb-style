@@ -245,7 +245,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
       padding-left: sizes.$space-large;
     }
   
-    .presentation-left {
+    .presentation-left.mobilemenuhidden {
       width: sizes.$panel-width-small;
     }
   }

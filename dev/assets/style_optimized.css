@@ -329,6 +329,10 @@ main {
   margin-bottom: 2rem;
 }
 
+.mobilemenu .pxweb-accordion.about-table {
+  margin-bottom: 0;
+}
+
 /*
 * Generic form related styling. Buttons, inputs, select.
 */
@@ -818,7 +822,6 @@ hr.future {
   position: fixed;
   overflow: auto;
   height: 100vh;
-  width: 0;
   max-width: 80vw;
   top: 0;
   right: 0;
@@ -834,8 +837,12 @@ hr.future {
   background-color: #f8f8f8;
 }
 
-.presentation-left:not(.mobilemenuhidden) {
+.presentation-left.mobilemenuhidden {
   width: 640px;
+}
+
+.presentation-left {
+  width: 0;
 }
 
 .burger_menu-open-icon::before {
@@ -1249,7 +1256,7 @@ input.download-icon {
     padding-left: 2rem;
   }
 
-  .presentation-left {
+  .presentation-left.mobilemenuhidden {
     width: 476px;
   }
 }
