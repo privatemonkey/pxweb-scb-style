@@ -1110,6 +1110,11 @@ a.search-icon {
 
 a.search-icon::before {
   content: "🔎︎";
+  text-decoration: none;
+}
+
+a.search-icon:hover::before {
+  font-size: 120%;
 }
 
 a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus, a.search-icon:focus:hover {

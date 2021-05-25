@@ -188,6 +188,11 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
   a.search-icon::before {
     content: '🔎︎';
+    text-decoration: none;
+  }
+
+  a.search-icon:hover::before {
+    font-size: 120%;
   }
 
   a.search-icon:hover, a.search-icon:focus {
