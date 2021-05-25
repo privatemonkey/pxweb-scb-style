@@ -1,3 +1,26 @@
 .datasort_description {
     width: 100%;
 }
+
+.tablesorter button, .tablesorter input {
+    border-color: transparent;
+    outline-color: transparent;
+
+    &:hover, &:focus, &:active {
+        border-color: transparent;
+        outline-color: transparent;
+    }
+
+}
+
+button::after {
+    content: '↕';
+}
+
+.headerSortDown::after {
+    content: '↓'
+}
+
+.headerSortUp::after {
+    content: '↑';
+}

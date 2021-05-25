@@ -952,6 +952,27 @@ nav a span {
   width: 100%;
 }
 
+.tablesorter button, .tablesorter input {
+  border-color: transparent;
+  outline-color: transparent;
+}
+.tablesorter button:hover, .tablesorter button:focus, .tablesorter button:active, .tablesorter input:hover, .tablesorter input:focus, .tablesorter input:active {
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+button::after {
+  content: "↕";
+}
+
+.headerSortDown::after {
+  content: "↓";
+}
+
+.headerSortUp::after {
+  content: "↑";
+}
+
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
