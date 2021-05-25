@@ -97,7 +97,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   .variableselector_variable_box_container > div, .selectfromgroup-container {
     width: 20vw;
     margin-right: 1vw;
-    min-width: 26rem;
+    min-width: 25.9rem;
   }
 
   @media screen and (max-width: 1200) {
@@ -107,7 +107,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
   @media screen and (max-width: 799px) {
     .variableselector_variable_box_container > div {
-      width: 90%;
+      width: 100%;
     }
   }
 

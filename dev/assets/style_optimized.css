@@ -437,7 +437,6 @@ input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=rad
 input[type=radio] + label, input[type=checkbox] + label {
   margin-bottom: 0.5rem;
   margin-right: 1rem;
-  display: inline-block;
   width: calc(100% - 4rem);
   vertical-align: top;
   padding: 0;
@@ -1020,7 +1019,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 .variableselector_variable_box_container > div, .selectfromgroup-container {
   width: 20vw;
   margin-right: 1vw;
-  min-width: 26rem;
+  min-width: 25.9rem;
 }
 
 @media screen and (max-width: 1200) {
@@ -1030,7 +1029,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 @media screen and (max-width: 799px) {
   .variableselector_variable_box_container > div {
-    width: 90%;
+    width: 100%;
   }
 }
 .optional-variable-icon-panel {
