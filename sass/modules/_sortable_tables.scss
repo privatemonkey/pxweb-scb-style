@@ -13,7 +13,7 @@
 
 }
 
-button::after {
+button::after, input::after {
     content: '↕';
 }
 
