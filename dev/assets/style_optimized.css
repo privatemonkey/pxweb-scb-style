@@ -829,6 +829,10 @@ nav a span {
   vertical-align: bottom;
 }
 
+img.breadcrumb_homebutton::before {
+  content: "⌂";
+}
+
 /*
 * Treeview, used to select table
 *
