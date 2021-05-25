@@ -1,7 +1,7 @@
 @use '../layout/panel';
 @use '../base/sizes';
 
-..navigationFlowArea-left {
+.navigationFlowArea-left {
     position: fixed;
     overflow: auto;
     height: 100vh;
@@ -16,8 +16,12 @@
     transition: 0.3s;
   }
   
-  ..navigationFlowArea-left button.accordion-header, ..navigationFlowArea-left button.nested-accordion-header.closed, ..navigationFlowArea-left .closed .accordion-body {
+  .navigationFlowArea-left button.accordion-header, .navigationFlowArea-left button.nested-accordion-header.closed, .navigationFlowArea-left .closed .accordion-body {
     background-color: #f8f8f8;
+  }
+
+  .mobilemenuhidden {
+      display: none;
   }
   
   
