@@ -5,7 +5,7 @@
     position: fixed;
     overflow: auto;
     height: 100vh;
-    width: sizes.$panel-width;
+    width: 0;
     max-width: 80vw;
     top: 0;
     right: 0;
@@ -21,8 +21,8 @@
     background-color: #f8f8f8;
   }
   
-.presentation-left.mobilemenuhidden {
-  width: 0;
+.presentation-left:not(.mobilemenuhidden) {
+  width: sizes.$panel-width;
 }
 
 .burger_menu-open-icon::before {
