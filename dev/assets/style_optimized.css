@@ -961,15 +961,13 @@ nav a span {
   outline-color: transparent;
 }
 
-button::after, input::after {
+table .header::after {
   content: "↕";
 }
-
-.headerSortDown::after {
+table .headerSortDown::after {
   content: "↓";
 }
-
-.headerSortUp::after {
+table .headerSortUp::after {
   content: "↑";
 }
 

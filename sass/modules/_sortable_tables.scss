@@ -13,14 +13,16 @@
 
 }
 
-button::after, input::after {
-    content: '↕';
-}
+table {
+    .header::after {
+        content: '↕';
+    }
 
-.headerSortDown::after {
-    content: '↓'
-}
+    .headerSortDown::after {
+        content: '↓'
+    }
 
-.headerSortUp::after {
-    content: '↑';
+    .headerSortUp::after {
+        content: '↑';
+    }
 }
