@@ -877,7 +877,7 @@ nav a {
 
 nav .breadcrumb_sep {
   vertical-align: -webkit-baseline-middle;
-  vertical-align: baseline;
+  vertical-align: sub;
 }
 
 nav a span {
