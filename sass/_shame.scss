@@ -257,7 +257,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @media(max-width:768px) {
     main {
       max-width: calc(100vw - 2rem);
-      padding: sizes.$space-smallest;
+      padding: 0;
     }
   
     .view-state {
