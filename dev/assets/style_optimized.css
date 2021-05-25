@@ -49,7 +49,7 @@ body {
 }
 
 /* -- Headers -- */
-h1, h2, h3, .variableselector_variable_box_container label, .container_titletext, .heading, h4 {
+h1, h2, h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading, h4 {
   font-weight: bold;
   max-width: 920px;
   text-transform: capitalize;
@@ -69,7 +69,7 @@ h2 {
   margin: 2rem 0 1.5rem;
 }
 
-h3, .variableselector_variable_box_container label, .container_titletext, .heading {
+h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
@@ -237,6 +237,10 @@ img.logo-quality, .officialStatisticsImage {
   padding: 0.25rem;
   background: #f7f7f7;
   display: flex;
+}
+
+.siteLogoText {
+  align-self: center;
 }
 
 .flex-column {
