@@ -1,4 +1,4 @@
-.datasort_description {
+#datasort_description {
     width: 100%;
 }
 
@@ -11,6 +11,10 @@
         outline-color: transparent;
     }
 
+}
+
+th:first-of-type {
+    border-left: none;
 }
 
 table {
