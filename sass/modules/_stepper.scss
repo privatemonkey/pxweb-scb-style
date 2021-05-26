@@ -80,17 +80,22 @@ $stepper-left-space: 2rem;
     color: typography.$text;
     text-decoration: none;
   }
-  
-  hr {
-    flex-grow: 2;
-    border: none;
-    border-top: 2px solid panel.$panel-border-color;
-    margin-top: 0.5rem;
-  }
-  
-  hr.future {
-    border: none;
-    border-color: typography.$text-inactive;
-    border-top-style: dashed;
-  }
+
+.navigationFlowArea span.active {
+  text-decoration: none;
+  color: typography.$text;
+}
+
+hr {
+  flex-grow: 2;
+  border: none;
+  border-top: 2px solid panel.$panel-border-color;
+  margin-top: 0.5rem;
+}
+
+hr.future {
+  border: none;
+  border-color: typography.$text-inactive;
+  border-top-style: dashed;
+}
   
