@@ -44,10 +44,6 @@ button.accordion-header, button.nested-accordion-header  {
   }
 }
 
-.presentation-main button.accordion-header, button.nested-accordion-header {
-  padding-left: 0;
-}
-
 button.accordion-header.closed, button.nested-accordion-header.closed {
   display: inline-block;
   border-top: 1px solid panel.$panel-border-color;
@@ -97,10 +93,6 @@ button.accordion-header:before {
   }
 }
 
-.presentation-main .accordion-body {
-  padding: 0;
-}
-
 .accordion-body.closed {
   display: none;
 }
@@ -115,3 +107,15 @@ button.accordion-header:before {
   padding: 0;
 }
 
+/* Accordions in main area */
+.presentation-main .accordion-body {
+  padding: 0;
+}
+
+.presentation-main button.accordion-header, button.nested-accordion-header {
+  padding-left: 0;
+}
+
+.pxweb-accordion {
+  max-width: typography.$max-text-width;
+}
