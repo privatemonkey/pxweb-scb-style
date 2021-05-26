@@ -42,15 +42,7 @@
     border-bottom: none;
 }
 
-/* Expandable nodes */
-.AspNet-TreeView-Root, .AspNet-TreeView-Parent {
-
-}
-
 /* Expanded parent node */
-.AspNet-TreeView-ClickableNonLink {
-
-}
 .AspNet-TreeView-Expand::before {
     content: "＋";
 }

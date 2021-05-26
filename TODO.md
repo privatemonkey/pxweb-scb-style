@@ -17,10 +17,12 @@
 - [ ] Flytta ut välj variabel från "shame" till egen fil
 - [ ] Flytta ut sök från "shame" till egen fil
 - [ ] Fullscreen scroll - Funkar inte. Funkar det hos SSB?
+- [ ] Verktygsmeny - Ska bara vara overlay i mobil. I desktop ska den ligga vid sidan
 
 ## Utveckling
 
 - [ ] Hamburgerknapp - gör om till button och ge parent div en klass. Hälst flytta.
+- [ ] Hamburgerknapp - Döpa om till "Visa verktyg"/"Dölj verktyg"
 - [ ] Fullscreenknapp - gör om till button
 - [ ] Sortable table, ändra inputs till buttons för att kunna lägga ikoner på :after
 - [ ] Chart settings - Ändra text-fält till nummer fält
@@ -30,7 +32,8 @@
 - [ ] Stepper - flytta .future till anchor
 - [ ] Stepper - flytta .first, second, third till anchor
 - [ ] Stepper - Lägg till aria hidden på en del element
-- [ ] Tree - göra om img till spans med ikoner
+- [ ] Träd - Visa kolumner med värden istället för img ikoner
+- [ ] Verktygsmenyn - Huvud med rubrik "Verktyg" och stäng knapp
 - [ ] Verktygsmenyn - Presentation-left div flyttas efter huvudinnehållet för att bli bättre för uppläsning
 - [ ] Verktygsmenyn -Submit buttons in left panel changed to .nested-accordion-panel and buttons. All other classes removed.
 - [ ] Verktygsmenyn - Flytta dialog för edit and calculate till rätt föräldernod

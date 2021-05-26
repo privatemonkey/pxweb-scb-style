@@ -49,7 +49,7 @@ body {
 }
 
 /* -- Headers -- */
-h1, h2, h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading, h4 {
+h1, h2, h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading, .font-heading, h4 {
   font-weight: bold;
   max-width: 920px;
   text-transform: capitalize;
@@ -79,13 +79,13 @@ h2 {
   }
 }
 
-h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading {
+h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading, .font-heading {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
 @media (max-width: 660px) {
-  h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading {
+  h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading, .font-heading {
     font-size: 1.125rem;
   }
 }
@@ -105,6 +105,7 @@ h5, button.nested-accordion-header, .accordion-body legend {
   margin-bottom: 0.75rem;
 }
 
+/* TODO: Alla dessa borde göras till riktiga labels eller headers */
 .container_titletext {
   margin-top: 0;
 }
@@ -195,41 +196,25 @@ a:hover, a:focus, a > span:hover, a > span:focus {
   background-color: #222;
 }
 
+/*
+* Panels used in choose variables
+*/
 .fullscreen main, .fullscreen div[role=main] {
   max-width: calc(100vw - 2rem - 2rem);
   margin: 0;
   padding: 0 2rem;
 }
 
-input#btnfullscreen {
-  position: fixed;
-  margin: 1.5rem;
-  top: 0;
-  opacity: 0.7;
-  transform: 0.3s;
-}
-
-.mobilemenuhidden + input#btnfullscreen {
-  right: 640px;
-}
-
-input#btnfullscreen, :fullscreen input#btnfullscreen {
-  right: 0;
-}
-
-@media (min-width: 480px) and (max-width: 900px) {
-  input#btnfullscreen {
-    right: 0;
-  }
-}
 #Fullscreen:fullscreen {
   background-color: #fff;
   padding: 2rem;
 }
 
-/*
-* Panels used in choose variables
-*/
+#Fullscreen > div {
+  border: 1px solid #949494;
+  margin-bottom: 2rem;
+}
+
 header, #header {
   border-bottom: 1px solid #949494;
   margin-bottom: 1rem;
@@ -961,7 +946,6 @@ nav a span {
   border-bottom: none;
 }
 
-/* Expandable nodes */
 /* Expanded parent node */
 .AspNet-TreeView-Expand::before {
   content: "＋";

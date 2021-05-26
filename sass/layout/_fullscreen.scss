@@ -1,5 +1,6 @@
 @use "../base/_sizes";
 @use "../base/colors";
+@use '../layout/panel';
 
 .fullscreen main, .fullscreen div[role="main"]  {
   max-width: calc(100vw -  #{sizes.$space-large} - #{sizes.$space-large});
@@ -7,30 +8,12 @@
   padding: 0 sizes.$space-large;
 }
 
-input#btnfullscreen {
-  position: fixed;
-  margin: sizes.$space-medium;
-  top: 0;
-  opacity: 0.7;
-  transform: 0.3s;
-}
-
-.mobilemenuhidden + input#btnfullscreen {
-  right: sizes.$panel-width;
-}
-
-
-input#btnfullscreen, :fullscreen input#btnfullscreen {
-  right: 0;
-}
-
-@media (min-width: 480px) and (max-width: 900px) {
-  input#btnfullscreen {
-    right: 0;
-  }
-}
-
 #Fullscreen:fullscreen {
   background-color: colors.$page-background;
   padding: sizes.$space-large;
+}
+
+#Fullscreen > div {
+  border: 1px solid panel.$panel-border-color;
+  margin-bottom: sizes.$space-large;
 }
