@@ -29,6 +29,7 @@
 - [ ] Tree - göra om img till spans med ikoner
 - [ ] Verktygsmenyn - Presentation-left div flyttas efter huvudinnehållet för att bli bättre för uppläsning
 - [ ] Verktygsmenyn -Submit buttons in left panel changed to .nested-accordion-panel and buttons. All other classes removed.
+- [ ] Verktygsmenyn - Flytta dialog för edit and calculate till rätt föräldernod
 - [ ] Vyer - Varje views namn läggs som class på body-taggen (.tree, .select-variables, .result=
 - [ ] Struktur - Flytta element in i main
   - [ ] breadcrumb
