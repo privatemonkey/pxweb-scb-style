@@ -56,6 +56,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     margin-top: sizes.$space-medium;
     margin-bottom: 0;
   }
+
+  @media (max-width: 660px) {
+    display: none;
+  }
 }
 
 .commandbar-shortcuts {

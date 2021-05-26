@@ -819,6 +819,7 @@ hr {
   border: none;
   border-top: 2px solid #949494;
   margin-top: 0.5rem;
+  max-width: 40vw;
 }
 
 hr.future {
@@ -1067,6 +1068,11 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 .switch-layout-container input {
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+@media (max-width: 660px) {
+  .switch-layout-container {
+    display: none;
+  }
 }
 
 .commandbar-shortcuts {
