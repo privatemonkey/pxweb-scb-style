@@ -13,7 +13,7 @@
   padding: sizes.$space-large;
 }
 
-#Fullscreen > div {
-  border: 1px solid panel.$panel-border-color;
+#Fullscreen > div:first-of-type {
+  border-bottom: 1px solid panel.$panel-border-color;
   margin-bottom: sizes.$space-large;
 }
