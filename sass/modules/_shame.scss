@@ -131,8 +131,9 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
   
   /* Very specific styling */
-  .arrow-right-pxbox-icon {
+  .arrow-right-pxbox-icon span {
     margin-bottom: sizes.$space-medium;
+
     &::before {
       content: '→';
     }
