@@ -18,10 +18,11 @@
 
 .pxweb-input-error {
     padding: sizes.$space-small sizes.$space-medium;
-    background-color: lightcoral;
+    background-color: rgb(255, 216, 216);
+    border-radius: sizes.$space-small;
 }
 
-.variableselector_valuesselect_box_error {
+select.variableselector_valuesselect_box_error {
     border-color: colors.$color-warning;
     outline-color: colors.$color-warning;
 }

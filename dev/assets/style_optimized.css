@@ -882,10 +882,11 @@ hr.future {
 
 .pxweb-input-error {
   padding: 0.75rem 1.5rem;
-  background-color: lightcoral;
+  background-color: #ffd8d8;
+  border-radius: 0.75rem;
 }
 
-.variableselector_valuesselect_box_error {
+select.variableselector_valuesselect_box_error {
   border-color: #b70000;
   outline-color: #b70000;
 }
