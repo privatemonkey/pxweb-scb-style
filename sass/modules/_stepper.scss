@@ -23,15 +23,15 @@ $stepper-left-space: 2rem;
   }
   
   /* Adjust text position of stepp */
-.navigationFlowArea a.first span {
+.navigationFlowArea .first span {
     margin-left: $stepper-1-adjust;
   }
-  
-.navigationFlowArea a.second span {
+
+.navigationFlowArea .second span {
     margin-left: $stepper-2-adjust;
   }
   
-.navigationFlowArea a.third span {
+.navigationFlowArea .third span {
     margin-left: $stepper-3-adjust;
   }
   
@@ -85,6 +85,7 @@ $stepper-left-space: 2rem;
   text-decoration: none;
   color: typography.$text;
 }
+
 
 hr {
   flex-grow: 2;

@@ -756,15 +756,15 @@ thead th, thead td {
 }
 
 /* Adjust text position of stepp */
-.navigationFlowArea a.first span {
+.navigationFlowArea .first span {
   margin-left: -2rem;
 }
 
-.navigationFlowArea a.second span {
+.navigationFlowArea .second span {
   margin-left: -2.5rem;
 }
 
-.navigationFlowArea a.third span {
+.navigationFlowArea .third span {
   margin-left: -2rem;
 }
 
