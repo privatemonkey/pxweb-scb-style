@@ -891,6 +891,10 @@ hr.future {
 /*
 * Navigation related styling. Breadcrumbs, tree.
 */
+nav#breadcrumb a:first-of-type {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
 nav#breadcrumb a:first-of-type::before {
   content: "⌂";
 }

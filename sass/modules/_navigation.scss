@@ -3,8 +3,14 @@
 * Navigation related styling. Breadcrumbs, tree.
 */
 
-nav#breadcrumb a:first-of-type::before {
-    content: '⌂';
+nav#breadcrumb a:first-of-type {
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+    &::before {
+        content: '⌂';
+    }
+
 }
 
 nav a {
