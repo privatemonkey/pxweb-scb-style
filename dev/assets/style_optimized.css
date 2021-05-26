@@ -993,6 +993,7 @@ nav a span {
   text-decoration: underline;
   outline-color: transparent;
   border-color: transparent;
+  text-decoration: none;
 }
 .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus, .AspNet-TreeView a:hover, .AspNet-TreeView a:focus {
   color: #001920;
@@ -1105,7 +1106,6 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 
 .variableselector_variable_box_container input[type=submit] {
   border-color: transparent;
-  font-weight: bold;
   text-decoration: underline;
   padding: 0;
   border-radius: 0;

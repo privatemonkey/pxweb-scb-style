@@ -61,7 +61,6 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
 
 .variableselector_variable_box_container input[type="submit"] {
   border-color: transparent;
-  @include typography.bold;
   text-decoration: underline;
   padding: 0;
   border-radius: 0;
