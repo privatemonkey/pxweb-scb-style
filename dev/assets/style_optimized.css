@@ -611,6 +611,10 @@ button.accordion-header:active, button.nested-accordion-header:active {
   color: #001920;
 }
 
+.presentation-main button.accordion-header, button.nested-accordion-header {
+  padding-left: 0;
+}
+
 button.accordion-header.closed, button.nested-accordion-header.closed {
   display: inline-block;
   border-top: 1px solid #949494;
