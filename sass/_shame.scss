@@ -68,6 +68,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   text-decoration: underline;
   padding: 0 inherit;
   border-radius: 0;
+  margin-bottom: sizes.$space-medium;
 }
 
 .commandbar-shortcuts {
@@ -90,11 +91,6 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
   .variableselector_valuesselect_mandatory_text::after {
     content: ')';
-  }
-
-  .variableselector_valuesselect_search_textstart_checkbox {
-    padding: 0;
-    margin-bottom: sizes.$space-large;
   }
 
   .variableselector_valuesselect_statistics_panel p {
@@ -152,7 +148,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     }
   }
 
-  .optional-variable-icon-panel {
+  .optional-variable-icon-panel, .optional-variable-text {
     display: none;
   }
 
@@ -237,6 +233,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   a.search-icon {
     @include forms.button;
     text-decoration: none;
+    margin-bottom: 0;
   }
   a.search-icon::before {
     content: '🔎︎';

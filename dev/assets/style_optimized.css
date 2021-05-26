@@ -1080,6 +1080,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   text-decoration: underline;
   padding: 0 inherit;
   border-radius: 0;
+  margin-bottom: 1.5rem;
 }
 
 .commandbar-shortcuts {
@@ -1103,11 +1104,6 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 
 .variableselector_valuesselect_mandatory_text::after {
   content: ")";
-}
-
-.variableselector_valuesselect_search_textstart_checkbox {
-  padding: 0;
-  margin-bottom: 2rem;
 }
 
 .variableselector_valuesselect_statistics_panel p {
@@ -1165,7 +1161,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
     width: 48%;
   }
 }
-.optional-variable-icon-panel {
+.optional-variable-icon-panel, .optional-variable-text {
   display: none;
 }
 
@@ -1262,6 +1258,7 @@ a.search-icon {
   border: 2px #006E91 solid;
   outline: 1px transparent;
   text-decoration: none;
+  margin-bottom: 0;
 }
 
 a.search-icon::before {
