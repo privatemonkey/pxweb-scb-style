@@ -1,4 +1,5 @@
 @use '../base/typography';
+@use '../base/sizes';
 @use '../layout/panel';
 /*
 * Stepper, the three steps of PX Web
@@ -16,6 +17,7 @@ $stepper-left-space: 2rem;
     height: 5rem;
     margin: 2rem 0;
     margin-left: $stepper-left-space;
+    padding: sizes.$space-small;
   }
   
 .navigationFlowArea a img {

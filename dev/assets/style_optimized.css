@@ -749,6 +749,7 @@ thead th, thead td {
   height: 5rem;
   margin: 2rem 0;
   margin-left: 2rem;
+  padding: 0.75rem;
 }
 
 .navigationFlowArea a img {
