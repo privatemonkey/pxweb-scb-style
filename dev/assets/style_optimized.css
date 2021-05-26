@@ -866,7 +866,7 @@ hr.future {
 }
 
 /* Errors and messages */
-.px-messages {
+.px-messages, .variableselector_error_summary {
   padding: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
