@@ -818,10 +818,6 @@ thead th, thead td {
   color: #222;
 }
 
-.navigationFlowArea a.passive span, .navigationFlowArea a.active span {
-  text-decoration: underline;
-}
-
 .navigationFlowArea a.future span {
   color: #949494;
 }

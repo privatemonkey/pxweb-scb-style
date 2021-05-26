@@ -72,10 +72,6 @@ $stepper-left-space: 2rem;
     color: typography.$text;
   }
   
-.navigationFlowArea a.passive span, .navigationFlowArea a.active span {
-    text-decoration: underline;
-  }
-  
 .navigationFlowArea a.future span {
     color: typography.$text-inactive;
   }
