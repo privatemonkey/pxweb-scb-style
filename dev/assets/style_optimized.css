@@ -786,12 +786,12 @@ thead th, thead td {
   display: block;
 }
 
-.navigationFlowArea a.active::before {
+.navigationFlowArea a.active::before, .navigationFlowArea a > span.third.active {
   content: "◉";
   color: #222;
 }
 
-.navigationFlowArea a.future::before {
+.navigationFlowArea a.future::before, .navigationFlowArea a > span.third {
   content: "○";
   color: #949494;
 }
@@ -819,7 +819,6 @@ hr {
   border: none;
   border-top: 2px solid #949494;
   margin-top: 0.5rem;
-  max-width: 40vw;
 }
 
 hr.future {
