@@ -71,7 +71,7 @@
 }
 
 /* Clickable nodes */
-.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink, .AspNet-TreeView a {
+.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink, .AspNet-TreeView a, .AspNet-TreeView a span {
     @include typography.textlink;
     @include typography.textlink__hover;
     text-decoration: none;
