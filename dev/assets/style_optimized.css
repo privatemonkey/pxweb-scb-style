@@ -786,12 +786,12 @@ thead th, thead td {
   display: block;
 }
 
-.navigationFlowArea a.active::before, .navigationFlowArea a > span.third.active {
+.navigationFlowArea a.active::before, .navigationFlowArea a > span.third.active::before {
   content: "◉";
   color: #222;
 }
 
-.navigationFlowArea a.future::before, .navigationFlowArea a > span.third {
+.navigationFlowArea a.future::before, .navigationFlowArea a > span.third::before {
   content: "○";
   color: #949494;
 }
@@ -1072,6 +1072,12 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   .switch-layout-container {
     display: none;
   }
+}
+
+.variableselector_variable_box_container input[type=submit] {
+  border-color: transparent;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .commandbar-shortcuts {
