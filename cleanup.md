@@ -1,4 +1,4 @@
-# Cleanup
+# Kort analys
 
 ## Laddning
 

@@ -2,6 +2,11 @@
 /*
 * Navigation related styling. Breadcrumbs, tree.
 */
+
+nav#breadcrumb a:first-of-type::before {
+    content: '⌂';
+}
+
 nav a {
     font-weight: typography.$text-weight-medium;
     padding: 0.25rem 0.25rem 0.05rem;

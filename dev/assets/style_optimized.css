@@ -891,6 +891,10 @@ hr.future {
 /*
 * Navigation related styling. Breadcrumbs, tree.
 */
+nav#breadcrumb a:first-of-type::before {
+  content: "⌂";
+}
+
 nav a {
   font-weight: 500;
   padding: 0.25rem 0.25rem 0.05rem;
