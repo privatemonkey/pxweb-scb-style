@@ -1,5 +1,27 @@
-[x] Header, main och footer taggar istället för div
-[ ] Breadcrumb: Aria-tags
+
+- [ ] Flytta hamburgerknapp eller ge parent div en klass
+- [ ] Sortable table, ändra inputs till buttons för att kunna lägga ikoner på :after
+- [ ] Chart settings - Ändra text-fält till nummer fält
+- [ ] Chart settings - Ta bort spans som gör checkbox listor till inline
+- [ ] Chart settings - Använd fieldset på alla checkboxlistor
+- [ ] Stepper - byta ut hr mot span
+- [ ] Stepper - flytta .future till anchor
+- [ ] Stepper - flytta .first, second, third till anchor
+- [ ] Presentation left div flyttas efter huvudinnehållet
+- [ ] Varje views namn läggs som class på body-taggen (.tree, .select-variables, .result=
+- [ ] Flytta element in i main
+  - [ ] breadcrumb
+  - [ ] stepper
+  - [ ] h1
+  - [ ] metainfo
+- [ ] Search box class måste upp en nivå så det går att style den
+- [ ] Visa metadata, konfigurera som option
+- [ ] Flytta about under. Konfigurerbar?
+- [ ] Info om uttaget som ex max antal rader bör ha egen class liknande px-message
+- [ ] Submit buttons in left panel changed to .nested-accordion-panel and buttons. All other classes removed.
+- [ ] About - Med eller utan accordion beteende (Nu är det ALLTID sub accordions)
+- [x] Header, main och footer taggar istället för div
+- [x] Breadcrumb: Aria-tags
 
 
 ```
@@ -14,26 +36,3 @@
       </li>
     </ol>
 ```
-
-[ ] Flytta hamburgerknapp eller ge parent div en klass
-[ ] Sortable table, ändra inputs till buttons för att kunna lägga ikoner på :after
-[ ] Chart settings - Ändra text-fält till nummer fält
-[ ] Chart settings - Ta bort spans som gör checkbox listor till inline
-[ ] Chart settings - Använd fieldset på alla checkboxlistor
-[ ] Presentation left flyttas efter huvudinnehållet
-[ ] Varje views namn läggs som class på body-taggen
-- tree
-- variables
-- result
-[ ] Flytta element in i main
-- breadcrumb
-- stepper
-- h1
-- metainfo
-[ ] Search box class måste upp en nivå så det går att style den
-[ ] Visa metadata, konfigurera som option
-[ ] Flytta about under. Konfigurerbar?
-[ ] Info om uttaget som ex max antal rader bör ha egen class
-[ ] Stepper - förbättra HTML, byta ut hr mot span, .future på anchor
-[ ] Submit buttons in left panel changed to .nested-accordion-panel and buttons. All other classes removed.
-[ ] About - Med eller utan accordion beteende

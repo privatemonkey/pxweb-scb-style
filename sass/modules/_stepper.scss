@@ -25,15 +25,15 @@ $stepper-left-space: 2rem;
   }
   
   /* Adjust text position of stepp */
-.navigationFlowArea .first span {
+.navigationFlowArea a:first-of-type span {
     margin-left: $stepper-1-adjust;
   }
 
-.navigationFlowArea .second span {
+.navigationFlowArea a:nth-of-type(2) span  {
     margin-left: $stepper-2-adjust;
   }
   
-.navigationFlowArea .third span {
+.navigationFlowArea a:nth-of-type(3) span {
     margin-left: $stepper-3-adjust;
   }
   
@@ -55,11 +55,13 @@ $stepper-left-space: 2rem;
     display: block;
   }
   
+/* TODO: Remove when .active is moved to anchor instead of span */
 .navigationFlowArea a.active::before, .navigationFlowArea a > span.third.active::before {
     content: '◉';
     color: typography.$text;
   }
   
+/* TODO: Remove when .active is moved to anchor instead of span */
 .navigationFlowArea a.future::before, .navigationFlowArea a > span.third::before {
     content: '○';
     color: typography.$text-inactive;

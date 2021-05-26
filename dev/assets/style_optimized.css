@@ -757,15 +757,15 @@ thead th, thead td {
 }
 
 /* Adjust text position of stepp */
-.navigationFlowArea .first span {
+.navigationFlowArea a:first-of-type span {
   margin-left: -2rem;
 }
 
-.navigationFlowArea .second span {
+.navigationFlowArea a:nth-of-type(2) span {
   margin-left: -2.5rem;
 }
 
-.navigationFlowArea .third span {
+.navigationFlowArea a:nth-of-type(3) span {
   margin-left: -2rem;
 }
 
@@ -787,11 +787,13 @@ thead th, thead td {
   display: block;
 }
 
+/* TODO: Remove when .active is moved to anchor instead of span */
 .navigationFlowArea a.active::before, .navigationFlowArea a > span.third.active::before {
   content: "◉";
   color: #222;
 }
 
+/* TODO: Remove when .active is moved to anchor instead of span */
 .navigationFlowArea a.future::before, .navigationFlowArea a > span.third::before {
   content: "○";
   color: #949494;
