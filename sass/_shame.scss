@@ -66,7 +66,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   border-color: transparent;
   @include typography.bold;
   text-decoration: underline;
-  padding: 0 inherit;
+  padding: 0;
   border-radius: 0;
   margin-bottom: sizes.$space-medium;
 }
