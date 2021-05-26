@@ -51,8 +51,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   position: absolute;
 
   input {
-    margin-top: sizes.$space-medium;
-    margin-bottom: 0;
+    margin: 0.5 0 0;
   }
 
   @media (max-width: 660px) {
@@ -115,9 +114,13 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     justify-content: flex-end;
   }
 
-  #SelectionPage .about-table button {
-    border-top: none;
-    padding-left: 0;
+#SelectionPage .about-table button {
+  border-top: none;
+  padding-left: 0;
+}
+
+#SelectionPage .about-table {
+  border-bottom: 1px solid colors.$color-light;
 }
 
 #SelectionPage .justify-center {
