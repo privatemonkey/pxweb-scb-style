@@ -2,6 +2,10 @@
 
 ## Design / CSS
 
+- [ ] Välj variabel - Större knapp, spacing och linje över fotnötter
+- [ ] Välj variabel - Brädd på boxar i största fönsterbrädden
+- [ ] Välj variabel - Knappar "välj alla" - normal font weight
+- [ ] Trädet - Bort med understrykning
 - [ ] Huvudet - Se över storlekar
 - [ ] Fullscreen knapp - Se över placering
 - [ ] Välj variabel - Se över spacing

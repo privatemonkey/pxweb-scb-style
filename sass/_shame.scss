@@ -173,6 +173,12 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     max-width: typography.$max-text-width;
   }
 
+  .footnotes {
+    border-top: 1px solid panel.$panel-border-color;
+    margin-top: sizes.$space-large;
+    padding-top: sizes.$space-large;
+  }
+
   .the_long_text.notetype_note_value {
     margin-bottom: sizes.$space-medium;
   }
@@ -248,6 +254,13 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     @include forms.button__hover;
   }
 
+  .variableselector_continue_button {
+    font-size: typography.$font-size-h3;
+    max-height: unset;
+    padding: sizes.$space-medium sizes.$space-large;
+    margin: sizes.$space-medium 0 sizes.$space-large;
+  }
+
   .variableselector_valuesselect_search_textstart_checkbox label {
     @include typography.text;
     width: 100%;
@@ -260,10 +273,6 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
 
   .variableselector_valuesselect_aggregations {
     margin-top: sizes.$space-large;
-  }
-
-  .optional-variable-panel {
-
   }
 
   input.download-icon {
