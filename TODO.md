@@ -1,6 +1,6 @@
 # Todo
 
-## Design
+## Design / CSS
 
 - [ ] Se över huvudet
 - [ ] Spacing i variabelväljaren
@@ -10,6 +10,7 @@
 - [ ] Städa i breakpoints
 - [ ] Flytta ut välj variabel från "shame" till egen fil
 - [ ] Flytta ut sök från "shame" till egen fil
+- [ ] Fullscreen scroll - Funkar inte. Funkar det hos SSB?
 
 ## Utveckling
 
