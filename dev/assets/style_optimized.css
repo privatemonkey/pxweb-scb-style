@@ -21,6 +21,7 @@ body {
 /*-- Base --*/
 /*-- Primary --*/
 /*-- Secondary --*/
+/* Errors */
 /* Buttons */
 /* Inputs */
 /* Tables */
@@ -877,6 +878,16 @@ hr.future {
 .variableselector_error_summary li {
   text-transform: capitalize;
   font-weight: 300;
+}
+
+.pxweb-input-error {
+  padding: 0.75rem 1.5rem;
+  background-color: lightcoral;
+}
+
+.variableselector_valuesselect_box_error {
+  border-color: #b70000;
+  outline-color: #b70000;
 }
 
 /*

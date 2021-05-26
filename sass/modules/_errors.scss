@@ -15,3 +15,13 @@
     text-transform: capitalize;
     font-weight: 300;
 }
+
+.pxweb-input-error {
+    padding: sizes.$space-small sizes.$space-medium;
+    background-color: lightcoral;
+}
+
+.variableselector_valuesselect_box_error {
+    border-color: colors.$color-warning;
+    outline-color: colors.$color-warning;
+}
