@@ -20,9 +20,12 @@
 - [ ] Fullscreen scroll - Funkar inte. Funkar det hos SSB?
 - [ ] Verktygsmeny - Ska bara vara overlay i mobil. I desktop ska den ligga vid sidan
 - [ ] Välj variabel - Search - style 100% width
+- [ ] Forms - Style för nummer fält - mindre min width än text fält
 
 ## Utveckling
 
+- [ ] Forms - Gå igenom och städa i .font-heading, labels, legend och extra spans
+- [ ] Forms - Gör om text fält till nummer om de är menad att visa enbart siffror
 - [ ] Välj variabel - Search - add class to main div
 - [ ] Hamburgerknapp - gör om till button och ge parent div en klass. Hälst flytta.
 - [ ] Hamburgerknapp - Döpa om till "Visa verktyg"/"Dölj verktyg"

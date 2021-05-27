@@ -37,7 +37,13 @@ Large desktop
 1920
 2560
 */
-$bp-medium: 1280px;
+$bp-tiny: 399px;
+$bp-small: 599px;
+$bp-smaller: 799px;
+$bp-medium: 1099px;
+$bp-larger: 1399px;
+$bp-large: 1999px;
+
 $width2: 1720px;
 
 :root {
