@@ -108,7 +108,7 @@ button.accordion-header:before {
 }
 
 /* Accordions in main area */
-.presentation-main .accordion-body {
+.presentation-main .accordion-body, #placeholder .accordion-body {
   padding: 0;
 }
 

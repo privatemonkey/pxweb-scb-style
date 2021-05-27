@@ -667,7 +667,7 @@ button.accordion-header:before {
 }
 
 /* Accordions in main area */
-.presentation-main .accordion-body {
+.presentation-main .accordion-body, #placeholder .accordion-body {
   padding: 0;
 }
 
@@ -871,7 +871,7 @@ hr.future {
   padding: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  background-color: #dff7ff;
+  background-color: #e1ecef;
   width: 100%;
 }
 
@@ -882,8 +882,21 @@ hr.future {
 
 .pxweb-input-error {
   padding: 0.75rem 1.5rem;
-  background-color: #ffd8d8;
+  background-color: #ffbebe;
   border-radius: 0.75rem;
+}
+
+.pxweb-input-error::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #ffbebe;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffbebe;
+  border-bottom: 10px solid transparent;
+  right: -20px;
+  top: 6px;
 }
 
 select.variableselector_valuesselect_box_error {

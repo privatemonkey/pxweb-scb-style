@@ -28,6 +28,7 @@ $color-secondary-text:      #fff;
 
 /* Errors */
 $color-warning:             rgb(183, 0, 0);
+$warning-background:   rgb(255, 190, 190);
 
 /* Buttons */
 $button-primary-background: $color-primary;
@@ -53,4 +54,4 @@ $table-background-even: #fff;
 $table-border-outline-color: #eee;
 
 /* Errors and messages */
-$message-background-default: #dff7ff;
+$message-background-default: #e1ecef;
