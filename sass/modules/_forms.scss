@@ -168,6 +168,10 @@ fieldset {
   }
 }
 
+.pxweb-accordion > fieldset > legend {
+  margin-top: 0;
+}
+
 input[type="radio"]:hover + label, input[type="checkbox"]:hover + label, input[type="radio"]:focus + label, input[type="checkbox"]:focus + label, input[type="radio"]:active + label, input[type="checkbox"]:active + label {
   color: #000;
   font-weight: 500;
