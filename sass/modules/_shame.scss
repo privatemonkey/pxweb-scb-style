@@ -52,7 +52,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
   
   .commandbar_container {
-    /* border-top: 1px solid var(--panel-border-color); */
+    border-top: 1px solid panel.$panel-border-color; 
     padding: 0 2rem;
     width: 100%;
   }
