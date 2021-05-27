@@ -147,24 +147,22 @@ input[type="radio"]+label, input[type="checkbox"]+label {
 }
 
 fieldset {
+  width: calc(100% - 4rem);
+  padding: 1rem 0;
+  border: none;
+
   input[type="radio"]+label, input[type="checkbox"]+label {
     display: inline-block;
+  }
+
+  legend {
+    @include typography.bold;
   }
 }
 
 input[type="radio"]:hover + label, input[type="checkbox"]:hover + label, input[type="radio"]:focus + label, input[type="checkbox"]:focus + label, input[type="radio"]:active + label, input[type="checkbox"]:active + label {
   text-decoration: underline;
   cursor: pointer;
-}
-
-fieldset {
-  width: 100%;
-  padding: 1rem 0;
-  border: none;
-}
-
-fieldset legend {
-  @include typography.bold;
 }
 
 /*
