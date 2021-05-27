@@ -130,14 +130,20 @@ h5 {
   margin-bottom: sizes.$space-small;
 }
 
-button.nested-accordion-header, .accordion-body legend {
-  @extend h5;
-}
 
 /* TODO: Alla dessa borde göras till riktiga labels eller headers */
 .variableselector_variable_box_container label, .container_titletext, .heading, .font-heading {
   @extend h3;
 }
+
+.commandbar_changepresentation_changetext {
+  @extend h4;
+}
+
+button.nested-accordion-header, .accordion-body legend {
+  @extend h5;
+}
+
 
 .container_titletext {
   margin-top: 0;
