@@ -166,9 +166,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
 
   .footnotes {
-    border-top: 1px solid panel.$panel-border-color;
     margin-top: sizes.$space-large;
     padding-top: sizes.$space-large;
+    max-width: typography.$max-text-width;
+    border-bottom: 1px solid panel.$panel-border-color;
   }
 
   .the_long_text.notetype_note_value {

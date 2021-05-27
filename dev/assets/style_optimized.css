@@ -1209,9 +1209,10 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 
 .footnotes {
-  border-top: 1px solid #949494;
   margin-top: 2rem;
   padding-top: 2rem;
+  max-width: 720px;
+  border-bottom: 1px solid #949494;
 }
 
 .the_long_text.notetype_note_value {

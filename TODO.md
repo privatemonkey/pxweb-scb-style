@@ -2,12 +2,13 @@
 
 ## Design / CSS
 
-- [ ] Välj variabel - Större knapp, spacing och linje över fotnötter
-- [ ] Välj variabel - Brädd på boxar i största fönsterbrädden
-- [ ] Välj variabel - Knappar "välj alla" - normal font weight
-- [ ] Trädet - Bort med understrykning
+- [ ] Välj variabel - Lägg på färg, fokus och ikoner vid fel
+- [x] Välj variabel - Större knapp, spacing och linje över fotnötter
+- [x] Välj variabel - Brädd på boxar i största fönsterbrädden
+- [x] Välj variabel - Knappar "välj alla" - normal font weight
+- [x] Trädet - Bort med understrykning
 - [ ] Huvudet - Se över storlekar
-- [ ] Fullscreen knapp - Se över placering
+- [x] Fullscreen knapp - Se över placering
 - [ ] Välj variabel - Se över spacing
 - [ ] Välj variabel - Se över textstorlekar
 - [ ] Verktygsmenyn - Fly out in
@@ -18,9 +19,11 @@
 - [ ] Flytta ut sök från "shame" till egen fil
 - [ ] Fullscreen scroll - Funkar inte. Funkar det hos SSB?
 - [ ] Verktygsmeny - Ska bara vara overlay i mobil. I desktop ska den ligga vid sidan
+- [ ] Välj variabel - Search - style 100% width
 
 ## Utveckling
 
+- [ ] Välj variabel - Search - add class to main div
 - [ ] Hamburgerknapp - gör om till button och ge parent div en klass. Hälst flytta.
 - [ ] Hamburgerknapp - Döpa om till "Visa verktyg"/"Dölj verktyg"
 - [ ] Fullscreenknapp - gör om till button
