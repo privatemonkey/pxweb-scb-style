@@ -7,7 +7,7 @@
 *
 * Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
 */
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap");
 /*
 * Default theme
 */
@@ -455,6 +455,7 @@ input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=rad
 
 input[type=radio]:checked + label {
   font-weight: 500;
+  color: #000;
 }
 
 input[type=radio] + label, input[type=checkbox] + label {
