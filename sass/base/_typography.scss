@@ -136,11 +136,7 @@ h5 {
   @extend h3;
 }
 
-.commandbar_changepresentation_changetext {
-  @extend h4;
-}
-
-button.nested-accordion-header, .accordion-body legend {
+button.nested-accordion-header, .commandbar_changepresentation_changetext {
   @extend h5;
 }
 
