@@ -20,19 +20,21 @@
     padding: sizes.$space-small sizes.$space-medium;
     background-color: colors.$warning-background;
     border-radius: sizes.$space-small;
+    display: inline-block;
+    margin-top: 0.5rem;
 }
 
 .pxweb-input-error::before {
     content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 10px solid colors.$warning-background;
-  border-right: 10px solid transparent;
-  border-top: 10px solid colors.$warning-background;
-  border-bottom: 10px solid transparent;
-  right: -20px;
-  top: 6px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 0.5rem solid colors.$warning-background;
+    border-right: 0.5rem solid transparent;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid colors.$warning-background;
+    margin-left: -0.5rem;
+    margin-top: -2rem;
 }
 
 select.variableselector_valuesselect_box_error {

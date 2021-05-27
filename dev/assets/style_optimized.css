@@ -884,6 +884,8 @@ hr.future {
   padding: 0.75rem 1.5rem;
   background-color: #ffbebe;
   border-radius: 0.75rem;
+  display: inline-block;
+  margin-top: 0.5rem;
 }
 
 .pxweb-input-error::before {
@@ -891,12 +893,12 @@ hr.future {
   width: 0px;
   height: 0px;
   position: absolute;
-  border-left: 10px solid #ffbebe;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #ffbebe;
-  border-bottom: 10px solid transparent;
-  right: -20px;
-  top: 6px;
+  border-left: 0.5rem solid #ffbebe;
+  border-right: 0.5rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #ffbebe;
+  margin-left: -0.5rem;
+  margin-top: -2rem;
 }
 
 select.variableselector_valuesselect_box_error {
