@@ -149,7 +149,7 @@ button.nested-accordion-header, .commandbar_changepresentation_changetext {
   margin-top: 0;
 }
 
-.variableselector_variable_box_container label, input[type="radio"]:checked + label {
+.variableselector_variable_box_container label {
   @include header;
   margin-bottom: sizes.$space-smallest;
 }
