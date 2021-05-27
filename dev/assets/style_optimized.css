@@ -50,7 +50,7 @@ body {
 }
 
 /* -- Headers -- */
-h1, h2, h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading, h4, .font-heading {
+h1, h2, h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label, .container_titletext, .heading, h4, .font-heading {
   font-weight: bold;
   max-width: 920px;
   text-transform: capitalize;
@@ -80,13 +80,13 @@ h2 {
   }
 }
 
-h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading {
+h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label, .container_titletext, .heading {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
 @media (max-width: 660px) {
-  h3, .siteLogoText, .variableselector_variable_box_container label, .container_titletext, .heading {
+  h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label, .container_titletext, .heading {
     font-size: 1.125rem;
   }
 }
