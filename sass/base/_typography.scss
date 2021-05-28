@@ -68,14 +68,23 @@ body {
   @include fontfamily;
 }
 
+@mixin extrabold {
+  font-weight: 700;
+}
+
 @mixin bold {
-  font-weight: bold;
+  font-weight: 500;
+}
+
+@mixin label {
+  @include bold;
+  font-size: $font-size-h4;
 }
 
 /* -- Headers -- */
 
 @mixin header {
-  @include bold;
+  @include extrabold;
   max-width: $max-header-width;
   text-transform: capitalize;
   line-height: 1.2;
