@@ -50,7 +50,7 @@ body {
 }
 
 /* -- Headers -- */
-h1, h2, h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label, .container_titletext, .heading, h4, .font-heading {
+h1, h2, h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label:not(.checkbox-label), .container_titletext, .heading, h4, .font-heading {
   font-weight: bold;
   max-width: 920px;
   text-transform: capitalize;
@@ -80,13 +80,13 @@ h2 {
   }
 }
 
-h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label, .container_titletext, .heading {
+h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label:not(.checkbox-label), .container_titletext, .heading {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
 @media (max-width: 660px) {
-  h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label, .container_titletext, .heading {
+  h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label:not(.checkbox-label), .container_titletext, .heading {
     font-size: 1.125rem;
   }
 }
@@ -443,17 +443,17 @@ input[type=radio]:hover, input[type=radio]:focus, input[type=radio]:active {
   outline: none;
 }
 
-input[type=radio] + label, input[type=radio]:checked + label {
+input[type=radio] + label, input[type=radio]:checked + label, input[type=checkbox] + label, input[type=checkbox]:checked + label {
   border-width: 0;
   outline-color: transparent;
 }
-input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus {
+input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox]:checked + label:hover, input[type=checkbox]:checked + label:focus {
   color: #001920;
   cursor: pointer;
   text-decoration: underline;
 }
 
-input[type=radio]:checked + label {
+input[type=radio]:checked + label, input[type=checkbox] + label {
   font-weight: 500;
   color: #000;
 }

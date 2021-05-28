@@ -132,7 +132,7 @@ h5 {
 
 
 /* TODO: Alla dessa borde göras till riktiga labels eller headers */
-.variableselector_variable_box_container :not(fieldset) label, .container_titletext, .heading {
+.variableselector_variable_box_container :not(fieldset) label:not(.checkbox-label), .container_titletext, .heading {
   @extend h3;
 }
 
