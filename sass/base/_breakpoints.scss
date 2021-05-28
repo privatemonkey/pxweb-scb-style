@@ -8,18 +8,21 @@
 * (Tablet): 786 1280 1024 800 962 600 1366 1080
 *
 *
-Small phone
+Tiny
+
 360
 375
 412
 414
 ---
-Phablet
+Extra small
+
 600
 601
 768
 ---
-Tablet
+Small 
+
 800
 810
 834
@@ -27,25 +30,28 @@ Tablet
 1024
 1080
 ---
-Small desktop
+Medium
+
 1280
 1366
 ---
-Large desktop
+Large
+
 1536
 1600
 1920
+
+Extra large
 2560
 */
-$bp-tiny: 399px;
-$bp-small: 599px;
-$bp-smaller: 799px;
-$bp-medium: 1099px;
-$bp-larger: 1399px;
-$bp-large: 1999px;
+$tiny: 459px;
+$extra-small: 599px;
+$small: 799px;
+$medium: 1099px;
+$large: 1399px;
+$extra-large: 1999px;
 
-$width2: 1720px;
-
+/*
 :root {
     f-size: 20px;
     f-family: Helvetica, sans-serif;
@@ -72,3 +78,4 @@ $width2: 1720px;
     color: red;
     font-family: var(f-family);
 }
+*/

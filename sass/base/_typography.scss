@@ -9,6 +9,7 @@
 
 @use '../base/sizes';
 @use '../base/colors';
+@use '../base/breakpoints';
 
 $text:                   colors.$color-dark;
 $text-dark:              colors.$color-darkest;
@@ -90,7 +91,7 @@ h1 {
   margin-bottom: 2rem;
   margin-top: 1rem;
 
-  @media (max-width: 660px) {
+  @media (max-width: breakpoints.$small) {
     font-size: $font-size-h2;
   }
 }
@@ -100,7 +101,7 @@ h2 {
   line-height: 1.4;
   margin: 2rem 0 1.5rem;
 
-  @media (max-width: 660px) {
+  @media (max-width: breakpoints.$small) {
     font-size: $font-size-h3;
   }
 }
@@ -110,7 +111,7 @@ h3 {
   line-height: 1.4;
   margin-bottom: 0.75rem;
 
-  @media (max-width: 660px) {
+  @media (max-width: breakpoints.$small) {
     font-size: $font-size-h4;
   }
 }

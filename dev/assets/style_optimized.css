@@ -29,6 +29,80 @@ body {
 /*
 * Size related variables
 */
+/*
+* Breakpoints
+* Statistics for screen size usage
+* https://gs.statcounter.com/screen-resolution-stats
+*
+* Desktop: 1920, 1366, 1536, 1600, 1280, 768, 2560, 1024
+* Mobile: 360, 375, 414, 412
+* (Tablet): 786 1280 1024 800 962 600 1366 1080
+*
+*
+Tiny
+
+360
+375
+412
+414
+---
+Extra small
+
+600
+601
+768
+---
+Small 
+
+800
+810
+834
+962
+1024
+1080
+---
+Medium
+
+1280
+1366
+---
+Large
+
+1536
+1600
+1920
+
+Extra large
+2560
+*/
+/*
+:root {
+    f-size: 20px;
+    f-family: Helvetica, sans-serif;
+}
+
+@media (min-width: $width1) and (max-width: $width2) {
+    :root {
+        f-size: 22px;
+        f-family: Helvetica;
+        ;
+    }
+}
+
+@media (min-width: $mq-hhd) {
+    :root {
+        f-size: 24px;
+        f-family: sans-serif;
+        ;
+    }
+}
+
+.my-element {
+    font-size: var(f-size);
+    color: red;
+    font-family: var(f-family);
+}
+*/
 @font-face {
   font-family: "PublicSans";
   src: url("/dev/assets/PublicSans-VariableFont_wght.ttf");
@@ -63,7 +137,7 @@ h1 {
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-@media (max-width: 660px) {
+@media (max-width: 799px) {
   h1 {
     font-size: 1.6875rem;
   }
@@ -74,7 +148,7 @@ h2 {
   line-height: 1.4;
   margin: 2rem 0 1.5rem;
 }
-@media (max-width: 660px) {
+@media (max-width: 799px) {
   h2 {
     font-size: 1.3125rem;
   }
@@ -85,7 +159,7 @@ h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
-@media (max-width: 660px) {
+@media (max-width: 799px) {
   h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label:not(.checkbox-label), .container_titletext, .heading {
     font-size: 1.125rem;
   }
