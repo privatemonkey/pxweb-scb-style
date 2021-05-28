@@ -76,6 +76,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     padding: 0;
   }
 
+  .commandbar-listbox-container {
+    margin-top: sizes.$space-medium;
+  }
+
   .variableselector_valuesselect_mandatory_text::before {
     content: '(';
   }

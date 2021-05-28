@@ -124,7 +124,7 @@ body {
 }
 
 /* -- Headers -- */
-h1, h2, h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label:not(.checkbox-label), .container_titletext, .heading, h4, .font-heading {
+h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, h4, .font-heading {
   font-weight: 700;
   max-width: 920px;
   text-transform: capitalize;
@@ -154,13 +154,13 @@ h2 {
   }
 }
 
-h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label:not(.checkbox-label), .container_titletext, .heading {
+h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
 @media (max-width: 799px) {
-  h3, .siteLogoText, .variableselector_variable_box_container :not(fieldset) label:not(.checkbox-label), .container_titletext, .heading {
+  h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
     font-size: 1.125rem;
   }
 }
@@ -180,17 +180,9 @@ h5, button.nested-accordion-header, .commandbar_changepresentation_changetext {
   margin-bottom: 0.75rem;
 }
 
-/* TODO: Alla dessa borde göras till riktiga labels eller headers */
+/* TODO: Alla dessa borde göras till riktiga headers */
 .container_titletext {
   margin-top: 0;
-}
-
-.variableselector_variable_box_container label {
-  font-weight: 700;
-  max-width: 920px;
-  text-transform: capitalize;
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
 }
 
 label span {
@@ -1225,6 +1217,10 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 
 .commandbar_container .variableselector_variable_box_container > div {
   padding: 0;
+}
+
+.commandbar-listbox-container {
+  margin-top: 1.5rem;
 }
 
 .variableselector_valuesselect_mandatory_text::before {

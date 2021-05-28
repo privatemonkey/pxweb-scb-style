@@ -141,8 +141,8 @@ h5 {
 }
 
 
-/* TODO: Alla dessa borde göras till riktiga labels eller headers */
-.variableselector_variable_box_container :not(fieldset) label:not(.checkbox-label), .container_titletext, .heading {
+/* TODO: Alla dessa borde göras till riktiga headers */
+.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
   @extend h3;
 }
 
@@ -157,11 +157,6 @@ button.nested-accordion-header, .commandbar_changepresentation_changetext {
 
 .container_titletext {
   margin-top: 0;
-}
-
-.variableselector_variable_box_container label {
-  @include header;
-  margin-bottom: sizes.$space-smallest;
 }
 
 label span {
