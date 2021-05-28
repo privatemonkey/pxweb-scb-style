@@ -79,6 +79,8 @@ body {
 @mixin label {
   @include bold;
   font-size: $font-size-h4;
+  text-transform: capitalize;
+  margin-bottom: sizes.$space-smallest;
 }
 
 /* -- Headers -- */
@@ -161,6 +163,10 @@ button.nested-accordion-header, .commandbar_changepresentation_changetext {
 
 label span {
   font-weight: $text-weight-normal;
+}
+
+:not(fieldset) label {
+  @include label;
 }
 
 /* -- Bold text -- */
