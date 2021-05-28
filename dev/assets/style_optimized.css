@@ -428,8 +428,16 @@ input:hover, input:focus, input:active {
   outline: 1px solid #222;
 }
 
-input[type=text], input[type=number], select {
+select {
   min-width: 16rem;
+}
+
+input[type=text] {
+  min-width: 10rem;
+}
+
+input[type=number] {
+  min-width: 6rem;
 }
 
 input[type=radio] {
