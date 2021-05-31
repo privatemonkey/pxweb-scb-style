@@ -265,7 +265,7 @@ a:hover, a:focus, a > span:hover, a > span:focus {
 }
 
 /* Selected text */
-::selection, ::-moz-selection {
+::selection, ::-moz-selection, ::-webkit-selection {
   color: #fff;
   background-color: #222;
 }

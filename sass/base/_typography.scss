@@ -238,7 +238,7 @@ a, a > span {
 }
 
 /* Selected text */
-::selection, ::-moz-selection {
+::selection, ::-moz-selection, ::-webkit-selection {
   color: $selected-text;
   background-color: $selected-background;
 }
