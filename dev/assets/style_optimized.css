@@ -294,7 +294,6 @@ header, #header {
   margin-bottom: 1rem;
   padding: 0.75rem;
   background-color: #fff;
-  padding-left: 2rem;
 }
 
 img.logo, .imgSiteLogo {
@@ -1145,6 +1144,94 @@ table .headerSortUp::after {
   font-size: 1.5rem;
 }
 
+/* 
+
+Select variable
+
+*/
+#SelectionPage .flex-row.justify-space-between {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#SelectionPage .about-table button {
+  border-top: none;
+  padding-left: 0;
+}
+
+#SelectionPage .about-table {
+  border-bottom: 1px solid #ccc;
+}
+
+#SelectionPage .justify-center {
+  justify-content: left;
+}
+
+.variableselector_variable_box_container.flex-row.flex-wrap {
+  justify-content: start;
+}
+
+.variableselector_variable_box_container > div, .selectfromgroup-container {
+  margin-right: 1vw;
+  min-width: 20rem;
+  max-width: 18vw;
+}
+@media (max-width: 660px) {
+  .variableselector_variable_box_container > div, .selectfromgroup-container {
+    width: revert;
+    min-width: unset;
+    max-width: unset;
+    margin-right: unset;
+  }
+}
+
+@media screen and (max-width: 1200) {
+  .variableselector_variable_box_container > div {
+    width: 48%;
+  }
+}
+.optional-variable-icon-panel, .optional-variable-text {
+  display: none;
+}
+
+.variableselector_variable_box_container input[type=submit] {
+  border-color: transparent;
+  text-decoration: underline;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 1.5rem;
+}
+
+.variableselector_valuesselect_mandatory_text::before {
+  content: "(";
+}
+
+.variableselector_valuesselect_mandatory_text::after {
+  content: ")";
+}
+
+.variableselector_valuesselect_statistics_panel p {
+  margin-bottom: 0.5rem;
+}
+
+/* Result page specific styling */
+/* Command bar */
+.commandbar_container {
+  padding: 0 2rem;
+}
+
+.commandbar_container .variableselector_variable_box_container > div {
+  padding: 0;
+}
+
+.commandbar-listbox-container {
+  margin-top: 1.5rem;
+}
+
+.commandbar_saveas_dropdownlist {
+  width: 90%;
+}
+
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
@@ -1209,43 +1296,6 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   }
 }
 
-.variableselector_variable_box_container input[type=submit] {
-  border-color: transparent;
-  text-decoration: underline;
-  padding: 0;
-  border-radius: 0;
-  margin-bottom: 1.5rem;
-}
-
-.commandbar_container {
-  /* border-top: 1px solid var(--panel-border-color); */
-  padding: 0 2rem;
-}
-
-.commandbar_container .variableselector_variable_box_container > div {
-  padding: 0;
-}
-
-.commandbar-listbox-container {
-  margin-top: 1.5rem;
-}
-
-.variableselector_valuesselect_mandatory_text::before {
-  content: "(";
-}
-
-.variableselector_valuesselect_mandatory_text::after {
-  content: ")";
-}
-
-.variableselector_valuesselect_statistics_panel p {
-  margin-bottom: 0.5rem;
-}
-
-.commandbar_saveas_dropdownlist {
-  width: 90%;
-}
-
 #SaveAsPanel input[type=submit] {
   margin-top: 1.5rem;
 }
@@ -1254,52 +1304,6 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   margin-top: 1rem;
   /* padding: 1rem 0; */
   /* border-top: 1px solid #ccc; */
-}
-
-/* Change variable specific */
-#SelectionPage .flex-row.justify-space-between {
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-#SelectionPage .about-table button {
-  border-top: none;
-  padding-left: 0;
-}
-
-#SelectionPage .about-table {
-  border-bottom: 1px solid #ccc;
-}
-
-#SelectionPage .justify-center {
-  justify-content: left;
-}
-
-.variableselector_variable_box_container.flex-row.flex-wrap {
-  justify-content: start;
-}
-
-.variableselector_variable_box_container > div, .selectfromgroup-container {
-  margin-right: 1vw;
-  min-width: 20rem;
-  max-width: 18vw;
-}
-@media (max-width: 660px) {
-  .variableselector_variable_box_container > div, .selectfromgroup-container {
-    width: revert;
-    min-width: unset;
-    max-width: unset;
-    margin-right: unset;
-  }
-}
-
-@media screen and (max-width: 1200) {
-  .variableselector_variable_box_container > div {
-    width: 48%;
-  }
-}
-.optional-variable-icon-panel, .optional-variable-text {
-  display: none;
 }
 
 .view-state {

@@ -1,0 +1,73 @@
+@use '../base/typography';
+@use '../base/colors';
+@use '../base/sizes';
+
+/* 
+
+Select variable
+
+*/
+#SelectionPage .flex-row.justify-space-between {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+#SelectionPage .about-table button {
+  border-top: none;
+  padding-left: 0;
+}
+
+#SelectionPage .about-table {
+  border-bottom: 1px solid colors.$color-light;
+}
+
+#SelectionPage .justify-center {
+  justify-content: left;
+}
+
+  .variableselector_variable_box_container.flex-row.flex-wrap {
+    justify-content: start;
+  }
+
+  .variableselector_variable_box_container > div, .selectfromgroup-container {
+    margin-right: 1vw;
+    min-width: 20rem;
+    max-width: 18vw;
+
+    @media (max-width: 660px) {
+      width: revert;
+      min-width: unset;
+      max-width: unset;
+      margin-right: unset;
+    }
+  }
+
+  @media screen and (max-width: 1200) {
+    .variableselector_variable_box_container > div {
+      width: 48%;
+    }
+  }
+
+  .optional-variable-icon-panel, .optional-variable-text {
+    display: none;
+  }
+
+  .variableselector_variable_box_container input[type="submit"] {
+    border-color: transparent;
+    text-decoration: underline;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: sizes.$space-medium;
+  }
+  
+  .variableselector_valuesselect_mandatory_text::before {
+    content: '(';
+  }
+  .variableselector_valuesselect_mandatory_text::after {
+    content: ')';
+  }
+  
+  
+  .variableselector_valuesselect_statistics_panel p {
+    margin-bottom: sizes.$space-smallest;
+  }

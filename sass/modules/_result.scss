@@ -1,0 +1,21 @@
+@use '../base/_sizes.scss';
+
+/* Result page specific styling */
+
+/* Command bar */
+
+.commandbar_container {
+  padding: 0 2rem;
+}
+
+.commandbar_container .variableselector_variable_box_container > div {
+  padding: 0;
+}
+
+.commandbar-listbox-container {
+  margin-top: sizes.$space-medium;
+}
+  
+.commandbar_saveas_dropdownlist {
+  width: 90%;
+}
