@@ -10,6 +10,7 @@
     "build:css_common": "sass Resources/Styles/scss/main-common.scss >  Resources/Styles/main-common.css",
     "build:css_custom": "sass Resources/Styles/scss/main-custom.scss >  Resources/Styles/main-custom.css",
     "build:css_optimized": "sass sass/main.scss > dev/assets/style_optimized.css",
+    "build:css_starter_theme": "sass sass/themes/starter.scss > dev/assets/starter.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

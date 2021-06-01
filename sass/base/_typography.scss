@@ -6,50 +6,58 @@
 *
 * Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
 */
-
 @use '../base/sizes';
 @use '../base/colors';
 @use '../base/breakpoints';
 
-$text:                   colors.$color-dark;
-$text-dark:              colors.$color-darkest;
-$text-inactive:          colors.$color-medium;
-$text-inverted:          colors.$color-lightest;
+$text:                   colors.$color-dark !default;
+$text-dark:              colors.$color-darkest !default;
+$text-inactive:          colors.$color-medium !default;
+$text-inverted:          colors.$color-lightest !default;
 
-$link-text:              colors.$color-primary;
-$link__hover-text:       colors.$color-primary-dark;
-$link__hover-background: colors.$color-primary-text;
+$link-text:              colors.$color-primary !default;
+$link__hover-text:       colors.$color-primary-dark !default;
+$link__hover-background: colors.$color-primary-text !default;
 
-$selected-text:          colors.$color-lightest;
-$selected-background:    colors.$color-dark;
+$selected-text:          colors.$color-lightest !default;
+$selected-background:    colors.$color-dark !default;
 
-$text-weight-normal:     400;
-$text-weight-medium:     500;
-$text-weight-bold:       700;
+$text-weight-normal:     400 !default;
+$text-weight-medium:     500 !default;
+$text-weight-bold:       700 !default;
 
-$max-text-width:         720px;
-$max-header-width:       920px;
+$max-text-width:         720px !default;
+$max-header-width:       920px !default;
 
-$font-size-normal:         16px;
-$font-size-medium:      1.15rem;
+$font-size-normal:         16px !default;
+$font-size-medium:      1.15rem !default;
 
-$font-size-h1:          2.25rem;
-$font-size-h2:        1.6875rem;
-$font-size-h3:        1.3125rem;
-$font-size-h4:         1.125rem;
+$font-size-h1:          2.25rem !default;
+$font-size-h2:        1.6875rem !default;
+$font-size-h3:        1.3125rem !default;
+$font-size-h4:         1.125rem !default;
 
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
+/* Use local font or CDN */
+$localfont: false !default;
 
-@font-face {
-  font-family: 'PublicSans';
-  src: url('/dev/assets/PublicSans-VariableFont_wght.ttf');
+@if not $localfont {
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
 }
 
-// src: url('https://github.com/uswds/public-sans/raw/develop/fonts/variable/PublicSans%5Bwght%5D.ttf');
+@if $localfont {
+  @font-face {
+    font-family: 'Public Sans';
+    src: url('/dev/assets/PublicSans-VariableFont_wght.ttf');
+  }
+}
 
 @font-face {
-font-family: system;
-src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  font-family: system;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+@mixin fontfamily {
+  font-family: 'Public Sans', "system", sans-serif;
 }
 
 html {
@@ -58,10 +66,6 @@ html {
   font-size: 100%;
   font-size: $font-size-normal;
   line-height: 1.4;
-}
-
-@mixin fontfamily {
-  font-family: 'PublicSans', 'Public Sans', "system", sans-serif;
 }
 
 body {

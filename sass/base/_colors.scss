@@ -1,57 +1,105 @@
 
-/*
-* Colors
+/* Colors
+
+    CONTENT
+    - Color palette
+    - Functional colors
+
 */
 
-/*-- Base --*/
-$color-lightest:            #fff;    // Backgrounds, inverted text
-$color-light:               #ccc;    // Alternate backgrounds
-$color-medium:              #949494; // Borders
-$color-dark:                #222;    // Text, Inverted background
-$color-darkest:             #000;    // Emphasized text
+/*-- Color palette --
 
-$background-light:          #f7f7f7;    // Panels etc
+    These variables should be written on this format:
+    
+    $color-{name}
+    $background-{name}
+
+*/
+
+$color-lightest:            #fff !default;    // Backgrounds, inverted text
+$color-light:               #ccc !default;    // Alternate backgrounds
+$color-medium:              #949494 !default; // Borders
+$color-dark:                #222 !default;    // Text, Inverted background
+$color-darkest:             #000 !default;    // Emphasized text
+
+$background-light:          #f7f7f7 !default;    // Panels etc
+$background-inverted:       $color-dark !default;
+
+/*-- Primary --*/
+$color-primary:             #006E91 !default; // Links, button background
+$color-primary-light:       #00bdf7 !default;
+$color-primary-dark:        #001920 !default; // Link hover, button hover background
+$color-primary-text:        #fff !default;    // Text on primary used as background
+
+/*-- Secondary --*/
+$color-secondary:           #006E91 !default;
+$color-secondary-light:     #00bdf7 !default;
+$color-secondary-dark:      #022833 !default;
+$color-secondary-text:      #fff !default;
+
+/* Function colors */
+
+/*  Functional colors are used in your CSS instead of direct references to the palette colors.
+
+    ${name}-color
+    ${name}-background
+
+    and with state
+
+    ${name}-color__{state}
+
+    ---
+    
+    # Example
+
+    ## Variable in theme file
+
+    $error-color: $color-tertiary;
+    
+    ## Used in CSS
+
+    .error {
+        color: $error-color;
+        background-color: $error-background;
+    }
+
+    Do NOT write:
+
+    .error {
+        color: $color-tertiary;
+    }
+*/
+
 
 $page-background: $color-lightest;
 
-/*-- Primary --*/
-$color-primary:             #006E91; // Links, button background
-$color-primary-light:       #00bdf7;
-$color-primary-dark:        #001920; // Link hover, button hover background
-$color-primary-text:        #fff;    // Text on primary used as background
-
-/*-- Secondary --*/
-$color-secondary:           #006E91;
-$color-secondary-light:     #00bdf7;
-$color-secondary-dark:      #022833;
-$color-secondary-text:      #fff;
-
-/* Errors */
-$color-warning:             rgb(183, 0, 0);
-$warning-background:   rgb(255, 190, 190);
-
 /* Buttons */
-$button-primary-background: $color-primary;
-$button-primary-text: #fff;
+$button-primary-background: $color-primary !default;
+$button-primary-text: #fff !default;
+$button-primary-background__hover: $color-primary-dark !default;
+$button-primary-text__hover: #fff !default;
 
-$button-secondary-background: #ffffff;
-$button-secondary-text: #006E91;
+$button-secondary-background: #ffffff !default;
+$button-secondary-text: #006E91 !default;
 
-$button__hover-background: #222;
-$button__hover-text: #fff;
-$button__disabled: $color-medium;
+$button__hover-background: #222 !default;
+$button__hover-text: #fff !default;
+$button__disabled: $color-medium !default;
 
 /* Inputs */
-$input-background: #fff;
-$input-border-color: $color-light;
-$input-border-color__hover: $color-dark;
+$input-background: #fff !default;
+$input-border-color: $color-light !default;
+$input-border-color__hover: $color-dark !default;
 
 /* Tables */
 
-$table-border-color: #222;
-$table-background-odd: #f8f8f8;
-$table-background-even: #fff;
-$table-border-outline-color: #eee;
+$table-border-color: #222 !default;
+$table-background-odd: #f8f8f8 !default;
+$table-background-even: #fff !default;
+$table-border-outline-color: #eee !default;
 
 /* Errors and messages */
-$message-background-default: #e1ecef;
+$message-background-default: #e1ecef !default;
+$color-warning:             rgb(183, 0, 0) !default;
+$warning-background:   rgb(255, 190, 190) !default;
+

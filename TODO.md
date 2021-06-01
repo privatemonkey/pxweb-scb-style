@@ -7,6 +7,7 @@
 - [x] Välj variabel - Brädd på boxar i största fönsterbrädden
 - [x] Välj variabel - Knappar "välj alla" - normal font weight
 - [x] Trädet - Bort med understrykning
+- [ ] Sizes - Skapa margin och padding variablar för text, headings och annat
 - [ ] Huvudet - Se över storlekar
 - [x] Fullscreen knapp - Se över placering
 - [ ] Välj variabel - Se över spacing
@@ -21,6 +22,8 @@
 - [ ] Verktygsmeny - Ska bara vara overlay i mobil. I desktop ska den ligga vid sidan
 - [ ] Välj variabel - Search - style 100% width
 - [ ] Forms - Style för nummer fält - mindre min width än text fält
+- [ ] Fonts - Find woff version of fonts to optimize speed
+- [ ] Undersök SASS @forward
 
 ## Utveckling
 

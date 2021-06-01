@@ -1,0 +1,27 @@
+/* Template starter
+
+    HOW TO USE
+    
+    Run ´npm run build:css_starter_theme´ to build the css in this file.
+    
+    The build is defined in ´package.json´ like this:
+
+    "build:css_starter_theme": "sass sass/themes/starter.scss > dev/assets/starter.css",
+
+*/
+
+/* Override variables defined in the base-directory */
+@use '../base/colors' with (
+    $color-primary: #00824d,
+    $color-primary-dark: #274247,
+    $color-primary-light: #b6e8b8
+);
+
+/* This should be the same as main.scss */
+@use '../themes/_default';
+@use '../base/base.scss';
+@use '../layout/layout.scss';
+@use '../modules/modules.scss';
+@use '../shame.scss';
+@use '../helpers/utilities';
+

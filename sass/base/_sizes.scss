@@ -1,10 +1,13 @@
 /*
-* Size related variables
+* Sizes
 */
-$space-large: 2rem;
-$space-medium: 1.5rem;
-$space-small: 0.75rem;
-$space-smallest: 0.5rem;
 
-$panel-width: 640px;
-$panel-width-small: 476px;
+/* Default spacing */
+$space-large: 2rem !default;
+$space-medium: 1.5rem !default;
+$space-small: 0.75rem !default;
+$space-smallest: 0.5rem !default;
+
+/* Panel size */
+$panel-width: 640px !default;
+$panel-width-small: 476px !default;
