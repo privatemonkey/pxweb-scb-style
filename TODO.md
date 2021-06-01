@@ -22,8 +22,13 @@
 - [ ] Verktygsmeny - Ska bara vara overlay i mobil. I desktop ska den ligga vid sidan
 - [ ] Välj variabel - Search - style 100% width
 - [ ] Forms - Style för nummer fält - mindre min width än text fält
+
+## Utredning
+
 - [ ] Fonts - Find woff version of fonts to optimize speed
 - [ ] Undersök SASS @forward
+- [ ] Hur får vi in custom ikoner på ett bra sätt?
+- [ ] Theming - vidareutvecklar
 
 ## Utveckling
 
