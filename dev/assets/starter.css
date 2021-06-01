@@ -7,6 +7,7 @@
 *
 * Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
 */
+/* Use local font or CDN */
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap");
 /* Colors
 
@@ -61,15 +62,17 @@
 /* Tables */
 /* Errors and messages */
 /*
+* Sizes
+*/
+/* Default spacing */
+/* Panel size */
+/*
 * Default theme
 */
 body {
   background-color: #fff;
 }
 
-/*
-* Size related variables
-*/
 /*
 * Breakpoints
 * Statistics for screen size usage
@@ -145,10 +148,6 @@ Extra large
 }
 */
 @font-face {
-  font-family: "PublicSans";
-  src: url("/dev/assets/PublicSans-VariableFont_wght.ttf");
-}
-@font-face {
   font-family: system;
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
@@ -161,7 +160,7 @@ html {
 }
 
 body {
-  font-family: "PublicSans", "Public Sans", "system", sans-serif;
+  font-family: "Public Sans", "system", sans-serif;
 }
 
 /* -- Headers -- */
@@ -264,11 +263,11 @@ input, select, button {
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 22px;
-  font-family: "PublicSans", "Public Sans", "system", sans-serif;
+  font-family: "Public Sans", "system", sans-serif;
 }
 
 option {
-  font-family: "PublicSans", "Public Sans", "system", sans-serif;
+  font-family: "Public Sans", "system", sans-serif;
 }
 
 button, button.accordion-header, button.nested-accordion-header {
@@ -315,19 +314,19 @@ a:hover, a:focus, a > span:hover, a > span:focus {
 * Panels used in choose variables
 */
 .fullscreen main, .fullscreen div[role=main] {
-  max-width: calc(100vw - 2rem - 2rem);
+  max-width: calc(100vw - 3rem - 3rem);
   margin: 0;
-  padding: 0 2rem;
+  padding: 0 3rem;
 }
 
 #Fullscreen:fullscreen {
   background-color: #fff;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 #Fullscreen > div:first-of-type {
   border-bottom: 1px solid #949494;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 header, #header {
@@ -390,7 +389,7 @@ main {
 }
 
 .result main {
-  margin-right: calc(640px + 2rem);
+  margin-right: calc(640px + 3rem);
 }
 
 /* About area */
@@ -408,7 +407,7 @@ main {
 }
 
 .information_definitionlist .nested-accordion-body {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .information_definitionlist button.nested-accordion-header.closed {
@@ -1089,7 +1088,7 @@ nav a span {
 }
 
 .AspNet-TreeView ul ul li {
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .AspNet-TreeView ul li {
@@ -1368,8 +1367,8 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 
 .footnotes {
-  margin-top: 2rem;
-  padding-top: 2rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
   max-width: 720px;
   border-bottom: 1px solid #949494;
 }
@@ -1379,7 +1378,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 
 .obs-notes {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .obs-notes-h3 {
@@ -1388,7 +1387,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 
 .the_long_text notetype_note_value {
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 /* Choose variables trigger */
@@ -1469,8 +1468,8 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
 input[type=submit].variableselector_continue_button {
   font-size: 1.3125rem;
   max-height: unset;
-  padding: 1.5rem 2rem;
-  margin: 1.5rem 0 2rem;
+  padding: 1.5rem 3rem;
+  margin: 1.5rem 0 3rem;
 }
 
 .variableselector_valuesselect_search_textstart_checkbox label {
@@ -1489,7 +1488,7 @@ input[type=submit].variableselector_continue_button {
 }
 
 .variableselector_valuesselect_aggregations {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 input.download-icon {
@@ -1500,9 +1499,9 @@ input.download-icon {
 @media (max-width: 1140px) {
   main {
     max-width: 90vw;
-    /* margin:0 calc(476px + 2rem) 0 auto;*/
+    /* margin:0 calc(476px + 3rem) 0 auto;*/
     margin: 0 auto;
-    padding-left: 2rem;
+    padding-left: 3rem;
   }
 
   .presentation-left.mobilemenuhidden {
@@ -1533,7 +1532,7 @@ input.download-icon {
   display: none;
 }
 
-/* Template starter
+/* Starter template
 
     HOW TO USE
 

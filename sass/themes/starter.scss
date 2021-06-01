@@ -1,4 +1,4 @@
-/* Template starter
+/* Starter template
 
     HOW TO USE
     
@@ -15,6 +15,10 @@
     $color-primary: #00824d,
     $color-primary-dark: #274247,
     $color-primary-light: #b6e8b8
+);
+
+@use '../base/sizes' with (
+    $space-large: 3rem
 );
 
 /* This should be the same as main.scss */
