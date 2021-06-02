@@ -203,8 +203,8 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     min-width: 36rem;
   }
 
-  /* Reset edit and calculate dialog */
-  .settingpanel {
+  /* Reset edit and calculate dialogs */
+  .settingpanel, .commandbar_container {
     .flex-row, .flex-column {
       display: block;
       margin-bottom: sizes.$space-medium;
@@ -213,6 +213,8 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
       width: 100%;
     }
   }
+
+  
   
 
   /* Media queries */

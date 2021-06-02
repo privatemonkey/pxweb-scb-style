@@ -1541,12 +1541,12 @@ input.savequery_url {
   min-width: 36rem;
 }
 
-/* Reset edit and calculate dialog */
-.settingpanel .flex-row, .settingpanel .flex-column {
+/* Reset edit and calculate dialogs */
+.settingpanel .flex-row, .settingpanel .flex-column, .commandbar_container .flex-row, .commandbar_container .flex-column {
   display: block;
   margin-bottom: 1rem;
 }
-.settingpanel span {
+.settingpanel span, .commandbar_container span {
   width: 100%;
 }
 
