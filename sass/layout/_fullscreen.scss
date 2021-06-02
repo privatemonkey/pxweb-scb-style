@@ -2,10 +2,6 @@
 @use "../base/colors";
 @use '../layout/panel';
 
-body:fullscreen {
-  overflow: scroll !important;
-}
-
 .fullscreen main, .fullscreen div[role="main"]  {
   max-width: calc(100vw -  #{sizes.$space-large} - #{sizes.$space-large});
   margin: 0;
@@ -15,6 +11,9 @@ body:fullscreen {
 #Fullscreen:fullscreen {
   background-color: colors.$page-background;
   padding: sizes.$space-large;
+  overflow: scroll;
+  height: 100vh;
+  width: 100vw;
 }
 
 #Fullscreen > div:first-of-type {

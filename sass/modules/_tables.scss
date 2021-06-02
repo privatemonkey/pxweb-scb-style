@@ -13,7 +13,7 @@ table {
   overflow: hidden;
 }
 
-thead {
+thead, thead:fullscreen {
   position: sticky;
   top: 0;
   box-shadow: 0 0 sizes.$space-tiny rgba(0,0,0,0.4);
