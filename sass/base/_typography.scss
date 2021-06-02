@@ -170,7 +170,7 @@ label span {
   font-weight: $text-weight-normal;
 }
 
-:not(fieldset) label, label span.font-heading {
+:not(fieldset) label, legend span.font-heading {
   @include label;
 }
 
