@@ -822,6 +822,11 @@ table {
   overflow: hidden;
 }
 
+thead {
+  position: sticky;
+  top: 0;
+}
+
 tbody > tr:nth-child(odd) > td, tbody > tr:nth-child(odd) > th {
   background: #f8f8f8;
 }
@@ -859,6 +864,8 @@ tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
 @media (max-width: 799px) {
   tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
     max-width: 30vw;
+    position: sticky;
+    left: 0;
   }
 }
 
