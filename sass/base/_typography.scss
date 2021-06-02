@@ -172,6 +172,7 @@ label span {
 
 :not(fieldset) label, legend span.font-heading, label.font-heading {
   @include label;
+  display: block;
 }
 
 /* -- Bold text -- */

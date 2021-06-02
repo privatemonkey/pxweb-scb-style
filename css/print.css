@@ -228,6 +228,7 @@ label span {
   font-size: 1.125rem;
   text-transform: capitalize;
   margin-bottom: 0.75rem;
+  display: block;
 }
 
 /* -- Bold text -- */
