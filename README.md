@@ -1,6 +1,6 @@
-# PxWeb default style
+# PxWeb SCB style
 
-This repo is an attempt to create an alternativ default design for PX Web that is more in line with SCB brand and easy to configure for others. 
+This repo is an attempt to create an alternativ design for PX Web that is simple to maintain and customize. 
 
 ## Constrains
 
