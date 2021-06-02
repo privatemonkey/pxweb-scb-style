@@ -1546,7 +1546,7 @@ input.savequery_url {
   display: block;
   margin-bottom: 1rem;
 }
-.settingpanel span, .commandbar_container span {
+.settingpanel span.font-heading, .commandbar_container span.font-heading {
   width: 100%;
 }
 
