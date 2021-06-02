@@ -230,6 +230,8 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
       font-size: 1rem;
       margin: 0;
       padding: 0;
+      @include typography.textlink;
+      @include typography.textlink__hover;
     }
   }
 
