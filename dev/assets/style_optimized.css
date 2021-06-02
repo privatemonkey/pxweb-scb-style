@@ -1524,6 +1524,14 @@ input.download-icon {
   margin-top: 1rem;
 }
 
+/* Reset edit and calculate dialog */
+.settingpanel .flex-row, .settingpanel .flex-column {
+  display: block;
+}
+.settingpanel span {
+  width: 100%;
+}
+
 /* Media queries */
 @media (max-width: 1140px) {
   main {

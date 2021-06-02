@@ -198,6 +198,16 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   input.download-icon {
     margin-top: sizes.$space-medium;
   }
+
+  /* Reset edit and calculate dialog */
+  .settingpanel {
+    .flex-row, .flex-column {
+      display: block;
+    }
+    span {
+      width: 100%;
+    }
+  }
   
 
   /* Media queries */
