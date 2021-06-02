@@ -16,6 +16,7 @@ thead {
   position: sticky;
   top: 0;
   box-shadow: 0 0 0.5rem rgba(0,0,0,0.4);
+  z-index: 10;
 }
 
 tbody > tr:nth-child(odd) > td, tbody > tr:nth-child(odd) > th {
@@ -54,7 +55,7 @@ tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
   border-right: 1px solid colors.$table-border-outline-color;
   position: sticky;
   left: 0;
-  box-shadow: 0 0 0.5rem rgba(0,0,0,0.4);
+  z-index: 5;
 
   @media (max-width: breakpoints.$small) {
     max-width: 30vw; 
