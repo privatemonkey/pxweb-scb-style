@@ -43,7 +43,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
 }
 
 .xs-margin-left {
-  margin-left: sizes.$space-smallest;
+  margin-left: sizes.$space-extra-small;
 }
 
 .commandbar-shortcuts {
@@ -249,7 +249,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @media(max-width:768px) {
     main {
       max-width: calc(100vw - 2rem);
-      padding: sizes.$space-smallest;
+      padding: sizes.$space-extra-small;
     }
   
     .view-state {

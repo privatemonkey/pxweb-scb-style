@@ -30,7 +30,7 @@
 }
 
 .AspNet-TreeView a, .AspNet-TreeView-ClickableNonLink {
-    padding: sizes.$space-smallest 0;
+    padding: sizes.$space-extra-small 0;
     text-decoration: none;
 }
 
@@ -54,7 +54,7 @@
 /* Clickable leaf node */
 .AspNet-TreeView-Leaf {
     margin-left: 0px;
-    padding-left: sizes.$space-smallest;
+    padding-left: sizes.$space-extra-small;
 }
 
 /* Hide node */

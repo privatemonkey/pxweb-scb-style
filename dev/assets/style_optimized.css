@@ -314,19 +314,19 @@ a:hover, a:focus, a > span:hover, a > span:focus {
 * Panels used in choose variables
 */
 .fullscreen main, .fullscreen div[role=main] {
-  max-width: calc(100vw - 2rem - 2rem);
+  max-width: calc(100vw - 1.5rem - 1.5rem);
   margin: 0;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
 #Fullscreen:fullscreen {
   background-color: #fff;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 #Fullscreen > div:first-of-type {
   border-bottom: 1px solid #949494;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 header, #header {
@@ -389,7 +389,7 @@ main {
 }
 
 .result main {
-  margin-right: calc(640px + 2rem);
+  margin-right: calc(640px + 1.5rem);
 }
 
 /* About area */
@@ -407,7 +407,7 @@ main {
 }
 
 .information_definitionlist .nested-accordion-body {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .information_definitionlist button.nested-accordion-header.closed {
@@ -604,7 +604,7 @@ fieldset input[type=radio] + label, fieldset input[type=checkbox] + label {
 }
 fieldset legend {
   font-weight: 500;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .pxweb-accordion > fieldset > legend {
@@ -780,7 +780,7 @@ button.accordion-header:before {
 }
 @media (max-width: 660px) {
   .accordion-body {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
 }
 
@@ -825,7 +825,7 @@ table {
 thead {
   position: sticky;
   top: 0;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
 
@@ -996,6 +996,7 @@ hr.future {
   border-left: 1px solid #ddd;
   overflow-x: hidden;
   transition: 0.3s;
+  z-index: 100;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
@@ -1020,9 +1021,9 @@ hr.future {
 
 /* Errors and messages */
 .px-messages, .variableselector_error_summary {
-  padding: 1.5rem;
+  padding: 1rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   background-color: #e1ecef;
   width: 100%;
 }
@@ -1033,7 +1034,7 @@ hr.future {
 }
 
 .pxweb-input-error {
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 1rem;
   background-color: #ffbebe;
   border-radius: 0.75rem;
   display: inline-block;
@@ -1108,7 +1109,7 @@ nav a span {
 }
 
 .AspNet-TreeView ul ul li {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .AspNet-TreeView ul li {
@@ -1171,7 +1172,7 @@ nav a span {
 
 /* Icons */
 .AspNet-TreeView img {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
 }
 
 #datasort_description {
@@ -1259,7 +1260,7 @@ Select variable
   text-decoration: underline;
   padding: 0;
   border-radius: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .variableselector_valuesselect_mandatory_text::before {
@@ -1285,7 +1286,7 @@ Select variable
 }
 
 .commandbar-listbox-container {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .commandbar_saveas_dropdownlist {
@@ -1357,7 +1358,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 
 #SaveAsPanel input[type=submit] {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .container_exit_buttons_row {
@@ -1387,18 +1388,18 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 
 .footnotes {
-  margin-top: 2rem;
-  padding-top: 2rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
   max-width: 720px;
   border-bottom: 1px solid #949494;
 }
 
 .the_long_text.notetype_note_value {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .obs-notes {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .obs-notes-h3 {
@@ -1407,7 +1408,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 
 .the_long_text notetype_note_value {
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Choose variables trigger */
@@ -1488,8 +1489,8 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
 input[type=submit].variableselector_continue_button {
   font-size: 1.3125rem;
   max-height: unset;
-  padding: 1.5rem 2rem;
-  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0 1.5rem;
 }
 
 .variableselector_valuesselect_search_textstart_checkbox label {
@@ -1508,20 +1509,20 @@ input[type=submit].variableselector_continue_button {
 }
 
 .variableselector_valuesselect_aggregations {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 input.download-icon {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 /* Media queries */
 @media (max-width: 1140px) {
   main {
     max-width: 90vw;
-    /* margin:0 calc(476px + 2rem) 0 auto;*/
+    /* margin:0 calc(476px + 1.5rem) 0 auto;*/
     margin: 0 auto;
-    padding-left: 2rem;
+    padding-left: 1.5rem;
   }
 
   .presentation-left.mobilemenuhidden {

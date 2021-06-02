@@ -6,9 +6,9 @@
 */
 
 @mixin field {
-  padding: sizes.$space-smallest;
+  padding: sizes.$space-extra-small;
   margin-bottom: 0;
-  margin-right: sizes.$space-smallest;
+  margin-right: sizes.$space-extra-small;
   border: 1px solid colors.$input-border-color;
   outline: 1px solid transparent;
   background-color: colors.$input-background;
@@ -32,7 +32,7 @@ button, input[type="button"], input[type="submit"] {
   background-color: colors.$button-primary-background;
   color: colors.$button-primary-text;
   border: 2px colors.$button-primary-background solid;
-  padding: sizes.$space-smallest sizes.$space-small;
+  padding: sizes.$space-extra-small sizes.$space-small;
   border-radius: 0.25rem;
 
   &:hover, &:active, &:focus {
@@ -57,9 +57,9 @@ button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="sub
 }
 
 @mixin button {
-  padding: sizes.$space-smallest sizes.$space-small;
+  padding: sizes.$space-extra-small sizes.$space-small;
   border-radius: 0.25rem;
-  margin-right: sizes.$space-smallest;
+  margin-right: sizes.$space-extra-small;
   margin-bottom: 0.75rem;
   max-height: 2.6rem;
   cursor: pointer;
@@ -128,7 +128,7 @@ input[type="number"] {
 
 input[type="radio"] {
   margin-bottom: sizes.$space-small;
-  margin-right: sizes.$space-smallest;
+  margin-right: sizes.$space-extra-small;
   display: inline-block;
 
   &:hover, &:focus, &:active {
