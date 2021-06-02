@@ -313,6 +313,10 @@ a:hover, a:focus, a > span:hover, a > span:focus {
 /*
 * Panels used in choose variables
 */
+body:fullscreen {
+  overflow: scroll !important;
+}
+
 .fullscreen main, .fullscreen div[role=main] {
   max-width: calc(100vw - 1.5rem - 1.5rem);
   margin: 0;

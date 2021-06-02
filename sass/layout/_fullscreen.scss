@@ -2,6 +2,10 @@
 @use "../base/colors";
 @use '../layout/panel';
 
+body:fullscreen {
+  overflow: scroll !important;
+}
+
 .fullscreen main, .fullscreen div[role="main"]  {
   max-width: calc(100vw -  #{sizes.$space-large} - #{sizes.$space-large});
   margin: 0;
