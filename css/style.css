@@ -230,7 +230,7 @@ label span {
   font-weight: 400;
 }
 
-:not(fieldset) label, legend span.font-heading {
+:not(fieldset) label, legend span.font-heading, label.font-heading {
   font-weight: 500;
   font-size: 1.125rem;
   text-transform: capitalize;
