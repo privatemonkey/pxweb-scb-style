@@ -1,4 +1,5 @@
 @use "../base/colors";
+@use "../base/breakpoints";
 /*
 * Default table styling
 */
@@ -44,6 +45,10 @@ thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child t
 tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
   text-align: left;
   border-left: 1px solid colors.$table-border-outline-color;
+
+  @media (max-width: breakpoints.$small) {
+    max-width: 30vw;    
+  }
 }
 
 thead th {

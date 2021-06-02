@@ -780,7 +780,7 @@ button.accordion-header:before {
 }
 @media (max-width: 660px) {
   .accordion-body {
-    padding: 0;
+    padding: 0 1.5rem;
   }
 }
 
@@ -855,6 +855,11 @@ thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child t
 tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
   text-align: left;
   border-left: 1px solid #eee;
+}
+@media (max-width: 799px) {
+  tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
+    max-width: 30vw;
+  }
 }
 
 thead th {

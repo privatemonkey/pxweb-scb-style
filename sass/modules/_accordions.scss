@@ -89,7 +89,7 @@ button.accordion-header:before {
   width: 100%;
 
   @media (max-width: 660px) {
-    padding: 0;
+    padding: 0 sizes.$space-medium;
   }
 }
 
