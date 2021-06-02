@@ -1,11 +1,12 @@
-# Get started
+# Setting up the project
 
 Use this setup to customize your own theme or use the alternative default PxWeb styling.
 
 **Content**
 
-- [Get started](#get-started)
-  - [Customizing](#customizing)
+- [Setting up the project](#setting-up-the-project)
+  - [Get started](#get-started)
+  - [Customize](#customize)
     - [Colors](#colors)
     - [Fonts and typography](#fonts-and-typography)
     - [Logo, icons and images](#logo-icons-and-images)
@@ -14,8 +15,29 @@ Use this setup to customize your own theme or use the alternative default PxWeb 
     - [1. Minimize font load](#1-minimize-font-load)
     - [2. Inline SVG images](#2-inline-svg-images)
 
+## Get started
 
-## Customizing
+To get this up and running you need some basic understand of how to setup a development environment for frontend.
+
+Steps 
+
+- Copy the project
+- Install the NPM packages needed
+- Setup SASS
+- Do your first build
+
+## Customize
+
+We understand your need for branding and have made a super simple setup. 
+
+All customizable CSS is based on the files located in ´sass/base´. Your own files should be a copy of the ´starter theme´ sass file.
+
+Steps
+
+- Copy the starter theme
+- Edit the build script
+- Change variables
+- Do your first build
 
 ### Colors
 
