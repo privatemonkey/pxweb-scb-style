@@ -1550,6 +1550,10 @@ input.savequery_url {
   width: 100%;
 }
 
+.commandbar_deletevariable_nametext {
+  display: flex;
+}
+
 /* Media queries */
 @media (max-width: 1140px) {
   main {

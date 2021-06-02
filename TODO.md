@@ -7,6 +7,7 @@
 - [x] Välj variabel - Brädd på boxar i största fönsterbrädden
 - [x] Välj variabel - Knappar "välj alla" - normal font weight
 - [x] Trädet - Bort med understrykning
+- [ ] input + label width kan bli fel eftersom den beräknas ifrån 100%
 - [ ] Print CSS
 - [ ] Sizes - Skapa margin och padding variablar för text, headings och annat
 - [ ] Huvudet - Se över storlekar
