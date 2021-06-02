@@ -152,10 +152,6 @@ h5 {
   @extend h3;
 }
 
-.font-heading {
-  @extend h4;
-}
-
 button.nested-accordion-header, .commandbar_changepresentation_changetext {
   @extend h5;
 }
@@ -170,7 +166,8 @@ label span {
   font-weight: $text-weight-normal;
 }
 
-:not(fieldset) label, legend span.font-heading, label.font-heading {
+/* TODO: replace spans with labels and legends */
+:not(fieldset) label, legend span.font-heading, label.font-heading, span.font-heading {
   @include label;
   display: block;
 }

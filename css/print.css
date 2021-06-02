@@ -157,7 +157,7 @@ body {
 }
 
 /* -- Headers -- */
-h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, h4, .font-heading {
+h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, h4 {
   font-weight: 700;
   max-width: 920px;
   text-transform: capitalize;
@@ -198,7 +198,7 @@ h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselec
   }
 }
 
-h4, .font-heading {
+h4 {
   font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
@@ -223,7 +223,8 @@ label span {
   font-weight: 400;
 }
 
-:not(fieldset) label, legend span.font-heading, label.font-heading {
+/* TODO: replace spans with labels and legends */
+:not(fieldset) label, legend span.font-heading, label.font-heading, span.font-heading {
   font-weight: 500;
   font-size: 1.125rem;
   text-transform: capitalize;
