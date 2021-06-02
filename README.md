@@ -1,6 +1,8 @@
 # PxWeb SCB style
 
-This repo is an attempt to create an alternativ design for PX Web that is simple to maintain and customize. 
+This repo is contains an alternativ design for PX Web. 
+
+The goal for this repo is a setup that is easy to customize and simple to maintain. 
 
 ## Constrains
 
