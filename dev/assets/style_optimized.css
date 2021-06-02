@@ -328,7 +328,7 @@ a:hover, a:focus, a > span:hover, a > span:focus {
 }
 #Fullscreen:fullscreen > div {
   margin: 0 auto;
-  max-width: calc(100vw - $sizes.$space-medium);
+  max-width: calc(100vw - 1rem);
 }
 
 #Fullscreen > div:first-of-type {
