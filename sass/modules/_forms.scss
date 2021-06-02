@@ -131,7 +131,7 @@ input[type="number"] {
   min-width: 6rem;
 }
 
-input[type="radio"] {
+input[type="radio"], input[type="checkbox"] {
   margin-bottom: sizes.$space-small;
   margin-right: sizes.$space-extra-small;
   display: inline-block;

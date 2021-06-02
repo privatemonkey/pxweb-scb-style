@@ -567,12 +567,12 @@ input[type=number] {
   min-width: 6rem;
 }
 
-input[type=radio] {
+input[type=radio], input[type=checkbox] {
   margin-bottom: 0.75rem;
   margin-right: 0.5rem;
   display: inline-block;
 }
-input[type=radio]:hover, input[type=radio]:focus, input[type=radio]:active {
+input[type=radio]:hover, input[type=radio]:focus, input[type=radio]:active, input[type=checkbox]:hover, input[type=checkbox]:focus, input[type=checkbox]:active {
   color: #001920;
   border: none;
   outline: none;
