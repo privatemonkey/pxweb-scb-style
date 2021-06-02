@@ -219,8 +219,11 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   }
 
   .delete_variable_rootdiv span.font-normal-text {
+    padding: sizes.$space-medium 0;
+
     input {
       float: left;
+      margin: sizes.$space-tiny sizes.$space-extra-small;
     }
     label {
       float: right;

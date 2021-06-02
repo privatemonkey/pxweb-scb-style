@@ -1554,8 +1554,12 @@ input.savequery_url {
   display: flex;
 }
 
+.delete_variable_rootdiv span.font-normal-text {
+  padding: 1rem 0;
+}
 .delete_variable_rootdiv span.font-normal-text input {
   float: left;
+  margin: 0.25rem 0.5rem;
 }
 .delete_variable_rootdiv span.font-normal-text label {
   float: right;
