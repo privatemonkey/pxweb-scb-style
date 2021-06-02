@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/*
+* Text and typography
+*
+* Uses Public Sans variable font to allow many weights with a small footprint. The font is locally served.
+* https://public-sans.digital.gov/
+*
+* Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
+*/
+/* Use local font or CDN */
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap");
+/*
+* Sizes
+*/
+/* Default spacing */
+/* Panel size */
+/* Colors
+
+    CONTENT
+    - Color palette
+    - Functional colors
+
+*/
+/*-- Color palette --
+
+    These variables should be written on this format:
+
+    $color-{name}
+    $background-{name}
+
+*/
+/*-- Primary --*/
+/*-- Secondary --*/
+/* Function colors */
+/*  Functional colors are used in your CSS instead of direct references to the palette colors.
+
+    ${name}-color
+    ${name}-background
+
+    and with state
+
+    ${name}-color__{state}
+
+    ---
+
+    # Example
+
+    ## Variable in theme file
+
+    $error-color: $color-tertiary;
+
+    ## Used in CSS
+
+    .error {
+        color: $error-color;
+        background-color: $error-background;
+    }
+
+    Do NOT write:
+
+    .error {
+        color: $color-tertiary;
+    }
+*/
+/* Buttons */
+/* Inputs */
+/* Tables */
+/* Errors and messages */
+/*
+* Breakpoints
+* Statistics for screen size usage
+* https://gs.statcounter.com/screen-resolution-stats
+*
+* Desktop: 1920, 1366, 1536, 1600, 1280, 768, 2560, 1024
+* Mobile: 360, 375, 414, 412
+* (Tablet): 786 1280 1024 800 962 600 1366 1080
+*
+*
+Tiny
+
+360
+375
+412
+414
+---
+Extra small
+
+600
+601
+768
+---
+Small 
+
+800
+810
+834
+962
+1024
+1080
+---
+Medium
+
+1280
+1366
+---
+Large
+
+1536
+1600
+1920
+
+Extra large
+2560
+*/
+/*
+:root {
+    f-size: 20px;
+    f-family: Helvetica, sans-serif;
+}
+
+@media (min-width: $width1) and (max-width: $width2) {
+    :root {
+        f-size: 22px;
+        f-family: Helvetica;
+        ;
+    }
+}
+
+@media (min-width: $mq-hhd) {
+    :root {
+        f-size: 24px;
+        f-family: sans-serif;
+        ;
+    }
+}
+
+.my-element {
+    font-size: var(f-size);
+    color: red;
+    font-family: var(f-family);
+}
+*/
+@font-face {
+  font-family: system;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+html {
+  color: #222;
+  background-color: #fff;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "Public Sans", "system", sans-serif;
+}
+
+/* -- Headers -- */
+h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, h4, .font-heading {
+  font-weight: 700;
+  max-width: 920px;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+@media (max-width: 799px) {
+  h1 {
+    font-size: 1.6875rem;
+  }
+}
+
+h2 {
+  font-size: 1.6875rem;
+  line-height: 1.4;
+  margin: 2rem 0 1.5rem;
+}
+@media (max-width: 799px) {
+  h2 {
+    font-size: 1.3125rem;
+  }
+}
+
+h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
+  font-size: 1.3125rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+@media (max-width: 799px) {
+  h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
+    font-size: 1.125rem;
+  }
+}
+
+h4, .font-heading {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+h5, button.nested-accordion-header, .commandbar_changepresentation_changetext {
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 0.75rem;
+}
+
+/* TODO: Alla dessa borde göras till riktiga headers */
+.container_titletext {
+  margin-top: 0;
+}
+
+label span {
+  font-weight: 400;
+}
+
+:not(fieldset) label {
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+/* -- Bold text -- */
+.font-bold {
+  font-weight: 500;
+}
+
+/* -- Regular text -- */
+p, span, a, .steps {
+  max-width: 720px;
+  display: inline-block;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+input, select, button {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+  font-family: "Public Sans", "system", sans-serif;
+}
+
+option {
+  font-family: "Public Sans", "system", sans-serif;
+}
+
+button, button.accordion-header, button.nested-accordion-header {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+  background-color: #fff;
+  color: #222;
+}
+
+.siteName {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+/* Links */
+a, a > span {
+  color: #006E91;
+  cursor: pointer;
+  text-decoration: underline;
+  outline-color: transparent;
+  border-color: transparent;
+}
+a:hover, a:focus, a > span:hover, a > span:focus {
+  color: #001920;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Selected text */
+::selection, ::-moz-selection, ::-webkit-selection {
+  color: #fff;
+  background-color: #222;
+}
+
+/*
+* Panels used in choose variables
+*/
+header, #header {
+  border-bottom: 1px solid #949494;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background-color: #fff;
+}
+
+img.logo, .imgSiteLogo {
+  max-height: 50px;
+  margin-right: 1rem;
+}
+
+img.logo-quality, .officialStatisticsImage {
+  max-width: 220px;
+  margin-bottom: 0.5rem;
+}
+
+.top-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0.25rem;
+  background: #f7f7f7;
+  display: flex;
+}
+
+.siteLogoText {
+  align-self: center;
+}
+
+/* print styles */
+@media print {
+  #pcaxis_tablediv {
+    text-align: left;
+  }
+
+  .pxweb-accordion, .accordion-header, .accordion-body, .top-link, .screenreader-only, .link-text, .loginBannerHeader, .logindiv, .breadcrumb_container,
+.navigationFlowArea, .presentation-left, .commandbar-shortcuts, .pxweb-btn {
+    display: none;
+  }
+}
