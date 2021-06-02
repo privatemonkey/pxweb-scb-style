@@ -861,6 +861,7 @@ thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child t
 tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
   text-align: left;
   border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
   position: sticky;
   left: 0;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
@@ -869,6 +870,10 @@ tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
   tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
     max-width: 30vw;
   }
+}
+
+tbody tr td:first-child {
+  border-left: none !important;
 }
 
 thead th {
