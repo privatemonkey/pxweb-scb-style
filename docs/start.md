@@ -4,12 +4,15 @@ Use this setup to customize your own theme or use the alternative default PxWeb 
 
 **Content**
 
-- Customizing
-  - Colors
-  - Fonts and typography
-  - Logo, icons and images
-  - Margins and paddings
-- Optimize for speed
+- [Get started](#get-started)
+  - [Customizing](#customizing)
+    - [Colors](#colors)
+    - [Fonts and typography](#fonts-and-typography)
+    - [Logo, icons and images](#logo-icons-and-images)
+    - [Margins and paddings](#margins-and-paddings)
+  - [Optimize for speed](#optimize-for-speed)
+    - [1. Minimize font load](#1-minimize-font-load)
+    - [2. Inline SVG images](#2-inline-svg-images)
 
 
 ## Customizing
