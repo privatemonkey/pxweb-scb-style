@@ -1566,16 +1566,14 @@ input.savequery_url {
   font-size: 1rem;
   margin: 0;
   padding: 0;
-  color: #006E91;
-  cursor: pointer;
-  text-decoration: underline;
-  outline-color: transparent;
-  border-color: transparent;
 }
 .delete_variable_rootdiv span.font-normal-text label:hover, .delete_variable_rootdiv span.font-normal-text label:focus {
   color: #001920;
   cursor: pointer;
   text-decoration: underline;
+}
+.delete_variable_rootdiv span.font-normal-text label:hover {
+  cursor: pointer;
 }
 
 /* Media queries */
