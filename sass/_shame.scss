@@ -218,6 +218,18 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     display: flex;
   }
 
+  .delete_variable_rootdiv span.font-normal-text {
+    input {
+      float: left;
+    }
+    label {
+      float: right;
+      font-size: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
   
   
 
