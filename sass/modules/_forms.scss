@@ -159,6 +159,16 @@ input[type="radio"]+label, input[type="checkbox"]+label {
   @include typography.textlink__hover;
 }
 
+input:read-only {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+input:disabled {
+  background-color: colors.$input__disabled-background;
+  color: colors.$input__disabled-text;
+}
+
 fieldset {
   width: calc(100% - 4rem);
   padding: 1rem 0;

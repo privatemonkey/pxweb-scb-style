@@ -602,6 +602,16 @@ input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=che
   text-decoration: underline;
 }
 
+input:read-only {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+input:disabled {
+  background-color: transparent;
+  color: #ccc;
+}
+
 fieldset {
   width: calc(100% - 4rem);
   padding: 1rem 0;
@@ -1525,6 +1535,10 @@ input[type=submit].variableselector_continue_button {
 
 input.download-icon {
   margin-top: 1rem;
+}
+
+input.savequery_url {
+  min-width: 36rem;
 }
 
 /* Reset edit and calculate dialog */

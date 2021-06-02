@@ -199,6 +199,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     margin-top: sizes.$space-medium;
   }
 
+  input.savequery_url {
+    min-width: 36rem;
+  }
+
   /* Reset edit and calculate dialog */
   .settingpanel {
     .flex-row, .flex-column {
