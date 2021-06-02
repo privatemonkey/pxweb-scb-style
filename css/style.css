@@ -825,6 +825,7 @@ table {
 thead {
   position: sticky;
   top: 0;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
 }
 
 tbody > tr:nth-child(odd) > td, tbody > tr:nth-child(odd) > th {
@@ -860,12 +861,13 @@ thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child t
 tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
   text-align: left;
   border-left: 1px solid #eee;
+  position: sticky;
+  left: 0;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 799px) {
   tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
     max-width: 30vw;
-    position: sticky;
-    left: 0;
   }
 }
 
