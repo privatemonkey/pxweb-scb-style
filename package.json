@@ -4,8 +4,8 @@
   "description": "Default styling for PxWeb, statistical database",
   "main": "index.html",
   "scripts": {
-    "build": "npm-run-all build:css_main",
-    "build:css": "sass sass/main.scss > build/css/style.css",
+    "build": "npm-run-all build:css_main build:css",
+    "build:css": "sass sass/main.scss > css/style.css",
     "build:css_main": "sass sass/main.scss > dev/assets/style_optimized.css",
     "build:css_starter_theme": "sass sass/themes/starter.scss > dev/assets/starter.css",
     "test": "echo \"Error: no test specified\" && exit 1"
