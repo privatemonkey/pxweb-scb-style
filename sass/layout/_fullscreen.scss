@@ -17,7 +17,7 @@
   
   > div {
     margin: 0 auto;
-    max-width: calc(100vw - #{sizes.$space-medium});
+    max-width: calc(100vw - #{sizes.$space-extra-large} - #{sizes.$space-extra-large});
   }
 }
 

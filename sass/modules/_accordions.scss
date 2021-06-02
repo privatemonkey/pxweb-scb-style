@@ -1,7 +1,8 @@
-@use '../layout/_panel.scss'; 
-@use '../base/_sizes.scss';
-@use '../base/_colors.scss';
-@use '../base/_typography.scss';
+@use '../layout/panel'; 
+@use '../base/breakpoints';
+@use '../base/sizes';
+@use '../base/colors';
+@use '../base/typography';
 @use '../modules/forms';
 
 /*
