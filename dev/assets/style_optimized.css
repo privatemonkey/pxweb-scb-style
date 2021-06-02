@@ -767,7 +767,8 @@ button.nested-accordion-header {
 button.accordion-header:before {
   content: "▴";
   padding-right: 0;
-  margin-right: 9px;
+  margin-right: 0.75rem;
+  max-width: 1.5rem;
 }
 
 .pxweb-nested-accordion dl {
@@ -782,7 +783,7 @@ button.accordion-header:before {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   margin-bottom: 2.5rem;
   width: 100%;
 }
@@ -1527,6 +1528,7 @@ input.download-icon {
 /* Reset edit and calculate dialog */
 .settingpanel .flex-row, .settingpanel .flex-column {
   display: block;
+  margin-bottom: 1rem;
 }
 .settingpanel span {
   width: 100%;

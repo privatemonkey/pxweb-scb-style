@@ -203,6 +203,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   .settingpanel {
     .flex-row, .flex-column {
       display: block;
+      margin-bottom: sizes.$space-medium;
     }
     span {
       width: 100%;

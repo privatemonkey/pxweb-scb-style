@@ -70,7 +70,8 @@ button.nested-accordion-header {
 button.accordion-header:before {
   content: '▴';
   padding-right: 0;
-  margin-right: 9px;
+  margin-right: sizes.$space-small;
+  max-width: sizes.$space-large;
 }
 
 .pxweb-nested-accordion dl {
@@ -85,7 +86,7 @@ button.accordion-header:before {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: 0 2rem;
+  padding: 0 sizes.$space-large;
   margin-bottom: 2.5rem;
   width: 100%;
 
