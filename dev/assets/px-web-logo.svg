@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 200.5 196.8" style="enable-background:new 0 0 200.5 196.8;" xml:space="preserve">
+<svg x="0px" y="0px" viewBox="0 0 200.5 196.8" xml:space="preserve" id="logo">
 <style type="text/css">
-	.st0{fill:#171E26;}
-	.st1{fill:#0090AA;}
+	.st0 {fill:#171E26;}
+	.st1 {fill:#0090AA;}
 </style>
-<g id="Logo">
+<g>
 	<path class="st0" d="M64.1,166.2l-7.2,30.1h-9.4l-11.9-43.9h9.9l7.3,31.7l7.9-31.7h6.9l7.9,31.7l7.2-31.7h10l-11.9,43.9h-9.4
 		L64.1,166.2z"/>
 	<path class="st0" d="M96.2,152.4h29.5v8.2H105v9.3h20.2v8.2H105v9.9h20.6v8.2H96.2V152.4z"/>
