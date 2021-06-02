@@ -557,6 +557,10 @@ select {
 input[type=text] {
   min-width: 10rem;
 }
+input[type=text] :read-only {
+  border-style: dashed;
+  border-width: 2px;
+}
 
 input[type=number] {
   min-width: 6rem;
@@ -600,11 +604,6 @@ input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=che
   color: #001920;
   cursor: pointer;
   text-decoration: underline;
-}
-
-input:read-only {
-  border-style: dotted;
-  border-width: 2px;
 }
 
 input:disabled {
