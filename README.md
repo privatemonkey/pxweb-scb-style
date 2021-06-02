@@ -1,28 +1,29 @@
 # PxWeb SCB style
 
-This repo is contains an alternativ design for PX Web. 
+This is an alternativ to the PX Web default design. 
 
 The goal for this repo is a setup that is easy to customize and simple to maintain. 
 
-## Constrains
+## Read about
 
-- Only allowed to make minor adjustment to HTML
-- Limited time
-- Build on the Norwegian accessibility effort
-- Be an alternative to current styling, not replace
+- [Getting started](docs/start.md)
+- [Optimize for speed](/docs/optimize.md)
+- [Work with SASS](/docs/sass.md)
 
-## Goals
+## About the repo
 
-- More semantic correct HTML (A full rewrite is not possible)
-- Shrink the number and size of CSS
-- Make it easier to override the style
-- Possible to run PX Web with only system fonts
+### Goals
+
+- Make it easy to customize without deep knowledge of the HTML and CSS of PxWeb
+- Shrink the number of files
+- Shrink the total size of CSS
+- Make it possible to run PX Web with only system fonts
 - Offer a lightweight default font
 - Create a more maintainable CSS build
 
-## Preview
+## CDN
 
-[To the preview](https://pxweb-style.netlify.app/)
+[The latest build of this repo is hosted on Netlify](https://pxweb-style.netlify.app/)
 
 ## Official PX Web Repo
 
