@@ -84,7 +84,7 @@ body {
   @include bold;
   font-size: $font-size-h4;
   text-transform: capitalize;
-  margin-bottom: sizes.$space-extra-small;
+  margin-bottom: sizes.$space-small;
 }
 
 /* -- Headers -- */
@@ -135,7 +135,7 @@ h4 {
   font-size: $font-size-h4;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.3rem;
+  margin-bottom: sizes.$space-tiny;
 }
 
 h5 {
@@ -165,11 +165,12 @@ button.nested-accordion-header, .commandbar_changepresentation_changetext {
   margin-top: 0;
 }
 
+/* Reset radio and checkbox labels */
 label span {
   font-weight: $text-weight-normal;
 }
 
-:not(fieldset) label {
+:not(fieldset) label, label span.font-heading {
   @include label;
 }
 

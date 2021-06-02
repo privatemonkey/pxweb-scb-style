@@ -202,7 +202,7 @@ h4, .font-heading {
   font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.25rem;
 }
 
 h5, button.nested-accordion-header, .commandbar_changepresentation_changetext {
@@ -218,15 +218,16 @@ h5, button.nested-accordion-header, .commandbar_changepresentation_changetext {
   margin-top: 0;
 }
 
+/* Reset radio and checkbox labels */
 label span {
   font-weight: 400;
 }
 
-:not(fieldset) label {
+:not(fieldset) label, label span.font-heading {
   font-weight: 500;
   font-size: 1.125rem;
   text-transform: capitalize;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 /* -- Bold text -- */
