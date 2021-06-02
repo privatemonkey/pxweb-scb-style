@@ -557,7 +557,7 @@ select {
 input[type=text] {
   min-width: 10rem;
 }
-input[type=text] :read-only {
+input[type=text]:read-only {
   border-style: dashed;
   border-width: 2px;
 }
