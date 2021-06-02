@@ -17,10 +17,12 @@
   
   > div {
     margin: 0 auto;
+    max-width: calc(100vw - $sizes.$space-medium);
   }
 }
 
 #Fullscreen > div:first-of-type {
   border-bottom: 1px solid panel.$panel-border-color;
   margin-bottom: sizes.$space-large;
+  margin-top: sizes.$space-medium;
 }

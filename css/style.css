@@ -328,11 +328,13 @@ a:hover, a:focus, a > span:hover, a > span:focus {
 }
 #Fullscreen:fullscreen > div {
   margin: 0 auto;
+  max-width: calc(100vw - $sizes.$space-medium);
 }
 
 #Fullscreen > div:first-of-type {
   border-bottom: 1px solid #949494;
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
 header, #header {
