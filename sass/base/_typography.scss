@@ -83,7 +83,9 @@ body {
 @mixin label {
   @include bold;
   font-size: $font-size-h4;
-  text-transform: capitalize;
+  &:first-letter {
+    text-transform: capitalize;
+  }
   margin-bottom: sizes.$space-small;
 }
 

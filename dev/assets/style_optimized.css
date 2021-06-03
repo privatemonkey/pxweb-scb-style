@@ -235,9 +235,11 @@ label span {
 :not(fieldset) label, legend span.font-heading, label.font-heading, span.font-heading {
   font-weight: 500;
   font-size: 1.125rem;
-  text-transform: capitalize;
   margin-bottom: 0.75rem;
   display: block;
+}
+:not(fieldset) label:first-letter, legend span.font-heading:first-letter, label.font-heading:first-letter, span.font-heading:first-letter {
+  text-transform: capitalize;
 }
 
 input + label {
