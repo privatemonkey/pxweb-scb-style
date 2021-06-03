@@ -31,18 +31,18 @@ input.savequery_url {
 /* Reset edit and calculate dialogs */
 .settingpanel, .commandbar_container {
     .flex-row, .flex-column {
-      display: block;
-      margin-bottom: sizes.$space-medium;
+        display: block;
+        margin-bottom: sizes.$space-medium;
     }
     span.font-heading {
-      width: 100%;
+        width: 100%;
     }
 
     /* Hide trash HTML */
     br {
-      display: none;
+        display: none;
     }
-  }
+}
 
   .commandbar_deletevariable_nametext {
     display: flex;
