@@ -156,6 +156,7 @@ body {
   font-family: "Public Sans", "system", sans-serif;
 }
 
+/* For checkboxes, radios */
 /* -- Headers -- */
 h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, h4 {
   font-weight: 700;
@@ -230,6 +231,12 @@ label span {
   text-transform: capitalize;
   margin-bottom: 0.75rem;
   display: block;
+}
+
+input + label {
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
 }
 
 /* -- Bold text -- */

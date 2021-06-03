@@ -87,6 +87,13 @@ body {
   margin-bottom: sizes.$space-small;
 }
 
+/* For checkboxes, radios */
+@mixin list_option {
+  font-size: $font-size-normal;
+  text-transform: capitalize;
+  margin-bottom: sizes.$space-small;
+}
+
 /* -- Headers -- */
 
 @mixin header {
@@ -170,6 +177,10 @@ label span {
 :not(fieldset) label, legend span.font-heading, label.font-heading, span.font-heading {
   @include label;
   display: block;
+}
+
+input + label {
+  @include list_option;
 }
 
 /* -- Bold text -- */
