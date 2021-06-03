@@ -94,6 +94,7 @@ body {
   font-size: $font-size-normal;
   text-transform: capitalize;
   margin-bottom: sizes.$space-small;
+  text-transform: capitalize;
 }
 
 /* -- Headers -- */
@@ -218,6 +219,7 @@ input, select, button {
 
 option {
   @include fontfamily;
+  text-transform: capitalize;
 }
 
 button, button.accordion-header, button.nested-accordion-header  {

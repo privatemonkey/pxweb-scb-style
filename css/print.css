@@ -239,6 +239,7 @@ input + label {
   font-size: 16px;
   text-transform: capitalize;
   margin-bottom: 0.75rem;
+  text-transform: capitalize;
 }
 
 /* -- Bold text -- */
@@ -273,6 +274,7 @@ input, select, button {
 
 option {
   font-family: "Public Sans", "system", sans-serif;
+  text-transform: capitalize;
 }
 
 button, button.accordion-header, button.nested-accordion-header {
