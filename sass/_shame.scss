@@ -204,54 +204,6 @@ div:empty {
     margin-top: sizes.$space-medium;
   }
 
-  input.savequery_url {
-    min-width: 36rem;
-  }
-
-  /* Reset edit and calculate dialogs */
-  .settingpanel, .commandbar_container {
-    .flex-row, .flex-column {
-      display: block;
-      margin-bottom: sizes.$space-medium;
-    }
-    span.font-heading {
-      width: 100%;
-    }
-
-    /* Hide trash HTML */
-    br {
-      display: none;
-    }
-  }
-
-  .commandbar_deletevariable_nametext {
-    display: flex;
-  }
-
-  .delete_variable_rootdiv span.font-normal-text {
-    padding: sizes.$space-medium 0;
-
-    input {
-      float: left;
-      margin: sizes.$space-tiny sizes.$space-extra-small;
-    }
-    label {
-      float: right;
-      font-size: 1rem;
-      margin: 0;
-      padding: 0;
-      text-transform: none;
-      
-      @include typography.textlink__hover;
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
-
-  
-  
 
   /* Media queries */
   @media(max-width:1140px) {

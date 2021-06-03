@@ -5,7 +5,9 @@
 /* Command bar */
 
 .commandbar_container {
-  padding: 0 2rem;
+  padding: 2rem 2rem 1rem;
+  border: 1px solid #dedddd;
+  background-color: #f5f7f8;
 }
 
 .commandbar_container .variableselector_variable_box_container > div {

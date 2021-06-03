@@ -1310,7 +1310,9 @@ Select variable
 /* Result page specific styling */
 /* Command bar */
 .commandbar_container {
-  padding: 0 2rem;
+  padding: 2rem 2rem 1rem;
+  border: 1px solid #dedddd;
+  background-color: #f5f7f8;
 }
 
 .commandbar_container .variableselector_variable_box_container > div {
@@ -1551,52 +1553,6 @@ input[type=submit].variableselector_continue_button {
 
 input.download-icon {
   margin-top: 1rem;
-}
-
-input.savequery_url {
-  min-width: 36rem;
-}
-
-/* Reset edit and calculate dialogs */
-.settingpanel, .commandbar_container {
-  /* Hide trash HTML */
-}
-.settingpanel .flex-row, .settingpanel .flex-column, .commandbar_container .flex-row, .commandbar_container .flex-column {
-  display: block;
-  margin-bottom: 1rem;
-}
-.settingpanel span.font-heading, .commandbar_container span.font-heading {
-  width: 100%;
-}
-.settingpanel br, .commandbar_container br {
-  display: none;
-}
-
-.commandbar_deletevariable_nametext {
-  display: flex;
-}
-
-.delete_variable_rootdiv span.font-normal-text {
-  padding: 1rem 0;
-}
-.delete_variable_rootdiv span.font-normal-text input {
-  float: left;
-  margin: 0.25rem 0.5rem;
-}
-.delete_variable_rootdiv span.font-normal-text label {
-  float: right;
-  font-size: 1rem;
-  margin: 0;
-  padding: 0;
-  text-transform: none;
-}
-.delete_variable_rootdiv span.font-normal-text label:hover, .delete_variable_rootdiv span.font-normal-text label:focus {
-  color: #001920;
-  cursor: pointer;
-  text-decoration: underline;
-}
-.delete_variable_rootdiv span.font-normal-text label:hover {
-  cursor: pointer;
 }
 
 /* Media queries */
