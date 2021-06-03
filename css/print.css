@@ -226,7 +226,7 @@ label span {
 
 /* TODO: replace spans with labels and legends */
 :not(fieldset) label, legend span.font-heading, label.font-heading, span.font-heading {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.125rem;
   margin-bottom: 0.75rem;
   display: block;
@@ -244,7 +244,7 @@ input + label {
 
 /* -- Bold text -- */
 .font-bold {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* -- Regular text -- */

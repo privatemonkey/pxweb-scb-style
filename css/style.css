@@ -233,7 +233,7 @@ label span {
 
 /* TODO: replace spans with labels and legends */
 :not(fieldset) label, legend span.font-heading, label.font-heading, span.font-heading {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.125rem;
   margin-bottom: 0.75rem;
   display: block;
@@ -251,7 +251,7 @@ input + label {
 
 /* -- Bold text -- */
 .font-bold {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* -- Regular text -- */
@@ -634,7 +634,7 @@ fieldset input[type=radio] + label, fieldset input[type=checkbox] + label {
   font-weight: 300;
 }
 fieldset legend {
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 1rem;
 }
 
@@ -1347,7 +1347,7 @@ div:empty {
 }
 
 .font-bold {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .header-text, .commandbar_changedecimal_titletext, .commandbar_changetexts_titletext {
