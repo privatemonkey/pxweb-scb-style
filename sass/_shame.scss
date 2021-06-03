@@ -25,6 +25,7 @@ div:empty {
 
 .header-text, .commandbar_changedecimal_titletext, .commandbar_changetexts_titletext {
   @include typography.header;
+  font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;

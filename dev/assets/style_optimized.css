@@ -585,8 +585,8 @@ input[type=radio], input[type=checkbox] {
 }
 input[type=radio]:hover, input[type=radio]:focus, input[type=radio]:active, input[type=checkbox]:hover, input[type=checkbox]:focus, input[type=checkbox]:active {
   color: #001920;
-  border: none;
-  outline: none;
+  border: none !important;
+  outline: none !important;
 }
 
 input[type=radio] + label, input[type=radio]:checked + label, input[type=checkbox] + label, input[type=checkbox]:checked + label {
@@ -1355,6 +1355,7 @@ div:empty {
   max-width: 920px;
   text-transform: capitalize;
   line-height: 1.2;
+  font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
