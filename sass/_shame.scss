@@ -10,6 +10,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @include layout.maingrid;
 }
 
+div:empty {
+  display: none;
+}
+
 .h1title {
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -211,6 +215,11 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     }
     span.font-heading {
       width: 100%;
+    }
+
+    /* Hide trash HTML */
+    br {
+      display: none;
     }
   }
 
