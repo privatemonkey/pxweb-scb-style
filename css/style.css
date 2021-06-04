@@ -408,6 +408,25 @@ img.logo-quality, .officialStatisticsImage {
   margin: 0;
 }
 
+.navigationFlowArea-left {
+  position: fixed;
+  overflow: auto;
+  height: 100vh;
+  width: 640px;
+  top: 0;
+  right: 0;
+  background-color: #f8f8f8;
+  padding: 0;
+  box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
+  border-left: 1px solid #ddd;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.navigationFlowArea-left button.accordion-header, .navigationFlowArea-left button.nested-accordion-header.closed, .navigationFlowArea-left .closed .accordion-body {
+  background-color: #f8f8f8;
+}
+
 main {
   max-width: 1440px;
   margin: 0 auto;
@@ -1058,6 +1077,12 @@ hr.future {
 
 .burger-menu-icon::before {
   content: "▴☰";
+}
+
+/* The toolbar - now named commandbar */
+/* Container for burger menu button */
+.menu-item {
+  float: left;
 }
 
 /* Errors and messages */
