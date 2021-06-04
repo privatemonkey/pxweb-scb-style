@@ -1024,7 +1024,7 @@ hr.future {
   border-top-style: dashed;
 }
 
-.presentation-left.mobilemenu {
+.presentation-left.mobilemenu:not(.mobilemenuhidden) {
   position: fixed;
   overflow: auto;
   height: 100vh;
