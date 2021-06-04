@@ -1036,8 +1036,8 @@ hr.future {
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
   border-left: 1px solid #ddd;
   overflow-x: hidden;
-  transition: 0.3s;
   z-index: 100;
+  width: 0;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
@@ -1046,10 +1046,6 @@ hr.future {
 
 .presentation-left.mobilemenuhidden {
   width: 640px;
-}
-
-.presentation-left {
-  width: 0;
 }
 
 .burger_menu-open-icon::before {
