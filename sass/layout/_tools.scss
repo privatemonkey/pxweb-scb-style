@@ -1,6 +1,16 @@
 @use '../layout/panel';
 @use '../base/sizes';
 
+.tools-header {
+  margin: sizes.$space-medium sizes.$space-extra-large;
+  display: flex;
+  justify-content: space-between;
+
+  h2, button {
+    margin: 0;
+  }
+}
+
 .navigationFlowArea-left {
     position: fixed;
     overflow: auto;

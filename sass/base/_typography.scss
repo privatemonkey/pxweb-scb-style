@@ -38,13 +38,13 @@ $font-size-h3:        1.3125rem !default;
 $font-size-h4:         1.125rem !default;
 
 /* Use local font or CDN */
-$localfont: false !default;
+$use_localfont: false !default;
 
-@if not $localfont {
+@if not $use_localfont {
   @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
 }
 
-@if $localfont {
+@if $use_localfont {
   @font-face {
     font-family: 'Public Sans';
     src: url('/dev/assets/PublicSans-VariableFont_wght.ttf');
