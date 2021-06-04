@@ -215,7 +215,7 @@ div:empty {
     }
   
     .presentation-left.mobilemenuhidden {
-      width: sizes.$panel-width-small;
+      width: #{sizes.$panel-width-small}px;
     }
   }
   

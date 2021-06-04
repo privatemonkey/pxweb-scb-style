@@ -242,7 +242,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
     }
   
     .presentation-left {
-      width: sizes.$panel-width-small;
+      width: #{sizes.$panel-width-small}px;
     }
   }
   

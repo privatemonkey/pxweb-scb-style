@@ -420,7 +420,7 @@ main {
 }
 
 .result main {
-  margin-right: calc(640px + 1.5rem);
+  margin-right: calc(640 + 1.5rem);
 }
 
 /* About area */
@@ -1037,7 +1037,7 @@ hr.future {
   border-left: 1px solid #ddd;
   overflow-x: hidden;
   z-index: 100;
-  width: 640px;
+  width: 640;
   transition: 0.3s;
 }
 
@@ -1058,7 +1058,7 @@ hr.future {
   border-left: 1px solid #ddd;
   overflow-x: hidden;
   z-index: 100;
-  right: -300px;
+  right: calc(0 - 640) px;
 }
 
 .burger_menu-open-icon::before {
@@ -1583,7 +1583,7 @@ input.download-icon {
 @media (max-width: 1140px) {
   main {
     max-width: 90vw;
-    /* margin:0 calc(476px + 1.5rem) 0 auto;*/
+    /* margin:0 calc(476 + 1.5rem) 0 auto;*/
     margin: 0 auto;
     padding-left: 1.5rem;
   }
