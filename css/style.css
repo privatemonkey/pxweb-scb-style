@@ -1038,7 +1038,6 @@ hr.future {
   overflow-x: hidden;
   z-index: 100;
   width: 640px;
-  display: block;
   transition: 0.3s;
 }
 
@@ -1047,8 +1046,6 @@ hr.future {
 }
 
 .presentation-left.mobilemenuhidden {
-  width: 0;
-  display: none;
   right: calc(0 - 640px);
 }
 

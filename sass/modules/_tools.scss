@@ -15,7 +15,6 @@
     overflow-x: hidden;
     z-index: 100;
     width: sizes.$panel-width;
-    display: block;
     transition: 0.3s;
   }
   
@@ -24,8 +23,6 @@
   }
   
 .presentation-left.mobilemenuhidden {
-  width: 0;
-  display: none;
   right: calc(0 - #{sizes.$panel-width});
 }
 
