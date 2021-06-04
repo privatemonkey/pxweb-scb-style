@@ -14,7 +14,8 @@
     border-left: 1px solid #ddd;
     overflow-x: hidden;
     z-index: 100;
-    width: 0;
+    width: sizes.$panel-width;
+    display: block;
   }
   
   .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
@@ -22,7 +23,8 @@
   }
   
 .presentation-left.mobilemenuhidden {
-  width: sizes.$panel-width;
+  width: 0;
+  display: none;
 }
 
 .burger_menu-open-icon::before {
