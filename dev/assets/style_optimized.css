@@ -1046,7 +1046,19 @@ hr.future {
 }
 
 .presentation-left.mobilemenuhidden {
-  right: calc(0 - 640px);
+  position: fixed;
+  overflow: auto;
+  height: 100vh;
+  max-width: 80vw;
+  top: 0;
+  right: 0;
+  background-color: #f8f8f8;
+  padding: 0;
+  box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
+  border-left: 1px solid #ddd;
+  overflow-x: hidden;
+  z-index: 100;
+  right: -300px;
 }
 
 .burger_menu-open-icon::before {
