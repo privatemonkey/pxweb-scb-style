@@ -1048,6 +1048,8 @@ hr.future {
 .presentation-left.mobilemenuhidden {
   width: 0;
   display: none;
+  right: calc(0 - 640px);
+  transition: 0.3s;
 }
 
 .burger_menu-open-icon::before {
