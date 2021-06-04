@@ -399,6 +399,15 @@ img.logo-quality, .officialStatisticsImage {
   justify-content: space-between;
 }
 
+.tools-header {
+  margin: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.tools-header h2, .tools-header button {
+  margin: 0;
+}
+
 main {
   max-width: 1440px;
   margin: 0 auto;
