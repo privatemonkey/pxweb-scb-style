@@ -1039,6 +1039,7 @@ hr.future {
   z-index: 100;
   width: 640px;
   display: block;
+  transition: 0.3s;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
@@ -1049,7 +1050,6 @@ hr.future {
   width: 0;
   display: none;
   right: calc(0 - 640px);
-  transition: 0.3s;
 }
 
 .burger_menu-open-icon::before {
