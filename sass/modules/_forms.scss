@@ -113,6 +113,7 @@ button.secondary, input[type="button"].secondary-btn, input[type="submit"] {
   background-color: transparent;
   border-color: transparent;
   color: colors.$button-secondary-text;
+  align-self: flex-start;
   @include button__hover;
 }
 
