@@ -65,6 +65,14 @@ div:empty {
 }
 
   
+.savequery_container input[type="text"] {
+  width: calc(100% - #{sizes.$space-extra-large} - #{sizes.$space-extra-large});
+}
+
+.querySummary div:nth-of-type(2) {
+  margin-top: sizes.$space-medium;
+}
+
   #SaveAsPanel input[type="submit"] {
     margin-top: sizes.$space-medium;
   }

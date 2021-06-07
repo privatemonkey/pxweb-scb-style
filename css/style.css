@@ -1443,6 +1443,14 @@ div:empty {
   }
 }
 
+.savequery_container input[type=text] {
+  width: calc(100% - 2rem - 2rem);
+}
+
+.querySummary div:nth-of-type(2) {
+  margin-top: 1rem;
+}
+
 #SaveAsPanel input[type=submit] {
   margin-top: 1rem;
 }
