@@ -165,7 +165,7 @@ body {
 
 /* For checkboxes, radios */
 /* -- Headers -- */
-h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .header-text span, h4 {
+h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span, h4 {
   font-weight: 700;
   max-width: 920px;
   text-transform: capitalize;
@@ -195,13 +195,13 @@ h2 {
   }
 }
 
-h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .header-text span {
+h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
 @media (max-width: 799px) {
-  h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .header-text span {
+  h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
     font-size: 1.125rem;
   }
 }
@@ -582,7 +582,7 @@ button.tertiar:focus, button.tertiar:hover, input[type=submit].arrow-left:focus,
 /*
 * Input fields
 */
-input {
+input, :not(input[type=radio]) {
   padding: 0.5rem;
   margin-bottom: 0;
   margin-right: 0.5rem;
@@ -591,7 +591,7 @@ input {
   background-color: #fff;
   border-radius: 4px;
 }
-input:hover, input:focus, input:active {
+input:hover, input:focus, input:active, :not(input[type=radio]):hover, :not(input[type=radio]):focus, :not(input[type=radio]):active {
   border: 1px solid #222;
   outline: 1px solid #222;
 }

@@ -125,7 +125,7 @@ button.tertiar, input[type="submit"].arrow-left, input[type="submit"].arrow-righ
 /*
 * Input fields
 */
-input {
+input, :not(input[type="radio"]) {
   @include field;
 }
 
