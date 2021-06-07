@@ -554,6 +554,20 @@ button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn
   outline: 1px solid #222;
 }
 
+/* Contains hack for "Pivot manual" style */
+button.tertiar, input[type=submit].arrow-left, input[type=submit].arrow-right {
+  background-color: transparent;
+  border-color: transparent;
+  color: #006E91;
+}
+button.tertiar:focus, button.tertiar:hover, input[type=submit].arrow-left:focus, input[type=submit].arrow-left:hover, input[type=submit].arrow-right:focus, input[type=submit].arrow-right:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #222;
+  outline: 1px solid #222;
+}
+
 /*
 * Input fields
 */

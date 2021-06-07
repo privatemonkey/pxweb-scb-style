@@ -108,6 +108,19 @@ button.secondary, input[type="button"].secondary-btn, input[type="submit"] {
   @include secondary-btn;
 }
 
+
+@mixin tertiar-btn {
+  background-color: transparent;
+  border-color: transparent;
+  color: colors.$button-secondary-text;
+  @include button__hover;
+}
+
+/* Contains hack for "Pivot manual" style */
+button.tertiar, input[type="submit"].arrow-left, input[type="submit"].arrow-right {
+  @include tertiar-btn;
+}
+
 /*
 * Input fields
 */
