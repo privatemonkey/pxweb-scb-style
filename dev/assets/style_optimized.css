@@ -458,8 +458,18 @@ main {
   clear: left;
 }
 
+.about-table dt {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+}
+.about-table dt:first-letter {
+  text-transform: capitalize;
+}
+
 .about-table dd {
   margin-left: 0;
+  margin-bottom: 1rem;
 }
 
 .pxweb-accordion.about-table {
@@ -820,7 +830,7 @@ button.accordion-header:before {
 .pxweb-nested-accordion dl {
   display: flex;
   justify-content: start;
-  flex-shrink: 1;
+  flex-direction: column;
 }
 
 .accordion-body {
@@ -1100,7 +1110,7 @@ hr.future {
   font-weight: 300;
 }
 
-.pxweb-input-error {
+.pxweb-input-error, .time_warning_panel {
   padding: 0.75rem 1rem;
   background-color: #ffbebe;
   border-radius: 0.75rem;

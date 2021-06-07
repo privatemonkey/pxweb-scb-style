@@ -16,7 +16,7 @@
     font-weight: 300;
 }
 
-.pxweb-input-error {
+.pxweb-input-error, .time_warning_panel {
     padding: sizes.$space-small sizes.$space-medium;
     background-color: colors.$warning-background;
     border-radius: sizes.$space-small;

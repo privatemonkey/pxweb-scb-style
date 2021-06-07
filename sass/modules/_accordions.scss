@@ -77,7 +77,7 @@ button.accordion-header:before {
 .pxweb-nested-accordion dl {
   display: flex;
   justify-content: start;
-  flex-shrink: 1;
+  flex-direction: column;
 }
 
 .accordion-body {

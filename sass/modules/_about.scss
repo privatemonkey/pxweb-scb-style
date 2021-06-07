@@ -1,5 +1,6 @@
 @use '../layout/_panel.scss'; 
 @use '../base/sizes';
+@use '../base/typography';
 
 /* About area */
 .about-table {
@@ -37,8 +38,12 @@
     clear: left;
 }
   
+.about-table dt {
+    @include typography.label;
+}
 .about-table dd {
     margin-left: 0;
+    margin-bottom: sizes.$space-medium;
 }
 
 .pxweb-accordion.about-table {
