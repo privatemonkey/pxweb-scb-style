@@ -158,7 +158,7 @@ h5 {
 
 
 /* TODO: Alla dessa borde göras till riktiga headers */
-.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
+.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about .header-text {
   @extend h3;
 }
 

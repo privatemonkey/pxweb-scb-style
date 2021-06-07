@@ -165,7 +165,7 @@ body {
 
 /* For checkboxes, radios */
 /* -- Headers -- */
-h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, h4 {
+h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about .header-text, h4 {
   font-weight: 700;
   max-width: 920px;
   text-transform: capitalize;
@@ -195,13 +195,13 @@ h2 {
   }
 }
 
-h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
+h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about .header-text {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
 @media (max-width: 799px) {
-  h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
+  h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about .header-text {
     font-size: 1.125rem;
   }
 }
