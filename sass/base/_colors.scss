@@ -94,8 +94,11 @@ $input-border-color__hover: $color-dark !default;
 $input__disabled-text: $color-light;
 $input__disabled-background: transparent;
 
-/* Tables */
+/* Dialogs */
+$dialog-background: #fff;
+$dialog-border: #eee;
 
+/* Tables */
 $table-border-color: #222 !default;
 $table-background-odd: #f8f8f8 !default;
 $table-background-even: #fff !default;

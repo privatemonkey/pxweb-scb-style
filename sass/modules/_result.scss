@@ -1,13 +1,14 @@
 @use '../base/_sizes.scss';
+@use '../base/colors';
 
 /* Result page specific styling */
 
 /* Command bar */
 
 .commandbar_container {
-  padding: 2rem 2rem 1rem;
-  border: 1px solid #dedddd;
-  background-color: #f5f7f8;
+  padding: sizes.$space-large sizes.$space-large sizes.$space-medium;
+  border: 1px solid colors.$dialog-border;
+  background-color: colors.$dialog-background;
 }
 
 .commandbar_container .variableselector_variable_box_container > div {
