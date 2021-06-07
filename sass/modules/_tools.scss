@@ -14,7 +14,7 @@
   border-left: 1px solid #ddd;
   overflow-x: hidden;
   z-index: 100;
-  width: #{sizes.$panel-width};
+  width: #{sizes.$panel-width}px;
   transition: 0.3s;
 }
   
@@ -36,6 +36,7 @@
   overflow-x: hidden;
   z-index: 100;
   right: -#{sizes.$panel-width}px;
+  transition: 0.3s;
 }
 
 .burger_menu-open-icon::before {
