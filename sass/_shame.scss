@@ -213,7 +213,7 @@ div:empty {
 
   // Radio button hack
   .commandbar_deletevariable_nametext,
-  .commandbar_deletevariable_deletevariabletitle span.font-normal-text {
+  #ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_DeleteValuePanel .font-normal-text {
     display: flex;
     flex-direction: row;
   }
