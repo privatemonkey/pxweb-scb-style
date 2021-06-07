@@ -152,12 +152,12 @@ input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[
   display: inline-block;
   border: none !important;
   outline: none !important;
+  border-radius: 0;
 
   &:hover, &:focus, &:active {
     color: typography.$link__hover-text;
     border: none !important;
     outline: none !important;
-    border-width: 0;
   }
 }
 
