@@ -1043,13 +1043,13 @@ hr.future {
 /* Animate slide in and out from left*/
 .presentation-left.mobilemenu:not(.mobilemenuhidden) {
   top: 0;
-  left: 0;
+  right: 0;
   transition: 0.3s;
 }
 
 .presentation-left.mobilemenuhidden {
   top: 0;
-  left: -640px;
+  right: -640px;
   transition: 0.3s;
 }
 
