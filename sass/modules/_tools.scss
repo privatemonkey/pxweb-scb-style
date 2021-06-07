@@ -1,13 +1,12 @@
 @use '../layout/panel';
 @use '../base/sizes';
+@use '../config';
 
-.presentation-left.mobilemenu:not(.mobilemenuhidden) {
+.presentation-left.mobilemenu {
   position: fixed;
   overflow: auto;
   height: 100vh;
   max-width: 80vw;
-  top: 0;
-  right: 0;
   background-color: #f8f8f8;
   padding: 0;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
@@ -15,31 +14,42 @@
   overflow-x: hidden;
   z-index: 100;
   width: #{sizes.$panel-width}px;
-  transition: 0.3s;
-  opacity: 1;
 }
+
+@if config.$tools_position == 'right' {
+  /* Animate slide in and out from left*/
+  .presentation-left.mobilemenu:not(.mobilemenuhidden) {
+    top: 0;
+    right: 0;
+    transition: 0.3s;
+  }
   
+  .presentation-left.mobilemenuhidden {
+    top: 0;
+    right: -#{sizes.$panel-width}px;
+    transition: 0.3s;
+  }
+}
+
+@if config.$tools_position == 'left' {
+  /* Animate slide in and out from left*/
+  .presentation-left.mobilemenu:not(.mobilemenuhidden) {
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+  }
+  
+  .presentation-left.mobilemenuhidden {
+    top: 0;
+    left: -#{sizes.$panel-width}px;
+    transition: 0.3s;
+  }
+}
+
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
   background-color: #f8f8f8;
 }
-  
-.presentation-left.mobilemenuhidden {
-  position: fixed;
-  overflow: auto;
-  height: 100vh;
-  max-width: 80vw;
-  top: 0;
-  right: 0;
-  background-color: #f8f8f8;
-  padding: 0;
-  box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
-  border-left: 1px solid #ddd;
-  overflow-x: hidden;
-  z-index: 100;
-  right: -#{sizes.$panel-width}px;
-  transition: 0.3s;
-  opacity: 0;
-}
+
 
 .burger_menu-open-icon::before {
   content: '▾☰';

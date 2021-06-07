@@ -1023,13 +1023,14 @@ hr.future {
   border-top-style: dashed;
 }
 
-.presentation-left.mobilemenu:not(.mobilemenuhidden) {
+/* TODO: Tools menu */
+/* valid options are 'left', 'right' or 'default' */
+/* Theme settings */
+.presentation-left.mobilemenu {
   position: fixed;
   overflow: auto;
   height: 100vh;
   max-width: 80vw;
-  top: 0;
-  right: 0;
   background-color: #f8f8f8;
   padding: 0;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
@@ -1037,30 +1038,23 @@ hr.future {
   overflow-x: hidden;
   z-index: 100;
   width: 640px;
+}
+
+/* Animate slide in and out from left*/
+.presentation-left.mobilemenu:not(.mobilemenuhidden) {
+  top: 0;
+  left: 0;
   transition: 0.3s;
-  opacity: 1;
+}
+
+.presentation-left.mobilemenuhidden {
+  top: 0;
+  left: -640px;
+  transition: 0.3s;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
   background-color: #f8f8f8;
-}
-
-.presentation-left.mobilemenuhidden {
-  position: fixed;
-  overflow: auto;
-  height: 100vh;
-  max-width: 80vw;
-  top: 0;
-  right: 0;
-  background-color: #f8f8f8;
-  padding: 0;
-  box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
-  border-left: 1px solid #ddd;
-  overflow-x: hidden;
-  z-index: 100;
-  right: -640px;
-  transition: 0.3s;
-  opacity: 0;
 }
 
 .burger_menu-open-icon::before {

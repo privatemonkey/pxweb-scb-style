@@ -1,7 +1,6 @@
 
 /* TODO: Tools menu */
-$float_tools: true !default;
-$float_tools_location: 'left'; /* valid options are 'left' or 'right' */
+$tools_position: 'left' !default; /* valid options are 'left', 'right' or 'default' */
 
 /* Theme settings */
 $theme: 'default' !default;
