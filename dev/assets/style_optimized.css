@@ -648,7 +648,6 @@ input:disabled {
 }
 
 fieldset {
-  width: calc(100% - 4rem);
   padding: 1rem 0;
   border: none;
 }
