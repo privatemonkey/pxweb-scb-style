@@ -137,12 +137,11 @@ div:empty {
   }
 
   #OperationsPanel input[type="submit"] {
-    // background-color: transparent;
+    background-color: transparent;
     text-decoration: underline;
     margin: 0 0.5rem 0.5rem 0;
     border-color: transparent;
     outline-color: transparent;
-    border-radius: 0;
     font-weight: typography.$text-weight-bold;
     
     @include typography.textlink__hover;

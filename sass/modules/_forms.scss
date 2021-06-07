@@ -92,7 +92,7 @@ button, input[type=submit], input[type="button"], input[type="submit"].container
   @include button__hover;
 }
 
-button.primary-btn, input[type="button"].primary-btn, input[type="submit"].primary-btn {
+button.primary-btn, input[type="button"].primary-btn, input[type="submit"].primary-btn, #OperationsPanel input[type="submit"].primary-btn {
   @include primary-btn;
   @include button__hover;
 }
