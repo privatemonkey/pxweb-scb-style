@@ -193,6 +193,7 @@ div:empty {
   .variableselector_valuesselect_search_textstart_checkbox {
     width: 100%;
     padding: sizes.$space-small 0;
+    display: flex;
   }
 
   .variableselector_valuesselect_aggregations {
@@ -201,6 +202,20 @@ div:empty {
 
   input.download-icon {
     margin-top: sizes.$space-medium;
+  }
+
+  /* Edit and calculate dialogs */
+
+  #ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextPanel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // Radio button hack
+  .commandbar_deletevariable_nametext,
+  .commandbar_deletevariable_deletevariabletitle > span {
+    display: flex;
+    flex-direction: row;
   }
 
 

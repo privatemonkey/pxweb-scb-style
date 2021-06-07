@@ -35,6 +35,7 @@
 
 ## Utveckling
 
+- [ ] Sum, multiply, divide - Lägg wrapper div på siffra nummer två
 - [ ] Forms - Gå igenom och städa i .font-heading, labels, legend och extra spans
 - [ ] Forms - Gör om text fält till nummer om de är menad att visa enbart siffror
 - [ ] Välj variabel - Search - add class to main div
