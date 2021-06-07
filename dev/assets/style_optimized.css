@@ -1058,7 +1058,7 @@ hr.future {
   border-left: 1px solid #ddd;
   overflow-x: hidden;
   z-index: 100;
-  right: calc(0 - 640) px;
+  right: -640px;
 }
 
 .burger_menu-open-icon::before {
