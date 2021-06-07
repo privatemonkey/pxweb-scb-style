@@ -1503,7 +1503,6 @@ div:empty {
 }
 
 #OperationsPanel input[type=submit] {
-  background-color: transparent;
   text-decoration: underline;
   margin: 0 0.5rem 0.5rem 0;
   border-color: transparent;
