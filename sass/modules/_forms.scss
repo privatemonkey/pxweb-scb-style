@@ -125,7 +125,7 @@ button.tertiar, input[type="submit"].arrow-left, input[type="submit"].arrow-righ
 /*
 * Input fields
 */
-input, :not(input[type="radio"]) {
+input {
   @include field;
 }
 
@@ -146,7 +146,7 @@ input[type="number"] {
   min-width: 6rem;
 }
 
-input[type="radio"], input[type="checkbox"] {
+input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[type="checkbox"]:checked {
   margin-bottom: sizes.$space-small;
   margin-right: sizes.$space-extra-small;
   display: inline-block;
