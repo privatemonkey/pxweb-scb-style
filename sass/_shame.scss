@@ -69,6 +69,10 @@ div:empty {
     margin-top: sizes.$space-medium;
   }
 
+  #OperationsPanel input[type="submit"].primary-btn {
+    text-decoration: none;
+  }
+
   .container_exit_buttons_row {
     margin-top: 1rem;
     /* padding: 1rem 0; */
@@ -220,6 +224,7 @@ div:empty {
   #ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_DeleteValuePanel .font-normal-text {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: start;
     margin-top: sizes.$space-medium;
   }
 
