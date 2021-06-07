@@ -150,11 +150,14 @@ input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[
   margin-bottom: sizes.$space-small;
   margin-right: sizes.$space-extra-small;
   display: inline-block;
+  border: none !important;
+  outline: none !important;
 
   &:hover, &:focus, &:active {
     color: typography.$link__hover-text;
     border: none !important;
     outline: none !important;
+    border-width: 0;
   }
 }
 
