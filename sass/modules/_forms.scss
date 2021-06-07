@@ -15,7 +15,7 @@
   border-radius: 4px;
 
   &:hover, &:focus, &:active {
-    border: 2px solid colors.$input-border-color__hover;
+    border: 1px solid colors.$input-border-color__hover;
     outline: 1px solid colors.$input-border-color__hover;
   }
 }
@@ -37,6 +37,7 @@ button, input[type="button"], input[type="submit"] {
 
   &:hover, &:active, &:focus {
     color: colors.$button__hover-text;
+    border-width: 2px;
     background-color: colors.$button__hover-background;
     opacity: 1;
   }

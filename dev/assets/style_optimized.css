@@ -490,6 +490,7 @@ button, input[type=button], input[type=submit] {
 }
 button:hover, button:active, button:focus, input[type=button]:hover, input[type=button]:active, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
   color: #fff;
+  border-width: 2px;
   background-color: #222;
   opacity: 1;
 }
@@ -566,7 +567,7 @@ input {
   border-radius: 4px;
 }
 input:hover, input:focus, input:active {
-  border: 2px solid #222;
+  border: 1px solid #222;
   outline: 1px solid #222;
 }
 
@@ -678,7 +679,7 @@ select {
   outline: none;
 }
 select:hover, select:focus, select:active {
-  border: 2px solid #222;
+  border: 1px solid #222;
   outline: 1px solid #222;
 }
 
@@ -698,7 +699,7 @@ select[multiple] {
   height: 12rem;
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
-  border: 2px solid #222;
+  border: 1px solid #222;
   outline: 1px solid #222;
 }
 
