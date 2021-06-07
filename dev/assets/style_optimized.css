@@ -1038,7 +1038,7 @@ hr.future {
   z-index: 100;
   width: 640px;
   transition: 0.3s;
-  opacity: 0;
+  opacity: 1;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
@@ -1060,7 +1060,7 @@ hr.future {
   z-index: 100;
   right: -640px;
   transition: 0.3s;
-  opacity: 1;
+  opacity: 0;
 }
 
 .burger_menu-open-icon::before {

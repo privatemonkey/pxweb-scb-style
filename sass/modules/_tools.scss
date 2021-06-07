@@ -16,7 +16,7 @@
   z-index: 100;
   width: #{sizes.$panel-width}px;
   transition: 0.3s;
-  opacity: 0;
+  opacity: 1;
 }
   
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
@@ -38,7 +38,7 @@
   z-index: 100;
   right: -#{sizes.$panel-width}px;
   transition: 0.3s;
-  opacity: 1;
+  opacity: 0;
 }
 
 .burger_menu-open-icon::before {
