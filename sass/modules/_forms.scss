@@ -230,7 +230,7 @@ select {
 	outline: none;
 }
 
-select:not([multiple]) {
+select:not([multiple]):not([size]) {
   background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 255 255' width='18' height='18' xmlns='http://www.w3.org/2000/svg'><g><polygon points='0,63.75 127.5,191.25 255,63.75' fill='black' /></g></svg>");
 }
 
