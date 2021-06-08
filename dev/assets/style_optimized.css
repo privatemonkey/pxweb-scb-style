@@ -1465,6 +1465,10 @@ div:empty {
   }
 }
 
+a.search-icon svg {
+  display: none;
+}
+
 .savequery_container input[type=text] {
   width: calc(100% - 2rem - 2rem);
 }
