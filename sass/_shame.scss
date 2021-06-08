@@ -10,7 +10,7 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @include layout.maingrid;
 }
 
-div:empty {
+div:empty, span:empty {
   display: none;
 }
 
