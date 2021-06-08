@@ -38,8 +38,8 @@
 }
 
 .pxweb-info-text { 
-    padding: sizes.$space-small sizes.$space-medium;
-    background-color: colors.$message-background-default;
+    padding: sizes.$space-small 0;
+    background-color: transparent;
 }
 
 select.variableselector_valuesselect_box_error {
