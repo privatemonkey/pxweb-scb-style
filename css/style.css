@@ -1473,6 +1473,11 @@ div:empty {
   float: left;
 }
 
+.pxweb-buttons.cancel-icon {
+  width: -moz-fit-content;
+  width: min-content;
+}
+
 a.search-icon svg {
   display: none;
 }
