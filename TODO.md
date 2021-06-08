@@ -36,6 +36,7 @@
 ## Utveckling
 
 - [ ] Sum, multiply, divide - Lägg wrapper div på siffra nummer två
+- [x] Sum, multiply, divide - Ta bort konstig extrarubrik
 - [ ] Forms - Gå igenom och städa i .font-heading, labels, legend och extra spans
 - [ ] Forms - Gör om text fält till nummer om de är menad att visa enbart siffror
 - [ ] Välj variabel - Search - add class to main div
@@ -43,14 +44,13 @@
 - [ ] Hamburgerknapp - Döpa om till "Visa verktyg"/"Dölj verktyg"
 - [ ] Fullscreenknapp - gör om till button
 - [ ] Sortable table, ändra inputs till buttons för att kunna lägga ikoner på :after
-- [ ] Chart settings - Ändra text-fält till nummer fält
-- [ ] Chart settings - Ta bort spans som gör checkbox listor till inline
-- [ ] Chart settings - Använd fieldset på alla checkboxlistor
-- [ ] Stepper - byta ut hr mot span
-- [ ] Stepper - flytta .future till anchor
-- [ ] Stepper - flytta .first, second, third till anchor
-- [ ] Stepper - Lägg till aria hidden på en del element
-- [ ] Träd - Visa kolumner med värden istället för img ikoner
+- [x] Chart settings - Ändra text-fält till nummer fält
+- [x] Chart settings - Ta bort spans som gör checkbox listor till inline
+- [-] Stepper - byta ut hr mot span
+- [x] Stepper - flytta .future till anchor
+- [x] Stepper - flytta .first, second, third till anchor
+- [-] Stepper - Lägg till aria hidden på en del element
+- [-] Träd - Visa kolumner med värden istället för img ikoner
 - [ ] Verktygsmenyn - Huvud med rubrik "Verktyg" och stäng knapp
 - [ ] Verktygsmenyn - Presentation-left div flyttas efter huvudinnehållet för att bli bättre för uppläsning
 - [ ] Verktygsmenyn -Submit buttons in left panel changed to .nested-accordion-panel and buttons. All other classes removed.

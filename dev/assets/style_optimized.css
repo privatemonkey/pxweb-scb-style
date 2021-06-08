@@ -1378,6 +1378,17 @@ Select variable
   width: 90%;
 }
 
+/* Edit and caculate module for sum, multiply, divide and subtract */
+.commandbar_sum_operandspanel_row {
+  flex-wrap: wrap;
+}
+
+/* Label */
+/* Select */
+.commandbar_sum_sumallvaluesnewvariabelname_dropdown {
+  margin-bottom: 1rem;
+}
+
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;

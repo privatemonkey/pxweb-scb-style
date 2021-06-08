@@ -1,0 +1,16 @@
+@use "../base/sizes";
+
+/* Edit and caculate module for sum, multiply, divide and subtract */
+.commandbar_sum_operandspanel_row {
+    flex-wrap: wrap;
+}
+
+/* Label */
+.commandbar_sum_sumallvaluestext {
+
+}
+
+/* Select */
+.commandbar_sum_sumallvaluesnewvariabelname_dropdown {
+    margin-bottom: sizes.$space-medium;
+}
