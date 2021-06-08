@@ -162,8 +162,10 @@ body {
 h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span, h4 {
   font-weight: 700;
   max-width: 920px;
-  text-transform: capitalize;
   line-height: 1.2;
+}
+h1:first-letter, h2:first-letter, h3:first-letter, .siteLogoText:first-letter, .container_titletext:first-letter, .heading:first-letter, .variableselector_valuesselect_variabletitle > label:first-letter, .about-table .accordion-body .header-text span:first-letter, h4:first-letter {
+  text-transform: capitalize;
 }
 
 h1 {
@@ -276,6 +278,8 @@ input, select, button {
 
 option {
   font-family: "Public Sans", "system", sans-serif;
+}
+option:first-letter {
   text-transform: capitalize;
 }
 

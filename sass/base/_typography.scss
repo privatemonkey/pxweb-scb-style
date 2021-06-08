@@ -103,7 +103,9 @@ body {
 @mixin header {
   @include extrabold;
   max-width: $max-header-width;
-  text-transform: capitalize;
+  &:first-letter {
+    text-transform: capitalize;
+  }
   line-height: 1.2;
 }
 
@@ -220,7 +222,9 @@ input, select, button {
 
 option {
   @include fontfamily;
-  text-transform: capitalize;
+  &:first-letter {
+    text-transform: capitalize;
+  }
 }
 
 button, button.accordion-header, button.nested-accordion-header  {
