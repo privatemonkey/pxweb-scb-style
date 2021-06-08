@@ -55,14 +55,12 @@ $stepper-left-space: 2rem;
     display: block;
   }
   
-/* TODO: Remove when .active is moved to anchor instead of span */
-.navigationFlowArea a.active::before, .navigationFlowArea a > span.third.active::before {
+.navigationFlowArea a.active::before {
     content: '◉';
     color: typography.$text;
   }
   
-/* TODO: Remove when .active is moved to anchor instead of span */
-.navigationFlowArea a.future::before, .navigationFlowArea a > span.third::before {
+.navigationFlowArea a.future::before {
     content: '○';
     color: typography.$text-inactive;
   }

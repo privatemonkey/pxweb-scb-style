@@ -83,18 +83,19 @@ body {
 @mixin label {
   @include bold;
   font-size: $font-size-h4;
+  margin-bottom: sizes.$space-small;
   &:first-letter {
     text-transform: capitalize;
   }
-  margin-bottom: sizes.$space-small;
 }
 
 /* For checkboxes, radios */
 @mixin list_option {
   font-size: $font-size-normal;
-  text-transform: capitalize;
   margin-bottom: sizes.$space-small;
-  text-transform: capitalize;
+  &:first-letter {
+    text-transform: capitalize;
+  }
 }
 
 /* -- Headers -- */

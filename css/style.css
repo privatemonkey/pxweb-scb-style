@@ -245,8 +245,9 @@ label span {
 
 input + label {
   font-size: 16px;
-  text-transform: capitalize;
   margin-bottom: 0.75rem;
+}
+input + label:first-letter {
   text-transform: capitalize;
 }
 
@@ -1009,14 +1010,12 @@ thead th, thead td {
   display: block;
 }
 
-/* TODO: Remove when .active is moved to anchor instead of span */
-.navigationFlowArea a.active::before, .navigationFlowArea a > span.third.active::before {
+.navigationFlowArea a.active::before {
   content: "◉";
   color: #222;
 }
 
-/* TODO: Remove when .active is moved to anchor instead of span */
-.navigationFlowArea a.future::before, .navigationFlowArea a > span.third::before {
+.navigationFlowArea a.future::before {
   content: "○";
   color: #949494;
 }
@@ -1134,6 +1133,11 @@ hr.future {
   border-bottom: 1rem solid #ffbebe;
   margin-left: -0.5rem;
   margin-top: -2rem;
+}
+
+.pxweb-info-text {
+  padding: 0.75rem 1rem;
+  background-color: #ffbebe;
 }
 
 select.variableselector_valuesselect_box_error {
