@@ -50,7 +50,9 @@
   background-color: #f8f8f8;
 }
 
-
+.menu-item::before {
+  content: '☰';
+}
 .burger_menu-open-icon::before {
   content: '▾☰';
 }
