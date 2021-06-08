@@ -341,10 +341,11 @@ img.logo-quality, .officialStatisticsImage {
 .top-link {
   position: fixed;
   bottom: 0;
-  right: 0;
-  padding: 0.25rem;
+  right: 48vw;
+  padding: 1.5rem;
   background: #f7f7f7;
   display: flex;
+  transition: 0.3s;
 }
 
 .siteLogoText {

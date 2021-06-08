@@ -23,10 +23,11 @@ header, #header {
   .top-link {
     position: fixed;
     bottom: 0;
-    right: 0;
-    padding: 0.25rem;
+    right: 48vw;
+    padding: sizes.$space-large;
     background: panel.$panel-background;
     display: flex;
+    transition: 0.3s;
   }
 
   .siteLogoText {
