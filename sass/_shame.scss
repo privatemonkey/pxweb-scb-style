@@ -64,6 +64,17 @@ div:empty {
   }
 }
 
+.searchvalues-container {
+  select {
+    float: left;
+    clear: left;
+  }
+
+  .pxweb-info-text {
+    float: left;
+  }
+}
+
 a.search-icon svg {
   display: none;
 }
