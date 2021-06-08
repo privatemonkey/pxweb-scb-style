@@ -50,9 +50,6 @@
   background-color: #f8f8f8;
 }
 
-.menu-item::before {
-  content: '☰';
-}
 .burger_menu-open-icon::before {
   content: '▾☰';
 }
@@ -60,4 +57,9 @@
 .burger-menu-icon::before {
   content: '▴☰';
 }
+
+.burger-menu-icon {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg id='Capa_1' xmlns='http:x='0px' y='0px' viewBox='0 0 512 512'%3e%3cg%3e%3ccircle cx='256' cy='256' r='64'/%3e%3ccircle cx='256' cy='448' r='64'/%3e%3ccircle cx='256' cy='64' r='64'/%3e%3c/g%3e%3c/svg%3e");
+}
+
   
