@@ -953,6 +953,7 @@ tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
 
 tbody tr td:first-child {
   border-left: none !important;
+  border-right-color: #222;
 }
 
 thead th {
@@ -1101,11 +1102,12 @@ hr.future {
   content: "▴☰";
 }
 
-.burger_menu-icon {
+.burger_menu-icon-noshow {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' id='menu-icon' x='0px' y='0px' viewBox='0 0 512 512'%3e%3cg%3e%3ccircle cx='256' cy='256' r='64'/%3e%3ccircle cx='256' cy='448' r='64'/%3e%3ccircle cx='256' cy='64' r='64'/%3e%3c/g%3e%3c/svg%3e");
   background-position-y: center;
   background-position-x: 18px;
   background-repeat: no-repeat;
+  background-size: 18px;
 }
 
 /* The toolbar - now named commandbar */

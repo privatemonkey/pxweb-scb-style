@@ -65,6 +65,7 @@ tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
 
 tbody tr td:first-child { 
   border-left: none !important;
+  border-right-color: colors.$table-border-color;
 }
 
 thead th {
