@@ -1077,13 +1077,11 @@ hr.future {
 .presentation-left.mobilemenu:not(.mobilemenuhidden) {
   top: 0;
   right: 0;
-  transition: 0.3s;
 }
 
 .presentation-left.mobilemenuhidden {
   top: 0;
   right: -640px;
-  transition: 0.3s;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {

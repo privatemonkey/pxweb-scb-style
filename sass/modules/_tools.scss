@@ -21,13 +21,11 @@
   .presentation-left.mobilemenu:not(.mobilemenuhidden) {
     top: 0;
     right: 0;
-    transition: 0.3s;
   }
   
   .presentation-left.mobilemenuhidden {
     top: 0;
     right: -#{sizes.$panel-width}px;
-    transition: 0.3s;
   }
 }
 
@@ -36,13 +34,11 @@
   .presentation-left.mobilemenu:not(.mobilemenuhidden) {
     top: 0;
     left: 0;
-    transition: 0.3s;
   }
   
   .presentation-left.mobilemenuhidden {
     top: 0;
     left: -#{sizes.$panel-width}px;
-    transition: 0.3s;
   }
 }
 
