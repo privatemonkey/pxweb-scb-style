@@ -1529,6 +1529,14 @@ a.search-icon svg {
 }
 
 /* Very specific styling */
+.variableselector_valuesselect_aggregations {
+  margin-bottom: 1rem;
+}
+
+.variableselector_valuesselect_select_all_button, .variableselector_valuesselect_deselect_all_button {
+  margin-top: 0.75rem;
+}
+
 .footnotes_container {
   max-width: 720px;
 }
