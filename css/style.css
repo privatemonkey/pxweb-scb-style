@@ -490,10 +490,6 @@ main {
 /*
 * Generic form related styling. Buttons, inputs, select.
 */
-input, option, select {
-  font-weight: 500;
-}
-
 /*
 * Buttons
 * Basic button is styled as primary button
