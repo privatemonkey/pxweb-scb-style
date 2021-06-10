@@ -1329,6 +1329,9 @@ Select variable
 .variableselector_valuesselect_variabletitle {
   width: 100%;
 }
+.variableselector_valuesselect_variabletitle label {
+  display: inline-block;
+}
 
 .variableselector_valuesselect_mandatory_text {
   margin-left: 0.25rem;
@@ -1337,7 +1340,7 @@ Select variable
 .variableselector_valuesselect_mandatory_text::after {
   content: ")";
 }
-.variableselector_valuesselect_mandatory_text ::before {
+.variableselector_valuesselect_mandatory_text::before {
   content: "(";
 }
 

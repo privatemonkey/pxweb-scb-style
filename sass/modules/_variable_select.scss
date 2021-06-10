@@ -28,16 +28,20 @@ Select variable
 /* Title */
 .variableselector_valuesselect_variabletitle {
   width: 100%;
+
+  label {
+    display: inline-block;
+  }
 }
 
 .variableselector_valuesselect_mandatory_text {
   margin-left: 0.25rem;
   line-height: 1.9rem;
-  
+
   &::after {
     content: ')';
   }
-  ::before {
+  &::before {
     content: '(';
   }
 }
