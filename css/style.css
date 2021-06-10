@@ -930,9 +930,8 @@ thead > tr:first-child > td, thead > tr:first-child > th {
 }
 
 thead > tr:first-child > td {
-  border-right-color: #222;
   border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
+  border-right: 1px solid #222;
   position: sticky;
   left: 0;
   z-index: 5;

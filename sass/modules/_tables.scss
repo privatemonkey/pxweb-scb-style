@@ -47,9 +47,8 @@ thead > tr:first-child > td, thead > tr:first-child > th {
 }
 
 thead > tr:first-child > td {
-  border-right-color: colors.$table-border-color;
   border-left: 1px solid colors.$table-border-outline-color;
-  border-right: 1px solid colors.$table-border-outline-color;
+  border-right: 1px solid colors.$table-border-color;
   position: sticky;
   left: 0;
   z-index: 5;
