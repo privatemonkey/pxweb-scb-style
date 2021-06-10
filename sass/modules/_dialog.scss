@@ -17,6 +17,11 @@
     border:1px solid colors.$panel-border-color;
     background-color: colors.$panel-background;
     padding: panel.$panel-padding;
+    box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
+}
+
+.ui-draggable {
+    cursor: move;
 }
 
 .ui-dialog-titlebar-close {
