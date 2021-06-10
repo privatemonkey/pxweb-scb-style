@@ -1,0 +1,9 @@
+/* Handle the dialogs we still have */
+
+@use '../base/sizes';
+@use '../base/colors';
+
+.ui-dialog {
+    border:1px solid colors.$panel-border-color;
+    background-color: colors.$panel-background;
+}

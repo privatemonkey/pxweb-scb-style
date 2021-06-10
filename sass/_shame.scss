@@ -115,7 +115,7 @@ a.search-icon svg {
   
   .seperator {
     margin: 0 sizes.$space-small;
-    color: panel.$panel-border-color;
+    color: colors.$panel-border-color;
   }
   
   .view-state span {
@@ -132,7 +132,7 @@ a.search-icon svg {
     margin-top: sizes.$space-large;
     padding-top: sizes.$space-large;
     max-width: typography.$max-text-width;
-    border-bottom: 1px solid panel.$panel-border-color;
+    border-bottom: 1px solid colors.$panel-border-color;
   }
 
   .the_long_text.notetype_note_value {

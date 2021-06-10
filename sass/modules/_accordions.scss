@@ -28,7 +28,7 @@ button.accordion-header, button.nested-accordion-header  {
   border-radius: 0;
   text-align: left;
   padding: 1.5rem 1rem;
-  border-top: 1px solid panel.$panel-border-color;
+  border-top: 1px solid colors.$panel-border-color;
   font-weight: 700;
   outline-color: transparent;
 
@@ -47,7 +47,7 @@ button.accordion-header, button.nested-accordion-header  {
 
 button.accordion-header.closed, button.nested-accordion-header.closed {
   display: inline-block;
-  border-top: 1px solid panel.$panel-border-color;
+  border-top: 1px solid colors.$panel-border-color;
 }
 
 button.accordion-header.closed:before {
@@ -55,7 +55,7 @@ button.accordion-header.closed:before {
 }
 
 button.nested-accordion-header {
-  background-color: panel.$panel-background;
+  background-color: colors.$panel-background;
   padding-left: 0.5rem;
   padding-right: 0;
 }

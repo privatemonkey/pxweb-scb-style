@@ -67,6 +67,7 @@
 /* Dialogs */
 /* Tables */
 /* Errors and messages */
+/* Panels */
 /*
 * Breakpoints
 * Statistics for screen size usage
@@ -323,9 +324,6 @@ a:hover, a:focus, a > span:hover, a > span:focus {
   background-color: #222;
 }
 
-/*
-* Panels used in choose variables
-*/
 header, #header {
   border-bottom: 1px solid #949494;
   margin-bottom: 1rem;

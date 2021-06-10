@@ -1,10 +1,10 @@
 @use '../base/sizes';
+@use '../base/colors';
 @use '../base/typography';
-@use '_panel.scss'; 
 
 
 header, #header {
-    border-bottom: 1px solid panel.$panel-border-color;
+    border-bottom: 1px solid colors.$panel-border-color;
     margin-bottom: 1rem;
     padding: 0.75rem;
     background-color: #fff;
@@ -25,7 +25,7 @@ header, #header {
     bottom: 0;
     right: 48vw;
     padding: sizes.$space-large;
-    background: panel.$panel-background;
+    background: colors.$panel-background;
     display: flex;
     transition: 0.3s;
   }
