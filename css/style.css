@@ -1619,7 +1619,7 @@ a.search-icon svg {
   font-size: 1.15rem;
 }
 
-.commandbar_link_dropdownlist input[type=submit] {
+.operations-container input[type=submit] {
   background-color: transparent;
   text-decoration: underline;
   margin: 0 0.5rem 0.5rem 0;
@@ -1627,7 +1627,7 @@ a.search-icon svg {
   outline-color: transparent;
   font-weight: 500;
 }
-.commandbar_link_dropdownlist input[type=submit]:hover, .commandbar_link_dropdownlist input[type=submit]:focus {
+.operations-container input[type=submit]:hover, .operations-container input[type=submit]:focus {
   color: #001920;
   cursor: pointer;
   text-decoration: underline;
