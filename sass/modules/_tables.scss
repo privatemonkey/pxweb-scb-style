@@ -101,7 +101,9 @@ th.layout1-table-stub2 {
   padding-left: sizes.$space-large;
 }
 
-td.attribute-cell {
-  border-radius: 0 0 4px 4px;
-  border-color: black;
+td.attribute-cell:after {
+  border-left: 5px solid cyan;
+    border-right: 5px solid red;
+    border-bottom: 5px solid green;
+    border-top: 5px solid blue;
 }
