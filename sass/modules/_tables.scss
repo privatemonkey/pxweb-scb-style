@@ -117,6 +117,9 @@ td.attribute-cell {
   &:hover {
     cursor: pointer;
   }
+  &hover {
+    text-decoration: underline;
+  }
   &:hover::after {
     border-top-color: typography.$link__hover-text;
   }

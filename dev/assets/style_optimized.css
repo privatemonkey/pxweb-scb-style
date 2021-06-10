@@ -998,6 +998,9 @@ td.attribute-cell::after {
 td.attribute-cell:hover {
   cursor: pointer;
 }
+td.attribute-cellhover {
+  text-decoration: underline;
+}
 td.attribute-cell:hover::after {
   border-top-color: #000;
 }
