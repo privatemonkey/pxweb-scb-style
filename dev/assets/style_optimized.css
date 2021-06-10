@@ -1582,6 +1582,10 @@ input[type=submit].variableselector_continue_button {
   float: right;
 }
 
+.ui-dialog-buttonpane {
+  display: none;
+}
+
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
