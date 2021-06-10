@@ -1560,10 +1560,27 @@ input[type=submit].variableselector_continue_button {
   }
 }
 
+.table_cellinformation_cell, .table_cellinformation_notes {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.2;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+.table_cellinformation_cell:first-letter, .table_cellinformation_notes:first-letter {
+  text-transform: capitalize;
+}
+
 .ui-dialog {
   border: 1px solid #949494;
   background-color: #f7f7f7;
   padding: 1rem 1rem;
+}
+
+.ui-dialog-titlebar-close {
+  float: right;
 }
 
 /* Elements that should have been inside the main wrapper */

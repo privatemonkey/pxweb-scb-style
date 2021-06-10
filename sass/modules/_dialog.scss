@@ -8,8 +8,17 @@
 .ui-dialog-title {
     @include typography.h3;
 }
+
+.table_cellinformation_cell, .table_cellinformation_notes {
+    @include typography.h4;
+}
+
 .ui-dialog {
     border:1px solid colors.$panel-border-color;
     background-color: colors.$panel-background;
     padding: panel.$panel-padding;
+}
+
+.ui-dialog-titlebar-close {
+    float: right;
 }
