@@ -931,13 +931,14 @@ thead > tr:first-child > td, thead > tr:first-child > th {
 
 thead > tr:first-child > td {
   border-right-color: #222;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  position: sticky;
+  left: 0;
+  z-index: 5;
 }
 
-thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
-  border-bottom: 1px solid #222;
-}
-
-tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
+tbody tr th:first-child, tbody tr td:first-child {
   text-align: left;
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
@@ -946,9 +947,13 @@ tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
   z-index: 5;
 }
 @media (max-width: 799px) {
-  tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
+  tbody tr th:first-child, tbody tr td:first-child {
     max-width: 30vw;
   }
+}
+
+thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
+  border-bottom: 1px solid #222;
 }
 
 tbody tr td:first-child {

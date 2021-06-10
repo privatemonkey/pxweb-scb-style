@@ -48,13 +48,14 @@ thead > tr:first-child > td, thead > tr:first-child > th {
 
 thead > tr:first-child > td {
   border-right-color: colors.$table-border-color;
+  border-left: 1px solid colors.$table-border-outline-color;
+  border-right: 1px solid colors.$table-border-outline-color;
+  position: sticky;
+  left: 0;
+  z-index: 5;
 }
 
-thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
-  border-bottom: 1px solid colors.$table-border-color;
-}
-
-tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
+tbody tr th:first-child, tbody tr td:first-child {
   text-align: left;
   border-left: 1px solid colors.$table-border-outline-color;
   border-right: 1px solid colors.$table-border-outline-color;
@@ -65,6 +66,10 @@ tbody tr th:first-child, tbody tr td:first-child, thead tr td:first-child {
   @media (max-width: breakpoints.$small) {
     max-width: 30vw; 
   }
+}
+
+thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
+  border-bottom: 1px solid colors.$table-border-color;
 }
 
 tbody tr td:first-child { 
