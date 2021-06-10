@@ -978,6 +978,12 @@ thead th, thead td {
   background-color: #fff;
 }
 
+/* PxWeb table classes */
+/* Indent */
+th.layout1-table-stub2 {
+  padding-left: 1.5rem;
+}
+
 /*
 * Stepper, the three steps of PX Web
 */
