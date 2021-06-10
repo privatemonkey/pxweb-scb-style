@@ -937,6 +937,10 @@ thead > tr:first-child > td {
   z-index: 5;
 }
 
+thead th:first-of-type {
+  border-left: 1px solid #222;
+}
+
 tbody tr th:first-child, tbody tr td:first-child {
   text-align: left;
   border-left: 1px solid #eee;
