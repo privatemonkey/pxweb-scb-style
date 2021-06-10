@@ -100,3 +100,8 @@ thead th, thead td {
 th.layout1-table-stub2 {
   padding-left: sizes.$space-large;
 }
+
+td.attribute-cell {
+  border-radius: 0 0 4px 4px;
+  border-color: black;
+}

@@ -984,6 +984,11 @@ th.layout1-table-stub2 {
   padding-left: 1.5rem;
 }
 
+td.attribute-cell {
+  border-radius: 0 0 4px 4px;
+  border-color: black;
+}
+
 /*
 * Stepper, the three steps of PX Web
 */
