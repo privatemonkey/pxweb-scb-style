@@ -160,20 +160,17 @@ body {
 
 /* For checkboxes, radios */
 /* -- Headers -- */
-h1, h2, h3, .siteLogoText, h4 {
+h1 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.2;
-}
-h1:first-letter, h2:first-letter, h3:first-letter, .siteLogoText:first-letter, h4:first-letter {
-  text-transform: capitalize;
-}
-
-h1 {
   font-size: 2.25rem;
   line-height: 1.4;
   margin-bottom: 2rem;
   margin-top: 1rem;
+}
+h1:first-letter {
+  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   h1 {
@@ -182,9 +179,15 @@ h1 {
 }
 
 h2 {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.2;
   font-size: 1.6875rem;
   line-height: 1.4;
   margin: 2rem 0 1.5rem;
+}
+h2:first-letter {
+  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   h2 {
@@ -193,9 +196,15 @@ h2 {
 }
 
 h3, .siteLogoText {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.2;
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
+}
+h3:first-letter, .siteLogoText:first-letter {
+  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   h3, .siteLogoText {
@@ -204,25 +213,43 @@ h3, .siteLogoText {
 }
 
 h4 {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.2;
   font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.25rem;
 }
+h4:first-letter {
+  text-transform: capitalize;
+}
 
 h5 {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.2;
   font-weight: 700;
   width: 100%;
   text-align: left;
   padding: 0;
   margin-bottom: 0.75rem;
 }
+h5:first-letter {
+  text-transform: capitalize;
+}
 
 /* TODO: Alla dessa borde göras till riktiga headers */
 .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.2;
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
+}
+.container_titletext:first-letter, .heading:first-letter, .variableselector_valuesselect_variabletitle > label:first-letter, .about-table .accordion-body .header-text span:first-letter {
+  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
@@ -232,10 +259,16 @@ h5 {
 
 button.nested-accordion-header, .commandbar_changepresentation_changetext {
   font-weight: 700;
+  max-width: 920px;
+  line-height: 1.2;
+  font-weight: 700;
   width: 100%;
   text-align: left;
   padding: 0;
   margin-bottom: 0.75rem;
+}
+button.nested-accordion-header:first-letter, .commandbar_changepresentation_changetext:first-letter {
+  text-transform: capitalize;
 }
 
 .container_titletext {

@@ -109,11 +109,9 @@ body {
   line-height: 1.2;
 }
 
-h1, h2, h3, h4 {
-  @include header;
-}
-
 @mixin h1 {
+  @include header;
+
   font-size: $font-size-h1;
   line-height: 1.4;
   margin-bottom: 2rem;
@@ -125,6 +123,8 @@ h1, h2, h3, h4 {
 }
 
 @mixin h2 {
+  @include header;
+
   font-size: $font-size-h2;
   line-height: 1.4;
   margin: 2rem 0 1.5rem;
@@ -135,6 +135,8 @@ h1, h2, h3, h4 {
 }
 
 @mixin h3 {
+  @include header;
+
   font-size: $font-size-h3;
   line-height: 1.4;
   margin-bottom: 0.75rem;
@@ -145,6 +147,8 @@ h1, h2, h3, h4 {
 }
 
 @mixin h4 {
+  @include header;
+
   font-size: $font-size-h4;
   line-height: 1.4;
   margin-top: 0;
@@ -152,6 +156,8 @@ h1, h2, h3, h4 {
 }
 
 @mixin h5 {
+  @include header;
+  
   font-weight: $text-weight-bold;
   width: 100%;
   text-align: left;

@@ -3,6 +3,7 @@
 @use '../base/sizes';
 @use '../base/typography';
 @use '../base/colors';
+@use '../layout/panel';
 
 .ui-dialog-title {
     @include typography.h3;
@@ -10,4 +11,5 @@
 .ui-dialog {
     border:1px solid colors.$panel-border-color;
     background-color: colors.$panel-background;
+    padding: panel.$panel-padding;
 }
