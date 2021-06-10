@@ -112,13 +112,12 @@ td.attribute-cell {
     border-bottom: 0.75rem solid transparent;
     border-top: 0.75rem solid typography.$link-text;
     margin-top: -0.65rem;
-    margin-left: -0.2rem;
+    margin-left: -0.25rem;
   }
   &:hover {
     cursor: pointer;
-  }
-  &hover {
     text-decoration: underline;
+    color: colors.$color-darkest;
   }
   &:hover::after {
     border-top-color: typography.$link__hover-text;

@@ -1046,13 +1046,12 @@ td.attribute-cell::after {
   border-bottom: 0.75rem solid transparent;
   border-top: 0.75rem solid #006E91;
   margin-top: -0.65rem;
-  margin-left: -0.2rem;
+  margin-left: -0.25rem;
 }
 td.attribute-cell:hover {
   cursor: pointer;
-}
-td.attribute-cellhover {
   text-decoration: underline;
+  color: #000;
 }
 td.attribute-cell:hover::after {
   border-top-color: #000;
