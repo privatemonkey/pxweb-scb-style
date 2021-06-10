@@ -1,8 +1,12 @@
 /* Handle the dialogs we still have */
 
 @use '../base/sizes';
+@use '../base/typography';
 @use '../base/colors';
 
+.ui-dialog-title {
+    @include typography.h3;
+}
 .ui-dialog {
     border:1px solid colors.$panel-border-color;
     background-color: colors.$panel-background;

@@ -113,7 +113,7 @@ h1, h2, h3, h4 {
   @include header;
 }
 
-h1 {
+@mixin h1 {
   font-size: $font-size-h1;
   line-height: 1.4;
   margin-bottom: 2rem;
@@ -124,7 +124,7 @@ h1 {
   }
 }
 
-h2 {
+@mixin h2 {
   font-size: $font-size-h2;
   line-height: 1.4;
   margin: 2rem 0 1.5rem;
@@ -134,7 +134,7 @@ h2 {
   }
 }
 
-h3 {
+@mixin h3 {
   font-size: $font-size-h3;
   line-height: 1.4;
   margin-bottom: 0.75rem;
@@ -144,14 +144,14 @@ h3 {
   }
 }
 
-h4 {
+@mixin h4 {
   font-size: $font-size-h4;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: sizes.$space-tiny;
 }
 
-h5 {
+@mixin h5 {
   font-weight: $text-weight-bold;
   width: 100%;
   text-align: left;
@@ -159,14 +159,33 @@ h5 {
   margin-bottom: sizes.$space-small;
 }
 
+h1 {
+  @include h1;
+}
+
+h2 {
+  @include h2;
+}
+
+h3 {
+  @include h3;
+}
+
+h4 {
+  @include h4;
+}
+
+h5 {
+  @include h5;
+}
 
 /* TODO: Alla dessa borde göras till riktiga headers */
 .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
-  @extend h3;
+  @include h3;
 }
 
 button.nested-accordion-header, .commandbar_changepresentation_changetext {
-  @extend h5;
+  @include h5;
 }
 
 

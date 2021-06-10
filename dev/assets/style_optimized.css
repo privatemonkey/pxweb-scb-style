@@ -167,12 +167,12 @@ body {
 
 /* For checkboxes, radios */
 /* -- Headers -- */
-h1, h2, h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span, h4 {
+h1, h2, h3, .siteLogoText, h4 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.2;
 }
-h1:first-letter, h2:first-letter, h3:first-letter, .siteLogoText:first-letter, .container_titletext:first-letter, .heading:first-letter, .variableselector_valuesselect_variabletitle > label:first-letter, .about-table .accordion-body .header-text span:first-letter, h4:first-letter {
+h1:first-letter, h2:first-letter, h3:first-letter, .siteLogoText:first-letter, h4:first-letter {
   text-transform: capitalize;
 }
 
@@ -199,13 +199,13 @@ h2 {
   }
 }
 
-h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
+h3, .siteLogoText {
   font-size: 1.3125rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
 @media (max-width: 799px) {
-  h3, .siteLogoText, .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
+  h3, .siteLogoText {
     font-size: 1.125rem;
   }
 }
@@ -217,7 +217,7 @@ h4 {
   margin-bottom: 0.25rem;
 }
 
-h5, button.nested-accordion-header, .commandbar_changepresentation_changetext {
+h5 {
   font-weight: 700;
   width: 100%;
   text-align: left;
@@ -226,6 +226,25 @@ h5, button.nested-accordion-header, .commandbar_changepresentation_changetext {
 }
 
 /* TODO: Alla dessa borde göras till riktiga headers */
+.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
+  font-size: 1.3125rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+@media (max-width: 799px) {
+  .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
+    font-size: 1.125rem;
+  }
+}
+
+button.nested-accordion-header, .commandbar_changepresentation_changetext {
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 0.75rem;
+}
+
 .container_titletext {
   margin-top: 0;
 }
@@ -1488,6 +1507,23 @@ input[type=submit].variableselector_continue_button {
 /* Select */
 .commandbar_sum_sumallvaluesnewvariabelname_dropdown {
   margin-bottom: 1rem;
+}
+
+/* Handle the dialogs we still have */
+.ui-dialog-title {
+  font-size: 1.3125rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+@media (max-width: 799px) {
+  .ui-dialog-title {
+    font-size: 1.125rem;
+  }
+}
+
+.ui-dialog {
+  border: 1px solid #949494;
+  background-color: #f7f7f7;
 }
 
 /* Elements that should have been inside the main wrapper */
