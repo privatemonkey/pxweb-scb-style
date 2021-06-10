@@ -1619,15 +1619,15 @@ a.search-icon svg {
   font-size: 1.15rem;
 }
 
-#OperationsPanel input[type=submit] {
+.commandbar_link_dropdownlist input[type=submit] {
   background-color: transparent;
   text-decoration: underline;
   margin: 0 0.5rem 0.5rem 0;
   border-color: transparent;
   outline-color: transparent;
-  font-weight: 700;
+  font-weight: 500;
 }
-#OperationsPanel input[type=submit]:hover, #OperationsPanel input[type=submit]:focus {
+.commandbar_link_dropdownlist input[type=submit]:hover, .commandbar_link_dropdownlist input[type=submit]:focus {
   color: #001920;
   cursor: pointer;
   text-decoration: underline;

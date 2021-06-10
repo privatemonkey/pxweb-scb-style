@@ -167,13 +167,13 @@ a.search-icon svg {
     font-size: typography.$font-size-medium;
   }
 
-  #OperationsPanel input[type="submit"] {
+  .commandbar_link_dropdownlist input[type="submit"] {
     background-color: transparent;
     text-decoration: underline;
     margin: 0 0.5rem 0.5rem 0;
     border-color: transparent;
     outline-color: transparent;
-    font-weight: typography.$text-weight-bold;
+    font-weight: typography.$text-weight-medium;
     
     @include typography.textlink__hover;
 }
