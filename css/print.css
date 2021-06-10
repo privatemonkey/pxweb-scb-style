@@ -312,7 +312,7 @@ a, a > span {
   border-color: transparent;
 }
 a:hover, a:focus, a > span:hover, a > span:focus {
-  color: #001920;
+  color: #000;
   cursor: pointer;
   text-decoration: underline;
 }
