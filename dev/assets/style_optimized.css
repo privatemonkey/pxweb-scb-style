@@ -1325,14 +1325,30 @@ Select variable
   justify-content: left;
 }
 
+/* Title */
+.variableselector_valuesselect_variabletitle {
+  width: 100%;
+}
+
+.variableselector_valuesselect_mandatory_text {
+  margin-left: 0.25rem;
+  line-height: 1.9rem;
+}
+.variableselector_valuesselect_mandatory_text::after {
+  content: ")";
+}
+.variableselector_valuesselect_mandatory_text ::before {
+  content: "(";
+}
+
 .variableselector_variable_box_container.flex-row.flex-wrap {
   justify-content: start;
 }
 
 .variableselector_variable_box_container > div, .selectfromgroup-container {
-  margin-right: 1vw;
+  margin-right: 2rem;
   min-width: 20rem;
-  max-width: 18vw;
+  max-width: 25vw;
 }
 @media (max-width: 660px) {
   .variableselector_variable_box_container > div, .selectfromgroup-container {
@@ -1360,16 +1376,16 @@ Select variable
   margin-bottom: 1rem;
 }
 
-.variableselector_valuesselect_mandatory_text::before {
-  content: "(";
-}
-
-.variableselector_valuesselect_mandatory_text::after {
-  content: ")";
-}
-
 .variableselector_valuesselect_statistics_panel p {
   margin-bottom: 0.5rem;
+}
+
+.variableselector_valuesselect_aggregations {
+  margin-bottom: 1rem;
+}
+
+.variableselector_valuesselect_select_all_button, .variableselector_valuesselect_deselect_all_button {
+  margin-top: 0.75rem;
 }
 
 /* Result page specific styling */
@@ -1529,14 +1545,6 @@ a.search-icon svg {
 }
 
 /* Very specific styling */
-.variableselector_valuesselect_aggregations {
-  margin-bottom: 1rem;
-}
-
-.variableselector_valuesselect_select_all_button, .variableselector_valuesselect_deselect_all_button {
-  margin-top: 0.75rem;
-}
-
 .footnotes_container {
   max-width: 720px;
 }
