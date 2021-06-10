@@ -510,7 +510,7 @@ button:hover, button:active, button:focus, input[type=button]:hover, input[type=
 
 button:disabled, input:disabled, input[type=submit]:disabled, input[type=submit].primary-btn:disabled {
   border-color: #949494;
-  background-color: transparent;
+  background-color: #eeeeee;
   color: #949494;
 }
 button:disabled:hover, button:disabled:focus, button:disabled:active, input:disabled:hover, input:disabled:focus, input:disabled:active, input[type=submit]:disabled:hover, input[type=submit]:disabled:focus, input[type=submit]:disabled:active, input[type=submit].primary-btn:disabled:hover, input[type=submit].primary-btn:disabled:focus, input[type=submit].primary-btn:disabled:active {
@@ -771,7 +771,7 @@ option:hover, option:active, option:focus {
 */
 .variableselector_variable_box_container > div, div.accordion {
   background-color: #f7f7f7;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   padding: 1.5rem;
 }
 
@@ -1031,6 +1031,7 @@ thead th, thead td {
 
 .navigationFlowArea a.future span {
   color: #949494;
+  text-decoration: none;
 }
 
 .navigationFlowArea a.active {
@@ -1344,6 +1345,33 @@ Select variable
   content: "(";
 }
 
+input[type=submit].variableselector_continue_button {
+  font-size: 1.3125rem;
+  max-height: unset;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.variableselector_valuesselect_search_textstart_checkbox label {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+  width: 100%;
+}
+
+.variableselector_valuesselect_search_textstart_checkbox {
+  width: 100%;
+  padding: 0.5rem 0 1rem;
+  display: flex;
+}
+
+.variableselector_valuesselect_aggregations {
+  margin-top: 1.5rem;
+}
+
 .variableselector_variable_box_container.flex-row.flex-wrap {
   justify-content: start;
 }
@@ -1648,33 +1676,6 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   cursor: pointer;
   border: 2px solid #222;
   outline: 1px solid #222;
-}
-
-input[type=submit].variableselector_continue_button {
-  font-size: 1.3125rem;
-  max-height: unset;
-  padding: 1rem 1.5rem;
-  margin: 1rem 0 1.5rem;
-}
-
-.variableselector_valuesselect_search_textstart_checkbox label {
-  font-size: 1rem;
-  line-height: 1.4;
-  font-weight: 400;
-  max-width: 100%;
-  margin-top: 0;
-  margin-bottom: 22px;
-  width: 100%;
-}
-
-.variableselector_valuesselect_search_textstart_checkbox {
-  width: 100%;
-  padding: 0.75rem 0;
-  display: flex;
-}
-
-.variableselector_valuesselect_aggregations {
-  margin-top: 1.5rem;
 }
 
 input.download-icon {

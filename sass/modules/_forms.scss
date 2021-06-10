@@ -41,7 +41,7 @@ button, input[type="button"], input[type="submit"] {
 
 button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="submit"].primary-btn:disabled {
   border-color: colors.$button__disabled;
-  background-color: transparent;
+  background-color: colors.$button-background__disabled;
   color: colors.$button__disabled;
 
   &:hover, &:focus, &:active {

@@ -72,6 +72,7 @@ $stepper-left-space: 2rem;
   
 .navigationFlowArea a.future span {
     color: typography.$text-inactive;
+    text-decoration: none;
   }
   
 .navigationFlowArea a.active {

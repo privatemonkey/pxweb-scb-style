@@ -46,6 +46,28 @@ Select variable
   }
 }
 
+input[type="submit"].variableselector_continue_button {
+  font-size: typography.$font-size-h3;
+  max-height: unset;
+  padding: sizes.$space-medium sizes.$space-large;
+  margin: sizes.$space-medium 0 sizes.$space-large;
+}
+
+.variableselector_valuesselect_search_textstart_checkbox label {
+  @include typography.text;
+  width: 100%;
+}
+
+.variableselector_valuesselect_search_textstart_checkbox {
+  width: 100%;
+  padding: sizes.$space-extra-small 0 sizes.$space-medium;
+  display: flex;
+}
+
+.variableselector_valuesselect_aggregations {
+  margin-top: sizes.$space-large;
+}
+
 
 .variableselector_variable_box_container.flex-row.flex-wrap {
   justify-content: start;
