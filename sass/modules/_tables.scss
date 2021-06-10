@@ -102,8 +102,15 @@ th.layout1-table-stub2 {
 }
 
 td.attribute-cell:after {
-  border-left: 5px solid cyan;
-    border-right: 5px solid red;
-    border-bottom: 5px solid green;
-    border-top: 5px solid blue;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0; 
+  height: 0; 
+  display: block;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+
+  border-top: 20px solid #f00;
 }
