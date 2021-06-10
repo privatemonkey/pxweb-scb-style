@@ -1,6 +1,7 @@
 @use '../base/typography';
 @use '../base/colors';
 @use '../base/sizes';
+@use '../modules/forms';
 
 /* 
 
@@ -96,6 +97,9 @@ input[type="submit"].variableselector_continue_button {
     display: none;
   }
 
+  .pxweb-link {
+    @include forms.secondary-btn;
+  }
   .variableselector_variable_box_container input[type="submit"] {
     border-color: transparent;
     text-decoration: underline;

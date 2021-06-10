@@ -1488,6 +1488,19 @@ input[type=submit].variableselector_continue_button {
   display: none;
 }
 
+.pxweb-link {
+  background-color: transparent;
+  border-color: #006E91;
+  color: #006E91;
+}
+.pxweb-link:focus, .pxweb-link:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #222;
+  outline: 1px solid #222;
+}
+
 .variableselector_variable_box_container input[type=submit] {
   border-color: transparent;
   text-decoration: underline;
