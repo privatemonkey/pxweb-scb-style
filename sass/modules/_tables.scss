@@ -46,6 +46,10 @@ thead > tr:first-child > td, thead > tr:first-child > th {
   border-top: 2px solid colors.$table-border-color;
 }
 
+thead > tr:first-child > td {
+  border-right-color: colors.$table-border-color;
+}
+
 thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
   border-bottom: 1px solid colors.$table-border-color;
 }

@@ -929,6 +929,10 @@ thead > tr:first-child > td, thead > tr:first-child > th {
   border-top: 2px solid #222;
 }
 
+thead > tr:first-child > td {
+  border-right-color: #222;
+}
+
 thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
   border-bottom: 1px solid #222;
 }
