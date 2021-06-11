@@ -1768,10 +1768,13 @@ a.search-icon svg {
 #ApiAccordionHeader::before {
   content: "API";
   font-weight: 400;
-  background: #5d5d5d;
+  background-color: #5d5d5d;
   color: white;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
+}
+#ApiAccordionHeader::before:hover {
+  background-color: #000;
 }
 
 .tablequery_informationpanel label {
