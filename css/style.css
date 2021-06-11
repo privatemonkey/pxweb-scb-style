@@ -1750,7 +1750,7 @@ a.search-icon svg {
 }
 
 /* Result page specific */
-button.ApiAccordionHeader {
+button.ApiAccordionHeader > span > span {
   color: #006E91;
   cursor: pointer;
   text-decoration: underline;
