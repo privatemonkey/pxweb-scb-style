@@ -965,14 +965,14 @@ tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
   background: #fff;
 }
 
-tbody > tr:hover th, tbody > tr:hover td, tbody > tr:hover th:first, tbody > tr:hover td:first {
+tbody tr:hover::before {
+  content: ">";
+}
+tbody tr:hover th, tbody tr:hover td {
   border-top-color: #000;
   border-bottom-color: #000;
   background-color: #ddd;
   color: #000;
-}
-tbody > tr:hover th::before, tbody > tr:hover td::before, tbody > tr:hover th:first::before, tbody > tr:hover td:first::before {
-  content: ">";
 }
 
 td, th {
