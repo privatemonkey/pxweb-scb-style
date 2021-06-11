@@ -701,7 +701,6 @@ input[type=radio]:checked + label, input[type=checkbox] + label {
 input[type=radio] + label, input[type=checkbox] + label {
   margin-bottom: 0.5rem;
   margin-right: 1rem;
-  width: calc(100% - 4rem);
   vertical-align: top;
   padding: 0;
   line-height: 140%;
@@ -1606,6 +1605,11 @@ input[type=submit].variableselector_continue_button {
 /* Style related to search */
 .search-option {
   display: flex;
+}
+
+.search-settings {
+  display: flex;
+  align-items: first baseline;
 }
 
 /* Elements that should have been inside the main wrapper */
