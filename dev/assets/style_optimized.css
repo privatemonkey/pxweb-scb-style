@@ -1857,6 +1857,12 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   margin-right: 0.75rem;
 }
 
+.savequery_rblist label {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-top: -2rem;
+}
+
 input.download-icon {
   margin-top: 1rem;
 }

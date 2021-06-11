@@ -228,6 +228,12 @@ a.search-icon svg {
     margin-right: sizes.$space-small;
   }
 
+  .savequery_rblist label {
+    display: inline-block;
+    margin-left: 2rem;
+    margin-top: -2rem;
+  }
+
 
   input.download-icon {
     margin-top: sizes.$space-medium;
