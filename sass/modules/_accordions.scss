@@ -82,13 +82,12 @@ button.accordion-header:before {
 
 .accordion-body {
   background-color: transparent;
-  width: 100%;
   border-top: 0;
   border-radius: 0;
   text-align: left;
   padding: 0 sizes.$space-large;
   margin-bottom: 2.5rem;
-  width: 100%;
+  width: auto;
 
   @media (max-width: 660px) {
     padding: 0 sizes.$space-medium;

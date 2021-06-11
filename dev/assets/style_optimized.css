@@ -683,7 +683,7 @@ input[type=radio]:hover, input[type=radio]:focus, input[type=radio]:active, inpu
 }
 
 input[type=radio] + label, input[type=radio]:checked + label, input[type=checkbox] + label, input[type=checkbox]:checked + label {
-  ont-weight: 400;
+  font-weight: 400;
   border-width: 0;
   outline-color: transparent;
 }
@@ -897,13 +897,12 @@ button.accordion-header:before {
 
 .accordion-body {
   background-color: transparent;
-  width: 100%;
   border-top: 0;
   border-radius: 0;
   text-align: left;
   padding: 0 1.5rem;
   margin-bottom: 2.5rem;
-  width: 100%;
+  width: auto;
 }
 @media (max-width: 660px) {
   .accordion-body {
