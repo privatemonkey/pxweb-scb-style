@@ -1203,10 +1203,11 @@ hr.future {
 
 /* The toolbar - now named commandbar */
 /* Container for burger menu button */
-.menu-item {
-  float: left;
+@media (min-width: 799px) {
+  .menu-item {
+    float: left;
+  }
 }
-
 #btnBurgerMenu:visited, #btnBurgerMenu:active {
   background-color: #006E91;
 }

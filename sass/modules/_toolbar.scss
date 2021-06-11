@@ -1,8 +1,12 @@
 /* The toolbar - now named commandbar */
 @use "../base/colors";
+@use "../base/breakpoints";
+
 /* Container for burger menu button */
-.menu-item {
-    float: left;
+@media (min-width: breakpoints.$small) {
+    .menu-item {
+        float: left;
+    }
 }
 
 #btnBurgerMenu {
