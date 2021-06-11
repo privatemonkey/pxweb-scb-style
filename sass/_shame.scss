@@ -159,6 +159,13 @@ a.search-icon svg {
   }
 
   /* Result page specific */
+  .ApiAccordionHeader {
+    @include typography.textlink;
+    &::before {
+      content: '<API>';
+    }
+  }
+
   .tablequery_informationpanel label {
     margin-top: 1rem;
   }
