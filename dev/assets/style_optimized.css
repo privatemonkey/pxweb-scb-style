@@ -965,7 +965,7 @@ tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
   background: #fff;
 }
 
-tbody > tr:hover > th, tbody > tr:hover > td, tbody > tr:nth-child(even):hover > th, tbody > tr:nth-child(even):hover > td, tbody > tr:nth-child(odd):hover > td > th, tbody > tr:nth-child(odd):hover > td > td {
+tbody > tr:hover > th, tbody > tr:hover > td, tbody > tr:nth-child(2n+1):hover > th, tbody > tr:nth-child(2n+1):hover > td, tbody > tr:nth-child(2n):hover > td > th, tbody > tr:nth-child(2n):hover > td > td {
   border-top-color: #000;
   border-bottom-color: #000;
   background-color: #ddd;
