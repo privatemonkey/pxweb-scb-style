@@ -683,6 +683,7 @@ input[type=radio]:hover, input[type=radio]:focus, input[type=radio]:active, inpu
 }
 
 input[type=radio] + label, input[type=radio]:checked + label, input[type=checkbox] + label, input[type=checkbox]:checked + label {
+  ont-weight: 400;
   border-width: 0;
   outline-color: transparent;
 }
