@@ -159,11 +159,11 @@ a.search-icon svg {
   }
 
   /* Result page specific */
-  button.ApiAccordionHeader {
+  #ApiAccordionHeader {
     > span > span {
       @include typography.textlink;
     }
-    
+
     &::before {
       content: '<API>';
     }
