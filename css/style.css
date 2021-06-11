@@ -971,6 +971,9 @@ tbody > tr:hover th, tbody > tr:hover td, tbody > tr:hover th:first, tbody > tr:
   background-color: #ddd;
   color: #000;
 }
+tbody > tr:hover th::before, tbody > tr:hover td::before, tbody > tr:hover th:first::before, tbody > tr:hover td:first::before {
+  content: ">";
+}
 
 td, th {
   padding: 10px 9px;

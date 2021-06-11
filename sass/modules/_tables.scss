@@ -35,6 +35,10 @@ tbody > tr:hover {
       border-bottom-color: colors.$color-darkest;
       background-color: #ddd;
       color: colors.$color-darkest;
+
+      &::before {
+        content: '>';
+      }
   }
 }
 
