@@ -28,6 +28,15 @@ tbody > tr:nth-child(odd) > td, tbody > tr:nth-child(odd) > th {
 tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
   background: colors.$table-background-even;
 }
+tbody tr {
+  th, td {
+    &:hover {
+      border-top-color: colors.$color-darkest;
+      border-bottom-color: colors.$color-darkest;
+      color: colors.$color-darkest;
+    }
+  }
+}
 
 td, th {
   padding: 10px 9px;
@@ -66,6 +75,7 @@ tbody tr th:first-child, tbody tr td:first-child {
   position: sticky;
   left: 0;
   z-index: 5;
+  font-weight: typography.$text-weight-semibold;
 
   @media (max-width: breakpoints.$small) {
     max-width: 30vw; 
