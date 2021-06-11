@@ -1844,8 +1844,9 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   outline: 1px solid #222;
 }
 
-.tools-header button::before {
+.tools-header button::before, button.ui-dialog-titlebar-close {
   content: "✖";
+  margin-right: 0.75rem;
 }
 
 input.download-icon {

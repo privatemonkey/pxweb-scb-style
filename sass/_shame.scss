@@ -223,8 +223,10 @@ a.search-icon svg {
     @include forms.button__hover;
   }
 
-  .tools-header button::before {
+  .tools-header button::before, button.ui-dialog-titlebar-close {
     content: '✖';
+    margin-right: sizes.$space-small;
+    
   }
 
 
