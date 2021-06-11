@@ -162,6 +162,7 @@ a.search-icon svg {
   #ApiAccordionHeader {
     > span {
       @include typography.textlink;
+      @include typography.textlink__hover;
     }
 
     > span > span {

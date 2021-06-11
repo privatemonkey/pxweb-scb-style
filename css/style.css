@@ -1757,6 +1757,11 @@ a.search-icon svg {
   outline-color: transparent;
   border-color: transparent;
 }
+#ApiAccordionHeader > span:hover, #ApiAccordionHeader > span:focus {
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+}
 #ApiAccordionHeader > span > span {
   text-decoration: underline;
 }

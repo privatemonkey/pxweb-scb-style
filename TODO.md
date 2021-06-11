@@ -9,19 +9,20 @@
 - [x] Trädet - Bort med understrykning
 - [ ] input + label width kan bli fel eftersom den beräknas ifrån 100%
 - [ ] Refactor input + label code
+- [ ] Refactor API button
 - [ ] Print CSS
 - [ ] Sizes - Skapa margin och padding variablar för text, headings och annat
 - [ ] Huvudet - Se över storlekar
 - [x] Fullscreen knapp - Se över placering
-- [ ] Välj variabel - Se över spacing
-- [ ] Välj variabel - Se över textstorlekar
-- [ ] Verktygsmenyn - Fly out in
-- [ ] Verktygsmenyn - Behövs nog en rubrik?
+- [x] Välj variabel - Se över spacing
+- [x] Välj variabel - Se över textstorlekar
+- [x] Verktygsmenyn - Fly out in
+- [x] Verktygsmenyn - Behövs nog en rubrik?
 - [ ] Tree - Search är lite anonym
-- [ ] Städa i breakpoints
-- [ ] Flytta ut välj variabel från "shame" till egen fil
+- [x] Städa i breakpoints
+- [x] Flytta ut välj variabel från "shame" till egen fil
 - [ ] Flytta ut sök från "shame" till egen fil
-- [ ] Fullscreen scroll - Funkar inte. Funkar det hos SSB?
+- [x] Fullscreen scroll - Funkar inte. Funkar det hos SSB?
 - [ ] Verktygsmeny - Ska bara vara overlay i mobil. I desktop ska den ligga vid sidan
 - [ ] Välj variabel - Search - style 100% width
 - [ ] Forms - Style för nummer fält - mindre min width än text fält
