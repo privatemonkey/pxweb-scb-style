@@ -1750,14 +1750,14 @@ a.search-icon svg {
 }
 
 /* Result page specific */
-.ApiAccordionHeader {
+button.ApiAccordionHeader {
   color: #006E91;
   cursor: pointer;
   text-decoration: underline;
   outline-color: transparent;
   border-color: transparent;
 }
-.ApiAccordionHeader::before {
+button.ApiAccordionHeader::before {
   content: "<API>";
 }
 
