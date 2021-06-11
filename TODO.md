@@ -36,6 +36,7 @@
 
 ## Utveckling
 
+- [ ] Attribute dialog, title borde göras till riktig rubrik
 - [ ] Sum, multiply, divide - Lägg wrapper div på siffra nummer två
 - [x] Sum, multiply, divide - Ta bort konstig extrarubrik
 - [ ] Forms - Gå igenom och städa i .font-heading, labels, legend och extra spans

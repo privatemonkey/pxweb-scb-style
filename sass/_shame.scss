@@ -223,6 +223,10 @@ a.search-icon svg {
     @include forms.button__hover;
   }
 
+  .tools-header button::before {
+    content: '✖';
+  }
+
 
   input.download-icon {
     margin-top: sizes.$space-medium;
