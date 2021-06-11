@@ -28,7 +28,8 @@ tbody > tr:nth-child(odd) > td, tbody > tr:nth-child(odd) > th {
 tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
   background: colors.$table-background-even;
 }
-tbody tr:hover {
+
+tbody > tr:hover {
   th, td, th:first, td:first {
       border-top-color: colors.$color-darkest;
       border-bottom-color: colors.$color-darkest;
