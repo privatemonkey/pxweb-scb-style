@@ -29,9 +29,10 @@ tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
   background: colors.$table-background-even;
 }
 tbody tr:hover {
-  th, td {
+  th, td, th:first, td:first {
       border-top-color: colors.$color-darkest;
       border-bottom-color: colors.$color-darkest;
+      background-color: colors.$table-background__hoover;
       color: colors.$color-darkest;
   }
 }

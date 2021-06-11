@@ -965,9 +965,10 @@ tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
   background: #fff;
 }
 
-tbody tr:hover th, tbody tr:hover td {
+tbody tr:hover th, tbody tr:hover td, tbody tr:hover th:first, tbody tr:hover td:first {
   border-top-color: #000;
   border-bottom-color: #000;
+  background-color: #dddddd;
   color: #000;
 }
 
