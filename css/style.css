@@ -1208,6 +1208,11 @@ hr.future {
     float: left;
   }
 }
+@media (max-width: 799px) {
+  #CommandBarShortCuts {
+    display: none;
+  }
+}
 #btnBurgerMenu:visited, #btnBurgerMenu:active {
   background-color: #006E91;
 }
