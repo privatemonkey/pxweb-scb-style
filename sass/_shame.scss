@@ -164,9 +164,17 @@ a.search-icon svg {
       @include typography.textlink;
     }
 
+    > span > span {
+      text-decoration: underline;
+    }
+
     &::before {
-      content: '<API>';
-      font-weight: 300;
+      content: "API";
+      font-weight: 400;
+      background: #5d5d5d;
+      color: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.25rem;
     }
   }
 
