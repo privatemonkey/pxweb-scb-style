@@ -1750,7 +1750,7 @@ a.search-icon svg {
 }
 
 /* Result page specific */
-#ApiAccordionHeader > span > span {
+#ApiAccordionHeader > span {
   color: #006E91;
   cursor: pointer;
   text-decoration: underline;
@@ -1759,6 +1759,7 @@ a.search-icon svg {
 }
 #ApiAccordionHeader::before {
   content: "<API>";
+  font-weight: 300;
 }
 
 .tablequery_informationpanel label {

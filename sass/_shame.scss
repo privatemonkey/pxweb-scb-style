@@ -160,12 +160,13 @@ a.search-icon svg {
 
   /* Result page specific */
   #ApiAccordionHeader {
-    > span > span {
+    > span {
       @include typography.textlink;
     }
 
     &::before {
       content: '<API>';
+      font-weight: 300;
     }
   }
 
