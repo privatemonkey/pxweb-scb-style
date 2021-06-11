@@ -965,9 +965,6 @@ tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
   background: #fff;
 }
 
-tr:hover::before {
-  content: ">";
-}
 tr:hover th, tr:hover td {
   border-top-color: #000;
   border-bottom-color: #000;

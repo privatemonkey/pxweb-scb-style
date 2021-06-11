@@ -30,10 +30,6 @@ tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
 }
 
 tr:hover {
-  &::before {
-    content: '>';
-  }
-
   th, td {
       border-top-color: colors.$color-darkest;
       border-bottom-color: colors.$color-darkest;
