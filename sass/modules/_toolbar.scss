@@ -1,6 +1,12 @@
 /* The toolbar - now named commandbar */
-
+@use "../base/colors";
 /* Container for burger menu button */
 .menu-item {
     float: left;
+}
+
+#btnBurgerMenu {
+    &:visited, &:active {
+        background-color: colors.$button-primary-background;
+    }
 }

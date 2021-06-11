@@ -1209,6 +1209,10 @@ hr.future {
   float: left;
 }
 
+#btnBurgerMenu:visited, #btnBurgerMenu:active {
+  background-color: #006E91;
+}
+
 /* Errors and messages */
 .px-messages, .variableselector_error_summary {
   padding: 1rem;
