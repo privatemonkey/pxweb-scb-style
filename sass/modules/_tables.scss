@@ -28,13 +28,11 @@ tbody > tr:nth-child(odd) > td, tbody > tr:nth-child(odd) > th {
 tbody > tr:nth-child(even) > td, tbody > tr:nth-child(even) > th {
   background: colors.$table-background-even;
 }
-tbody tr {
+tbody tr:hover {
   th, td {
-    &:hover {
       border-top-color: colors.$color-darkest;
       border-bottom-color: colors.$color-darkest;
       color: colors.$color-darkest;
-    }
   }
 }
 
