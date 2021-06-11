@@ -1263,7 +1263,7 @@ select.variableselector_valuesselect_box_error {
 */
 nav#breadcrumb a:first-of-type {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 100%;
   padding: 0;
 }
@@ -1603,6 +1603,11 @@ input[type=submit].variableselector_continue_button {
   display: none;
 }
 
+/* Style related to search */
+.search-option {
+  display: flex;
+}
+
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
@@ -1844,7 +1849,7 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   outline: 1px solid #222;
 }
 
-.tools-header button::before, button.ui-dialog-titlebar-close {
+.tools-header button::before, button.ui-dialog-titlebar-close::before {
   content: "✖";
   margin-right: 0.75rem;
 }

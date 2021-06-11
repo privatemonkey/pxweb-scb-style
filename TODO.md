@@ -36,16 +36,17 @@
 
 ## Utveckling
 
+- [ ] Ta bort focus på burgerknapp efter click (.blur())
 - [ ] Attribute dialog, title borde göras till riktig rubrik
 - [ ] Sum, multiply, divide - Lägg wrapper div på siffra nummer två
 - [x] Sum, multiply, divide - Ta bort konstig extrarubrik
 - [ ] Forms - Gå igenom och städa i .font-heading, labels, legend och extra spans
 - [ ] Forms - Gör om text fält till nummer om de är menad att visa enbart siffror
 - [ ] Välj variabel - Search - add class to main div
-- [ ] Hamburgerknapp - gör om till button och ge parent div en klass. Hälst flytta.
-- [ ] Hamburgerknapp - Döpa om till "Visa verktyg"/"Dölj verktyg"
-- [ ] Fullscreenknapp - gör om till button
-- [ ] Sortable table, ändra inputs till buttons för att kunna lägga ikoner på :after
+- [-] Hamburgerknapp - gör om till button och ge parent div en klass. Hälst flytta.
+- [-] Hamburgerknapp - Döpa om till "Visa verktyg"/"Dölj verktyg"
+- [-] Fullscreenknapp - gör om till button
+- [-] Sortable table, ändra inputs till buttons för att kunna lägga ikoner på :after
 - [x] Chart settings - Ändra text-fält till nummer fält
 - [x] Chart settings - Ta bort spans som gör checkbox listor till inline
 - [-] Stepper - byta ut hr mot span
@@ -53,10 +54,10 @@
 - [x] Stepper - flytta .first, second, third till anchor
 - [-] Stepper - Lägg till aria hidden på en del element
 - [-] Träd - Visa kolumner med värden istället för img ikoner
-- [ ] Verktygsmenyn - Huvud med rubrik "Verktyg" och stäng knapp
+- [x] Verktygsmenyn - Huvud med rubrik "Verktyg" och stäng knapp
 - [ ] Verktygsmenyn - Presentation-left div flyttas efter huvudinnehållet för att bli bättre för uppläsning
 - [ ] Verktygsmenyn -Submit buttons in left panel changed to .nested-accordion-panel and buttons. All other classes removed.
-- [ ] Verktygsmenyn - Flytta dialog för edit and calculate till rätt föräldernod
+- [x] Verktygsmenyn - Flytta dialog för edit and calculate till rätt föräldernod
 - [ ] Vyer - Varje views namn läggs som class på body-taggen (.tree, .select-variables, .result=
 - [ ] Struktur - Flytta element in i main
   - [ ] breadcrumb
