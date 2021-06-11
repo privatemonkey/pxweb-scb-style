@@ -1623,7 +1623,7 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   }
 }
 
-div:empty, span:empty {
+div:empty, span:empty, a:empty, p:empty {
   display: none;
 }
 
