@@ -1,7 +1,7 @@
 # Todo
 
 ## Design / CSS
-
+- [ ] Disabled radio/checkbox - label ska också se disabled ut
 - [ ] Välj variabel - Lägg på färg, fokus och ikoner vid fel
 - [x] Välj variabel - Större knapp, spacing och linje över fotnötter
 - [x] Välj variabel - Brädd på boxar i största fönsterbrädden
@@ -36,7 +36,7 @@
 
 ## Utveckling
 
-- [ ] Ta bort focus på burgerknapp efter click (.blur())
+- [x] Ta bort focus på burgerknapp efter click (.blur())
 - [ ] Attribute dialog, title borde göras till riktig rubrik
 - [ ] Sum, multiply, divide - Lägg wrapper div på siffra nummer två
 - [x] Sum, multiply, divide - Ta bort konstig extrarubrik

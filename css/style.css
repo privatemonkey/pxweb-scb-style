@@ -365,7 +365,7 @@ button, button.accordion-header, button.nested-accordion-header {
 
 /* Links */
 a, a > span {
-  color: #006E91;
+  color: #1e00be;
   cursor: pointer;
   text-decoration: underline;
   outline-color: transparent;
@@ -548,9 +548,9 @@ main {
 * Basic button is styled as primary button
 */
 button, input[type=button], input[type=submit] {
-  background-color: #006E91;
+  background-color: #1e00be;
   color: #fff;
-  border: 2px #006E91 solid;
+  border: 2px #1e00be solid;
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
 }
@@ -582,15 +582,15 @@ button, input[type=submit], input[type=button], input[type=submit].container_con
   max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
-  background-color: #006E91;
-  border: 2px #006E91 solid;
+  background-color: #1e00be;
+  border: 2px #1e00be solid;
   outline: 1px transparent;
 }
 
 button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn, #OperationsPanel input[type=submit].primary-btn {
   color: #fff;
-  background-color: #006E91;
-  border-color: #006E91;
+  background-color: #1e00be;
+  border-color: #1e00be;
 }
 button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover, #OperationsPanel input[type=submit].primary-btn:focus, #OperationsPanel input[type=submit].primary-btn:hover {
   background-color: #222;
@@ -609,7 +609,7 @@ button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-b
 
 button.secondary, input[type=button].secondary-btn, input[type=submit] {
   background-color: transparent;
-  border-color: #006E91;
+  border-color: #1e00be;
   color: #006E91;
 }
 button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn:focus, input[type=button].secondary-btn:hover, input[type=submit]:focus, input[type=submit]:hover {
@@ -1214,7 +1214,7 @@ hr.future {
   }
 }
 #btnBurgerMenu:visited, #btnBurgerMenu:active {
-  background-color: #006E91;
+  background-color: #1e00be;
 }
 
 /* Errors and messages */
@@ -1357,7 +1357,7 @@ nav a span {
 
 /* Clickable nodes */
 .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink, .AspNet-TreeView a, .AspNet-TreeView a span {
-  color: #006E91;
+  color: #1e00be;
   cursor: pointer;
   text-decoration: underline;
   outline-color: transparent;
@@ -1779,7 +1779,7 @@ a.search-icon svg {
 
 /* Result page specific */
 #ApiAccordionHeader > span {
-  color: #006E91;
+  color: #1e00be;
   cursor: pointer;
   text-decoration: underline;
   outline-color: transparent;
@@ -1835,8 +1835,8 @@ a.search-icon {
   max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
-  background-color: #006E91;
-  border: 2px #006E91 solid;
+  background-color: #1e00be;
+  border: 2px #1e00be solid;
   outline: 1px transparent;
   text-decoration: none;
   margin-bottom: 0;
