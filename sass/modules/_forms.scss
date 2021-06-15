@@ -114,7 +114,7 @@ button.secondary, input[type="button"].secondary-btn, input[type="submit"] {
 }
 
 /* Contains hack for "Pivot manual" style */
-button.tertiar, input[type="submit"].arrow-left, input[type="submit"].arrow-right {
+button.tertiar {
   @include tertiar-btn;
 }
 

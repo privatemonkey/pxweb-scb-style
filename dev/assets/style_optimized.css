@@ -621,13 +621,13 @@ button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn
 }
 
 /* Contains hack for "Pivot manual" style */
-button.tertiar, input[type=submit].arrow-left, input[type=submit].arrow-right {
+button.tertiar {
   background-color: transparent;
   border-color: transparent;
   color: #1e00be;
   align-self: flex-start;
 }
-button.tertiar:focus, button.tertiar:hover, input[type=submit].arrow-left:focus, input[type=submit].arrow-left:hover, input[type=submit].arrow-right:focus, input[type=submit].arrow-right:hover {
+button.tertiar:focus, button.tertiar:hover {
   background-color: #222;
   color: #fff;
   cursor: pointer;
