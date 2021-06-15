@@ -33,7 +33,8 @@ $color-primary-dark:        #001920 !default; // Link hover, button hover backgr
 $color-primary-text:        #fff !default;    // Text on primary used as background
 
 /*-- Secondary --*/
-$color-secondary:           #006E91 !default;
+// $color-secondary:           #006E91 !default;
+$color-secondary:           #1e00be;
 $color-secondary-light:     #00bdf7 !default;
 $color-secondary-dark:      #022833 !default;
 $color-secondary-text:      #fff !default;
@@ -81,7 +82,7 @@ $button-primary-background__hover: $color-primary-dark !default;
 $button-primary-text__hover: #fff !default;
 
 $button-secondary-background: #ffffff !default;
-$button-secondary-text: #006E91 !default;
+$button-secondary-text: $color-primary !default;
 
 $button__hover-background: #222 !default;
 $button__hover-text: #fff !default;
