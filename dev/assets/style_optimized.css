@@ -1204,7 +1204,7 @@ hr.future {
 /* The toolbar - now named commandbar */
 /* Container for burger menu button */
 @media (min-width: 799px) {
-  .menu-item {
+  .tools-menu-item {
     float: left;
   }
 }
