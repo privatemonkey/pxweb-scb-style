@@ -459,23 +459,9 @@ img.logo-quality, .officialStatisticsImage {
   justify-content: space-between;
 }
 
-.tools-header {
-  margin: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-}
-.tools-header h2, .tools-header button {
-  margin: 0;
-}
-
 main {
   max-width: 1440px;
   margin: 0 auto;
-}
-@media (min-width: 480px) and (max-width: 900px) {
-  main {
-    margin: 0;
-  }
 }
 
 .result main {
@@ -1622,11 +1608,6 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   max-width: 1440px;
   margin: 0 auto;
 }
-@media (min-width: 480px) and (max-width: 900px) {
-  div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
-    margin: 0;
-  }
-}
 
 div:empty, span:empty, a:empty, p:empty {
   display: none;
@@ -1891,7 +1872,6 @@ input.download-icon {
 /* Media queries */
 @media (max-width: 1140px) {
   main {
-    max-width: 90vw;
     /* margin:0 calc(476 + 1.5rem) 0 auto;*/
     margin: 0 auto;
     padding-left: 1.5rem;

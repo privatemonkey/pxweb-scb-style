@@ -261,7 +261,6 @@ a.search-icon svg {
   /* Media queries */
   @media(max-width:1140px) {
     main {
-      max-width: 90vw;
       /* margin:0 calc(#{sizes.$panel-width-small} + #{sizes.$space-large}) 0 auto;*/
       margin: 0 auto;
       padding-left: sizes.$space-large;
