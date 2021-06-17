@@ -9,15 +9,13 @@
 $stepper-1-adjust: -2rem;
 $stepper-2-adjust: -2.5rem;
 $stepper-3-adjust: -2rem;
-$stepper-left-space: 2rem;
 
 .navigationFlowArea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 5rem;
-    margin: 2rem 0;
-    margin-left: $stepper-left-space;
+    margin: sizes.$space-extra-large sizes.$space-large;
     padding: sizes.$space-small;
   }
   
