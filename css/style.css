@@ -10,10 +10,16 @@
 /* Use local font or CDN */
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap");
 /*
+* Sizes
+*/
+/* Default spacing */
+/* Panel size */
+/*
 * Default theme
 */
 body {
   background-color: #fff;
+  padding: 1.5rem;
 }
 
 /* Colors
@@ -70,11 +76,6 @@ body {
 /* Tables */
 /* Errors and messages */
 /* Panels */
-/*
-* Sizes
-*/
-/* Default spacing */
-/* Panel size */
 /*
 * Breakpoints
 * Statistics for screen size usage
