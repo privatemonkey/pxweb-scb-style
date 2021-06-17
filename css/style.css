@@ -474,7 +474,6 @@ main {
 }
 @media (min-width: 480px) and (max-width: 900px) {
   main {
-    max-width: 90vw;
     margin: 0;
   }
 }
@@ -1625,7 +1624,6 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
 }
 @media (min-width: 480px) and (max-width: 900px) {
   div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
-    max-width: 90vw;
     margin: 0;
   }
 }
