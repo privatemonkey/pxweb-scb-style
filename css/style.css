@@ -1594,6 +1594,7 @@ input[type=submit].variableselector_continue_button {
   padding: 1rem 1rem;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
   overflow-y: scroll;
+  z-index: 100;
 }
 
 .ui-draggable .ui-draggable-handle {
