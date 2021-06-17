@@ -379,7 +379,7 @@ a:hover, a:focus, a > span:hover, a > span:focus {
 header, #header {
   border-bottom: 1px solid #949494;
   margin-bottom: 1rem;
-  padding: 0.75rem;
+  padding: 0;
   background-color: #fff;
 }
 
