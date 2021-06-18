@@ -48,10 +48,6 @@ td, th {
   text-align: right;
 }
 
-td.attribute-cell {
-  padding: 0;
-}
-
 table {
   border-bottom: 2px solid colors.$table-border-color;
 }
@@ -128,17 +124,21 @@ th.layout1-table-stub4 {
   padding-left: calc(#{sizes.$space-large} + #{sizes.$space-large} + #{sizes.$space-large}); 
 }
 
+/* Cells with attributes */
+
 td.attribute-cell {
+  padding: 0 0 0.5rem;
+
   &::after {
     content: "";
-    border-left: 0.5rem solid transparent;
-    border-bottom: 0.5rem solid transparent;
-    border-top: 0.5rem solid #006E91;
+    border-left: 0.75rem solid transparent;
+    border-top: 0.75rem solid #006E91;
   }
   &:hover {
     cursor: pointer;
     text-decoration: underline;
     color: colors.$color-darkest;
+    background-color:  #d9f6ff;
   }
   &:hover::after {
     border-top-color: typography.$link__hover-text;
