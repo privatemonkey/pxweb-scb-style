@@ -64,7 +64,7 @@ thead > tr:first-child > td {
   z-index: 5;
 }
 
-tbody tr th:first-child:not([rowspan]), tbody tr td:first-child:not([rowspan]) {
+tbody tr th:first-child, tbody tr td:first-child {
   text-align: left;
   border-left: 1px solid colors.$table-border-outline-color;
   border-right: 1px solid colors.$table-border-outline-color;
