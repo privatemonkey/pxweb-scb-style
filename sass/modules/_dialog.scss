@@ -17,7 +17,6 @@
     border:1px solid colors.$panel-border-color;
     background-color: colors.$dialog-background;
     box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
-    overflow-y: scroll;
     z-index: 100;
 }
 
@@ -28,6 +27,7 @@
 
 .ui-dialog-content {
     padding: panel.$panel-padding;
+    overflow-y: scroll;
 }
 
 .ui-draggable .ui-draggable-handle {
@@ -36,8 +36,4 @@
 
 .ui-dialog-titlebar-close {
     float: right;
-}
-
-.ui-dialog-buttonpane {
-    display: none;
 }
