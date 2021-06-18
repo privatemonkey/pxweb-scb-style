@@ -1317,6 +1317,11 @@ nav a span {
   padding: 0;
 }
 
+.AspNet-TreeView > ul {
+  border-top: 1px solid #949494;
+  margin-top: 1rem;
+}
+
 .AspNet-TreeView ul ul {
   border-top: 1px solid #949494;
 }

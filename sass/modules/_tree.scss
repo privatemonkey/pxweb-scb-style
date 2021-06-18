@@ -15,6 +15,12 @@
     padding: 0;
 }
 
+
+.AspNet-TreeView > ul {
+    border-top: 1px solid colors.$color-medium;
+    margin-top: sizes.$space-medium;
+}
+
 .AspNet-TreeView ul ul {
     border-top: 1px solid colors.$color-medium;
 }
