@@ -79,9 +79,9 @@ button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="sub
 
 @mixin icon-button {
   background-repeat: no-repeat;
-  padding-left: sizes.$space-extra-large;
+  padding-left: calc(#{sizes.$space-extra-large} + #{sizes.$space-medium});
   background-size: sizes.$space-large;
-  background-position: sizes.$space-tiny center;
+  background-position: sizes.$space-small center;
 }
 
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
