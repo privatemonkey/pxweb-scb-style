@@ -982,7 +982,7 @@ thead > tr:first-child > td {
   z-index: 5;
 }
 
-thead th:first-of-type {
+thead td + th:first-of-type {
   border-left: 1px solid #666666;
 }
 
