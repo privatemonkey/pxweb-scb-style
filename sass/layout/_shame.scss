@@ -5,9 +5,9 @@
 @use 'layout/layout.scss';
 @use 'modules/forms.scss';
 
-/* Elements that should have been inside the main wrapper */
-div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
-  @include layout.maingrid;
+/* Elements that should have been inside the colors.$panel wrapper */
+div[role="colors.$panel"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
+  @include layout.colors.$panelgrid;
 }
 
 div:empty, span:empty, a:empty, p:empty {
@@ -239,7 +239,7 @@ a.search-icon svg {
 
   /* Edit and calculate dialogs */
 
-  #ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextPanel {
+  #ctl00_ctl00_ContentPlaceHoldercolors.$panel_CommandBar1_CommandBar1_PluginControl_PluginControl_ChangeTextPanel {
     display: flex;
     flex-direction: column;
   }
@@ -250,7 +250,7 @@ a.search-icon svg {
     flex-direction: row;
   }
 
-  #ctl00_ctl00_ContentPlaceHolderMain_CommandBar1_CommandBar1_PluginControl_PluginControl_DeleteValuePanel .font-normal-text {
+  #ctl00_ctl00_ContentPlaceHoldercolors.$panel_CommandBar1_CommandBar1_PluginControl_PluginControl_DeleteValuePanel .font-normal-text {
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
@@ -260,7 +260,7 @@ a.search-icon svg {
 
   /* Media queries */
   @media(max-width:1140px) {
-    main {
+    colors.$panel {
       /* margin:0 calc(#{sizes.$panel-width-small} + #{sizes.$space-large}) 0 auto;*/
       margin: 0 auto;
     }
@@ -271,7 +271,7 @@ a.search-icon svg {
   }
   
   @media(max-width:768px) {
-    main {
+    colors.$panel {
       max-width: calc(100vw - 2rem);
       padding: 0;
     }

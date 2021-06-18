@@ -461,7 +461,7 @@ img.logo-quality, .officialStatisticsImage {
 
 main {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
 }
 
 .result main {
@@ -1251,30 +1251,39 @@ select.variableselector_valuesselect_box_error {
 * Navigation related styling. Breadcrumbs, tree.
 */
 nav#breadcrumb a:first-of-type {
-  text-decoration: none;
-  font-size: 1.4rem;
-  line-height: 100%;
+  /*text-decoration: none;
   padding: 0;
+  font-size: 1.4rem;*/
+  line-height: 1;
 }
 nav#breadcrumb a:first-of-type::before {
   content: "⌂";
 }
 
 nav a {
-  font-weight: 500;
+  /* font-weight: typography.$font-weight-medium;
   padding: 0.25rem 0.25rem 0.05rem;
   line-height: 150%;
   vertical-align: top;
-  display: inline;
+  display: inline;*/
+  vertical-align: sub;
 }
 
 nav .breadcrumb_sep {
-  vertical-align: -webkit-baseline-middle;
-  vertical-align: sub;
+  /*vertical-align: -webkit-baseline-middle;
+  vertical-align: sub;*/
+  vertical-align: bottom;
+  padding: 0 0.25rem;
 }
 
 nav a span {
   vertical-align: bottom;
+}
+
+.breadcrumb_text_nolink {
+  text-decoration: none;
+  color: #222;
+  font-weight: 400;
 }
 
 .breadcrumb_text_nolink {
@@ -1606,7 +1615,7 @@ input[type=submit].variableselector_continue_button {
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
 }
 
 div:empty, span:empty, a:empty, p:empty {
@@ -1874,7 +1883,6 @@ input.download-icon {
   main {
     /* margin:0 calc(476 + 1.5rem) 0 auto;*/
     margin: 0 auto;
-    padding-left: 1.5rem;
   }
 
   .presentation-left.mobilemenuhidden {

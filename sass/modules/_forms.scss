@@ -159,13 +159,13 @@ input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[
 
 input[type="radio"] + label, input[type="radio"]:checked + label, input[type="checkbox"] + label, , input[type="checkbox"]:checked + label {
   @include typography.textlink__hover;
-  font-weight: typography.$text-weight-normal;
+  font-weight: typography.$font-weight-normal;
   border-width: 0;
   outline-color: transparent;
 }
 
 input[type="radio"]:checked + label, input[type="checkbox"] + label {
-  font-weight: typography.$text-weight-medium;
+  font-weight: typography.$font-weight-medium;
   color: #000;
 }
 

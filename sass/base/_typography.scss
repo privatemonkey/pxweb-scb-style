@@ -22,10 +22,10 @@ $link__hover-background: colors.$color-primary-text !default;
 $selected-text:          colors.$color-lightest !default;
 $selected-background:    colors.$color-dark !default;
 
-$text-weight-normal:     400 !default;
-$text-weight-medium:     500 !default;
-$text-weight-semibold:   600 !default;
-$text-weight-bold:       700 !default;
+$font-weight-normal:     400 !default;
+$font-weight-medium:     500 !default;
+$font-weight-semibold:   600 !default;
+$font-weight-bold:       700 !default;
 
 $max-text-width:         720px !default;
 $max-header-width:       920px !default;
@@ -159,7 +159,7 @@ body {
 @mixin h5 {
   @include header;
   
-  font-weight: $text-weight-bold;
+  font-weight: $font-weight-bold;
   width: 100%;
   text-align: left;
   padding: 0;
@@ -202,7 +202,7 @@ button.nested-accordion-header, .commandbar_changepresentation_changetext {
 
 /* Reset radio and checkbox labels */
 label span {
-  font-weight: $text-weight-normal;
+  font-weight: $font-weight-normal;
 }
 
 /* TODO: replace spans with labels and legends */
@@ -231,7 +231,7 @@ p, span, a, .steps {
 @mixin text {
   font-size: 1rem;
   line-height: 1.4;
-  font-weight: $text-weight-normal;
+  font-weight: $font-weight-normal;
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 22px;

@@ -75,7 +75,7 @@ tbody tr th:first-child, tbody tr td:first-child {
   position: sticky;
   left: 0;
   z-index: 5;
-  font-weight: typography.$text-weight-semibold;
+  font-weight: typography.$font-weight-semibold;
 
   @media (max-width: breakpoints.$small) {
     max-width: 30vw; 
