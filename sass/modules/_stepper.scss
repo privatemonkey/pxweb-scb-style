@@ -64,10 +64,14 @@ $stepper-3-adjust: -2rem;
     color: typography.$text-inactive;
   }
   
-.navigationFlowArea a.passive::before {
+.navigationFlowArea a.passive {
+  @include typography.textlink__hover;
+  
+  &::before {
     content: '○';
     color: typography.$text;
   }
+}
   
 .navigationFlowArea a.future span {
     color: typography.$text-inactive;
