@@ -1049,6 +1049,10 @@ td, th {
   text-align: right;
 }
 
+td.attribute-cell {
+  padding: 0;
+}
+
 table {
   border-bottom: 2px solid #666666;
 }
