@@ -469,6 +469,10 @@ main {
   margin-right: calc(640 + 1.5rem);
 }
 
+#pxcontent {
+  overflow: auto;
+}
+
 /* About area */
 .about-table {
   min-width: 100%;

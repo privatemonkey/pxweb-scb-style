@@ -17,3 +17,6 @@ main {
   margin-right: calc(#{sizes.$panel-width} + #{sizes.$space-large});
 }
 
+#pxcontent {
+  overflow: auto;
+}

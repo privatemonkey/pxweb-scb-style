@@ -1,24 +1,27 @@
 # Todo
 
 ## Design / CSS
-- [ ] Disabled radio/checkbox - label ska också se disabled ut
-- [ ] Välj variabel - Lägg på färg, fokus och ikoner vid fel
+- [x] Disabled radio/checkbox - label ska också se disabled ut
+- [ ] Mobil tabell - Se på sticky. 
+- [ ] Mobil tabell - Se på attribute som har aboslut positionering
+- [ ] Disable radio/checkbox:hover - Ska inte finnas
+- [x] Välj variabel - Lägg på färg, fokus och ikoner vid fel
 - [x] Välj variabel - Större knapp, spacing och linje över fotnötter
 - [x] Välj variabel - Brädd på boxar i största fönsterbrädden
 - [x] Välj variabel - Knappar "välj alla" - normal font weight
 - [x] Trädet - Bort med understrykning
 - [ ] input + label width kan bli fel eftersom den beräknas ifrån 100%
 - [ ] Refactor input + label code
-- [ ] Refactor API button
+- [x] Refactor API button
 - [ ] Print CSS
 - [ ] Sizes - Skapa margin och padding variablar för text, headings och annat
-- [ ] Huvudet - Se över storlekar
+- [x] Huvudet - Se över storlekar
 - [x] Fullscreen knapp - Se över placering
 - [x] Välj variabel - Se över spacing
 - [x] Välj variabel - Se över textstorlekar
 - [x] Verktygsmenyn - Fly out in
 - [x] Verktygsmenyn - Behövs nog en rubrik?
-- [ ] Tree - Search är lite anonym
+- [x] Tree - Search är lite anonym
 - [x] Städa i breakpoints
 - [x] Flytta ut välj variabel från "shame" till egen fil
 - [ ] Flytta ut sök från "shame" till egen fil
