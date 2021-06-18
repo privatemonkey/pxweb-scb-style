@@ -2,6 +2,9 @@
 
 ## Design / CSS
 - [x] Disabled radio/checkbox - label ska också se disabled ut
+- [ ] Välj variabel - Hierarkier innehåller input image samt ett andra steg med checkboxar som ser bananas ut
+- [ ] Dialog för attributer behöver bättre spacing
+- [ ] Dialog för attributer behöver bättre header
 - [ ] Mobil tabell - Se på sticky. 
 - [ ] Mobil tabell - Se på attribute som har aboslut positionering
 - [ ] Disable radio/checkbox:hover - Ska inte finnas

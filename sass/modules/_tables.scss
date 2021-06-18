@@ -127,12 +127,9 @@ th.layout1-table-stub4 {
 td.attribute-cell {
   &::after {
     content: "";
-    position: absolute;
     border-left: 0.5rem solid transparent;
     border-bottom: 0.5rem solid transparent;
     border-top: 0.5rem solid #006E91;
-    margin-top: -0.65rem;
-    margin-left: 0.1rem;
   }
   &:hover {
     cursor: pointer;
