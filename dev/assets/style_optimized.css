@@ -1105,7 +1105,7 @@ td.attribute-cell:hover::after {
   color: #949494;
 }
 
-.navigationFlowArea a.passive:hover, .navigationFlowArea a.passive:focus {
+.navigationFlowArea a.passive span:hover, .navigationFlowArea a.passive span:focus {
   color: #000;
   cursor: pointer;
   text-decoration: underline;
