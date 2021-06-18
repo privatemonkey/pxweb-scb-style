@@ -69,6 +69,10 @@
     text-decoration: none;
 }
 
+.AspNet-TreeView-Leaf a span {
+    @include typography.textlink__hover;
+}
+
 .AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {
     &:hover {
         cursor: pointer;

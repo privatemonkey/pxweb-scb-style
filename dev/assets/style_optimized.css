@@ -1374,6 +1374,12 @@ nav a span {
   text-decoration: underline;
 }
 
+.AspNet-TreeView-Leaf a span:hover, .AspNet-TreeView-Leaf a span:focus {
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .AspNet-TreeView-Collapse:hover, .AspNet-TreeView-Expand:hover {
   cursor: pointer;
 }
