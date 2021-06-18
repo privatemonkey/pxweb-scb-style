@@ -83,7 +83,7 @@ button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="sub
   background-repeat: no-repeat;
   padding-left: $icon-width;
   background-size: sizes.$space-large;
-  background-position: sizes.$space-tiny center;
+  background-position: 0.4rem center;
 }
 
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
