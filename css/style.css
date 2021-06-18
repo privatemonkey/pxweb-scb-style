@@ -982,10 +982,6 @@ thead > tr:first-child > td {
   z-index: 5;
 }
 
-thead td + th:first-of-type {
-  border-left: 1px solid #666666;
-}
-
 tbody tr th:first-child, tbody tr td:first-child {
   text-align: left;
   border-left: 1px solid #eee;
@@ -1194,6 +1190,11 @@ hr.future {
   background-position-x: 18px;
   background-repeat: no-repeat;
   background-size: 18px;
+}
+
+.tools-header button {
+  position: absolute;
+  right: 0;
 }
 
 /* The toolbar - now named commandbar */
