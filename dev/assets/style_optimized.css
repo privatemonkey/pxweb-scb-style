@@ -699,10 +699,15 @@ input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=rad
 
 input:disabled {
   background-color: transparent;
-  color: #ccc;
+  color: #949494;
 }
 input:disabled + label {
-  color: #ccc;
+  color: #949494;
+}
+input:disabled + label:hover {
+  color: #949494;
+  text-decoration: none;
+  cursor: not-allowed;
 }
 
 fieldset {
