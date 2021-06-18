@@ -105,6 +105,10 @@ thead th, thead td {
   background-color: colors.$table-background-even;
 }
 
+tbody th {
+  text-align: left;
+}
+
 /* PxWeb table classes */
 
 /* Indent */
