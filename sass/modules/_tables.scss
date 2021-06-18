@@ -73,6 +73,10 @@ tbody tr th:first-child, tbody tr td:first-child {
   z-index: 5;
   font-weight: typography.$font-weight-semibold;
 
+  &[scope="row"] {
+    border-left-color: colors.$table-border-color;
+  }
+
   @media (max-width: breakpoints.$small) {
     max-width: 30vw; 
   }
@@ -104,8 +108,16 @@ thead th, thead td {
 /* PxWeb table classes */
 
 /* Indent */
-th.layout1-table-stub2 {
+th.layout1-table-stub2, th.layout2-table-stub2 {
   padding-left: sizes.$space-large;
+}
+
+th.layout1-table-stub3, th.layout2-table-stub3 {
+  padding-left: calc(#{sizes.$space-large} + #{sizes.$space-large}); 
+}
+
+th.layout1-table-stub4, th.layout2-table-stub4 {
+  padding-left: calc(#{sizes.$space-large} + #{sizes.$space-large} + #{sizes.$space-large}); 
 }
 
 td.attribute-cell {
