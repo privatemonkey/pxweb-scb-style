@@ -1033,15 +1033,15 @@ thead th, thead td {
 
 /* PxWeb table classes */
 /* Indent */
-th.layout1-table-stub2, th.layout2-table-stub2 {
+th.layout1-table-stub2 {
   padding-left: 1.5rem;
 }
 
-th.layout1-table-stub3, th.layout2-table-stub3 {
+th.layout1-table-stub3 {
   padding-left: calc(1.5rem + 1.5rem);
 }
 
-th.layout1-table-stub4, th.layout2-table-stub4 {
+th.layout1-table-stub4 {
   padding-left: calc(1.5rem + 1.5rem + 1.5rem);
 }
 
