@@ -990,7 +990,7 @@ thead > tr:first-child > td {
   z-index: 5;
 }
 
-tbody tr th:first-child, tbody tr td:first-child {
+tbody tr th:first-child:not([rowspan]), tbody tr td:first-child:not([rowspan]) {
   text-align: left;
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
@@ -999,11 +999,11 @@ tbody tr th:first-child, tbody tr td:first-child {
   z-index: 5;
   font-weight: 600;
 }
-tbody tr th:first-child[scope=row], tbody tr td:first-child[scope=row] {
+tbody tr th:first-child:not([rowspan])[scope=row], tbody tr td:first-child:not([rowspan])[scope=row] {
   border-left-color: #666666;
 }
 @media (max-width: 799px) {
-  tbody tr th:first-child, tbody tr td:first-child {
+  tbody tr th:first-child:not([rowspan]), tbody tr td:first-child:not([rowspan]) {
     max-width: 30vw;
   }
 }
