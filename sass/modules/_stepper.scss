@@ -65,7 +65,9 @@ $stepper-3-adjust: -2rem;
   }
   
 .navigationFlowArea a.passive {
-  &:hover {
+  &:hover, &:focus {
+    color: typography.$link__hover-text;
+    
     span {
       color: typography.$link__hover-text;
     }

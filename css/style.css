@@ -1105,10 +1105,13 @@ td.attribute-cell:hover::after {
   color: #949494;
 }
 
-.navigationFlowArea a.passive:hover span {
+.navigationFlowArea a.passive:hover, .navigationFlowArea a.passive:focus {
   color: #000;
 }
-.navigationFlowArea a.passive:hover::before {
+.navigationFlowArea a.passive:hover span, .navigationFlowArea a.passive:focus span {
+  color: #000;
+}
+.navigationFlowArea a.passive:hover::before, .navigationFlowArea a.passive:focus::before {
   content: "◉";
   color: #000;
 }
