@@ -69,7 +69,7 @@
     text-decoration: none;
 }
 
-.AspNet-TreeView-Leaf a span {
+.AspNet-TreeView-Leaf a {
     @include typography.textlink__hover;
 }
 

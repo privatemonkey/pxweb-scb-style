@@ -1374,7 +1374,7 @@ nav a span {
   text-decoration: underline;
 }
 
-.AspNet-TreeView-Leaf a span:hover, .AspNet-TreeView-Leaf a span:focus {
+.AspNet-TreeView-Leaf a:hover, .AspNet-TreeView-Leaf a:focus {
   color: #000;
   cursor: pointer;
   text-decoration: underline;
