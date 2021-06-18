@@ -974,7 +974,7 @@ td, th {
   text-align: right;
 }
 
-table > tbody > tr:last-child > td, table > tbody > tr:last-child > th {
+table {
   border-bottom: 2px solid #666666;
 }
 
