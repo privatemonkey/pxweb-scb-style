@@ -59,6 +59,15 @@
   }
 }
 
+/* 
+OK/Cancel buttons in tool menu
+
+Made the assumption of the first item allways being cancel and second being continue or ok
+
+TODO: Add classes to all buttons.
+TODO: Add continue icon
+
+*/
 .container_exit_buttons_row {
   padding: sizes.$space-medium 0;
   border-top: 1px solid colors.$panel-border-color;
@@ -72,11 +81,11 @@
     }
   }
 
-  input.container_continuebutton {
+  input:nth-of-type(2) {
     @include forms.icon-button;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='#{colors.$btn-primary-icon}'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/%3E%3C/svg%3E");
     &:hover, &:active, &:focus {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='#{colors.$btn-primary-icon}__hover'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='#{colors.$btn-primary-icon__hover}'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/%3E%3C/svg%3E");
     }
   }
 }
