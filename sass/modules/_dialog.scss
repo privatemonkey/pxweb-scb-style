@@ -15,11 +15,19 @@
 
 .ui-dialog {
     border:1px solid colors.$panel-border-color;
-    background-color: colors.$panel-background;
-    padding: panel.$panel-padding;
+    background-color: colors.$dialog-background;
     box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
     overflow-y: scroll;
     z-index: 100;
+}
+
+.ui-dialog-titlebar {
+    padding: sizes.$space-medium 0;
+    border-bottom: 1px solid colors.$panel-border-color;
+}
+
+.ui-dialog-content {
+    padding: panel.$panel-padding;
 }
 
 .ui-draggable .ui-draggable-handle {

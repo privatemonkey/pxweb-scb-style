@@ -1722,11 +1722,19 @@ input[type=submit].variableselector_continue_button {
 
 .ui-dialog {
   border: 1px solid #949494;
-  background-color: #f7f7f7;
-  padding: 1rem 1rem;
+  background-color: #fff;
   box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
   overflow-y: scroll;
   z-index: 100;
+}
+
+.ui-dialog-titlebar {
+  padding: 1rem 0;
+  border-bottom: 1px solid #949494;
+}
+
+.ui-dialog-content {
+  padding: 1rem 1rem;
 }
 
 .ui-draggable .ui-draggable-handle {
