@@ -701,6 +701,9 @@ input:disabled {
   background-color: transparent;
   color: #ccc;
 }
+input:disabled + label {
+  color: #ccc;
+}
 
 fieldset {
   padding: 1rem 0;
