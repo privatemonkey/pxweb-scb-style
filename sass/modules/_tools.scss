@@ -62,9 +62,15 @@
   background-size: 18px;
 }
 
-.tools-header button {
-  position: absolute;
-  right: 0;
+.tools-header {
+  h2 {
+    padding-left: sizes.$space-medium;
+  }
+  button {
+    position: absolute;
+    right: 0;
+    top: sizes.$space-large;
+  }
 }
 
   

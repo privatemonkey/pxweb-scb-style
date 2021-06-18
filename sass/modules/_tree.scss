@@ -16,7 +16,7 @@
 }
 
 .AspNet-TreeView ul ul {
-    border-top: 1px solid colors.$color-light
+    border-top: 1px solid colors.$color-medium;
 }
 
 .AspNet-TreeView ul ul li {
@@ -25,12 +25,12 @@
 
 .AspNet-TreeView ul li {
     background-image: none;
-    border-bottom: 1px solid colors.$color-light;
+    border-bottom: 1px solid colors.$color-medium;
     padding: 0;
 }
 
 .AspNet-TreeView a, .AspNet-TreeView-ClickableNonLink {
-    padding: sizes.$space-extra-small 0;
+    padding: sizes.$space-small 0;
     text-decoration: none;
 }
 

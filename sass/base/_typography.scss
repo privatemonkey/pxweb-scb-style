@@ -114,9 +114,9 @@ body {
   @include header;
 
   font-size: $font-size-h1;
-  line-height: 1.4;
+  line-height: 1.25;
   margin-bottom: 2rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem;*/
 
   @media (max-width: breakpoints.$small) {
     font-size: $font-size-h2;
