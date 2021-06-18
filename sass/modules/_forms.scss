@@ -77,6 +77,13 @@ button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="sub
   }
 }
 
+@mixin icon-button {
+  background-repeat: no-repeat;
+  padding-left: sizes.$space-extra-large;
+  background-size: sizes.$space-large;
+  background-position: sizes.$space-tiny center;
+}
+
 button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
   @include button;
 }
@@ -183,11 +190,7 @@ input.variableselector-list-view {
 }
 
 input.icon-placement, input.maximize-icon, input.minimize-icon  {
-  background-repeat: no-repeat;
-  padding-left: sizes.$space-extra-large;
-  background-size: sizes.$space-large;
-  background-position: sizes.$space-tiny center;
-
+  @include icon-button;
 }
 
 /*
