@@ -6,9 +6,11 @@ Legacy specific CSS may live together with other code but should be commented up
 
 For the big hacks, use the `\_shame.scss` file.
 
+Configuration used when compiling your own css files is found in the `\_config.scss` file.
+
 The classic `vendor` folder is not used. Instead, move and refactor vendor created CSS into whatever module, layout or helper that fits best.
 
-## Coding
+## Code conventions
 
 ### Class naming
 
@@ -21,6 +23,29 @@ The classic `vendor` folder is not used. Instead, move and refactor vendor creat
 We are using a combination of both to accomplish a dynamic stylesheet with less code.
 
 ### Colors
+
+Colors are found in `\_base\_colors.scss`. Colors are split into palette colors with naming convention `$color-{name}`. Functional color should be based on the base palette. 
+
+### Typography
+
+Fonts and type related are found in  `\_base\_typography.scss`.
+
+All headers have their own mixin:
+- h1
+- h2
+- h3
+- h4
+- h5
+
+Regular text:
+- text
+
+And links:
+- textlink
+- textlink__hover
+
+The reason for having a separate hover mixin is to allow custom handling for some elements.
+
 ## Folders
 
 **Base**
