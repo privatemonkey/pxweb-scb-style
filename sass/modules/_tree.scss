@@ -69,7 +69,7 @@
     text-decoration: none;
 }
 
-.AspNet-TreeView-Leaf a {
+.AspNet-TreeView .AspNet-TreeView-Leaf a {
     &:focus, &:hover, &:active {
         span {
             color: typography.$link__hover-text;
