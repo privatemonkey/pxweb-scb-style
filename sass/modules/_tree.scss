@@ -70,7 +70,13 @@
 }
 
 .AspNet-TreeView-Leaf a {
-    @include typography.textlink__hover;
+    &:focus, &:hover, &:active {
+        span {
+            color: typography.$link__hover-text;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
 }
 
 .AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {

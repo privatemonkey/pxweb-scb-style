@@ -364,7 +364,7 @@ a, a > span {
   outline-color: transparent;
   border-color: transparent;
 }
-a:hover, a:focus, a > span:hover, a > span:focus {
+a:hover, a:focus, aactive, a > span:hover, a > span:focus, a > spanactive {
   color: #000;
   cursor: pointer;
   text-decoration: underline;

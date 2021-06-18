@@ -372,7 +372,7 @@ a, a > span {
   outline-color: transparent;
   border-color: transparent;
 }
-a:hover, a:focus, a > span:hover, a > span:focus {
+a:hover, a:focus, aactive, a > span:hover, a > span:focus, a > spanactive {
   color: #000;
   cursor: pointer;
   text-decoration: underline;
@@ -673,7 +673,7 @@ input[type=radio] + label, input[type=radio]:checked + label, input[type=checkbo
   border-width: 0;
   outline-color: transparent;
 }
-input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox]:checked + label:hover, input[type=checkbox]:checked + label:focus {
+input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio] + labelactive, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus, input[type=radio]:checked + labelactive, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox] + labelactive, input[type=checkbox]:checked + label:hover, input[type=checkbox]:checked + label:focus, input[type=checkbox]:checked + labelactive {
   color: #000;
   cursor: pointer;
   text-decoration: underline;
@@ -691,7 +691,7 @@ input[type=radio] + label, input[type=checkbox] + label {
   padding: 0;
   line-height: 140%;
 }
-input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus {
+input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio] + labelactive, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox] + labelactive {
   color: #000;
   cursor: pointer;
   text-decoration: underline;
@@ -1368,13 +1368,13 @@ nav a span {
   border-color: transparent;
   text-decoration: none;
 }
-.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus, .AspNet-TreeView a:hover, .AspNet-TreeView a:focus, .AspNet-TreeView a span:hover, .AspNet-TreeView a span:focus {
+.AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLinkactive, .AspNet-TreeView a:hover, .AspNet-TreeView a:focus, .AspNet-TreeView aactive, .AspNet-TreeView a span:hover, .AspNet-TreeView a span:focus, .AspNet-TreeView a spanactive {
   color: #000;
   cursor: pointer;
   text-decoration: underline;
 }
 
-.AspNet-TreeView-Leaf a:hover, .AspNet-TreeView-Leaf a:focus {
+.AspNet-TreeView-Leaf a:focus span, .AspNet-TreeView-Leaf a:hover span, .AspNet-TreeView-Leaf a:active span {
   color: #000;
   cursor: pointer;
   text-decoration: underline;
@@ -1790,7 +1790,7 @@ a.search-icon svg {
   outline-color: transparent;
   border-color: transparent;
 }
-#ApiAccordionHeader > span:hover, #ApiAccordionHeader > span:focus {
+#ApiAccordionHeader > span:hover, #ApiAccordionHeader > span:focus, #ApiAccordionHeader > spanactive {
   color: #000;
   cursor: pointer;
   text-decoration: underline;
