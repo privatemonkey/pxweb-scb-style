@@ -16,6 +16,15 @@
 
 */
 
+@function encodecolor($string) {
+	@if type-of($string) == 'color' {
+        $hex: str-slice(ie-hex-str($string), 4);
+        $string:unquote("#{$hex}");
+    }
+    $string: '%23' + $string;
+	@return $string;
+}
+
 $color-lightest:            #fff !default;    // Backgrounds, inverted text
 $color-light:               #ccc !default;    // Alternate backgrounds
 $color-medium:              #949494 !default; // Borders
@@ -98,10 +107,10 @@ $input__disabled-text: $color-medium;
 $input__disabled-background: transparent;
 
 /* icon colors */
-$btn-primary-icon: $color-primary-inverted;
-$btn-primary-icon__hover: $color-primary-inverted;
-$btn-secondary-icon: $color-primary;
-$btn-secondary-icon__hover: $color-secondary-inverted;
+$btn-primary-icon:  encodecolor($color-primary-inverted);
+$btn-primary-icon__hover:  encodecolor($color-primary-inverted);
+$btn-secondary-icon:  encodecolor($color-primary);
+$btn-secondary-icon__hover:  encodecolor($color-secondary-inverted);
 
 /* Dialogs */
 $dialog-background: #fff;
