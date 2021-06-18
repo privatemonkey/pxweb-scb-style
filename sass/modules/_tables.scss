@@ -73,7 +73,7 @@ tbody tr th:first-child, tbody tr td:first-child {
   z-index: 5;
   font-weight: typography.$font-weight-semibold;
 
-  &[scope="row"]:not([rowspan="1"]) {
+  &[scope="row"] {
     border-left-color: colors.$table-border-color;
   }
 
