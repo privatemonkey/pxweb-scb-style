@@ -17,7 +17,7 @@ $text-inverted:          colors.$color-lightest !default;
 
 $link-text:              colors.$color-primary !default;
 $link__hover-text:       colors.$color-darkest !default;
-$link__hover-background: colors.$color-primary-text !default;
+$link__hover-background: colors.$color-primary-inverted !default;
 
 $selected-text:          colors.$color-lightest !default;
 $selected-background:    colors.$color-dark !default;

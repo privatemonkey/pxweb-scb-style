@@ -30,14 +30,14 @@ $background-inverted:       $color-dark !default;
 $color-primary:             #1e00be;
 $color-primary-light:       #00bdf7 !default;
 $color-primary-dark:        #001920 !default; // Link hover, button hover background
-$color-primary-text:        #fff !default;    // Text on primary used as background
+$color-primary-inverted:        #fff !default;    // Text on primary used as background
 
 /*-- Secondary --*/
 // $color-secondary:           #006E91 !default;
 $color-secondary:           #1e00be;
 $color-secondary-light:     #00bdf7 !default;
 $color-secondary-dark:      #022833 !default;
-$color-secondary-text:      #fff !default;
+$color-secondary-inverted:      #fff !default;
 
 /* Function colors */
 
@@ -96,6 +96,12 @@ $input-border-color__hover: $color-dark !default;
 
 $input__disabled-text: $color-medium;
 $input__disabled-background: transparent;
+
+/* icon colors */
+$btn-primary-icon: $color-primary-inverted;
+$btn-primary-icon__hover: $color-primary-inverted;
+$btn-secondary-icon: $color-secondary-inverted;
+$btn-secondary-icon__hover: $color-secondary-inverted;
 
 /* Dialogs */
 $dialog-background: #fff;
