@@ -5,6 +5,8 @@
 * Generic form related styling. Buttons, inputs, select.
 */
 
+$icon-width: 2.5rem;
+
 @mixin field {
   padding: sizes.$space-extra-small;
   margin-bottom: 0;
@@ -79,7 +81,7 @@ button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="sub
 
 @mixin icon-button {
   background-repeat: no-repeat;
-  padding-left: calc(#{sizes.$space-extra-large} + #{sizes.$space-medium});
+  padding-left: $icon-width;
   background-size: sizes.$space-large;
   background-position: sizes.$space-small center;
 }
