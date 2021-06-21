@@ -540,10 +540,7 @@ main {
 * Basic button is styled as primary button
 */
 /* Default style for buttons */
-button, input[type=button], input[type=submit], input[type=submit].container_continuebutton {
-  color: #fff;
-  background-color: #1e00be;
-  border-color: #1e00be;
+button, input[type=button], input[type=submit] {
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
   margin-right: 0.5rem;
@@ -555,26 +552,19 @@ button, input[type=button], input[type=submit], input[type=submit].container_con
   border: 1px #1e00be solid;
   outline: 1px transparent;
 }
-button:disabled, input[type=button]:disabled, input[type=submit]:disabled, input[type=submit].container_continuebutton:disabled {
+button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
   border-color: #949494;
   background-color: #eeeeee;
   color: #949494;
 }
-button:disabled:hover, button:disabled:focus, button:disabled:active, input[type=button]:disabled:hover, input[type=button]:disabled:focus, input[type=button]:disabled:active, input[type=submit]:disabled:hover, input[type=submit]:disabled:focus, input[type=submit]:disabled:active, input[type=submit].container_continuebutton:disabled:hover, input[type=submit].container_continuebutton:disabled:focus, input[type=submit].container_continuebutton:disabled:active {
+button:disabled:hover, button:disabled:focus, button:disabled:active, input[type=button]:disabled:hover, input[type=button]:disabled:focus, input[type=button]:disabled:active, input[type=submit]:disabled:hover, input[type=submit]:disabled:focus, input[type=submit]:disabled:active {
   cursor: not-allowed;
   border-color: #949494;
   background-color: #ccc;
   color: #949494;
   outline-color: transparent;
 }
-button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=submit]:focus, input[type=submit]:hover, input[type=submit].container_continuebutton:focus, input[type=submit].container_continuebutton:hover {
-  background-color: #222;
-  color: #fff;
-  cursor: pointer;
-  border-color: #222;
-  outline-color: #222;
-}
-button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=submit]:focus, input[type=submit]:hover, input[type=submit].container_continuebutton:focus, input[type=submit].container_continuebutton:hover {
+button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=submit]:focus, input[type=submit]:hover {
   background-color: #222;
   color: #fff;
   cursor: pointer;
@@ -582,10 +572,7 @@ button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, 
   outline-color: #222;
 }
 
-button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn, #OperationsPanel input[type=submit].primary-btn {
-  color: #fff;
-  background-color: #1e00be;
-  border-color: #1e00be;
+button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn, #OperationsPanel input[type=submit].primary-btn, input[type=submit].container_continuebutton {
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
   margin-right: 0.5rem;
@@ -597,33 +584,19 @@ button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-b
   border: 1px #1e00be solid;
   outline: 1px transparent;
 }
-button.primary-btn:disabled, input[type=button].primary-btn:disabled, input[type=submit].primary-btn:disabled, #OperationsPanel input[type=submit].primary-btn:disabled {
+button.primary-btn:disabled, input[type=button].primary-btn:disabled, input[type=submit].primary-btn:disabled, #OperationsPanel input[type=submit].primary-btn:disabled, input[type=submit].container_continuebutton:disabled {
   border-color: #949494;
   background-color: #eeeeee;
   color: #949494;
 }
-button.primary-btn:disabled:hover, button.primary-btn:disabled:focus, button.primary-btn:disabled:active, input[type=button].primary-btn:disabled:hover, input[type=button].primary-btn:disabled:focus, input[type=button].primary-btn:disabled:active, input[type=submit].primary-btn:disabled:hover, input[type=submit].primary-btn:disabled:focus, input[type=submit].primary-btn:disabled:active, #OperationsPanel input[type=submit].primary-btn:disabled:hover, #OperationsPanel input[type=submit].primary-btn:disabled:focus, #OperationsPanel input[type=submit].primary-btn:disabled:active {
+button.primary-btn:disabled:hover, button.primary-btn:disabled:focus, button.primary-btn:disabled:active, input[type=button].primary-btn:disabled:hover, input[type=button].primary-btn:disabled:focus, input[type=button].primary-btn:disabled:active, input[type=submit].primary-btn:disabled:hover, input[type=submit].primary-btn:disabled:focus, input[type=submit].primary-btn:disabled:active, #OperationsPanel input[type=submit].primary-btn:disabled:hover, #OperationsPanel input[type=submit].primary-btn:disabled:focus, #OperationsPanel input[type=submit].primary-btn:disabled:active, input[type=submit].container_continuebutton:disabled:hover, input[type=submit].container_continuebutton:disabled:focus, input[type=submit].container_continuebutton:disabled:active {
   cursor: not-allowed;
   border-color: #949494;
   background-color: #ccc;
   color: #949494;
   outline-color: transparent;
 }
-button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover, #OperationsPanel input[type=submit].primary-btn:focus, #OperationsPanel input[type=submit].primary-btn:hover {
-  background-color: #222;
-  color: #fff;
-  cursor: pointer;
-  border-color: #222;
-  outline-color: #222;
-}
-button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover, #OperationsPanel input[type=submit].primary-btn:focus, #OperationsPanel input[type=submit].primary-btn:hover {
-  background-color: #222;
-  color: #fff;
-  cursor: pointer;
-  border-color: #222;
-  outline-color: #222;
-}
-button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover, #OperationsPanel input[type=submit].primary-btn:focus, #OperationsPanel input[type=submit].primary-btn:hover {
+button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover, #OperationsPanel input[type=submit].primary-btn:focus, #OperationsPanel input[type=submit].primary-btn:hover, input[type=submit].container_continuebutton:focus, input[type=submit].container_continuebutton:hover {
   background-color: #222;
   color: #fff;
   cursor: pointer;
@@ -659,6 +632,7 @@ button.tertiar-btn:focus, button.tertiar-btn:hover, input.tertiar-btn:focus, inp
   outline-color: #222;
 }
 
+/* Buttons with icons */
 input.pivotManual {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z'/%3E%3C/svg%3E");
 }
