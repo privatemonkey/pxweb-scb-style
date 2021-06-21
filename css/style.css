@@ -632,7 +632,7 @@ button.tertiar-btn:focus, button.tertiar-btn:hover, input.tertiar-btn:focus, inp
 }
 
 /* Buttons with icons */
-input.icon-placement, input[type=button].maximize-icon, input[type=button].minimize-icon, .container_exit_buttons_row input:first-of-type, .container_exit_buttons_row input:nth-of-type(2) {
+input.icon-placement, input[type=button].maximize-icon, input[type=button].minimize-icon, .container_exit_buttons_row input.primary-btn, :first-of-type, .container_exit_buttons_row input:nth-of-type(2) {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
   background-size: 1.5rem;
