@@ -641,6 +641,7 @@ input.icon-placement, input[type=button].maximize-icon, input[type=button].minim
 
 #PresentationLeft input.icon-placement {
   padding-left: 0.75rem;
+  background-image: none;
 }
 
 input.pivotManual {

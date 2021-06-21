@@ -107,6 +107,7 @@ input.icon-placement, input[type="button"].maximize-icon, input[type="button"].m
 // Show no icons in left menu
 #PresentationLeft input.icon-placement {
   padding-left: $button-padding-leftright;
+  background-image: none;
 }
 
 input.pivotManual {
