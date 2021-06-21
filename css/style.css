@@ -1142,13 +1142,13 @@ td.attribute-cell {
 td.attribute-cell::after {
   content: "";
   border-left: 0.75rem solid transparent;
-  border-top: 0.75rem solid #006E91;
+  border-top: 0.75rem solid #000;
 }
 td.attribute-cell:hover {
   cursor: pointer;
   text-decoration: underline;
   color: #000;
-  background-color: #d9f6ff;
+  background-color: #fff;
 }
 td.attribute-cell:hover::after {
   border-top-color: #000;

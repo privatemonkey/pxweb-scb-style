@@ -132,13 +132,13 @@ td.attribute-cell {
   &::after {
     content: "";
     border-left: 0.75rem solid transparent;
-    border-top: 0.75rem solid #006E91;
+    border-top: 0.75rem solid typography.$link__hover-text;
   }
   &:hover {
     cursor: pointer;
     text-decoration: underline;
     color: colors.$color-darkest;
-    background-color:  #d9f6ff;
+    background-color:  colors.$color-lightest;
   }
   &:hover::after {
     border-top-color: typography.$link__hover-text;
