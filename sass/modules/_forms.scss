@@ -100,7 +100,7 @@ button.tertiar-btn, input.tertiar-btn {
   background-position: 0.4rem center;
 }
 
-input.icon-placement, input[type="button"].maximize-icon, input[type="button"].minimize-icon, .container_exit_buttons_row input  {
+input.icon-placement, input[type="button"].maximize-icon, input[type="button"].minimize-icon, .container_exit_buttons_row input:first-of-type, .container_exit_buttons_row input:nth-of-type(2)  {
   @include icon-button;
 }
 
