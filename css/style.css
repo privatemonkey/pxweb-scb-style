@@ -545,6 +545,7 @@ button, input[type=button], input[type=submit] {
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
+  max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
   background-color: #1e00be;
@@ -576,6 +577,7 @@ button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-b
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
+  max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
   background-color: #1e00be;
@@ -1980,6 +1982,7 @@ a.search-icon {
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
+  max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
   background-color: #1e00be;
