@@ -93,13 +93,12 @@ button.secondary, input[type="button"].secondary-btn, input[type="submit"] {
   @include secondary-btn;
 }
 
-/* Contains hack for "$font-weight- manual" style */
 button.tertiar-btn, input.tertiar-btn {
   @include tertiar-btn;
 }
 
 /* Buttons with icons */
-input.icon-placement, input[type="button"].maximize-icon, input[type="button"].minimize-icon  {
+.presentation-main input.icon-placement, input[type="button"].maximize-icon, input[type="button"].minimize-icon  {
   @include icon-button;
 }
 

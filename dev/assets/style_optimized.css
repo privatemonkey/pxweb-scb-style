@@ -617,7 +617,6 @@ button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn
   outline-color: #222;
 }
 
-/* Contains hack for "$font-weight- manual" style */
 button.tertiar-btn, input.tertiar-btn {
   background-color: transparent;
   border-color: transparent;
@@ -633,7 +632,7 @@ button.tertiar-btn:focus, button.tertiar-btn:hover, input.tertiar-btn:focus, inp
 }
 
 /* Buttons with icons */
-input.icon-placement, input[type=button].maximize-icon, input[type=button].minimize-icon {
+.presentation-main input.icon-placement, input[type=button].maximize-icon, input[type=button].minimize-icon {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
   background-size: 1.5rem;
