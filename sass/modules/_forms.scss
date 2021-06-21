@@ -19,7 +19,7 @@ $button-padding-topbottom: sizes.$space-extra-small;
   border-radius: 0.25rem;
   margin-right: sizes.$space-extra-small;
   margin-bottom: 0.75rem;
-  max-height: 2.6rem; // Prevent flexed buttons to grow in height. TODO: Compute max button height.
+  max-height: 2.6rem; // Prevent flexed buttons to grow in height. Prevent accordions to grow in height. TODO: Compute max button height.
   cursor: pointer;
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
