@@ -18,6 +18,12 @@ The classic `vendor` folder is not used. Instead, move and refactor vendor creat
 - Variants of a module should contain all the original code of the parent so writing `button-secondary` as the only class is sufficient.
 - A state is accomplished by adding `is-closed`.
 
+### Variable naming
+
+A variable name should be all lower case and hyphen as seperator. Example `$text-color`.
+
+To indicate state use double underscore. Example `$text-color__hover`.
+
 ### SASS and CSS variables
 
 We are using a combination of both to accomplish a dynamic stylesheet with less code.
@@ -83,6 +89,12 @@ This will compile all common styling.
 This contains code we're ashamed of, legacy specific styling and hacks. It lives in the root folder for everyone to see it!
 
 
+## SASS and inline SVG
+
+SASS variables used in CSS formulas are written `#{colors.$color-primary}`. Use the same convention in inline SVG. 
+
+Inline SVG is URL encoded which makes it neccesary to transform variables to this format. The mixin `encodeColor(string)` takes a hex color `#ff0000` as input. Run your colors to this so that you can use them directly in your SVG fill or stroke property.
+ 
 ## Inspiration
 
 - [7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern)

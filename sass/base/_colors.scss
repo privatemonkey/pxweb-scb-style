@@ -16,7 +16,7 @@
 
 */
 
-@function encodecolor($string) {
+@function encodeColor($string) {
 	@if type-of($string) == 'color' {
         $hex: str-slice(ie-hex-str($string), 4);
         $string:unquote("#{$hex}");
@@ -107,10 +107,10 @@ $input__disabled-text: $color-medium;
 $input__disabled-background: transparent;
 
 /* icon colors */
-$btn-primary-icon:  encodecolor($color-primary-inverted);
-$btn-primary-icon__hover:  encodecolor($color-primary-inverted);
-$btn-secondary-icon:  encodecolor($color-primary);
-$btn-secondary-icon__hover:  encodecolor($color-secondary-inverted);
+$btn-primary-icon:  encodeColor($color-primary-inverted);
+$btn-primary-icon__hover:  encodeColor($color-primary-inverted);
+$btn-secondary-icon:  encodeColor($color-primary);
+$btn-secondary-icon__hover:  encodeColor($color-secondary-inverted);
 
 /* Dialogs */
 $dialog-background: #fff;

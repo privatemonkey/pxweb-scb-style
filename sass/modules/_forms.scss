@@ -26,34 +26,6 @@ $icon-width: 2.25rem;
 * Buttons
 * Basic button is styled as primary button
 */
-button, input[type="button"], input[type="submit"] {
-  background-color: colors.$button-primary-background;
-  color: colors.$button-primary-text;
-  border: 2px colors.$button-primary-background solid;
-  padding: sizes.$space-extra-small sizes.$space-small;
-  border-radius: 0.25rem;
-
-  &:hover, &:active, &:focus {
-    color: colors.$button__hover-text;
-    border-width: 2px;
-    background-color: colors.$button__hover-background;
-    opacity: 1;
-  }
-}
-
-button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="submit"].primary-btn:disabled {
-  border-color: colors.$button__disabled;
-  background-color: colors.$button-background__disabled;
-  color: colors.$button__disabled;
-
-  &:hover, &:focus, &:active {
-    cursor:not-allowed;
-    border-color: colors.$button__disabled;
-    background: colors.$color-light;
-    color: colors.$button__disabled;
-    outline-color: transparent;
-  }
-}
 
 @mixin button {
   padding: sizes.$space-extra-small sizes.$space-small;
@@ -64,18 +36,36 @@ button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="sub
   cursor: pointer;
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
-  border: 2px colors.$button-primary-background solid;
-  outline: 1px transparent;
+  border: sizes.$button-border-width colors.$button-primary-background solid;
+  outline: sizes.$button-outline-width transparent;
+  
+  @include button__disabled;
+  @include button__hover;
 }
-
 
 @mixin button__hover {
   &:focus, &:hover {
     background-color: colors.$button__hover-background;
     color: colors.$button__hover-text;
     cursor: pointer;
-    border: 2px solid colors.$button__hover-background;
-    outline: 1px solid colors.$button__hover-background;
+    border-color: colors.$button__hover-background;
+    outline-color: colors.$button__hover-background;
+  }
+}
+
+@mixin button__disabled {
+  &:disabled {
+  border-color: colors.$button__disabled;
+  background-color: colors.$button-background__disabled;
+  color: colors.$button__disabled;
+
+    &:hover, &:focus, &:active {
+      cursor:not-allowed;
+      border-color: colors.$button__disabled;
+      background-color: colors.$color-light;
+      color: colors.$button__disabled;
+      outline-color: transparent;
+    }
   }
 }
 
@@ -86,15 +76,25 @@ button:disabled, input:disabled,  input[type="submit"]:disabled, input[type="sub
   background-position: 0.4rem center;
 }
 
-button, input[type=submit], input[type="button"], input[type="submit"].container_continuebutton {
-  @include button;
-}
-
 @mixin primary-btn {
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
   border-color: colors.$button-primary-background;
+  @include button;
   @include button__hover;
+}
+
+@mixin secondary-btn {
+  color: colors.$button-primary-text;
+  background-color: colors.$button-primary-background;
+  border-color: colors.$button-primary-background;
+  @include button;
+  @include button__hover;
+}
+
+/* Default style for buttons */
+button, input[type="button"], input[type="submit"], input[type="submit"].container_continuebutton {
+  @include primary-btn;
 }
 
 button.primary-btn, input[type="button"].primary-btn, input[type="submit"].primary-btn, #OperationsPanel input[type="submit"].primary-btn {
@@ -182,11 +182,11 @@ input.minimize-icon {
   }
 }
 
-input.variableselector-compact-view {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='#{colors.$btn-secondary-icon}'%3E%3Cg fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z'/%3E%3C/g%3E%3C/svg%3E");
 
+input.variableselector-compact-view {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='#{colors.$btn-secondary-icon}'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpath d='M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6V13z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   &:hover, &:active, &:focus {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='#{colors.$btn-secondary-icon__hover}'%3E%3Cg fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='#{colors.$btn-secondary-icon__hover}'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpath d='M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6V13z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
 }
 

@@ -14,6 +14,7 @@
 */
 /* Default spacing */
 /* Panel size */
+/* Buttons */
 /*
 * Default theme
 */
@@ -538,34 +539,11 @@ main {
 * Buttons
 * Basic button is styled as primary button
 */
-button, input[type=button], input[type=submit] {
+/* Default style for buttons */
+button, input[type=button], input[type=submit], input[type=submit].container_continuebutton {
+  color: #fff;
   background-color: #1e00be;
-  color: #fff;
-  border: 2px #1e00be solid;
-  padding: 0.5rem 0.75rem;
-  border-radius: 0.25rem;
-}
-button:hover, button:active, button:focus, input[type=button]:hover, input[type=button]:active, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
-  color: #fff;
-  border-width: 2px;
-  background-color: #222;
-  opacity: 1;
-}
-
-button:disabled, input:disabled, input[type=submit]:disabled, input[type=submit].primary-btn:disabled {
-  border-color: #949494;
-  background-color: #eeeeee;
-  color: #949494;
-}
-button:disabled:hover, button:disabled:focus, button:disabled:active, input:disabled:hover, input:disabled:focus, input:disabled:active, input[type=submit]:disabled:hover, input[type=submit]:disabled:focus, input[type=submit]:disabled:active, input[type=submit].primary-btn:disabled:hover, input[type=submit].primary-btn:disabled:focus, input[type=submit].primary-btn:disabled:active {
-  cursor: not-allowed;
-  border-color: #949494;
-  background: #ccc;
-  color: #949494;
-  outline-color: transparent;
-}
-
-button, input[type=submit], input[type=button], input[type=submit].container_continuebutton {
+  border-color: #1e00be;
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
   margin-right: 0.5rem;
@@ -574,28 +552,83 @@ button, input[type=submit], input[type=button], input[type=submit].container_con
   cursor: pointer;
   color: #fff;
   background-color: #1e00be;
-  border: 2px #1e00be solid;
+  border: 1px #1e00be solid;
   outline: 1px transparent;
+}
+button:disabled, input[type=button]:disabled, input[type=submit]:disabled, input[type=submit].container_continuebutton:disabled {
+  border-color: #949494;
+  background-color: #eeeeee;
+  color: #949494;
+}
+button:disabled:hover, button:disabled:focus, button:disabled:active, input[type=button]:disabled:hover, input[type=button]:disabled:focus, input[type=button]:disabled:active, input[type=submit]:disabled:hover, input[type=submit]:disabled:focus, input[type=submit]:disabled:active, input[type=submit].container_continuebutton:disabled:hover, input[type=submit].container_continuebutton:disabled:focus, input[type=submit].container_continuebutton:disabled:active {
+  cursor: not-allowed;
+  border-color: #949494;
+  background-color: #ccc;
+  color: #949494;
+  outline-color: transparent;
+}
+button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=submit]:focus, input[type=submit]:hover, input[type=submit].container_continuebutton:focus, input[type=submit].container_continuebutton:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: #222;
+  outline-color: #222;
+}
+button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=submit]:focus, input[type=submit]:hover, input[type=submit].container_continuebutton:focus, input[type=submit].container_continuebutton:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: #222;
+  outline-color: #222;
 }
 
 button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn, #OperationsPanel input[type=submit].primary-btn {
   color: #fff;
   background-color: #1e00be;
   border-color: #1e00be;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.75rem;
+  max-height: 2.6rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #1e00be;
+  border: 1px #1e00be solid;
+  outline: 1px transparent;
+}
+button.primary-btn:disabled, input[type=button].primary-btn:disabled, input[type=submit].primary-btn:disabled, #OperationsPanel input[type=submit].primary-btn:disabled {
+  border-color: #949494;
+  background-color: #eeeeee;
+  color: #949494;
+}
+button.primary-btn:disabled:hover, button.primary-btn:disabled:focus, button.primary-btn:disabled:active, input[type=button].primary-btn:disabled:hover, input[type=button].primary-btn:disabled:focus, input[type=button].primary-btn:disabled:active, input[type=submit].primary-btn:disabled:hover, input[type=submit].primary-btn:disabled:focus, input[type=submit].primary-btn:disabled:active, #OperationsPanel input[type=submit].primary-btn:disabled:hover, #OperationsPanel input[type=submit].primary-btn:disabled:focus, #OperationsPanel input[type=submit].primary-btn:disabled:active {
+  cursor: not-allowed;
+  border-color: #949494;
+  background-color: #ccc;
+  color: #949494;
+  outline-color: transparent;
 }
 button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover, #OperationsPanel input[type=submit].primary-btn:focus, #OperationsPanel input[type=submit].primary-btn:hover {
   background-color: #222;
   color: #fff;
   cursor: pointer;
-  border: 2px solid #222;
-  outline: 1px solid #222;
+  border-color: #222;
+  outline-color: #222;
 }
 button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover, #OperationsPanel input[type=submit].primary-btn:focus, #OperationsPanel input[type=submit].primary-btn:hover {
   background-color: #222;
   color: #fff;
   cursor: pointer;
-  border: 2px solid #222;
-  outline: 1px solid #222;
+  border-color: #222;
+  outline-color: #222;
+}
+button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-btn:focus, input[type=button].primary-btn:hover, input[type=submit].primary-btn:focus, input[type=submit].primary-btn:hover, #OperationsPanel input[type=submit].primary-btn:focus, #OperationsPanel input[type=submit].primary-btn:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: #222;
+  outline-color: #222;
 }
 
 button.secondary, input[type=button].secondary-btn, input[type=submit] {
@@ -607,8 +640,8 @@ button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn
   background-color: #222;
   color: #fff;
   cursor: pointer;
-  border: 2px solid #222;
-  outline: 1px solid #222;
+  border-color: #222;
+  outline-color: #222;
 }
 
 /* Contains hack for "$font-weight- manual" style */
@@ -622,8 +655,8 @@ button.tertiar-btn:focus, button.tertiar-btn:hover, input.tertiar-btn:focus, inp
   background-color: #222;
   color: #fff;
   cursor: pointer;
-  border: 2px solid #222;
-  outline: 1px solid #222;
+  border-color: #222;
+  outline-color: #222;
 }
 
 input.pivotManual {
@@ -676,10 +709,10 @@ input.minimize-icon:hover, input.minimize-icon:active, input.minimize-icon:focus
 }
 
 input.variableselector-compact-view {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Cg fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpath d='M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6V13z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 input.variableselector-compact-view:hover, input.variableselector-compact-view:active, input.variableselector-compact-view:focus {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23FFFFFF'%3E%3Cg fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23FFFFFF'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpath d='M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6V13z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 input.variableselector-list-view {
@@ -1976,10 +2009,29 @@ a.search-icon {
   cursor: pointer;
   color: #fff;
   background-color: #1e00be;
-  border: 2px #1e00be solid;
+  border: 1px #1e00be solid;
   outline: 1px transparent;
   text-decoration: none;
   margin-bottom: 0;
+}
+a.search-icon:disabled {
+  border-color: #949494;
+  background-color: #eeeeee;
+  color: #949494;
+}
+a.search-icon:disabled:hover, a.search-icon:disabled:focus, a.search-icon:disabled:active {
+  cursor: not-allowed;
+  border-color: #949494;
+  background-color: #ccc;
+  color: #949494;
+  outline-color: transparent;
+}
+a.search-icon:focus, a.search-icon:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: #222;
+  outline-color: #222;
 }
 
 a.search-icon::before {
@@ -1994,8 +2046,8 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   background-color: #222;
   color: #fff;
   cursor: pointer;
-  border: 2px solid #222;
-  outline: 1px solid #222;
+  border-color: #222;
+  outline-color: #222;
 }
 
 .tools-header button::before, button.ui-dialog-titlebar-close::before {
