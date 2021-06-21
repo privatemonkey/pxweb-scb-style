@@ -11,13 +11,15 @@ $icon-width: 2.25rem;
 * Buttons
 * Basic button is styled as primary button
 */
+$button-padding-leftright: sizes.$space-small;
+$button-padding-topbottom: sizes.$space-extra-small;
 
 @mixin button {
-  padding: sizes.$space-extra-small sizes.$space-small;
+  padding: $button-padding-topbottom $button-padding-leftright;
   border-radius: 0.25rem;
   margin-right: sizes.$space-extra-small;
   margin-bottom: 0.75rem;
-  max-height: 2.6rem;
+  // max-height: 2.6rem;
   cursor: pointer;
   color: colors.$button-primary-text;
   background-color: colors.$button-primary-background;
@@ -52,13 +54,6 @@ $icon-width: 2.25rem;
       outline-color: transparent;
     }
   }
-}
-
-@mixin icon-button {
-  background-repeat: no-repeat;
-  padding-left: $icon-width;
-  background-size: sizes.$space-large;
-  background-position: 0.4rem center;
 }
 
 @mixin primary-btn {
@@ -98,8 +93,20 @@ button.tertiar-btn, input.tertiar-btn {
 }
 
 /* Buttons with icons */
-.presentation-main input.icon-placement, input[type="button"].maximize-icon, input[type="button"].minimize-icon  {
+@mixin icon-button {
+  background-repeat: no-repeat;
+  padding-left: $icon-width;
+  background-size: sizes.$space-large;
+  background-position: 0.4rem center;
+}
+
+input.icon-placement, input[type="button"].maximize-icon, input[type="button"].minimize-icon  {
   @include icon-button;
+}
+
+// Show no icons in left menu
+#PresentationLeft input.icon-placement {
+  padding-left: $button-padding-leftright;
 }
 
 input.pivotManual {

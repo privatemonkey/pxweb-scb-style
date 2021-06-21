@@ -545,7 +545,6 @@ button, input[type=button], input[type=submit] {
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
-  max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
   background-color: #1e00be;
@@ -577,7 +576,6 @@ button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-b
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
-  max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
   background-color: #1e00be;
@@ -632,11 +630,15 @@ button.tertiar-btn:focus, button.tertiar-btn:hover, input.tertiar-btn:focus, inp
 }
 
 /* Buttons with icons */
-.presentation-main input.icon-placement, input[type=button].maximize-icon, input[type=button].minimize-icon {
+input.icon-placement, input[type=button].maximize-icon, input[type=button].minimize-icon {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
   background-size: 1.5rem;
   background-position: 0.4rem center;
+}
+
+#PresentationLeft input.icon-placement {
+  padding-left: 0.75rem;
 }
 
 input.pivotManual {
@@ -1978,7 +1980,6 @@ a.search-icon {
   border-radius: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
-  max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
   background-color: #1e00be;
