@@ -132,7 +132,7 @@ td.attribute-cell {
   &::after {
     content: "";
     border-left: 0.75rem solid transparent;
-    border-top: 0.75rem solid typography.$link__hover-text;
+    border-top: 0.75rem solid typography.$link-text;
   }
   &:hover {
     cursor: pointer;
