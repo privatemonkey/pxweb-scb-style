@@ -211,11 +211,16 @@ a.search-icon svg {
     text-decoration: none;
     margin-bottom: 0;
   }
+
+  a.go-to-advanced-search::before {
+    margin-right: sizes.$space-tiny;
+  }
+
   a.search-icon::before,  a.go-to-advanced-search::before {
     content: '🔎︎';
   }
 
-  a.search-icon:hover::before, a.search-icon:focus::before {
+  a.search-icon:hover::before, a.search-icon:focus::before, .go-to-advanced-search::before {
     text-decoration: none;
   }
 
