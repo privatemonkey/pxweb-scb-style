@@ -1418,8 +1418,8 @@ select.variableselector_valuesselect_box_error {
 */
 nav#breadcrumb a:first-of-type {
   /*text-decoration: none;
-  padding: 0;
-  font-size: 1.4rem;*/
+  padding: 0;*/
+  font-size: 1.25rem;
   line-height: 1;
 }
 nav#breadcrumb a:first-of-type::before {
