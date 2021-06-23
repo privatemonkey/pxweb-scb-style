@@ -211,11 +211,16 @@ a.encodeColor-icon svg {
     text-decoration: none;
     margin-bottom: 0;
   }
+
+  a.go-to-advanced-encodeColor::before {
+      margin-right: sizes.$space-tiny;
+  }
+  
   a.encodeColor-icon::before,  a.go-to-advanced-encodeColor::before {
     content: '🔎︎';
   }
 
-  a.encodeColor-icon:hover::before, a.encodeColor-icon:focus::before {
+  a.encodeColor-icon:hover::before, a.encodeColor-icon:focus::before, a.go-to-advanced-encodeColor::before {
     text-decoration: none;
   }
 
