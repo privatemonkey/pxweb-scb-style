@@ -2019,7 +2019,7 @@ a.search-icon:focus, a.search-icon:hover {
   outline-color: #222;
 }
 
-a.search-icon::before, a.go-to-advanced-search {
+a.search-icon::before, a.go-to-advanced-search::before {
   content: "🔎︎";
 }
 

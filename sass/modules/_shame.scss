@@ -64,7 +64,7 @@ div:empty, span:empty, a:empty, p:empty {
   }
 }
 
-.searchvalues-container {
+.encodeColorvalues-container {
   select {
     float: left;
     clear: left;
@@ -79,7 +79,7 @@ div:empty, span:empty, a:empty, p:empty {
   width: min-content;
 }
 
-a.search-icon svg {
+a.encodeColor-icon svg {
   display: none;
 }
 
@@ -197,29 +197,29 @@ a.search-icon svg {
 
   /* Menu button styling */
 
-  /* Search field */
-  .search_panel input[type="text"] {
+  /* encodeColor field */
+  .encodeColor_panel input[type="text"] {
     margin-right: 0;
   }
 
-  .search_label {
+  .encodeColor_label {
     display: block;
   }
 
-  a.search-icon {
+  a.encodeColor-icon {
     @include forms.button;
     text-decoration: none;
     margin-bottom: 0;
   }
-  a.search-icon::before,  a.go-to-advanced-search::before {
+  a.encodeColor-icon::before,  a.go-to-advanced-encodeColor::before {
     content: '🔎︎';
   }
 
-  a.search-icon:hover::before, a.search-icon:focus::before {
+  a.encodeColor-icon:hover::before, a.encodeColor-icon:focus::before {
     text-decoration: none;
   }
 
-  a.search-icon:hover, a.search-icon:focus {
+  a.encodeColor-icon:hover, a.encodeColor-icon:focus {
     @include forms.button__hover;
   }
 
