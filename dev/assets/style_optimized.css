@@ -701,10 +701,10 @@ input.minimize-icon:hover, input.minimize-icon:active, input.minimize-icon:focus
 }
 
 input.variableselector-compact-view {
-  background-image: url("data:image/svg+xml,background-image: url('data:image/svg+xml,%253Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%253E%253Crect fill='none' height='24' width='24'/%253E%253Cg%253E%253Cpath d='M14.67,5v6.5H9.33V5H14.67z M15.67,11.5H21V5h-5.33V11.5z M14.67,19v-6.5H9.33V19H14.67z M15.67,12.5V19H21v-6.5H15.67z M8.33,12.5H3V19h5.33V12.5z M8.33,11.5V5H3v6.5H8.33z'/%253E%253C/g%253E%253C/svg%253E');");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cg%3E%3Cpath d='M14.67,5v6.5H9.33V5H14.67z M15.67,11.5H21V5h-5.33V11.5z M14.67,19v-6.5H9.33V19H14.67z M15.67,12.5V19H21v-6.5H15.67z M8.33,12.5H3V19h5.33V12.5z M8.33,11.5V5H3v6.5H8.33z'/%3E%3C/g%3E%3C/svg%3E");
 }
 input.variableselector-compact-view:hover, input.variableselector-compact-view:active, input.variableselector-compact-view:focus {
-  background-image: url("data:image/svg+xml,background-image: url('data:image/svg+xml,%253Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23FFFFFF'%253E%253Crect fill='none' height='24' width='24'/%253E%253Cg%253E%253Cpath d='M14.67,5v6.5H9.33V5H14.67z M15.67,11.5H21V5h-5.33V11.5z M14.67,19v-6.5H9.33V19H14.67z M15.67,12.5V19H21v-6.5H15.67z M8.33,12.5H3V19h5.33V12.5z M8.33,11.5V5H3v6.5H8.33z'/%253E%253C/g%253E%253C/svg%253E');");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23FFFFFF'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cg%3E%3Cpath d='M14.67,5v6.5H9.33V5H14.67z M15.67,11.5H21V5h-5.33V11.5z M14.67,19v-6.5H9.33V19H14.67z M15.67,12.5V19H21v-6.5H15.67z M8.33,12.5H3V19h5.33V12.5z M8.33,11.5V5H3v6.5H8.33z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 input.variableselector-list-view {
