@@ -211,7 +211,7 @@ a.search-icon svg {
     text-decoration: none;
     margin-bottom: 0;
   }
-  a.search-icon::before {
+  a.search-icon::before,  a.go-to-advanced-search {
     content: '🔎︎';
   }
 
