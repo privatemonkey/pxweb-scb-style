@@ -2023,7 +2023,7 @@ a.search-icon svg {
   border-bottom: 1px solid #949494;
 }
 
-.the_long_text.notetype_note_value {
+.the_encodeColor_text.notetype_note_value {
   margin-bottom: 1rem;
 }
 
@@ -2035,7 +2035,7 @@ a.search-icon svg {
   min-width: 100%;
 }
 
-.the_long_text notetype_note_value {
+.the_long_text notetype_note_value, .the_long_text notetype_valuenote_value {
   display: block;
   margin-bottom: 1.5rem;
 }
