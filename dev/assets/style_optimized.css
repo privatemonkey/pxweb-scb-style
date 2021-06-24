@@ -1849,6 +1849,24 @@ input[type=submit].variableselector_continue_button {
   align-items: first baseline;
 }
 
+#testMiljoText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #2E8657;
+  color: #ffffff;
+  height: 7rem;
+  width: 13rem;
+  transform: rotate(45deg);
+  z-index: 501;
+  position: fixed;
+  top: -5rem;
+  right: -5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
