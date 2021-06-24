@@ -17,11 +17,11 @@
   transform: rotate(45deg);
   z-index: 501;
   position: fixed;
-  top: -5rem;
-  right: -5rem;
+  top: -3rem;
+  right: -6rem;
   font-weight: bold;
   text-transform: uppercase;
-  content: 'Test';
+  padding-bottom: sizes.$space-tiny;
 }
 
 /* Elements that should have been inside the main wrapper */
