@@ -1368,6 +1368,13 @@ hr.future {
   z-index: 100;
   width: 640px;
 }
+@media (max-width: 599px) {
+  .presentation-left.mobilemenu {
+    height: 100vh;
+    max-width: 100vw;
+    margin-top: 24px;
+  }
+}
 
 /* Animate slide in and out from left*/
 .presentation-left.mobilemenu:not(.mobilemenuhidden) {

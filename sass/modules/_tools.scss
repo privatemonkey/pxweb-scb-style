@@ -1,8 +1,11 @@
 @use '../layout/panel';
 @use '../base/sizes';
 @use '../base/colors';
+@use '../base/breakpoints';
 @use '../modules/forms';
 @use '../config';
+
+
 
 .presentation-left.mobilemenu {
   position: fixed;
@@ -16,6 +19,11 @@
   overflow-x: hidden;
   z-index: 100;
   width: #{sizes.$panel-width}px;
+  @media (max-width: breakpoints.$extra-small) {
+    height: 100vh;
+    max-width: 100vw;
+    margin-top: 24px;
+  }
 }
 
 @if config.$tools_position == 'right' {
