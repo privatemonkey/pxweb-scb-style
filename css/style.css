@@ -1168,7 +1168,8 @@ thead > tr:first-child > td, thead > tr:first-child > th {
 }
 
 thead > tr:first-child > td {
-  border-left: 1px solid #eee;
+  /* border-left: 1px solid colors.$table-border-outline-color;*/
+  border-left: 1px solid #666666;
   border-right: 1px solid #666666;
   position: sticky;
   left: 0;
@@ -1177,8 +1178,8 @@ thead > tr:first-child > td {
 
 tbody tr th:first-child, tbody tr td:first-child {
   text-align: left;
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
+  /* border-left: 1px solid colors.$table-border-outline-color;
+  border-right: 1px solid colors.$table-border-outline-color;*/
   position: sticky;
   left: 0;
   z-index: 5;
@@ -1191,6 +1192,10 @@ tbody tr th:first-child[scope=row], tbody tr td:first-child[scope=row] {
   tbody tr th:first-child, tbody tr td:first-child {
     max-width: 30vw;
   }
+}
+
+tbody tr th:first-child {
+  max-width: 25vw;
 }
 
 thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child td[rowspan] {
@@ -1207,7 +1212,8 @@ thead th {
 }
 
 table tr th:last-child, table tr td:last-child {
-  border-right: 1px solid #eee;
+  /* border-right: 1px solid colors.$table-border-outline-color;*/
+  border-right: 1px solid #666666;
 }
 
 thead th, thead td {
@@ -1861,6 +1867,7 @@ input[type=submit].variableselector_continue_button {
   align-items: first baseline;
 }
 
+/* SCB only - Move */
 #testMiljoText {
   display: flex;
   flex-direction: row;
