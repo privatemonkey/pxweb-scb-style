@@ -64,6 +64,10 @@
     right: 0;
     top: sizes.$space-large;
   }
+
+  @media (max-width: breakpoints.$extra-small) {
+    position: sticky;
+  }
 }
 
 .container_exit_buttons_row {
