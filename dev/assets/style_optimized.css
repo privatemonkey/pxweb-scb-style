@@ -1398,11 +1398,6 @@ hr.future {
   right: 0;
   top: 1.5rem;
 }
-@media (max-width: 599px) {
-  .tools-header {
-    position: sticky;
-  }
-}
 
 .container_exit_buttons_row {
   padding: 1rem 0;
