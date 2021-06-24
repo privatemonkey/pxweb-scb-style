@@ -113,6 +113,10 @@ tbody tr td:first-child {
 
 thead th {
   border-left: 1px solid colors.$table-border-color;
+
+  input {
+    padding: 0;
+  }
 }
 
 table tr th:last-child, table tr td:last-child {

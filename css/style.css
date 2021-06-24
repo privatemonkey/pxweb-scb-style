@@ -1218,6 +1218,9 @@ tbody tr td:first-child {
 thead th {
   border-left: 1px solid #666666;
 }
+thead th input {
+  padding: 0;
+}
 
 table tr th:last-child, table tr td:last-child {
   /* border-right: 1px solid colors.$table-border-outline-color;*/
