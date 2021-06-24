@@ -39,9 +39,6 @@ nav a span {
     text-decoration: none;
     color: #222;
     font-weight: typography.$font-weight-normal;
-}
-
-.breadcrumb_text_nolink {
-    text-decoration: none;
+    display: inline;
 }
 

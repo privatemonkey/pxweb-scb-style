@@ -1503,10 +1503,7 @@ nav a span {
   text-decoration: none;
   color: #222;
   font-weight: 400;
-}
-
-.breadcrumb_text_nolink {
-  text-decoration: none;
+  display: inline;
 }
 
 /*
