@@ -114,7 +114,7 @@ tbody tr td:first-child {
 thead th {
   border-left: 1px solid colors.$table-border-color;
 
-  input {
+  input[type="submit"] {
     padding: 0;
   }
 }

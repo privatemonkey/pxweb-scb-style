@@ -1218,7 +1218,7 @@ tbody tr td:first-child {
 thead th {
   border-left: 1px solid #666666;
 }
-thead th input {
+thead th input[type=submit] {
   padding: 0;
 }
 
