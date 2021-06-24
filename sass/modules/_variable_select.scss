@@ -75,7 +75,7 @@ input[type="submit"].variableselector_continue_button {
 }
 
 .variableselector_variable_box_container > div {
-  background-color: transparent;
+  background-color: colors.$panel-background;
 }
 
   .variableselector_variable_box_container > div, .selectfromgroup-container {

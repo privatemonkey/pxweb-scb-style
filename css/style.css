@@ -1707,7 +1707,7 @@ input[type=submit].variableselector_continue_button {
 }
 
 .variableselector_variable_box_container > div {
-  background-color: transparent;
+  background-color: #f7f7f7;
 }
 
 .variableselector_variable_box_container > div, .selectfromgroup-container {
