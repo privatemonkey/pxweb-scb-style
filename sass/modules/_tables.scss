@@ -48,6 +48,10 @@ td, th {
   text-align: right;
 }
 
+td {
+  white-space: nowrap;
+}
+
 table {
   border-bottom: 2px solid colors.$table-border-color;
 }
