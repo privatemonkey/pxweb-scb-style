@@ -1888,6 +1888,9 @@ input[type=submit].variableselector_continue_button {
   text-transform: uppercase;
   padding-bottom: 0.25rem;
 }
+#testMiljoText:hover {
+  opacity: 0.3;
+}
 
 /* Elements that should have been inside the main wrapper */
 div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {

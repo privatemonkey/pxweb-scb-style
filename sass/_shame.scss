@@ -24,6 +24,10 @@
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: sizes.$space-tiny;
+
+  &:hover {
+    opacity: 0.3;
+  }
 }
 
 /* Elements that should have been inside the main wrapper */
