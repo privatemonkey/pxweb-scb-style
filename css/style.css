@@ -635,6 +635,7 @@ button.tertiar-btn:focus, button.tertiar-btn:hover, input.tertiar-btn:focus, inp
 input.icon-placement, input[type=button].maximize-icon, input[type=button].minimize-icon, .container_exit_buttons_row input:first-of-type, .container_exit_buttons_row input:nth-of-type(2), #OperationsPanel .container_exit_buttons_row input.primary-btn {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
+  padding-right: 1rem;
   background-size: 1.5rem;
   background-position: 0.4rem center;
 }
@@ -727,6 +728,7 @@ TODO: Add continue icon
 .container_exit_buttons_row input:first-of-type, input.selectfromgroup-cancel {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
+  padding-right: 1rem;
   background-size: 1.5rem;
   background-position: 0.4rem center;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/%3E%3C/svg%3E");
@@ -739,6 +741,7 @@ TODO: Add continue icon
 .container_exit_buttons_row input:nth-of-type(2) {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
+  padding-right: 1rem;
   background-size: 1.5rem;
   background-position: 0.4rem center;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23FFFFFF'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/%3E%3C/svg%3E");
@@ -751,6 +754,7 @@ TODO: Add continue icon
 .variableselector_valuesselect_select_hierarcical_imagebutton {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
+  padding-right: 1rem;
   background-size: 1.5rem;
   background-position: 0.4rem center;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3z'/%3E%3C/svg%3E");
@@ -763,6 +767,7 @@ TODO: Add continue icon
 input.selectfromgroup-groupsbutton {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
+  padding-right: 1rem;
   background-size: 1.5rem;
   background-position: 0.4rem center;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/%3E%3C/svg%3E");
@@ -775,6 +780,7 @@ input.selectfromgroup-groupsbutton:hover, input.selectfromgroup-groupsbutton:act
 #OperationsPanel .icon-placement.arrow-up {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
+  padding-right: 1rem;
   background-size: 1.5rem;
   background-position: 0.4rem center;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M5,9l1.41,1.41L11,5.83V22H13V5.83l4.59,4.59L19,9l-7-7L5,9z'/%3E%3C/svg%3E");
@@ -786,6 +792,7 @@ input.selectfromgroup-groupsbutton:hover, input.selectfromgroup-groupsbutton:act
 #OperationsPanel .icon-placement.arrow-down {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
+  padding-right: 1rem;
   background-size: 1.5rem;
   background-position: 0.4rem center;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M19,15l-1.41-1.41L13,18.17V2H11v16.17l-4.59-4.59L5,15l7,7L19,15z'/%3E%3C/svg%3E");

@@ -96,6 +96,7 @@ button.tertiar-btn, input.tertiar-btn {
 @mixin icon-button {
   background-repeat: no-repeat;
   padding-left: $icon-width;
+  padding-right: sizes.$space-medium;
   background-size: sizes.$space-large;
   background-position: 0.4rem center;
 }
