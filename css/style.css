@@ -1771,7 +1771,7 @@ input[type=submit].variableselector_continue_button {
 }
 
 /* Used for remove variable in tools menu */
-.delete_variable_rootdiv .commandbar_container .variableselector_variable_box_container .commandbar-listbox-container {
+.delete_variable_rootdiv .variableselector_variable_box_container .commandbar-listbox-container {
   background-color: transparent;
 }
 
