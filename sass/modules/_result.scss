@@ -12,7 +12,12 @@
 }
 
 .commandbar_container .variableselector_variable_box_container > div {
-  padding: sizes.$space-medium;
+  padding: 0;
+}
+
+/* Used for remove variable in tools menu */
+.delete_variable_rootdiv .commandbar_container .variableselector_variable_box_container > div {
+  background-color: transparent;
 }
 
 .commandbar-listbox-container {

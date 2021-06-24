@@ -1767,7 +1767,12 @@ input[type=submit].variableselector_continue_button {
 }
 
 .commandbar_container .variableselector_variable_box_container > div {
-  padding: 1rem;
+  padding: 0;
+}
+
+/* Used for remove variable in tools menu */
+.delete_variable_rootdiv .commandbar_container .variableselector_variable_box_container > div {
+  background-color: transparent;
 }
 
 .commandbar-listbox-container {
