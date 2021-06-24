@@ -1176,7 +1176,7 @@ thead > tr:first-child > td {
   z-index: 5;
 }
 
-tbody tr th:first-child, tbody tr td:first-child {
+tbody tr th:first-child {
   text-align: left;
   /* border-left: 1px solid colors.$table-border-outline-color;
   border-right: 1px solid colors.$table-border-outline-color;*/
@@ -1186,11 +1186,11 @@ tbody tr th:first-child, tbody tr td:first-child {
   z-index: 5;
   font-weight: 600;
 }
-tbody tr th:first-child[scope=row], tbody tr td:first-child[scope=row] {
+tbody tr th:first-child[scope=row] {
   border-left-color: #666666;
 }
 @media (max-width: 799px) {
-  tbody tr th:first-child, tbody tr td:first-child {
+  tbody tr th:first-child {
     max-width: 30vw;
   }
 }
@@ -2035,7 +2035,7 @@ a.search-icon svg {
   min-width: 100%;
 }
 
-.the_long_text notetype_note_value, .the_long_text notetype_valuenote_value {
+.the_encodeColor_text notetype_note_value, .the_encodeColor_text notetype_valuenote_value {
   display: block;
   margin-bottom: 1.5rem;
 }
