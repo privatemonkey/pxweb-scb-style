@@ -1159,6 +1159,13 @@ td {
   white-space: nowrap;
 }
 
+tbody td.left {
+  text-align: left;
+}
+tbody td.right {
+  text-align: right;
+}
+
 table {
   border-bottom: 2px solid #666666;
 }

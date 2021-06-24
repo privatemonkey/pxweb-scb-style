@@ -52,6 +52,16 @@ td {
   white-space: nowrap;
 }
 
+tbody td {
+  &.left {
+    text-align: left;
+  }
+
+  &.right {
+    text-align: right;
+  }
+}
+
 table {
   border-bottom: 2px solid colors.$table-border-color;
 }
