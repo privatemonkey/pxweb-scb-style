@@ -441,6 +441,7 @@ img.logo-quality, .officialStatisticsImage {
 
 .siteLogoText {
   align-self: center;
+  margin: 0;
 }
 
 .flex-column {
