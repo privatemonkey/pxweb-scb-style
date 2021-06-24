@@ -1706,6 +1706,10 @@ input[type=submit].variableselector_continue_button {
   justify-content: start;
 }
 
+.variableselector_variable_box_container > div {
+  background-color: transparent;
+}
+
 .variableselector_variable_box_container > div, .selectfromgroup-container {
   margin-right: 2rem;
   min-width: 20rem;
