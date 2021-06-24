@@ -1865,6 +1865,7 @@ input[type=submit].variableselector_continue_button {
   right: -5rem;
   font-weight: bold;
   text-transform: uppercase;
+  content: "Test";
 }
 
 /* Elements that should have been inside the main wrapper */
