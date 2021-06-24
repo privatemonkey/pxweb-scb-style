@@ -119,3 +119,9 @@ input[type="submit"].variableselector_continue_button {
   .variableselector_valuesselect_select_all_button, .variableselector_valuesselect_deselect_all_button {
     margin-top: sizes.$space-small;
   }
+
+
+  .search-panel .input-wrapper {
+    display: flex;
+    flex-direction: row;
+  }

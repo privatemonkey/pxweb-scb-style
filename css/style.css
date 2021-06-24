@@ -1749,6 +1749,11 @@ input[type=submit].variableselector_continue_button {
   margin-top: 0.75rem;
 }
 
+.search-panel .input-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Result page specific styling */
 /* Command bar */
 .commandbar_container {
