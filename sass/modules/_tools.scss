@@ -19,9 +19,10 @@
   overflow-x: hidden;
   z-index: 100;
   width: #{sizes.$panel-width}px;
+
   @media (max-width: breakpoints.$extra-small) {
     height: 100vh;
-    max-width: 100vw;
+    max-width: calc(100vw - 1rem);
   }
 }
 
