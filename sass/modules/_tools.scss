@@ -22,7 +22,7 @@
 
   @media (max-width: breakpoints.$extra-small) {
     height: 100vh;
-    max-width: calc(100vw - 1rem);
+    max-width: 100vw;
   }
 }
 
