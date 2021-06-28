@@ -1403,6 +1403,7 @@ hr.future {
     width: 100vw;
     background-color: #eee;
     box-shadow: 0 0 8px rgba(25, 25, 25, 0.4);
+    min-height: calc(2 * 2rem);
   }
   .presentation-left.mobilemenu .tools-header h2 {
     margin: 1rem;
