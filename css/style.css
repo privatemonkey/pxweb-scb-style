@@ -1395,6 +1395,9 @@ hr.future {
     left: 0;
     margin-top: calc(2 * 2rem);
   }
+  .presentation-left.mobilemenu.mobilemenuhidden {
+    display: none;
+  }
   .presentation-left.mobilemenu .tools-header {
     position: fixed;
     top: 0;

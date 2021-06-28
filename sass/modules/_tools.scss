@@ -28,6 +28,10 @@
     left: 0;
     margin-top: calc(2 * #{sizes.$space-extra-large});
 
+    &.mobilemenuhidden {
+      display: none;
+    }
+
     .tools-header {
       position: fixed;
       top: 0;
