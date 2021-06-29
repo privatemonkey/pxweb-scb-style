@@ -1054,13 +1054,6 @@ button.nested-accordion-header {
   padding-right: 0;
 }
 
-:not(.about-table) button.nested-accordion-header {
-  display: none;
-  font-weight: 400;
-  border-top: none;
-  padding: 1.5rem;
-}
-
 button.accordion-header:before {
   content: "▴";
   padding-right: 0;
