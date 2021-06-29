@@ -45,10 +45,10 @@ button.accordion-header, button.nested-accordion-header  {
   }
 }
 
-.about-table button.accordion-header, .about-table button.nested-accordion-header {
+.about-table .accordion-body button.accordion-header, .about-table  .accordion-body button.nested-accordion-header {
   padding: 0;
   border-top-width: 0;
-  
+
   &:hover, &:focus {
     > .header-text > span, > .header-text  {
       text-decoration: none;
