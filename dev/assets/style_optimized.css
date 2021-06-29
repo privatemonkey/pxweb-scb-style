@@ -1035,7 +1035,11 @@ button.accordion-header:active, button.nested-accordion-header:active {
   color: #000;
 }
 
-:not(.about-table) button.accordion-header:hover > .header-text > span, :not(.about-table) button.accordion-header:hover > .header-text, :not(.about-table) button.accordion-header:focus > .header-text > span, :not(.about-table) button.accordion-header:focus > .header-text, :not(.about-table) button.nested-accordion-header:hover > .header-text > span, :not(.about-table) button.nested-accordion-header:hover > .header-text, :not(.about-table) button.nested-accordion-header:focus > .header-text > span, :not(.about-table) button.nested-accordion-header:focus > .header-text {
+.about-table button.accordion-header, .about-table button.nested-accordion-header {
+  padding: 0;
+  border-top-width: 0;
+}
+.about-table button.accordion-header:hover > .header-text > span, .about-table button.accordion-header:hover > .header-text, .about-table button.accordion-header:focus > .header-text > span, .about-table button.accordion-header:focus > .header-text, .about-table button.nested-accordion-header:hover > .header-text > span, .about-table button.nested-accordion-header:hover > .header-text, .about-table button.nested-accordion-header:focus > .header-text > span, .about-table button.nested-accordion-header:focus > .header-text {
   text-decoration: none;
 }
 
