@@ -56,6 +56,10 @@ button.accordion-header, button.nested-accordion-header  {
   }
 }
 
+.about-table .accordion-body button {
+  cursor: unset;
+}
+
 button.accordion-header.closed, button.nested-accordion-header.closed {
   display: inline-block;
   border-top: 1px solid colors.$panel-border-color;

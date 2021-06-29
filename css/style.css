@@ -1043,6 +1043,10 @@ button.accordion-header:active, button.nested-accordion-header:active {
   text-decoration: none;
 }
 
+.about-table .accordion-body button {
+  cursor: unset;
+}
+
 button.accordion-header.closed, button.nested-accordion-header.closed {
   display: inline-block;
   border-top: 1px solid #949494;
