@@ -167,7 +167,7 @@ a.search-icon svg {
   }
 
   /* Make span tags in footnotes behave as paragraphs */
-  .the_encodeColor_text.notetype_note_value, .notetype_valuenote_value {
+  .the_encodeColor_text.notetype_note_value, .notetype_valuenote_value, .the_long_text.notetype_note_value {
     margin-bottom: sizes.$space-medium;
   }
 
