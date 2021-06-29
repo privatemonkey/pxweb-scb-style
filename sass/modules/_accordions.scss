@@ -60,7 +60,7 @@ button.nested-accordion-header {
   padding-right: 0;
 }
 
-button.nested-accordion-header {
+:not(.about) button.nested-accordion-header {
   display: none;
   font-weight: 400;
   border-top: none;
