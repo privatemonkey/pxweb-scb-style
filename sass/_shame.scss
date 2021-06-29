@@ -160,6 +160,12 @@ a.search-icon svg {
     border-bottom: 1px solid colors.$panel-border-color;
   }
 
+  .footnotes_container {
+    br {
+      display: unset;
+    }
+  }
+
   /* Make span tags in footnotes behave as paragraphs */
   .the_encodeColor_text.notetype_note_value, .notetype_valuenote_value {
     margin-bottom: sizes.$space-medium;
