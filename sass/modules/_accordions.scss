@@ -45,6 +45,14 @@ button.accordion-header, button.nested-accordion-header  {
   }
 }
 
+:not(.about-table) button.accordion-header, :not(.about-table) button.nested-accordion-header {
+  &:hover, &:focus {
+    > .header-text > span, > .header-text  {
+      text-decoration: none;
+    }
+  }
+}
+
 button.accordion-header.closed, button.nested-accordion-header.closed {
   display: inline-block;
   border-top: 1px solid colors.$panel-border-color;
@@ -60,7 +68,7 @@ button.nested-accordion-header {
   padding-right: 0;
 }
 
-:not(.about) button.nested-accordion-header {
+:not(.about-table) button.nested-accordion-header {
   display: none;
   font-weight: 400;
   border-top: none;
