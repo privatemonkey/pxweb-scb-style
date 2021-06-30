@@ -1,4 +1,5 @@
 @use '../base/typography';
+@use '../base/breakpoints';
 @use '../base/colors';
 @use '../base/sizes';
 @use '../modules/forms';
@@ -110,6 +111,12 @@ input[type="submit"].variableselector_continue_button {
     padding: 0;
     border-radius: 0;
     margin-bottom: sizes.$space-medium;
+
+    @media (max-width: breakpoints.$extra-small) {
+      &:first-of-type {
+        margin-bottom: sizes.$space-tiny;
+      }
+    }
   }
     
   .variableselector_valuesselect_statistics_panel p {
