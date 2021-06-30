@@ -1472,7 +1472,11 @@ hr.future {
   font-weight: 700;
   margin-bottom: 1rem;
   background-color: #e1ecef;
-  width: 100%;
+  width: calc(100% - 2rem);
+}
+
+.variableselector_error_summary {
+  background-color: #ffbebe;
 }
 
 .variableselector_error_summary li {
