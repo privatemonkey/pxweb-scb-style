@@ -1784,7 +1784,7 @@ input[type=submit].variableselector_continue_button {
 }
 @media (max-width: 599px) {
   .variableselector_variable_box_container input[type=submit]:first-of-type {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.75rem;
   }
 }
 
