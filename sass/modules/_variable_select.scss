@@ -112,11 +112,11 @@ input[type="submit"].variableselector_continue_button {
     border-radius: 0;
     margin-bottom: sizes.$space-medium;
 
-    @media (max-width: breakpoints.$small) {
+    /* @media (max-width: breakpoints.$small) {
       &:first-of-type {
         margin-bottom: sizes.$space-extra-small;
       }
-    }
+    }*/
   }
     
   .variableselector_valuesselect_statistics_panel p {
