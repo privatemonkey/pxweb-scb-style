@@ -1782,9 +1782,9 @@ input[type=submit].variableselector_continue_button {
   border-radius: 0;
   margin-bottom: 1rem;
 }
-@media (max-width: 599px) {
+@media (max-width: 799px) {
   .variableselector_variable_box_container input[type=submit]:first-of-type {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
   }
 }
 
