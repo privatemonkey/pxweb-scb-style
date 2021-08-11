@@ -105,7 +105,8 @@ input[type="submit"].variableselector_continue_button {
   .pxweb-link {
 
   }
-  .variableselector_variable_box_container input[type="submit"] {
+  // input.variableselector_valuesselect_deselect_all_button is from the special search form
+  .variableselector_variable_box_container input[type="submit"], input.variableselector_valuesselect_deselect_all_button {
     border-color: transparent;
     text-decoration: underline;
     padding: 0;

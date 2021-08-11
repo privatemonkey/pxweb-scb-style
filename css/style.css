@@ -1779,7 +1779,7 @@ input[type=submit].variableselector_continue_button {
   display: none;
 }
 
-.variableselector_variable_box_container input[type=submit] {
+.variableselector_variable_box_container input[type=submit], input.variableselector_valuesselect_deselect_all_button {
   border-color: transparent;
   text-decoration: underline;
   padding: 0;
