@@ -95,7 +95,7 @@ $button-secondary-text: $color-primary !default;
 
 $button__hover-background: #222 !default;
 $button__hover-text: #fff !default;
-$button-background__disabled: #eeeeee !default;
+$button-background__disabled: transparent !default;
 $button__disabled: $color-medium !default;
 
 /* Inputs */
