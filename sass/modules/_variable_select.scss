@@ -119,7 +119,12 @@ input[type="submit"].variableselector_continue_button {
       }
     }*/
   }
-    
+  
+  .variableselector_valuesselect_deselect_all_button {
+    margin-top: sizes.$space-extra-small;
+    margin-left: sizes.$space-small;
+  }
+
   .variableselector_valuesselect_statistics_panel p {
     margin-bottom: sizes.$space-extra-small;
   }
