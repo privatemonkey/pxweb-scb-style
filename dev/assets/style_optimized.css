@@ -2251,6 +2251,12 @@ input.download-icon {
   margin-top: 1rem;
 }
 
+/* Search variable form - For large amounts of values */
+.fetch-all-button {
+  margin-left: 50%;
+  margin-top: 1rem;
+}
+
 /* Media queries */
 @media (max-width: 1140px) {
   main {

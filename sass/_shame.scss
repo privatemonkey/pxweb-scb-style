@@ -294,6 +294,12 @@ a.search-icon svg {
     margin-top: sizes.$space-medium;
   }
 
+  /* Search variable form - For large amounts of values */
+  .fetch-all-button {
+    margin-left: 50%;
+    margin-top: sizes.$space-medium;
+  }
+
 
   /* Media queries */
   @media(max-width:1140px) {
