@@ -3,6 +3,7 @@
 ## Design / CSS
 - [x] Disabled radio/checkbox - label ska också se disabled ut
 - [ ] Välj variabel - Hierarkier innehåller input image samt ett andra steg med checkboxar som ser bananas ut
+- [ ] Mixin för att göra SVG ikoner i hover, disabled, focus färger
 - [ ] Dialog för attributer behöver bättre spacing
 - [ ] Dialog för attributer behöver bättre header
 - [ ] Mobil tabell - Se på sticky. 

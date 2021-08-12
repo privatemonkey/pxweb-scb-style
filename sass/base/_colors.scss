@@ -107,10 +107,12 @@ $input__disabled-text: $color-medium;
 $input__disabled-background: transparent;
 
 /* icon colors */
+// Must be encoded since they are used by URL encoded SVG
 $btn-primary-icon:  encodeColor($color-primary-inverted);
 $btn-primary-icon__hover:  encodeColor($color-primary-inverted);
 $btn-secondary-icon:  encodeColor($color-primary);
 $btn-secondary-icon__hover:  encodeColor($color-secondary-inverted);
+$btn-icon__disabled: encodeColor($color-medium);
 
 /* Dialogs */
 $dialog-background: #fff;
