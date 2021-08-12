@@ -6,6 +6,7 @@ Use this setup to customize your own theme or use the alternative default PxWeb 
 
 - [Setting up the project](#setting-up-the-project)
   - [Get started](#get-started)
+  - [Build](#build)
   - [Customize](#customize)
     - [Colors](#colors)
     - [Fonts and typography](#fonts-and-typography)
@@ -22,6 +23,11 @@ Steps
 - Install the NPM packages needed
 - Setup SASS
 - Do your first build
+
+## Build
+
+´npm run build´ will build all SASS files, minimize and move files
+
 
 ## Customize
 

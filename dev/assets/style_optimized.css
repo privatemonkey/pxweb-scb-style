@@ -777,7 +777,10 @@ input.selectfromgroup-groupsbutton:hover, input.selectfromgroup-groupsbutton:act
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23FFFFFF'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/%3E%3C/svg%3E");
 }
 
-/* Left menu buttons with icons */
+/* 
+* Left menu buttons with icons 
+*/
+/* Arrow up */
 #OperationsPanel .icon-placement.arrow-up {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
@@ -790,7 +793,9 @@ input.selectfromgroup-groupsbutton:hover, input.selectfromgroup-groupsbutton:act
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23FFFFFF'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M5,9l1.41,1.41L11,5.83V22H13V5.83l4.59,4.59L19,9l-7-7L5,9z'/%3E%3C/svg%3E");
 }
 
-#OperationsPanel .icon-placement.arrow-down {
+/* Arrow down */
+/* .arrow-down-icon exists only on the "search variable" page */
+#OperationsPanel .icon-placement.arrow-down, .arrow-down-icon.pxweb-btn {
   background-repeat: no-repeat;
   padding-left: 2.25rem;
   padding-right: 1rem;
@@ -798,7 +803,7 @@ input.selectfromgroup-groupsbutton:hover, input.selectfromgroup-groupsbutton:act
   background-position: 0.4rem center;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M19,15l-1.41-1.41L13,18.17V2H11v16.17l-4.59-4.59L5,15l7,7L19,15z'/%3E%3C/svg%3E");
 }
-#OperationsPanel .icon-placement.arrow-down:hover, #OperationsPanel .icon-placement.arrow-down:active, #OperationsPanel .icon-placement.arrow-down:focus {
+#OperationsPanel .icon-placement.arrow-down:hover, #OperationsPanel .icon-placement.arrow-down:active, #OperationsPanel .icon-placement.arrow-down:focus, .arrow-down-icon.pxweb-btn:hover, .arrow-down-icon.pxweb-btn:active, .arrow-down-icon.pxweb-btn:focus {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23FFFFFF'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M19,15l-1.41-1.41L13,18.17V2H11v16.17l-4.59-4.59L5,15l7,7L19,15z'/%3E%3C/svg%3E");
 }
 
@@ -1779,7 +1784,7 @@ input[type=submit].variableselector_continue_button {
   display: none;
 }
 
-.variableselector_variable_box_container input[type=submit], input.variableselector_valuesselect_deselect_all_button {
+.variableselector_variable_box_container input[type=submit], input[type=submit].variableselector_valuesselect_deselect_all_button {
   border-color: transparent;
   text-decoration: underline;
   padding: 0;
