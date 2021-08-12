@@ -1800,7 +1800,7 @@ input[type=submit].variableselector_continue_button {
   }*/
 }
 
-.variableselector_valuesselect_deselect_all_button {
+.arrow-down-icon + .variableselector_valuesselect_deselect_all_button {
   margin-top: 0.5rem;
   margin-left: 0.75rem;
 }
