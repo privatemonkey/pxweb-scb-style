@@ -49,6 +49,7 @@ $button-padding-topbottom: sizes.$space-extra-small;
     &:hover, &:focus, &:active {
       cursor:not-allowed;
       background-color: transparent;
+      border-color: colors.$button__disabled;
       color: colors.$button__disabled;
       outline-color: transparent;
     }
