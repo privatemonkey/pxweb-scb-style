@@ -560,7 +560,6 @@ button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
 }
 button:disabled:hover, button:disabled:focus, button:disabled:active, input[type=button]:disabled:hover, input[type=button]:disabled:focus, input[type=button]:disabled:active, input[type=submit]:disabled:hover, input[type=submit]:disabled:focus, input[type=submit]:disabled:active {
   cursor: not-allowed;
-  border-color: #949494;
   background-color: transparent;
   color: #949494;
   outline-color: transparent;
@@ -592,7 +591,6 @@ button.primary-btn:disabled, input[type=button].primary-btn:disabled, input[type
 }
 button.primary-btn:disabled:hover, button.primary-btn:disabled:focus, button.primary-btn:disabled:active, input[type=button].primary-btn:disabled:hover, input[type=button].primary-btn:disabled:focus, input[type=button].primary-btn:disabled:active, input[type=submit].primary-btn:disabled:hover, input[type=submit].primary-btn:disabled:focus, input[type=submit].primary-btn:disabled:active, #OperationsPanel input[type=submit].primary-btn:disabled:hover, #OperationsPanel input[type=submit].primary-btn:disabled:focus, #OperationsPanel input[type=submit].primary-btn:disabled:active, input[type=submit].container_continuebutton:disabled:hover, input[type=submit].container_continuebutton:disabled:focus, input[type=submit].container_continuebutton:disabled:active {
   cursor: not-allowed;
-  border-color: #949494;
   background-color: transparent;
   color: #949494;
   outline-color: transparent;
@@ -2184,7 +2182,6 @@ a.search-icon:disabled {
 }
 a.search-icon:disabled:hover, a.search-icon:disabled:focus, a.search-icon:disabled:active {
   cursor: not-allowed;
-  border-color: #949494;
   background-color: transparent;
   color: #949494;
   outline-color: transparent;
