@@ -1801,6 +1801,9 @@ input[type=submit].variableselector_continue_button {
   margin-top: 0.5rem;
   margin-left: 0.75rem;
 }
+.arrow-down-icon + .variableselector_valuesselect_deselect_all_button:hover, .arrow-down-icon + .variableselector_valuesselect_deselect_all_button:focus, .arrow-down-icon + .variableselector_valuesselect_deselect_all_button:active {
+  border-width: 0;
+}
 
 .variableselector_valuesselect_statistics_panel p {
   margin-bottom: 0.5rem;
