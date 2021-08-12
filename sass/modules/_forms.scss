@@ -352,8 +352,6 @@ input:disabled {
     color: colors.$input__disabled-text; 
 
     &:hover {
-      color: colors.$input__disabled-text; 
-      text-decoration: none;
       cursor: not-allowed;
     }
   }

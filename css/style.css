@@ -894,8 +894,6 @@ input:disabled + label {
   color: #949494;
 }
 input:disabled + label:hover {
-  color: #949494;
-  text-decoration: none;
   cursor: not-allowed;
 }
 
