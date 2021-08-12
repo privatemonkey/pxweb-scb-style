@@ -2251,13 +2251,18 @@ input.download-icon {
   margin-top: 1rem;
 }
 
-/* Search variable form - For large amounts of values */
+/* 
+* Search variable form - For large amounts of values 
+*/
+/* Hack for fetch all positioning */
 .fetch-all-button {
-  margin-left: 50%;
+  margin-right: 50%;
   margin-top: 1rem;
 }
 
-/* Media queries */
+/* 
+* Media queries 
+*/
 @media (max-width: 1140px) {
   main {
     /* margin:0 calc(476 + 1.5rem) 0 auto;*/
