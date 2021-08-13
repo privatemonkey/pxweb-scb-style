@@ -468,7 +468,7 @@ main {
 }
 
 .result main {
-  margin-right: calc(640 + 1.5rem);
+  margin-right: calc(420 + 1.5rem);
 }
 
 #pxcontent {
@@ -1389,13 +1389,12 @@ hr.future {
   overflow: auto;
   height: 100vh;
   max-width: 80vw;
-  background-color: #f8f8f8;
-  padding: 0;
-  box-shadow: 3px 0 8px rgba(25, 25, 25, 0.4);
+  background-color: #ffffff;
+  padding: 1.5rem;
   border-left: 1px solid #ddd;
   overflow-x: hidden;
   z-index: 100;
-  width: 640px;
+  width: 420px;
 }
 @media (max-width: 599px) {
   .presentation-left.mobilemenu {
@@ -1435,7 +1434,7 @@ hr.future {
 
 .presentation-left.mobilemenuhidden {
   top: 0;
-  right: -640px;
+  right: -420px;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
@@ -2270,12 +2269,12 @@ input.fetch-all-button {
 */
 @media (max-width: 1140px) {
   main {
-    /* margin:0 calc(476 + 1.5rem) 0 auto;*/
+    /* margin:0 calc(420 + 1.5rem) 0 auto;*/
     margin: 0 auto;
   }
 
   .presentation-left.mobilemenuhidden {
-    width: 476px;
+    width: 420px;
   }
 }
 @media (max-width: 768px) {
