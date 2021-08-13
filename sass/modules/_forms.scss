@@ -309,6 +309,7 @@ select {
 
 input[type="text"] {
   min-width: 10rem;
+  margin-top: 0.5rem;
 
   &:read-only {
     border-style: dashed;
