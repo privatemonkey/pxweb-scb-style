@@ -1027,7 +1027,7 @@ button.accordion-header, button.nested-accordion-header {
   border-width: 0;
   border-radius: 0;
   text-align: left;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1rem 1.5rem 0;
   border-top: 1px solid #949494;
   font-weight: 700;
   outline-color: transparent;

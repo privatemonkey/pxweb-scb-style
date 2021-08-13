@@ -75,9 +75,10 @@
     left: 0;
   }
   
-  .presentation-left.mobilemenuhidden {
+  .presentation-left.mobilemenu.mobilemenuhidden {
     top: 0;
     left: -#{sizes.$panel-width}px;
+    padding: 0;
   }
 }
 
