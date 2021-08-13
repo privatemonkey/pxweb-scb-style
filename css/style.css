@@ -1831,11 +1831,6 @@ input[type=submit].variableselector_continue_button {
 
 /* Result page specific styling */
 /* Command bar */
-.commandbar_container {
-  padding: 1.5rem 1.5rem 1rem;
-  border: 1px solid #eee;
-  background-color: #fff;
-}
 .commandbar_container br {
   display: none;
 }

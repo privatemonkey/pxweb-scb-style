@@ -6,9 +6,10 @@
 /* Command bar */
 
 .commandbar_container {
-  padding: sizes.$space-large sizes.$space-large sizes.$space-medium;
-  border: 1px solid colors.$dialog-border;
-  background-color: colors.$dialog-background;
+  // DESIGN CHANGE
+  // padding: sizes.$space-large sizes.$space-large sizes.$space-medium;
+  // border: 1px solid colors.$dialog-border;
+  // background-color: colors.$dialog-background;
 
   br {
     display: none;
