@@ -1462,9 +1462,10 @@ hr.future {
   border: #fff;
 }
 
-.container_exit_buttons_row {
-  padding: 1rem 0;
-  border-top: 1px solid #949494;
+.encodeColor_buttons_row {
+  margin-top: 1.5rem;
+  /* padding: sizes.$space-medium 0;
+  border-top: 1px solid colors.$panel-border-color;*/
 }
 
 /* The toolbar - now named commandbar */
