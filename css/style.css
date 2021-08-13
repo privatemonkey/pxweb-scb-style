@@ -824,7 +824,7 @@ input {
   padding: 0.5rem;
   margin-bottom: 0;
   margin-right: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #949494;
   outline: 1px solid transparent;
   background-color: #fff;
   border-radius: 4px;
@@ -942,7 +942,7 @@ select {
   padding: 0.5rem;
   margin-bottom: 0;
   margin-right: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #949494;
   outline: 1px solid transparent;
   background-color: #fff;
   border-radius: 4px;
@@ -967,7 +967,7 @@ select[multiple] {
   padding: 0.5rem;
   margin-bottom: 0;
   margin-right: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #949494;
   outline: 1px solid transparent;
   background-color: #fff;
   border-radius: 4px;
