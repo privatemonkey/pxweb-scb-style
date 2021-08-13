@@ -309,11 +309,11 @@ input[type="number"] {
 
 input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[type="checkbox"]:checked {
 
-  // DESIGN CHANGES
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  margin-top: 0.25rem;
-  margin-left: 0.5rem;
+  // DESIGN CHANGES - ANO: Changed right from 1rem to 0.75rem
+  margin-bottom: sizes.$space-medium;
+  margin-right: sizes.$space-small;
+  margin-top: sizes.$space-tiny;
+  margin-left: sizes.$space-extra-small;
 
 
   /* margin-bottom: sizes.$space-small;

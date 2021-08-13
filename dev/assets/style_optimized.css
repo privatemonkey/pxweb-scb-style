@@ -846,7 +846,7 @@ input[type=number] {
 
 input[type=radio], input[type=checkbox], input[type=radio]:checked, input[type=checkbox]:checked {
   margin-bottom: 1rem;
-  margin-right: 1rem;
+  margin-right: 0.75rem;
   margin-top: 0.25rem;
   margin-left: 0.5rem;
   /* margin-bottom: sizes.$space-small;
