@@ -31,8 +31,12 @@
 }
 
 /* Elements that should have been inside the main wrapper */
-div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
+div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_breadcrumb, .h1title {
   @include layout.maingrid;
+}
+
+#ctl00_ctl00_breadcrumb1 {
+  
 }
 
 div:empty, span:empty, a:empty, p:empty {

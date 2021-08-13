@@ -464,7 +464,7 @@ img.logo-quality, .officialStatisticsImage {
 
 main {
   max-width: 1440px;
-  margin: 0 auto 2rem;
+  margin: 0 0;
 }
 
 .result main {
@@ -1958,9 +1958,9 @@ input[type=submit].variableselector_continue_button {
 }
 
 /* Elements that should have been inside the main wrapper */
-div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_ctl00_breadcrumb1, #ctl00_breadcrumb, .h1title {
+div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, #ctl00_ctl00_navigationFlowControl, #ctl00_breadcrumb, .h1title {
   max-width: 1440px;
-  margin: 0 auto 2rem;
+  margin: 0 0;
 }
 
 div:empty, span:empty, a:empty, p:empty {

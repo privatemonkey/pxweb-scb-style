@@ -6,7 +6,8 @@
 
 @mixin maingrid {
   max-width: 1440px;
-  margin: 0 auto sizes.$space-extra-large;
+  // margin: 0 auto sizes.$space-extra-large;
+  margin: 0 0;
 }
 
 main {
