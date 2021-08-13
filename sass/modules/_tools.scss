@@ -62,9 +62,10 @@
     right: 0;
   }
   
-  .presentation-left.mobilemenuhidden {
+  .presentation-left.mobilemenu.mobilemenuhidden {
     top: 0;
     right: -#{sizes.$panel-width}px;
+    padding-left: 0;
   }
 }
 
@@ -78,7 +79,7 @@
   .presentation-left.mobilemenu.mobilemenuhidden {
     top: 0;
     left: -#{sizes.$panel-width}px;
-    padding-left: 0;
+    padding-right: 0;
   }
 }
 

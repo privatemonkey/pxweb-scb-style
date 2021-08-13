@@ -1434,9 +1434,10 @@ hr.future {
   right: 0;
 }
 
-.presentation-left.mobilemenuhidden {
+.presentation-left.mobilemenu.mobilemenuhidden {
   top: 0;
   right: -420px;
+  padding-left: 0;
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
