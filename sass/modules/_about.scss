@@ -40,6 +40,9 @@
   
 .about-table dt {
     @include typography.label;
+    // DESIGN CHANGES
+    margin-bottom: 0;
+    font-weight: 700;
 }
 .about-table dd {
     margin-left: 0;

@@ -512,6 +512,8 @@ main {
   font-weight: 600;
   font-size: 1.125rem;
   margin-bottom: 0.75rem;
+  margin-bottom: 0;
+  font-weight: 700;
 }
 .about-table dt:first-letter {
   text-transform: capitalize;
@@ -1989,12 +1991,13 @@ div:empty, span:empty, a:empty, p:empty {
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.4;
+  margin-bottom: 0.5rem;
   */
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 .header-text:first-letter, .commandbar_changedecimal_titletext:first-letter, .commandbar_changetexts_titletext:first-letter {
   text-transform: capitalize;
