@@ -247,17 +247,13 @@ h5:first-letter {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.2;
-  font-size: 1.3125rem;
+  font-size: 1.125rem;
   line-height: 1.4;
-  margin-bottom: 0.75rem;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
 }
 .container_titletext:first-letter, .heading:first-letter, .variableselector_valuesselect_variabletitle > label:first-letter, .about-table .accordion-body .header-text span:first-letter {
   text-transform: capitalize;
-}
-@media (max-width: 799px) {
-  .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
-    font-size: 1.125rem;
-  }
 }
 
 button.nested-accordion-header, .commandbar_changepresentation_changetext {

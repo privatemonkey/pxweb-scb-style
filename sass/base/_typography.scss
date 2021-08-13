@@ -189,7 +189,7 @@ h5 {
 
 /* TODO: Alla dessa borde göras till riktiga headers */
 .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
-  @include h3;
+  @include h4;
 }
 
 button.nested-accordion-header, .commandbar_changepresentation_changetext {
