@@ -15,6 +15,7 @@
 /* Default spacing */
 /* Panel size */
 /* Buttons */
+/* Stepper */
 /*
 * Default theme
 */
@@ -1293,6 +1294,7 @@ td.attribute-cell:hover::after {
   height: 5rem;
   margin: 2rem 1.5rem 0;
   padding: 0.75rem;
+  max-width: 768px;
 }
 
 .navigationFlowArea a img {
@@ -1985,11 +1987,9 @@ div:empty, span:empty, a:empty, p:empty {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.2;
-  font-weight: 500;
-  font-size: 1.125rem;
+  font-weight: 700;
+  font-size: 1rem;
   line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: 0.3rem;
 }
 .header-text:first-letter, .commandbar_changedecimal_titletext:first-letter, .commandbar_changetexts_titletext:first-letter {
   text-transform: capitalize;
