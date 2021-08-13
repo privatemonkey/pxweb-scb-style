@@ -886,7 +886,7 @@ input[type=radio]:checked + label, input[type=checkbox] + label {
 }
 
 input[type=radio] + label, input[type=checkbox] + label {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   margin-right: 1rem;
   width: calc(100% - 4rem);
   vertical-align: top;
