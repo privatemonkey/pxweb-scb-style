@@ -19,8 +19,10 @@
   border-left: 1px solid #ddd;
   overflow-x: hidden;
   z-index: 100;
+
+  // Since padding is added, width is calculated by subtracting 2x padding
   padding: sizes.$space-large;
-  width: calc(#{sizes.$panel-width}px - #{sizes.$space-large});
+  width: calc(#{sizes.$panel-width}px - #{sizes.$space-large} - #{sizes.$space-large});
 
   @media (max-width: breakpoints.$extra-small) {
     height: 100vh;
