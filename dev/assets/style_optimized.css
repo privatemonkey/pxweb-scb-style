@@ -1076,6 +1076,8 @@ button.accordion-header:before {
   padding-right: 0;
   margin-right: 0.75rem;
   max-width: 1rem;
+  font-size: 1.125rem;
+  line-height: 1;
 }
 
 .pxweb-nested-accordion dl {
@@ -1987,9 +1989,16 @@ div:empty, span:empty, a:empty, p:empty {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.2;
+  /* 
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.4;
+  */
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
 }
 .header-text:first-letter, .commandbar_changedecimal_titletext:first-letter, .commandbar_changetexts_titletext:first-letter {
   text-transform: capitalize;

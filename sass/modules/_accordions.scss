@@ -77,6 +77,8 @@ button.accordion-header.closed:before {
 
 button.nested-accordion-header {
   background-color: colors.$panel-background;
+
+  // DESIGN CHANGES
   //padding-left: 0.5rem;
   //padding-right: 0;
 }
@@ -86,6 +88,11 @@ button.accordion-header:before {
   padding-right: 0;
   margin-right: sizes.$space-small;
   max-width: sizes.$space-medium;
+
+  // DESIGN CHANGES
+  font-size: 1.125rem;
+  line-height: 1;
+
 }
 
 .pxweb-nested-accordion dl {
