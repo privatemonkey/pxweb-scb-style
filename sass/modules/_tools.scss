@@ -86,13 +86,23 @@
 }
 
 .tools-header {
+  margin-bottom: sizes.$space-extra-large;
+
   h2 {
-    padding-left: sizes.$space-medium;
+    // padding-left: sizes.$space-medium;
   }
   button {
     position: absolute;
-    right: 0;
-    top: sizes.$space-large;
+    // right: 0;
+    right: sizes.$space-medium;
+    // top: sizes.$space-large;
+    top: 1.25rem;
+
+    // TODO: Change button class to link variant
+    background-color: #fff;
+    color: #1e00be;
+    border: #fff;
+
   }
 }
 

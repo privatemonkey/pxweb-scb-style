@@ -549,6 +549,7 @@ button, input[type=button], input[type=submit] {
   max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
+  font-weight: 500;
   background-color: #1e00be;
   border: 1px #1e00be solid;
   outline: 1px transparent;
@@ -581,6 +582,7 @@ button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-b
   max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
+  font-weight: 500;
   background-color: #1e00be;
   border: 1px #1e00be solid;
   outline: 1px transparent;
@@ -1441,13 +1443,16 @@ hr.future {
   background-color: #f8f8f8;
 }
 
-.tools-header h2 {
-  padding-left: 1rem;
+.tools-header {
+  margin-bottom: 2rem;
 }
 .tools-header button {
   position: absolute;
-  right: 0;
-  top: 1.5rem;
+  right: 1rem;
+  top: 1.25rem;
+  background-color: #fff;
+  color: #1e00be;
+  border: #fff;
 }
 
 .container_exit_buttons_row {
@@ -2178,6 +2183,7 @@ a.search-icon {
   max-height: 2.6rem;
   cursor: pointer;
   color: #fff;
+  font-weight: 500;
   background-color: #1e00be;
   border: 1px #1e00be solid;
   outline: 1px transparent;
