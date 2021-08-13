@@ -324,14 +324,13 @@ input[type="number"] {
 input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[type="checkbox"]:checked {
 
   // DESIGN CHANGES - ANO: Changed right from 1rem to 0.75rem
-  margin-bottom: sizes.$space-medium;
+  /* margin-bottom: sizes.$space-medium;
   margin-right: sizes.$space-small;
   margin-top: sizes.$space-tiny;
-  margin-left: sizes.$space-extra-small;
+  margin-left: sizes.$space-extra-small;*/
 
-
-  /* margin-bottom: sizes.$space-small;
-  margin-right: sizes.$space-extra-small; */
+  margin-bottom: sizes.$space-medium;
+  margin-right: sizes.$space-extra-small; 
   
   display: inline-block;
   border: none !important;
@@ -345,7 +344,7 @@ input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[
   }
 }
 
-input[type="radio"] + label, input[type="radio"]:checked + label, input[type="checkbox"] + label, , input[type="checkbox"]:checked + label {
+input[type="radio"] + label, input[type="radio"]:checked + label, input[type="checkbox"] + label, input[type="checkbox"]:checked + label {
   @include typography.textlink__hover;
   font-weight: typography.$font-weight-normal;
   border-width: 0;
@@ -360,7 +359,7 @@ input[type="radio"]:checked + label, input[type="checkbox"] + label {
 input[type="radio"] + label, input[type="checkbox"] + label {
   margin-bottom: sizes.$space-extra-small;
   margin-right: sizes.$space-medium;
-  // width: calc(100% - 4rem);
+  width: calc(100% - 4rem);
   vertical-align: top;
   padding: 0;
   line-height: 140%;
