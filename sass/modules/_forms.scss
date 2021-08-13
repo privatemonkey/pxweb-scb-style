@@ -308,8 +308,17 @@ input[type="number"] {
 }
 
 input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[type="checkbox"]:checked {
-  margin-bottom: sizes.$space-small;
-  margin-right: sizes.$space-extra-small;
+
+  // DESIGN CHANGES
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5rem;
+
+
+  /* margin-bottom: sizes.$space-small;
+  margin-right: sizes.$space-extra-small; */
+  
   display: inline-block;
   border: none !important;
   outline: none !important;
@@ -330,8 +339,8 @@ input[type="radio"] + label, input[type="radio"]:checked + label, input[type="ch
 }
 
 input[type="radio"]:checked + label, input[type="checkbox"] + label {
-  font-weight: typography.$font-weight-medium;
-  color: #000;
+  font-weight: typography.$font-weight-normal;
+  color: colors.$color-dark;
 }
 
 input[type="radio"] + label, input[type="checkbox"] + label {
