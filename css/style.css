@@ -1963,6 +1963,11 @@ div[role=main], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1, 
   margin: 0 0;
 }
 
+#ctl00_ctl00_breadcrumb1 {
+  max-width: none;
+  margin: 0 0;
+}
+
 div:empty, span:empty, a:empty, p:empty {
   display: none;
 }

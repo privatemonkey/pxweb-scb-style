@@ -35,8 +35,10 @@ div[role="main"], #table-title, #ctl00_navigationFlowControl, #ctl00_breadcrumb1
   @include layout.maingrid;
 }
 
+// Used to have same layout as above elements
 #ctl00_ctl00_breadcrumb1 {
-  
+  max-width: none;
+  margin: 0 0;
 }
 
 div:empty, span:empty, a:empty, p:empty {
