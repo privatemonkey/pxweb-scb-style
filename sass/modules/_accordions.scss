@@ -46,8 +46,14 @@ button.accordion-header, button.nested-accordion-header  {
 }
 
 .about-table .accordion-body button.accordion-header, .about-table  .accordion-body button.nested-accordion-header {
-  padding: 0;
-  border-top-width: 0;
+  // padding: 0;
+  // border-top-width: 0;
+
+  padding: 1.5rem 0 0;
+  border-top: 1px solid #949494;
+  font-weight: 700;
+  margin-bottom: 1.75rem;
+
 
   &:hover, &:focus {
     > .header-text > span, > .header-text  {
@@ -71,8 +77,8 @@ button.accordion-header.closed:before {
 
 button.nested-accordion-header {
   background-color: colors.$panel-background;
-  padding-left: 0.5rem;
-  padding-right: 0;
+  //padding-left: 0.5rem;
+  //padding-right: 0;
 }
 
 button.accordion-header:before {
@@ -93,8 +99,12 @@ button.accordion-header:before {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: 0 sizes.$space-large;
-  margin-bottom: 2.5rem;
+
+  // padding: 0 sizes.$space-large;
+  // margin-bottom: 2.5rem;
+  margin-bottom: sizes.$space-extra-large;
+  margin-top: sizes.$space-small;
+
   width: auto;
 
   @media (max-width: 660px) {

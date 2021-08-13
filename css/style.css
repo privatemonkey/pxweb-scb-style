@@ -1044,8 +1044,10 @@ button.accordion-header:active, button.nested-accordion-header:active {
 }
 
 .about-table .accordion-body button.accordion-header, .about-table .accordion-body button.nested-accordion-header {
-  padding: 0;
-  border-top-width: 0;
+  padding: 1.5rem 0 0;
+  border-top: 1px solid #949494;
+  font-weight: 700;
+  margin-bottom: 1.75rem;
 }
 .about-table .accordion-body button.accordion-header:hover > .header-text > span, .about-table .accordion-body button.accordion-header:hover > .header-text, .about-table .accordion-body button.accordion-header:focus > .header-text > span, .about-table .accordion-body button.accordion-header:focus > .header-text, .about-table .accordion-body button.nested-accordion-header:hover > .header-text > span, .about-table .accordion-body button.nested-accordion-header:hover > .header-text, .about-table .accordion-body button.nested-accordion-header:focus > .header-text > span, .about-table .accordion-body button.nested-accordion-header:focus > .header-text {
   text-decoration: none;
@@ -1066,8 +1068,6 @@ button.accordion-header.closed:before {
 
 button.nested-accordion-header {
   background-color: #f7f7f7;
-  padding-left: 0.5rem;
-  padding-right: 0;
 }
 
 button.accordion-header:before {
@@ -1088,8 +1088,8 @@ button.accordion-header:before {
   border-top: 0;
   border-radius: 0;
   text-align: left;
-  padding: 0 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 0.75rem;
   width: auto;
 }
 @media (max-width: 660px) {
@@ -1440,7 +1440,7 @@ hr.future {
 }
 
 .presentation-left button.accordion-header, .presentation-left button.nested-accordion-header.closed, .presentation-left .closed .accordion-body {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 .tools-header {
