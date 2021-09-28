@@ -280,6 +280,9 @@ a.search-icon svg {
     margin-right: sizes.$space-small;
   }
 
+  .tools-header button {
+    @include forms.button__hover;
+  }
   .savequery_rblist input + label {
     width: calc(100% - 4rem);
   }

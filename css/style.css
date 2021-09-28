@@ -89,41 +89,13 @@ body {
 * (Tablet): 786 1280 1024 800 962 600 1366 1080
 *
 *
-Tiny
+Tiny: 360, 375, 412, 414
+Extra small: 600, 601, 768
+Small: 800, 810, 834, 962, 1024, 1080
+Medium: 1280, 1366
+Large: 1536, 1600, 1920
+Extra large: 2560
 
-360
-375
-412
-414
----
-Extra small
-
-600
-601
-768
----
-Small 
-
-800
-810
-834
-962
-1024
-1080
----
-Medium
-
-1280
-1366
----
-Large
-
-1536
-1600
-1920
-
-Extra large
-2560
 */
 /*
 :root {
@@ -2250,6 +2222,14 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
 .tools-header button::before, button.ui-dialog-titlebar-close::before {
   content: "✖";
   margin-right: 0.75rem;
+}
+
+.tools-header button:focus, .tools-header button:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-color: #222;
+  outline-color: #222;
 }
 
 .savequery_rblist input + label {
