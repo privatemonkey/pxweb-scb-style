@@ -1,30 +1,30 @@
-# Kort analys
+# Short analysis of code
 
-## Laddning
+## Loading
 
 Choose variables: 
 
-- 6 bilder, 5 typsnitt och 11 CSS filer. Totalt 300kb
-- 11 JS filer 440kb + massor av inline script. Scripten upprepas. Osäker på hur minneshanteringen är om samma 5 funktioner läses in 10 gånger men helt klart påverkar det performance
-- Olika jQuery bibiliotek tar 370kb. Används men kan lätt bytas ut med Vanilla JS.
+- 6 images, 5 fonts and 11 CSS files. Total 300kb
+- 11 JS files 440kb + lots of inline script. Repeating and conflicting scripts. 
+- 370kb of different jQuery libraries. Could easily be switched to vanilla JS as they are mostly used for basic operations that are now part of the DOM API
 
-## Analys av main-pxweb.css
+## Analysis main-pxweb.css
 
-- 4 olika typsnitt i main.css, ännu fler typsnittskombinationer
-- Specifik instruks om typsnitt angivits på 66 platser. Bör inte förekomma på mer än 2-3 platser.
-- font-size på 88 platser. 10-20 vore rimligt.
-- font-size och line-height övervägande i pixlar, några procent, några utan enhet, ett par med em.
-- font-weight på 116 platser
-- color - 147 platser varav 36 background-color. Background med enbart färg - kanske 20 platser.
-- Specifik margin- 158, margin: 28 platser. Mycket pixlar men också lite em. Mycket variation. Borde gå att städa så att det blir konsekvent.
-- Specifik padding- 123, padding: 112 platser. Som margin, mest pixlar.
-- width: 220 ställen!!
-- flex, på ett fåtall ställen. Metadata mest.
-- Grid: ingen
-- inline svg ikoner som bakgrund på många platser (39)
-- INGEN button style eller input[type=button]. Alla knappar (ca 100) har specifik styling
-- #pxwebcontent som style prefix på 611 platser!
-- .px- prefix klasser 9 stycken
+- 4 different fonts in main.css, even more combinations
+- 66 specific referalls to font families. Shouldn't be needed in more than a couple. Max a handfull places
+- font-size in 88 rules. 10-20 would be reasonable
+- font-size and line-height mainly but not only restricted to pixels. %, em and no unit also used
+- font-weight in 116 rules
+- color - 147 rules. 36 out of those background-color. Background rule that only refers to a color - 20 rules.
+- Specific margin- 158, margin: 28 rules. Mostly pixels. Some em
+- Specific padding- 123, padding: 112 rules. As margin
+- width: 220 rules!!
+- flex, in a few places. Mostly for metadata. Some conflicting rules. Used with margins and padding-
+- Grid: none
+- inline svg icons as background (39)
+- NO default button style or input[type=button]. All buttons (ca 100) has specific styling, even a lot on ID
+- #pxwebcontent as style prefix on 611 rules!
+- .px- prefix on 9 rules
 - vertical-align 31
 - text-align 12
 - floats 48
