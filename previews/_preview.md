@@ -18,14 +18,14 @@
 
 ![Tree view preview](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/mobile-start.PNG)
 
-![Choose variables](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/desktop-choose-variable.png)
+![Choose variables](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/mobile-choose-variable.png)
 
-![Choose variables](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/desktop-choose-variable-error-message.PNG)
+![Choose variables](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/mobile-choose-variable-error-message.PNG)
 
-![Result page](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/desktop-results.png)
+![Result page](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/mobile-results.png)
 
-![Tools menu expanded](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/desktop-tools-menu-open.PNG)
+![Tools menu expanded](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/mobile-tools-menu-open.PNG)
 
-![How we handle forms](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/desktop-tools-savequery.png)
+![How we handle forms](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/mobile-tools-savequery.png)
 
 
