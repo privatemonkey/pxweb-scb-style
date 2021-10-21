@@ -2,11 +2,11 @@
 
 ## Design / CSS
 - [x] Disabled radio/checkbox - label ska också se disabled ut
-- [ ] Välj variabel - Hierarkier innehåller input image samt ett andra steg med checkboxar som ser bananas ut
+- [x] Välj variabel - Hierarkier innehåller input image samt ett andra steg med checkboxar som ser bananas ut
 - [ ] Mixin för att göra SVG ikoner i hover, disabled, focus färger
-- [ ] Dialog för attributer behöver bättre spacing
-- [ ] Dialog för attributer behöver bättre header
-- [ ] Mobil tabell - Se på sticky. 
+- [x] Dialog för attributer behöver bättre spacing
+- [x] Dialog för attributer behöver bättre header
+- [ ] Mobil tabell - Förbättra sticky. 
 - [ ] Mobil tabell - Se på attribute som har aboslut positionering
 - [ ] Disable radio/checkbox:hover - Ska inte finnas
 - [x] Välj variabel - Lägg på färg, fokus och ikoner vid fel
@@ -14,8 +14,8 @@
 - [x] Välj variabel - Brädd på boxar i största fönsterbrädden
 - [x] Välj variabel - Knappar "välj alla" - normal font weight
 - [x] Trädet - Bort med understrykning
-- [ ] input + label width kan bli fel eftersom den beräknas ifrån 100%
-- [ ] Refactor input + label code
+- [x] input + label width kan bli fel eftersom den beräknas ifrån 100%
+- [x] Refactor input + label code
 - [x] Refactor API button
 - [ ] Print CSS
 - [ ] Sizes - Skapa margin och padding variablar för text, headings och annat
@@ -25,6 +25,8 @@
 - [x] Välj variabel - Se över textstorlekar
 - [x] Verktygsmenyn - Fly out in
 - [x] Verktygsmenyn - Behövs nog en rubrik?
+- [ ] Verktygsmenyn - Ändra färg på mobil header
+- [ ] Verktygsmenyn - Se på placering i mellanstorlek där det ser ut som det är en 1rem margin fel
 - [x] Tree - Search är lite anonym
 - [x] Städa i breakpoints
 - [x] Flytta ut välj variabel från "shame" till egen fil
