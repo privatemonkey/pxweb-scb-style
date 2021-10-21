@@ -1,3 +1,3 @@
 # Preview of SCB:s PxWeb design
 
-[desktop-start.png](Tree view preview)
+![Tree view preview](https://raw.githubusercontent.com/privatemonkey/pxweb-style/main/previews/)
