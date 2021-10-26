@@ -26,7 +26,9 @@ Steps
 
 ## Build
 
-´npm run build´ will build all SASS files, minimize and move files
+´npm run build´ will build all SASS files into one CSS and move files to CSS catalog. 
+
+The build does not minimize the CSS
 
 
 ## Customize

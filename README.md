@@ -1,8 +1,8 @@
 # PxWeb SCB style
 
-This is an alternativ to the PX Web default design. 
+This is SCBs own alternative UI to use with default PxWeb. 
 
-The goal for this repo is a setup that is easy to customize and simple to maintain. 
+The goal for this repo is to provide a setup that is easy to customize and simpler to maintain. 
 
 ## Read about
 
@@ -20,10 +20,13 @@ The goal for this repo is a setup that is easy to customize and simple to mainta
 - Make it possible to run PX Web with only system fonts
 - Offer a lightweight default font
 - Create a more maintainable CSS build
+- Make it easier to co-op with design
 
 ## CDN
 
-[The latest build of this repo is hosted on Netlify](https://pxweb-style.netlify.app/)
+This is not an official CDN but we use it to ease testing and development until we move the code to SCBs organization.
+
+[The latest build of this repo is hosted on Netlify](https://pxweb-scb-style.netlify.app/)
 
 ## Official PX Web Repo
 
