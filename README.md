@@ -26,7 +26,7 @@ The goal for this repo is to provide a setup that is easy to customize and simpl
 
 This is not an official CDN but we use it to ease testing and development until we move the code to SCBs organization.
 
-[The latest build of this repo is hosted on Netlify](https://pxweb-style.netlify.app/)
+[The latest build of this repo is hosted on Netlify](https://pxweb-scb-style.netlify.app/)
 
 ## Official PX Web Repo
 
