@@ -1,7 +1,7 @@
 {
-  "name": "pxweb-style",
+  "name": "pxweb-scb-style",
   "version": "0.0.1",
-  "description": "Default styling for PxWeb, statistical database",
+  "description": "SCB:s alternative PxWeb styling for the statistical database",
   "main": "index.html",
   "scripts": {
     "build": "npm-run-all build:css_main build:css build:css_print",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/privatemonkey/pxweb-style.git"
+    "url": "git+https://github.com/statisticssweden/pxweb-scb-style.git"
   },
   "keywords": [
     "statistics",
@@ -24,9 +24,9 @@
   "author": "Anders Olsen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/privatemonkey/pxweb-style/issues"
+    "url": "https://github.com/statisticssweden/pxweb-scb-style/issues"
   },
-  "homepage": "https://github.com/privatemonkey/pxweb-style#readme",
+  "homepage": "https://github.com/statisticssweden/pxweb-scb-style#readme",
   "dependencies": {
     "minify": "^7.0.1",
     "node-sass": "^5.0.0",
