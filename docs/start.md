@@ -8,9 +8,11 @@ Use this setup to customize your own theme or use the alternative default PxWeb 
   - [Get started](#get-started)
   - [Build](#build)
   - [Customize](#customize)
+  - [Design tokens](#design-tokens)
     - [Colors](#colors)
     - [Fonts and typography](#fonts-and-typography)
     - [Logo, icons and images](#logo-icons-and-images)
+    - [Sizes](#sizes)
     - [Margins and paddings](#margins-and-paddings)
 
 ## Get started
