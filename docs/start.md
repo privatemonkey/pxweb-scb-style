@@ -76,7 +76,55 @@ Secondary color is a complement to primary. The color is used to indicate that s
 
 The default setup uses the variable font "Public Sans" which was developed for US government sites. The font has great support for various languages and has a low footprint. The fallback is a system font stack using each operating systems "web"-font.
 
+#### Font weights
+
+- ```$font-weight-normal```
+- ```$font-weight-medium```
+- ```$font-weight-semibold```
+- ```$font-weight-bold```
+
+#### Text width (For content)
+
+- ```$max-text-width```
+- ```$max-header-width```
+
+#### Font sizes
+
+- ```$font-size-normal```, normal text
+- ```$font-size-medium```, labels
+
+#### Header sizes
+
+- ```$font-size-h1```
+- ```$font-size-h2```
+- ```$font-size-h3```
+- ```$font-size-h4```
+
 ### Logo, icons and images
 
-### Margins and paddings
+### Sizes
 
+Default spacing
+
+- ```$space-extra-large```
+- ```$space-large```
+- ```$space-medium```
+- ```$space-small```
+- ```$space-extra-small```
+- ```$space-tiny```
+
+Panel size
+
+- ```$panel-width```
+- ```$panel-width-small```
+
+Button borders
+
+- ```$button-border-width```
+- ```$button-outline-width```
+
+Stepper
+
+- ```$stepper-width```
+
+### Margins and paddings
