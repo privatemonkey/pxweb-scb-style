@@ -124,6 +124,9 @@ The default setup uses the variable font "Public Sans" which was developed for U
 - ```$font-size-h3```
 - ```$font-size-h4```
 
+- ```$line-height-header```
+- ```$line-height-text```
+
 ### Logo, icons and images
 
 ### Sizes
@@ -152,3 +155,14 @@ Stepper
 - ```$stepper-width```
 
 ### Margins and paddings
+
+Most of these are explicitly set on the different elements by referring to the size tokens ($space-)
+
+### Breakpoints
+
+- ```$tiny``` 459px
+- ```$extra-small``` 599px
+- ```$small``` 799px
+- ```$medium``` 1099px
+- ```$large``` 1399px
+- ```$extra-large``` 1999px
