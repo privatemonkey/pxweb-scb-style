@@ -78,6 +78,24 @@ Secondary color is a complement to primary. The color is used to indicate that s
 
 #### Functional colors
 
+##### Text
+
+- ```$text```
+- ```$text-dark```
+- ```$text-inactive```
+- ```$text-inverted```
+
+##### Selected
+
+- ```$selected-text```
+- ```$selected-background```
+
+##### Link
+
+- ```$link-text```
+- ```$link__hover-text```
+- ```$link__hover-background```
+
 ### Fonts and typography
 
 The default setup uses the variable font "Public Sans" which was developed for US government sites. The font has great support for various languages and has a low footprint. The fallback is a system font stack using each operating systems "web"-font.
