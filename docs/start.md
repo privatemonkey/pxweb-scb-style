@@ -40,4 +40,4 @@ Steps
 - Change variables
 - Do your first build
 
-[Read about the designtokens we use](/blob/main/docs/tokens.md)
+[Read about the designtokens we use](/docs/tokens.md)
