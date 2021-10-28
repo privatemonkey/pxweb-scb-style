@@ -46,7 +46,7 @@ Steps
 
 ### Colors
 
-<span style="background-color:#000000;width:300px;">Primary</span>
+<span style="background-color:#ff0000;width:300px;">Primary</span>
 
 ### Fonts and typography
 
