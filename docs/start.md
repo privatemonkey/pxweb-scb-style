@@ -44,6 +44,8 @@ Steps
 - Change variables
 - Do your first build
 
+## Design tokens
+
 ### Colors
 
 #### Basic colors
