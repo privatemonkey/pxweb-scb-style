@@ -46,7 +46,30 @@ Steps
 
 ### Colors
 
-<span style="background-color:#ff0000;width:300px;">Primary</span>
+- ´´$color-lightest´´, backgrounds, inverted text
+- ´´$color-light´´, alternate backgrounds
+- ´´$color-medium´´, borders
+- ´´$color-dark´´, text, Inverted background
+- ´´$color-darkest´´, emphasized text
+
+- ´´$background-light´´  // Panels etc
+- ´´$background-inverted´´
+
+#### Brand colors
+
+Primary color is the main brand color. It is used on primary brand elements such as statistic tables and charts. It's also used to convey interactive elements and actions.
+
+- ´´$color-primary´´, links, primary button background
+- ´´$color-primary-light´´
+- ´´$color-primary-dark´´, link hover, button hover background
+- ´´$color-primary-inverted´´, text on backgrounds with primary color
+
+Secondary color is a complement to primary. The color is used to indicate that secondary actions.
+
+- ´´$color-secondary´´, secondary button background
+- ´´$color-secondary-light´´
+- ´´$color-secondary-dark´´, secondary button hover
+- ´´$color-secondary-inverted´´, text on backgrounds with secondary color
 
 ### Fonts and typography
 
