@@ -38,6 +38,9 @@ $font-size-h2:        1.6875rem !default;
 $font-size-h3:        1.3125rem !default;
 $font-size-h4:         1.125rem !default;
 
+$line-height-header: 1.4;
+$line-height-text: 1.4;
+
 /* Use local font or CDN */
 $use_localfont: false !default;
 
@@ -66,7 +69,7 @@ html {
   background-color: colors.$page-background;
   font-size: 100%;
   font-size: $font-size-normal;
-  line-height: 1.4;
+  line-height: $line-height-header;
 }
 
 body {
@@ -107,7 +110,7 @@ body {
   &:first-letter {
     text-transform: capitalize;
   }
-  line-height: 1.2;
+  line-height: $line-height-header;
 }
 
 @mixin h1 {
@@ -127,7 +130,6 @@ body {
   @include header;
 
   font-size: $font-size-h2;
-  line-height: 1.4;
   // margin: 2rem 0 1.5rem;
   margin: 1.5rem 0;
 
@@ -140,7 +142,6 @@ body {
   @include header;
 
   font-size: $font-size-h3;
-  line-height: 1.4;
   margin-bottom: 0.75rem;
 
   @media (max-width: breakpoints.$small) {
@@ -152,7 +153,6 @@ body {
   @include header;
 
   font-size: $font-size-h4;
-  line-height: 1.4;
   margin-top: 0;
   margin-bottom: sizes.$space-tiny;
 }
@@ -231,7 +231,7 @@ p, span, a, .steps {
 
 @mixin text {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: $line-height-text;
   font-weight: $font-weight-normal;
   max-width: 100%;
   margin-top: 0;
