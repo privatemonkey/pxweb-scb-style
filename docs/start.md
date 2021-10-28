@@ -46,12 +46,13 @@ Steps
 
 ### Colors
 
--  ```$color-lightest```, backgrounds, inverted text
+#### Basic colors
+
+- ```$color-lightest```, backgrounds, inverted text
 - ```$color-light```, alternate backgrounds
 - ```$color-medium```, borders
 - ```$color-dark```, text, Inverted background
 - ```$color-darkest```, emphasized text
-
 - ```$background-light```, Panels etc
 - ```$background-inverted```
 
