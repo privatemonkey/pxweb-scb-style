@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>PxWebScbStyles</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <title>Statistics Swedens custom styles for PxWeb</title>
     <authors>Statistics Sweden</authors>
     <owners>Statistics Sweden</owners>
