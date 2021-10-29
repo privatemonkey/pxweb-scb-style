@@ -1,13 +1,12 @@
 {
   "name": "pxweb-scb-style",
-  "version": "0.9",
   "description": "SCB:s alternative PxWeb styling for the statistical database",
   "main": "index.html",
   "scripts": {
-    "build": "npm-run-all build:css_main build:css build:css_print",
+    "build": "npm-run-all build:css build:css_print build:css_minify",
+    "build:css_minify": "css-minify -f /css/style.css -o /css/",
     "build:css": "sass sass/main.scss > css/style.css",
     "build:css_print": "sass sass/themes/print.scss > css/print.css",
-    "build:css_main": "sass sass/main.scss > dev/assets/style_optimized.css",
     "build:css_starter_theme": "sass sass/themes/starter.scss > css/starter.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +27,7 @@
   },
   "homepage": "https://github.com/statisticssweden/pxweb-scb-style#readme",
   "dependencies": {
+    "css-minify": "^2.0.0",
     "minify": "^7.0.1",
     "node-sass": "^5.0.0",
     "sass": "^1.32.8"

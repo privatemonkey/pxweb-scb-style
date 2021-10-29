@@ -8,6 +8,7 @@ Use this setup to customize your own theme or use the alternative default PxWeb 
   - [Get started](#get-started)
   - [Build](#build)
   - [Customize](#customize)
+  - [Publish Nuget package (Optional)](#publish-nuget-package-optional)
 
 ## Get started
 
@@ -17,15 +18,13 @@ Steps
 
 - Copy the project
 - Install the NPM packages needed
+- You might need to install "css-minify" package globally ```npm install css-minify -g``` for the build to work
 - Setup SASS
 - Do your first build
 
 ## Build
 
-´npm run build´ will build all SASS files into one CSS and move files to CSS catalog. 
-
-The build does not minimize the CSS
-
+´npm run build´ will build all SASS files into one CSS and move files to CSS catalog ```/css```. 
 
 ## Customize
 

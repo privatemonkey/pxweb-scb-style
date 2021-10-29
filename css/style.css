@@ -39,6 +39,11 @@ body {
     $background-{name}
 
 */
+/* 
+   encodeColor
+   @param {string} $string
+   Hex color code to encode
+*/
 /*-- Primary --*/
 /*-- Secondary --*/
 /* Function colors */
@@ -146,7 +151,7 @@ body {
 h1 {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
+  line-height: 1.4;
   font-size: 2.25rem;
   line-height: 1.25;
   margin-bottom: 2rem;
@@ -164,9 +169,8 @@ h1:first-letter {
 h2 {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
-  font-size: 1.6875rem;
   line-height: 1.4;
+  font-size: 1.6875rem;
   margin: 1.5rem 0;
 }
 h2:first-letter {
@@ -181,9 +185,8 @@ h2:first-letter {
 h3, .siteLogoText {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
-  font-size: 1.3125rem;
   line-height: 1.4;
+  font-size: 1.3125rem;
   margin-bottom: 0.75rem;
 }
 h3:first-letter, .siteLogoText:first-letter {
@@ -198,9 +201,8 @@ h3:first-letter, .siteLogoText:first-letter {
 h4 {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
-  font-size: 1.125rem;
   line-height: 1.4;
+  font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
 }
@@ -211,7 +213,7 @@ h4:first-letter {
 h5 {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
+  line-height: 1.4;
   font-weight: 700;
   width: 100%;
   text-align: left;
@@ -226,9 +228,8 @@ h5:first-letter {
 .container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
-  font-size: 1.125rem;
   line-height: 1.4;
+  font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
 }
@@ -239,7 +240,7 @@ h5:first-letter {
 button.nested-accordion-header, .commandbar_changepresentation_changetext {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
+  line-height: 1.4;
   font-weight: 700;
   width: 100%;
   text-align: left;
@@ -1854,9 +1855,8 @@ input[type=submit].variableselector_continue_button {
 .ui-dialog-title {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
-  font-size: 1.3125rem;
   line-height: 1.4;
+  font-size: 1.3125rem;
   margin-bottom: 0.75rem;
 }
 .ui-dialog-title:first-letter {
@@ -1871,9 +1871,8 @@ input[type=submit].variableselector_continue_button {
 .table_cellinformation_cell, .table_cellinformation_notes {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
-  font-size: 1.125rem;
   line-height: 1.4;
+  font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
 }
@@ -1971,7 +1970,7 @@ div:empty, span:empty, a:empty, p:empty {
 .header-text, .commandbar_changedecimal_titletext, .commandbar_changetexts_titletext {
   font-weight: 700;
   max-width: 920px;
-  line-height: 1.2;
+  line-height: 1.4;
   /* 
   font-weight: 700;
   font-size: 1rem;
