@@ -1,6 +1,6 @@
 {
   "name": "pxweb-scb-style",
-  "version": "0.0.1",
+  "version": "0.9,
   "description": "SCB:s alternative PxWeb styling for the statistical database",
   "main": "index.html",
   "scripts": {
@@ -22,7 +22,7 @@
     "database"
   ],
   "author": "Anders Olsen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/statisticssweden/pxweb-scb-style/issues"
   },
