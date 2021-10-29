@@ -4,11 +4,11 @@ Use this setup to customize your own theme or use the alternative default PxWeb 
 
 **Content**
 
-- [Setting up the project](#setting-up-the-project)
-  - [Get started](#get-started)
-  - [Build](#build)
-  - [Customize](#customize)
-  - [Publish Nuget package (Optional)](#publish-nuget-package-optional)
+  - [Setting up the project](#setting-up-the-project)
+    - [Get started](#get-started)
+    - [Build](#build)
+    - [Customize](#customize)
+    - [Publish Nuget package (Optional)](#publish-nuget-package-optional)
 
 ## Get started
 
@@ -24,7 +24,7 @@ Steps
 
 ## Build
 
-´npm run build´ will build all SASS files into one CSS and move files to CSS catalog ```/css```. 
+```npm run build``` will build all SASS files into one CSS and move files to CSS catalog ```/css```. 
 
 ## Customize
 

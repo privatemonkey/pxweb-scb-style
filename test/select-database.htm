@@ -1,0 +1,170 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	PxWeb - Select database
+</title>
+<link href="/css/style.min.css" rel="stylesheet" type="text/css" media="screen" />
+    
+<script src="https://https://pxwebdemo.scb.se/pxweb/Resources/Scripts/jquery-3.5.1.min.js?v=21.1.0.29512"></script>
+<script src="https://https://pxwebdemo.scb.se/pxweb/Resources/Scripts/jquery-ui-1.12.1.min.js?v=21.1.0.29512"></script>
+<script src="https://https://pxwebdemo.scb.se/pxweb/Resources/Scripts/pcaxis.web.client.js?v=21.1.0.29512"></script>
+<script src="https://https://pxwebdemo.scb.se/pxweb/Resources/Scripts/pcaxis.web.controls.js?v=21.1.0.29512"></script>
+<script src="https://https://pxwebdemo.scb.se/pxweb/Resources/Scripts/jquery.tablesorter.min.js?v=21.1.0.29512"></script>
+<script src="https://https://pxwebdemo.scb.se/pxweb/Resources/Scripts/jquery.metadata.js?v=21.1.0.29512"></script>
+<script src="https://https://pxwebdemo.scb.se/pxweb/Resources/Scripts/format.20110630-1100.min.js?v=21.1.0.29512"></script>
+<link rel="stylesheet" href='/css/print.css' type="text/css" media="print" />
+</head>
+<body>
+    <div id="pxwebcontent">
+    <form method="post" action="./" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJLTcxMjUxMjQ2D2QWAmYPZBYEZg9kFgICAQ9kFgJmDxYCHgRUZXh0BRdQeFdlYiAtIFNlbGVjdCBkYXRhYmFzZWQCAQ9kFgxmD2QWAgIBDxYCHwAFClRvIHRoZSBUb3BkAgEPDxYCHwAFFEp1bXAgdG8gbWFpbiBjb250ZW50FgQeCmFyaWEtbGFiZWwFKlByZXNzIGVudGVyIHRvIGdvIGRpcmVjdGx5IHRvIG1haW4gY29udGVudB4EaHJlZgUKI3B4Y29udGVudGQCBQ9kFgJmD2QWAmYPZBYIAgEPDxYCHwAFBUxvZ2luZGQCBQ9kFgICAQ9kFgQCAQ8PFgIfAAUIVXNlcm5hbWVkZAIFDw8WAh8ABQhQYXNzd29yZGRkAgcPFgIeB1Zpc2libGVoZAIJDw8WAh8ABRRZb3Ugd2hlcmUgbG9nZ2VkIG91dGRkAgYPZBYCZg9kFgICAQ8PFgIeC05hdmlnYXRlVXJsBQovcHh3ZWIvZW4vZBYCZg8PFgYeCEltYWdlVXJsBb8BL1dlYlJlc291cmNlLmF4ZD9kPTg4aVNRdWwzd2NYSGstcXhXOHh5TkphX01xYmxfTzhMdU5qVDd1UWhmYkJ5WmptN3ZGYXNZS1JaZHpQOVZTcU9WVmRxYi13dl9rUXp6MGtURlVkbVFYeTVVTnloM091TGIzXzRIQ1J6RWkxVFNGWW1jNV9Fc1V2OER5MHkwNFR3VWZfMC1DcGlTM3FaRjVGYlNSUnRJQTImdD02Mzc1NTIyMzk0MzIxMDY5MjkeDUFsdGVybmF0ZVRleHQFFkljb24gcmVwcmVzZW50aW5nIGhvbWUeB1Rvb2xUaXAFBEhvbWVkZAIHDw8WAh8ABQ9TZWxlY3QgZGF0YWJhc2VkZAIID2QWAmYPZBYKAgEPZBYEZg8PFgIfBgUxSWNvbiByZXByZXNlbnRpbmcgdGhlIHBhZ2Ugd2hlcmUgeW91IENob29zZSB0YWJsZWRkAgEPDxYCHwAFDENob29zZSB0YWJsZWRkAgMPFgIfAAUcPGhyIGNsYXNzPSJuYXYtaHItbGVmdCBlbiIvPmQCBQ9kFgRmDw8WAh8GBTRJY29uIHJlcHJlc2VudGluZyB0aGUgcGFnZSB3aGVyZSB5b3UgQ2hvb3NlIHZhcmlhYmxlZGQCAQ8PFgIfAAUPQ2hvb3NlIHZhcmlhYmxlZGQCBw8WAh8ABR08aHIgY2xhc3M9Im5hdi1oci1yaWdodCBlbiIvPmQCCQ9kFgRmDw8WAh8GBTBJY29uIHJlcHJlc2VudGluZyB0aGUgcGFnZSB3aGVyZSB5b3UgU2hvdyBSZXN1bHRkZAIBDw8WAh8ABQtTaG93IHJlc3VsdGRkGAIFMWN0bDAwJG5hdmlnYXRpb25GbG93Q29udHJvbCRuYXZpZ2F0aW9uRmxvd0NvbnRyb2wPMp4DAAEAAAD/////AQAAAAAAAAAEAQAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5PYmplY3QsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24FAAAICAkCAAAACwAAAAsAAAAQAgAAABAAAAAIAQANBAYDAAAACU1lbnUuYXNweAYEAAAADlNlbGVjdGlvbi5hc3B4BgUAAAAHcHhfcGF0aAYGAAAABmxheW91dAkHAAAADQYMCAAAAEZQQ0F4aXMuV2ViLkNvcmUsIFZlcnNpb249MS4xLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQcAAAAiUENBeGlzLldlYi5Db3JlLkVudW1zLkRhdGFiYXNlVHlwZQEAAAAHdmFsdWVfXwAICAAAAAAAAAALZAUdY3RsMDAkYnJlYWRjcnVtYjEkYnJlYWRjcnVtYjEPMsADAAEAAAD/////AQAAAAAAAAAEAQAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5PYmplY3QsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24FAAAICAkCAAAADwAAAA8AAAAQAgAAABAAAAANBAYDAAAADERlZmF1bHQuYXNweAgBAAYEAAAABEhvbWUIAQEGBQAAAAlNZW51LmFzcHgGBgAAAA5TZWxlY3Rpb24uYXNweAYHAAAAB3B4X3BhdGgGCAAAAAZsYXlvdXQJCQAAAAgBAA0CDAoAAABGUENBeGlzLldlYi5Db3JlLCBWZXJzaW9uPTEuMS4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUJAAAAIlBDQXhpcy5XZWIuQ29yZS5FbnVtcy5EYXRhYmFzZVR5cGUBAAAAB3ZhbHVlX18ACAoAAAAAAAAAC2SVSSBBxR8R79hD/Dp7S3AKmYUu/414r5Sn37Ck0NoEew==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAKMmNv9w13WjJWCCkdve7esbyRaBr53VB+931b/QR7uAW8II/YtJXODSBMw7F3j6r3ILHMPS7HIrL+S5n4zZGRG" />
+</div>
+        <a id="ctl00_ToTheTopButton" class="top-link pxweb-btn negative hide" href="javascript:__doPostBack(&#39;ctl00$ToTheTopButton&#39;,&#39;&#39;)">
+            <svg class="icon-top-link-button" viewBox="0 0 24 24" width="40" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" >
+                <circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline><line x1="12" y1="16" x2="12" y2="8"></line>
+            </svg>To the Top</a>
+        <div id="wrap">
+            <header id="header" class="header flex-row flex-wrap justify-space-between">
+                <a id="ctl00_SkipToMain" class="screenreader-only pxweb-link" aria-label="Press enter to go directly to main content" href="#pxcontent">Jump to main content</a>
+                <div class="headerleft flex-row" role="banner">
+                        <img src="../../Resources/Images/px-web-logo.gif" id="ctl00_imgSiteLogo" alt="PxWeb Logotype" class="imgSiteLogo" />
+                        <span class="siteLogoText">PxWeb 2021 v1</span>
+                </div>
+                <div class="headerright">
+                    <div class="px-change-lang-div flex-column">
+                          <div class="pxweb-link"> <a class="px-change-lang" href="/pxweb/sv/"> <span class="link-text px-change-lang">Svenska</span></a> </div> 
+                    </div>
+                </div>
+            </header>
+            <div id="ctl00_breadcrumb1">
+	
+
+<nav id="breadcrumb" aria-label="breadcrumb">
+    <a id="ctl00_breadcrumb1_breadcrumb1_lnkHome" href="/pxweb/en/"><img id="ctl00_breadcrumb1_breadcrumb1_imgHome" title="Home" class="breadcrumb_homebutton" src="/WebResource.axd?d=88iSQul3wcXHk-qxW8xyNJa_Mqbl_O8LuNjT7uQhfbByZjm7vFasYKRZdzP9VSqOVVdqb-wv_kQzz0kTFUdmQXy5UNyh3OuLb3_4HCRzEi1TSFYmc5_EsUv8Dy0y04TwUf_0-CpiS3qZF5FbSRRtIA2&amp;t=637552239432106929" alt="Icon representing home" /></a>
+    
+    <a id="ctl00_breadcrumb1_breadcrumb1_lnkDb" class="pxweb-link breadcrumb_text"></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+      
+</nav>
+
+
+
+
+</div>
+            <h1 id="ctl00_lblH1Title" class="h1title">
+	Select database
+</h1>
+             
+             
+            <div id="table-title">
+                <div id="place-holder-title">
+                    
+                    
+                </div>
+            </div>
+           
+            <main id="place-holder">
+                
+    <div id="pxcontent"> 
+    </div>
+    <div class="databaseList">
+        
+                <a id="ctl00_ContentPlaceHolderMain_rptDatabases_ctl01_lnkDatabasesItem" href="/pxweb/en/Example/">Example</a>
+                <br />
+            
+    </div>
+
+            </main>
+            
+            <footer id="pxfooter">
+                <div class="footerleft">
+                    <span id="ctl00_lblFooterText"></span>
+                </div>
+                <div class="footerright">
+                    
+  
+                </div>
+                <div style="clear: both;"> </div>               
+            </footer>
+        </div>
+    </form>
+</div>
+    <script>
+        "use strict";
+        // Set a variable for our button element.
+        var scrollToTopButton = document.getElementById('ctl00_ToTheTopButton');
+        var lastScrollYPos = 0;
+
+        scrollToTopButton.className = "top-link pxweb-btn negative hidden";
+
+        // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
+        var scrollFunc = function scrollFunc(lastScrollYPos) {
+            // Get the current scroll value
+            var y = window.pageYOffset; // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
+
+            if (y > 300 && y < lastScrollYPos) {
+                scrollToTopButton.className = "top-link pxweb-btn negative show";
+            } else {
+                scrollToTopButton.className = "top-link pxweb-btn negative hidden";
+                scrollToTopButton.blur();
+            }
+        };
+
+        window.addEventListener('scroll', function (e) {
+            scrollFunc(lastScrollYPos);
+            lastScrollYPos = window.scrollY;
+        });
+
+        scrollToTopButton.onclick = function (e) {
+            e.preventDefault();
+            document.documentElement.scrollTop = 0;
+        };
+</script>
+</body>
+</html>
+
+
