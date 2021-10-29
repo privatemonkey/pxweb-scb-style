@@ -41,3 +41,7 @@ Steps
 - Do your first build
 
 [Read about the designtokens we use](/docs/tokens.md)
+
+## Publish Nuget package (Optional)
+
+> We'll publish this when we get the versioning workflow set
