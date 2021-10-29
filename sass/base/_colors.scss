@@ -16,6 +16,12 @@
 
 */
 
+/* 
+   encodeColor
+   @param {string} $string
+   Hex color code to encode
+*/
+
 @function encodeColor($string) {
 	@if type-of($string) == 'color' {
         $hex: str-slice(ie-hex-str($string), 4);
@@ -110,7 +116,7 @@ $input__disabled-background: transparent;
 // Must be encoded since they are used by URL encoded SVG
 $btn-primary-icon:  encodeColor($color-primary-inverted);
 $btn-primary-icon__hover:  encodeColor($color-primary-inverted);
-$btn-secondary-icon:  encodeColor($color-primary);
+$btn-secondary-icon: encodeColor($color-primary);
 $btn-secondary-icon__hover:  encodeColor($color-secondary-inverted);
 $btn-icon__disabled: encodeColor($color-medium);
 
@@ -127,7 +133,7 @@ $table-border-outline-color: #eee !default;
 
 /* Errors and messages */
 $message-background-default: #e1ecef !default;
-$color-warning:             rgb(183, 0, 0) !default;
+$color-warning: rgb(183, 0, 0) !default;
 $warning-background:   rgb(255, 190, 190) !default;
 
 /* Panels */
