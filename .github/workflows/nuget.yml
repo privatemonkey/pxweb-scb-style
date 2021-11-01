@@ -34,7 +34,6 @@ jobs:
     - name: Depoly to Nuget
       run: |
            $package = Get-ChildItem -Recurse -Filter *.nupkg
-           echo ${{ $package }}
            nuget push $package -ApiKey $env:nuget_api_key  -Source https://nuget.org
       env:
         nuget_api_key: ${{ secrets.NUGET_API_KEY }}
