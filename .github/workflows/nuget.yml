@@ -27,12 +27,9 @@ jobs:
     - name: run minver
       id: version
       uses: thefringeninja/action-minver@2.0.0-preview1
-    - name: output
-      run: |
-        echo ${{ steps.version.outputs.version }}
 
     - uses: nuget/setup-nuget@v1
-    - run: nuget pack PxWebScbStyle.nuspec
+    - run: nuget pack -version ${{ steps.version.outputs.version }} PxWebScbStyle.nuspec
     
     - name: Depoly to Nuget
       run: |
