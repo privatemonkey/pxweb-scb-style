@@ -27,6 +27,11 @@ jobs:
     - name: run minver
       id: version
       uses: thefringeninja/action-minver@2.0.0-preview1
+      with:
+        # Optional. Specifies the default pre-release phase.
+        default-pre-release-phase: beta
+        # Optional. Specifies the prefix of the tags
+        tag-prefix: v
 
     - uses: nuget/setup-nuget@v1
     - run: nuget pack -version ${{ steps.version.outputs.version }} PxWebScbStyle.nuspec
