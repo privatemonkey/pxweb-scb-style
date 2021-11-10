@@ -1016,12 +1016,10 @@ button.accordion-header, button.nested-accordion-header {
   font-weight: 700;
   outline-color: transparent;
 }
-button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
-  color: #fff;
-  background-color: #000;
-}
 button.accordion-header:hover > .header-text > span, button.accordion-header:hover > .header-text, button.accordion-header:focus > .header-text > span, button.accordion-header:focus > .header-text, button.nested-accordion-header:hover > .header-text > span, button.nested-accordion-header:hover > .header-text, button.nested-accordion-header:focus > .header-text > span, button.nested-accordion-header:focus > .header-text {
   text-decoration: underline;
+  color: #fff;
+  background-color: #000;
 }
 button.accordion-header:active, button.nested-accordion-header:active {
   color: #fff;
