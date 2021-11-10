@@ -346,8 +346,8 @@ a, a > span {
 }
 a:hover, a:focus, aactive, a > span:hover, a > span:focus, a > spanactive {
   color: #fff;
+  background-color: #000;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 /* Selected text */
@@ -849,8 +849,8 @@ input[type=radio] + label, input[type=radio]:checked + label, input[type=checkbo
 }
 input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio] + labelactive, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus, input[type=radio]:checked + labelactive, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox] + labelactive, input[type=checkbox]:checked + label:hover, input[type=checkbox]:checked + label:focus, input[type=checkbox]:checked + labelactive {
   color: #fff;
+  background-color: #000;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 input[type=radio]:checked + label, input[type=checkbox] + label {
@@ -868,8 +868,8 @@ input[type=radio] + label, input[type=checkbox] + label {
 }
 input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio] + labelactive, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox] + labelactive {
   color: #fff;
+  background-color: #000;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 input:disabled {
@@ -1018,7 +1018,7 @@ button.accordion-header, button.nested-accordion-header {
 }
 button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
   color: #fff;
-  background-color: transparent;
+  background-color: #000;
 }
 button.accordion-header:hover > .header-text > span, button.accordion-header:hover > .header-text, button.accordion-header:focus > .header-text > span, button.accordion-header:focus > .header-text, button.nested-accordion-header:hover > .header-text > span, button.nested-accordion-header:hover > .header-text, button.nested-accordion-header:focus > .header-text > span, button.nested-accordion-header:focus > .header-text {
   text-decoration: underline;
@@ -1329,17 +1329,21 @@ td.attribute-cell:hover::after {
 
 .navigationFlowArea a.passive:hover, .navigationFlowArea a.passive:focus, .navigationFlowArea a.passive:active {
   color: #fff;
+  background-color: #000;
 }
 .navigationFlowArea a.passive:hover span, .navigationFlowArea a.passive:focus span, .navigationFlowArea a.passive:active span {
   color: #fff;
+  background-color: #000;
 }
 .navigationFlowArea a.passive:hover::before, .navigationFlowArea a.passive:focus::before, .navigationFlowArea a.passive:active::before {
   content: "◉";
   color: #fff;
+  background-color: #000;
 }
 .navigationFlowArea a.passive::before {
   content: "○";
   color: #1e00be;
+  background-color: #000;
 }
 
 .navigationFlowArea a.future span {
@@ -1629,12 +1633,13 @@ nav a span {
 }
 .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLinkactive, .AspNet-TreeView a:hover, .AspNet-TreeView a:focus, .AspNet-TreeView aactive, .AspNet-TreeView a span:hover, .AspNet-TreeView a span:focus, .AspNet-TreeView a spanactive {
   color: #fff;
+  background-color: #000;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .AspNet-TreeView .AspNet-TreeView-Leaf a:focus span, .AspNet-TreeView .AspNet-TreeView-Leaf a:hover span, .AspNet-TreeView .AspNet-TreeView-Leaf a:active span {
   color: #fff;
+  background-color: #000;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -2032,10 +2037,6 @@ div:empty, span:empty, a:empty, p:empty {
   width: min-content;
 }
 
-a.search-icon svg {
-  display: none;
-}
-
 .savequery_container input[type=text] {
   width: calc(100% - 2rem - 2rem);
 }
@@ -2123,8 +2124,8 @@ a.search-icon svg {
 }
 #ApiAccordionHeader > span:hover, #ApiAccordionHeader > span:focus, #ApiAccordionHeader > spanactive {
   color: #fff;
+  background-color: #000;
   cursor: pointer;
-  text-decoration: underline;
 }
 #ApiAccordionHeader > span > span {
   text-decoration: underline;
@@ -2137,8 +2138,9 @@ a.search-icon svg {
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }
-#ApiAccordionHeader::before:hover {
-  background-color: #fff;
+#ApiAccordionHeader::before:hover, #ApiAccordionHeader::before:focus {
+  color: #fff;
+  background-color: #000;
 }
 
 .tablequery_informationpanel label {
@@ -2163,6 +2165,10 @@ a.search-icon svg {
   display: block;
 }
 
+a.search-icon svg {
+  display: none;
+}
+
 a.search-icon {
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
@@ -2176,7 +2182,7 @@ a.search-icon {
   border: 1px #1e00be solid;
   outline: 1px transparent;
   text-decoration: none;
-  margin-bottom: 0;
+  margin-top: 0.25rem;
 }
 a.search-icon:disabled {
   border-color: #949494;

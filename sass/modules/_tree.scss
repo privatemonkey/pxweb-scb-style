@@ -79,6 +79,7 @@
     &:focus, &:hover, &:active {
         span {
             color: typography.$link__hover-text;
+            background-color: typography.$link__hover-background;
             cursor: pointer;
             text-decoration: underline;
         }

@@ -218,8 +218,9 @@ div:empty, span:empty, a:empty, p:empty {
       padding: 0.25rem 0.5rem;
       border-radius: 0.25rem;
 
-      &:hover {
-        background-color: typography.$link__hover-text;
+      &:hover, &:focus {
+        color: typography.$link__hover-text;
+        background-color: typography.$link__hover-background;
       }
     }
   }

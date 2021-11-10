@@ -338,8 +338,8 @@ a, a > span {
 }
 a:hover, a:focus, aactive, a > span:hover, a > span:focus, a > spanactive {
   color: #fff;
+  background-color: #000;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 /* Selected text */
