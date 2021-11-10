@@ -338,7 +338,7 @@ input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[
   border-radius: 0;
 
   &:hover, &:focus, &:active {
-    color: typography.$link__hover-text;
+    color: typography.$text;
     border: none !important;
     outline: none !important;
   }

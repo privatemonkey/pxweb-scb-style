@@ -67,9 +67,6 @@ $stepper-3-adjust: -2rem;
   
 .navigationFlowArea a.passive {
   &:hover, &:focus, &:active {
-    color: typography.$link__hover-text;
-    background-color: typography.$link__hover-background;
-
     span {
       color: typography.$link__hover-text;
       background-color: typography.$link__hover-background;
@@ -77,15 +74,15 @@ $stepper-3-adjust: -2rem;
 
     &::before {
       content: '◉';
-      color: typography.$link__hover-text;
-      background-color: typography.$link__hover-background;
+      color: typography.$text;
+      background-color: transparent;
     }
   }
 
   &::before {
     content: '○';
-    color: typography.$link-text;
-    background-color: typography.$link__hover-background;
+    color: typography.$text;
+    background-color: transparent;
   }
 }
   
