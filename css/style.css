@@ -1611,6 +1611,11 @@ nav a span {
   content: "－";
 }
 
+.AspNet-TreeView-Collapse::before:hover, .AspNet-TreeView-Collapse::before:focus, .AspNet-TreeView-Expand::before:hover, .AspNet-TreeView-Expand::before:focus {
+  color: #fff;
+  background-color: #000;
+}
+
 /* Clickable leaf node */
 .AspNet-TreeView-Leaf {
   margin-left: 0px;
