@@ -277,8 +277,9 @@ button, button.accordion-header, button.nested-accordion-header  {
 @mixin textlink__hover {
   &:hover, &:focus, &active {
     color: $link__hover-text;
+    background-color: $link__hover-background;
     cursor: pointer;
-    text-decoration: underline;
+    // text-decoration: underline;
   }
 }
 
