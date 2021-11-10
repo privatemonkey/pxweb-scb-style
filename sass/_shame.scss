@@ -255,7 +255,8 @@ div:empty, span:empty, a:empty, p:empty {
   a.search-icon {
     @include forms.button;
     text-decoration: none;
-    margin-top: sizes.$space-tiny;
+    margin-top: sizes.$space-small;
+    margin-bottom: sizes.$space-tiny;
   }
 
   a.go-to-advanced-search::before {

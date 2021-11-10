@@ -461,7 +461,7 @@ option:checked {
 
 option:hover, option:active, option:focus {
   background-color: typography.$link__hover-background;
-  color: typography.$text-dark;
+  color: typography.$link__hover-text;
   text-decoration: underline;
   cursor: pointer;
 }

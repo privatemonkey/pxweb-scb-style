@@ -981,7 +981,7 @@ option:checked {
 
 option:hover, option:active, option:focus {
   background-color: #000;
-  color: #000;
+  color: #fff;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -2182,7 +2182,8 @@ a.search-icon {
   border: 1px #1e00be solid;
   outline: 1px transparent;
   text-decoration: none;
-  margin-top: 0.25rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
 }
 a.search-icon:disabled {
   border-color: #949494;
