@@ -33,6 +33,9 @@ button.accordion-header, button.nested-accordion-header  {
   outline-color: transparent;
 
   &:hover, &:focus {
+    color: typography.$text;
+    background-color: transparent;
+
     > .header-text > span, > .header-text  {
       text-decoration: underline;
     }

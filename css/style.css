@@ -1016,6 +1016,10 @@ button.accordion-header, button.nested-accordion-header {
   font-weight: 700;
   outline-color: transparent;
 }
+button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
+  color: #222;
+  background-color: transparent;
+}
 button.accordion-header:hover > .header-text > span, button.accordion-header:hover > .header-text, button.accordion-header:focus > .header-text > span, button.accordion-header:focus > .header-text, button.nested-accordion-header:hover > .header-text > span, button.nested-accordion-header:hover > .header-text, button.nested-accordion-header:focus > .header-text > span, button.nested-accordion-header:focus > .header-text {
   text-decoration: underline;
 }
@@ -1323,6 +1327,10 @@ td.attribute-cell:hover::after {
   color: #949494;
 }
 
+.navigationFlowArea a.passive:hover, .navigationFlowArea a.passive:focus, .navigationFlowArea a.passive:active {
+  color: #222;
+  background-color: transparent;
+}
 .navigationFlowArea a.passive:hover span, .navigationFlowArea a.passive:focus span, .navigationFlowArea a.passive:active span {
   color: #fff;
   background-color: #000;
