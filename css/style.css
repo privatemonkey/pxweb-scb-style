@@ -1018,11 +1018,9 @@ button.accordion-header, button.nested-accordion-header {
 }
 button.accordion-header:hover > .header-text > span, button.accordion-header:hover > .header-text, button.accordion-header:focus > .header-text > span, button.accordion-header:focus > .header-text, button.nested-accordion-header:hover > .header-text > span, button.nested-accordion-header:hover > .header-text, button.nested-accordion-header:focus > .header-text > span, button.nested-accordion-header:focus > .header-text {
   text-decoration: underline;
-  color: #fff;
-  background-color: #000;
 }
 button.accordion-header:active, button.nested-accordion-header:active {
-  color: #fff;
+  color: #222;
 }
 
 .about-table .accordion-body button.accordion-header, .about-table .accordion-body button.nested-accordion-header {
