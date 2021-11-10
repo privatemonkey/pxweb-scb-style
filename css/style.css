@@ -345,7 +345,7 @@ a, a > span {
   border-color: transparent;
 }
 a:hover, a:focus, aactive, a > span:hover, a > span:focus, a > spanactive {
-  color: #000;
+  color: #fff;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -837,7 +837,7 @@ input[type=radio], input[type=checkbox], input[type=radio]:checked, input[type=c
   border-radius: 0;
 }
 input[type=radio]:hover, input[type=radio]:focus, input[type=radio]:active, input[type=checkbox]:hover, input[type=checkbox]:focus, input[type=checkbox]:active, input[type=radio]:checked:hover, input[type=radio]:checked:focus, input[type=radio]:checked:active, input[type=checkbox]:checked:hover, input[type=checkbox]:checked:focus, input[type=checkbox]:checked:active {
-  color: #000;
+  color: #fff;
   border: none !important;
   outline: none !important;
 }
@@ -848,7 +848,7 @@ input[type=radio] + label, input[type=radio]:checked + label, input[type=checkbo
   outline-color: transparent;
 }
 input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio] + labelactive, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus, input[type=radio]:checked + labelactive, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox] + labelactive, input[type=checkbox]:checked + label:hover, input[type=checkbox]:checked + label:focus, input[type=checkbox]:checked + labelactive {
-  color: #000;
+  color: #fff;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -867,7 +867,7 @@ input[type=radio] + label, input[type=checkbox] + label {
   line-height: 140%;
 }
 input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio] + labelactive, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox] + labelactive {
-  color: #000;
+  color: #fff;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -980,7 +980,7 @@ option:checked {
 }
 
 option:hover, option:active, option:focus {
-  background-color: #fff;
+  background-color: #000;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
@@ -1017,14 +1017,14 @@ button.accordion-header, button.nested-accordion-header {
   outline-color: transparent;
 }
 button.accordion-header:hover, button.accordion-header:focus, button.nested-accordion-header:hover, button.nested-accordion-header:focus {
-  color: #000;
+  color: #fff;
   background-color: transparent;
 }
 button.accordion-header:hover > .header-text > span, button.accordion-header:hover > .header-text, button.accordion-header:focus > .header-text > span, button.accordion-header:focus > .header-text, button.nested-accordion-header:hover > .header-text > span, button.nested-accordion-header:hover > .header-text, button.nested-accordion-header:focus > .header-text > span, button.nested-accordion-header:focus > .header-text {
   text-decoration: underline;
 }
 button.accordion-header:active, button.nested-accordion-header:active {
-  color: #000;
+  color: #fff;
 }
 
 .about-table .accordion-body button.accordion-header, .about-table .accordion-body button.nested-accordion-header {
@@ -1266,7 +1266,7 @@ td.attribute-cell:hover {
   background-color: #fff;
 }
 td.attribute-cell:hover::after {
-  border-top-color: #000;
+  border-top-color: #fff;
 }
 
 /*
@@ -1328,14 +1328,14 @@ td.attribute-cell:hover::after {
 }
 
 .navigationFlowArea a.passive:hover, .navigationFlowArea a.passive:focus, .navigationFlowArea a.passive:active {
-  color: #000;
+  color: #fff;
 }
 .navigationFlowArea a.passive:hover span, .navigationFlowArea a.passive:focus span, .navigationFlowArea a.passive:active span {
-  color: #000;
+  color: #fff;
 }
 .navigationFlowArea a.passive:hover::before, .navigationFlowArea a.passive:focus::before, .navigationFlowArea a.passive:active::before {
   content: "◉";
-  color: #000;
+  color: #fff;
 }
 .navigationFlowArea a.passive::before {
   content: "○";
@@ -1628,13 +1628,13 @@ nav a span {
   text-decoration: none;
 }
 .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLinkactive, .AspNet-TreeView a:hover, .AspNet-TreeView a:focus, .AspNet-TreeView aactive, .AspNet-TreeView a span:hover, .AspNet-TreeView a span:focus, .AspNet-TreeView a spanactive {
-  color: #000;
+  color: #fff;
   cursor: pointer;
   text-decoration: underline;
 }
 
 .AspNet-TreeView .AspNet-TreeView-Leaf a:focus span, .AspNet-TreeView .AspNet-TreeView-Leaf a:hover span, .AspNet-TreeView .AspNet-TreeView-Leaf a:active span {
-  color: #000;
+  color: #fff;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -2122,7 +2122,7 @@ a.search-icon svg {
   border-color: transparent;
 }
 #ApiAccordionHeader > span:hover, #ApiAccordionHeader > span:focus, #ApiAccordionHeader > spanactive {
-  color: #000;
+  color: #fff;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -2138,7 +2138,7 @@ a.search-icon svg {
   border-radius: 0.25rem;
 }
 #ApiAccordionHeader::before:hover {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .tablequery_informationpanel label {
