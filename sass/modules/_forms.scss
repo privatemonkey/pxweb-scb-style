@@ -339,6 +339,7 @@ input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[
 
   &:hover, &:focus, &:active {
     color: typography.$text;
+    background-color: transparent;
     border: none !important;
     outline: none !important;
   }
