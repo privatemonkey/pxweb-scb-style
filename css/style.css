@@ -854,11 +854,6 @@ input[type=radio] + label, input[type=radio]:checked + label, input[type=checkbo
   border-width: 0;
   outline-color: transparent;
 }
-input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio] + labelactive, input[type=radio]:checked + label:hover, input[type=radio]:checked + label:focus, input[type=radio]:checked + labelactive, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox] + labelactive, input[type=checkbox]:checked + label:hover, input[type=checkbox]:checked + label:focus, input[type=checkbox]:checked + labelactive {
-  color: #fff;
-  background-color: #000;
-  cursor: pointer;
-}
 
 input[type=radio]:checked + label, input[type=checkbox] + label {
   font-weight: 400;
@@ -872,11 +867,6 @@ input[type=radio] + label, input[type=checkbox] + label {
   vertical-align: top;
   padding: 0;
   line-height: 140%;
-}
-input[type=radio] + label:hover, input[type=radio] + label:focus, input[type=radio] + labelactive, input[type=checkbox] + label:hover, input[type=checkbox] + label:focus, input[type=checkbox] + labelactive {
-  color: #fff;
-  background-color: #000;
-  cursor: pointer;
 }
 
 input:disabled {
