@@ -74,6 +74,12 @@
 /* icon colors */
 /* Dialogs */
 /* Tables */
+/* $table-border-color: #666666 !default;
+$table-background-odd: #f8f8f8 !default;
+$table-background-even: #fff !default;
+$table-background__hoover: #dddddd !default;
+$table-border-outline-color: #eee !default;
+$table-text: $color-dark !default;*/
 /* Errors and messages */
 /* Panels */
 /*
