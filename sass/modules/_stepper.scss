@@ -42,6 +42,16 @@ $stepper-3-adjust: -2rem;
     padding: 0;
     line-height: 100%;
     text-decoration: none;
+
+    &:hover, &:focus, &:active {
+      color: typography.$text;
+      background-color: transparent;
+      
+      span {
+        color: typography.$link__hover-text;
+        background-color: typography.$link__hover-background;
+      }
+    }
   }
   
 .navigationFlowArea a span {
@@ -69,7 +79,7 @@ $stepper-3-adjust: -2rem;
   &:hover, &:focus, &:active {
     color: typography.$text;
     background-color: transparent;
-    
+
     span {
       color: typography.$link__hover-text;
       background-color: typography.$link__hover-background;

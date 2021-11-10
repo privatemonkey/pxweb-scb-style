@@ -1305,6 +1305,14 @@ td.attribute-cell:hover::after {
   line-height: 100%;
   text-decoration: none;
 }
+.navigationFlowArea a:hover, .navigationFlowArea a:focus, .navigationFlowArea a:active {
+  color: #222;
+  background-color: transparent;
+}
+.navigationFlowArea a:hover span, .navigationFlowArea a:focus span, .navigationFlowArea a:active span {
+  color: #fff;
+  background-color: #000;
+}
 
 .navigationFlowArea a span {
   position: absolute;
