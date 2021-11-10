@@ -1227,11 +1227,6 @@ thead th input[type=submit] {
   padding: 0;
 }
 
-table tr th:last-child, table tr td:last-child {
-  /* border-right: 1px solid colors.$table-border-outline-color;*/
-  border-right: 1px solid #1e00be;
-}
-
 thead th, thead td {
   font-weight: bold;
   text-align: left;
