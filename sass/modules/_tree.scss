@@ -57,6 +57,13 @@
     content: "－";
 }
 
+.AspNet-TreeView-Collapse::before, .AspNet-TreeView-Expand::before {
+    &:hover, &:focus {
+        color: typography.$link__hover-text;
+        background-color: typography.$link__hover-background;
+    }
+}
+
 /* Clickable leaf node */
 .AspNet-TreeView-Leaf {
     margin-left: 0px;
@@ -79,6 +86,7 @@
     &:focus, &:hover, &:active {
         span {
             color: typography.$link__hover-text;
+            background-color: typography.$link__hover-background;
             cursor: pointer;
             text-decoration: underline;
         }

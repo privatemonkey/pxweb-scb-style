@@ -46,6 +46,7 @@ td, th {
   border-right: none;
   vertical-align: text-top;
   text-align: right;
+  color: colors.$table-text;
 }
 
 td {
@@ -106,6 +107,14 @@ thead > tr:last-child > td, thead > tr:last-child > th, thead > tr:first-child t
   border-bottom: 1px solid colors.$table-border-color;
 }
 
+thead > tr td:first-child, tbody > tr th:first-child {
+  border-left-width: 0;
+}
+
+thead > tr th:last-child, tbody > tr td:last-child {
+  border-right-width: 0;
+}
+
 tbody tr td:first-child { 
   border-left: none !important;
   border-right-color: colors.$table-border-color;
@@ -117,11 +126,6 @@ thead th {
   input[type="submit"] {
     padding: 0;
   }
-}
-
-table tr th:last-child, table tr td:last-child {
-  /* border-right: 1px solid colors.$table-border-outline-color;*/
-  border-right: 1px solid colors.$table-border-color;
 }
 
 thead th, thead td {

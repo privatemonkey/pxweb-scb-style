@@ -33,15 +33,16 @@ button.accordion-header, button.nested-accordion-header  {
   outline-color: transparent;
 
   &:hover, &:focus {
-    color: typography.$link__hover-text;
+    color: typography.$text;
     background-color: transparent;
+
     > .header-text > span, > .header-text  {
       text-decoration: underline;
     }
   }
 
   &:active {
-    color: typography.$link__hover-text;
+    color: typography.$text;
   }
 }
 

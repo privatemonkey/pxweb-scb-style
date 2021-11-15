@@ -338,14 +338,14 @@ input[type="radio"], input[type="checkbox"], input[type="radio"]:checked, input[
   border-radius: 0;
 
   &:hover, &:focus, &:active {
-    color: typography.$link__hover-text;
+    color: typography.$text;
+    background-color: transparent;
     border: none !important;
     outline: none !important;
   }
 }
 
 input[type="radio"] + label, input[type="radio"]:checked + label, input[type="checkbox"] + label, input[type="checkbox"]:checked + label {
-  @include typography.textlink__hover;
   font-weight: typography.$font-weight-normal;
   border-width: 0;
   outline-color: transparent;
@@ -363,8 +363,6 @@ input[type="radio"] + label, input[type="checkbox"] + label {
   vertical-align: top;
   padding: 0;
   line-height: 140%;
-
-  @include typography.textlink__hover;
 }
 
 input:disabled {
@@ -461,7 +459,7 @@ option:checked {
 
 option:hover, option:active, option:focus {
   background-color: typography.$link__hover-background;
-  color: typography.$text-dark;
+  color: typography.$link__hover-text;
   text-decoration: underline;
   cursor: pointer;
 }
