@@ -57,13 +57,14 @@ input[type="submit"].variableselector_continue_button {
 
 .variableselector_valuesselect_search_textstart_checkbox label {
   @include typography.text;
-  width: 100%;
+  width: fit-content;
 }
 
 .variableselector_valuesselect_search_textstart_checkbox {
-  width: 100%;
+  width: fit-content;
   padding: sizes.$space-extra-small 0 sizes.$space-medium;
   display: flex;
+  white-space: nowrap;
 }
 
 .variableselector_valuesselect_aggregations {
@@ -73,11 +74,12 @@ input[type="submit"].variableselector_continue_button {
 
 .variableselector_variable_box_container.flex-row.flex-wrap {
   justify-content: start;
+  gap: 2rem;
 }
 
 .variableselector_variable_box_container > div {
   background-color: colors.$panel-background;
-  margin-right: 2rem;
+  padding: 1rem;
 
   @media (max-width: 660px) {
     width: revert;
@@ -154,4 +156,5 @@ input[type="submit"].variableselector_continue_button {
   .search-panel .input-wrapper {
     display: flex;
     flex-direction: row;
+    width: fit-content;
   }
