@@ -451,6 +451,22 @@ main {
   overflow: auto;
 }
 
+/* Variable select resizable handle */
+.ui-resizable-e {
+  cursor: e-resize;
+  width: 7px;
+  right: -5px;
+  top: 0;
+  height: 100%;
+}
+
+.ui-resizable-handle {
+  position: absolute;
+  font-size: 0.1px;
+  display: block;
+  touch-action: none;
+}
+
 /* About area */
 .about-table {
   min-width: 100%;
