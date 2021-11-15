@@ -77,9 +77,18 @@ input[type="submit"].variableselector_continue_button {
 
 .variableselector_variable_box_container > div {
   background-color: colors.$panel-background;
+  margin-right: 2rem;
+  max-width: 25vw;
+
+  @media (max-width: 660px) {
+    width: revert;
+    min-width: unset;
+    max-width: unset;
+    margin-right: unset;
+  }
 }
 
-  .variableselector_variable_box_container > div, .selectfromgroup-container {
+.selectfromgroup-container {
     margin-right: sizes.$space-extra-large;
     min-width: 20rem;
     max-width: 25vw;

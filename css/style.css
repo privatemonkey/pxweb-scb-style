@@ -1009,7 +1009,6 @@ option:hover, option:active, option:focus {
 .variableselector_variable_box_container > div, div.accordion {
   background-color: #f7f7f7;
   margin-bottom: 2rem;
-  padding: 1.5rem;
 }
 
 .accordion-panels legend {
@@ -1784,15 +1783,25 @@ input[type=submit].variableselector_continue_button {
 
 .variableselector_variable_box_container > div {
   background-color: #f7f7f7;
+  margin-right: 2rem;
+  max-width: 25vw;
+}
+@media (max-width: 660px) {
+  .variableselector_variable_box_container > div {
+    width: revert;
+    min-width: unset;
+    max-width: unset;
+    margin-right: unset;
+  }
 }
 
-.variableselector_variable_box_container > div, .selectfromgroup-container {
+.selectfromgroup-container {
   margin-right: 2rem;
   min-width: 20rem;
   max-width: 25vw;
 }
 @media (max-width: 660px) {
-  .variableselector_variable_box_container > div, .selectfromgroup-container {
+  .selectfromgroup-container {
     width: revert;
     min-width: unset;
     max-width: unset;
