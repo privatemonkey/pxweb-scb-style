@@ -981,7 +981,7 @@ option:checked {
 }
 
 option:hover, option:active, option:focus {
-  background-color: #949494;
+  background-color: #ccc;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
@@ -1411,7 +1411,6 @@ hr.future {
     top: 0;
     left: 0;
     width: 100vw;
-    background-color: #eee;
     box-shadow: 0 0 8px rgba(25, 25, 25, 0.4);
     min-height: calc(2 * 2rem);
   }
@@ -1446,7 +1445,7 @@ hr.future {
 .tools-header button {
   position: absolute;
   right: 1rem;
-  top: 1.25rem;
+  top: 2.9rem;
   background-color: #fff;
   color: #1e00be;
   border: #fff;
