@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PxWebScbStyles</id>
+    <version>0.0.2</version>
+    <title>Statistics Swedens custom styles for PxWeb</title>
+    <authors>Statistics Sweden</authors>
+    <owners>Statistics Sweden</owners>
+    <projectUrl>https://github.com/statisticssweden/pxweb-scb-style</projectUrl>   
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Statistics Swedens alternativ styles for PxWeb</description>
+    <copyright>Copyright 2021</copyright>
+    <tags></tags>
+    <dependencies>
+    </dependencies>
+
+    <license type="expression">MIT</license>
+  </metadata>
+  <files>
+    <file src="css\**\*.*" target="content\Resources\scb\css" />
+    <file src="assets\**\*.*" target="content\Resources\scb\assets" />
+  </files>
+</package> 

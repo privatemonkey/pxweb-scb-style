@@ -1,5 +1,6 @@
 {
   "name": "pxweb-scb-style",
+  "version": "0.9.1",
   "description": "SCB:s alternative PxWeb styling for the statistical database",
   "main": "index.html",
   "scripts": {
