@@ -1,0 +1,45 @@
+
+name: Deploy to nuget.org
+
+on: 
+  release:
+    types: [published]
+
+jobs:
+  release:
+
+    runs-on: windows-2019
+
+    steps:
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0    
+        
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+        
+       
+    - run: npm install
+    - run: npm run build
+
+
+    - name: run minver
+      id: version
+      uses: thefringeninja/action-minver@2.0.0-preview1
+      with:
+        # Optional. Specifies the default pre-release phase.
+        default-pre-release-phase: beta
+        # Optional. Specifies the prefix of the tags
+        tag-prefix: v
+
+    - uses: nuget/setup-nuget@v1
+    - run: nuget pack -version ${{ steps.version.outputs.version }} PxWebScbStyle.nuspec
+    
+    - name: Depoly to Nuget
+      run: |
+           $package = Get-ChildItem -Recurse -Filter *.nupkg
+           nuget push $package -ApiKey $env:nuget_api_key  -Source https://nuget.org
+      env:
+        nuget_api_key: ${{ secrets.NUGET_API_KEY }}
