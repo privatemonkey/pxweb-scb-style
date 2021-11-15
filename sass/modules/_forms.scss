@@ -38,6 +38,7 @@ $button-padding-topbottom: sizes.$space-extra-small;
     cursor: pointer;
     border-color: colors.$button__hover-background;
     outline-color: colors.$button__hover-background;
+    text-decoration: underline;
   }
 }
 
@@ -458,8 +459,8 @@ option:checked {
 }
 
 option:hover, option:active, option:focus {
-  background-color: typography.$link__hover-background;
-  color: typography.$link__hover-text;
+  background-color: typography.$select__hover-background;
+  color: typography.$select__hover-text;
   text-decoration: underline;
   cursor: pointer;
 }

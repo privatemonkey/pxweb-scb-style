@@ -550,6 +550,7 @@ button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, 
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn, #OperationsPanel input[type=submit].primary-btn, input[type=submit].container_continuebutton {
@@ -583,6 +584,7 @@ button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-b
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 button.secondary, input[type=button].secondary-btn, input[type=submit] {
@@ -596,6 +598,7 @@ button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 button.tertiar-btn, input.tertiar-btn {
@@ -610,6 +613,7 @@ button.tertiar-btn:focus, button.tertiar-btn:hover, input.tertiar-btn:focus, inp
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 /* Buttons with icons */
@@ -977,8 +981,8 @@ option:checked {
 }
 
 option:hover, option:active, option:focus {
-  background-color: #000;
-  color: #fff;
+  background-color: #949494;
+  color: #000;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -2209,6 +2213,7 @@ a.search-icon:focus, a.search-icon:hover {
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 a.go-to-advanced-search::before {
@@ -2229,6 +2234,7 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 .tools-header button::before, button.ui-dialog-titlebar-close::before {
@@ -2242,6 +2248,7 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 .savequery_rblist input + label {
