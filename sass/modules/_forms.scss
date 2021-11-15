@@ -433,6 +433,7 @@ select[multiple] {
   margin-bottom: sizes.$space-small;
   border-radius: 4px;
   height: 12rem;
+  width: max-content;
 }
 
 select[multiple] option:checked {

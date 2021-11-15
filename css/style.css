@@ -967,6 +967,7 @@ select[multiple] {
   margin-bottom: 0.75rem;
   border-radius: 4px;
   height: 12rem;
+  width: max-content;
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
@@ -1784,7 +1785,6 @@ input[type=submit].variableselector_continue_button {
 .variableselector_variable_box_container > div {
   background-color: #f7f7f7;
   margin-right: 2rem;
-  max-width: 25vw;
 }
 @media (max-width: 660px) {
   .variableselector_variable_box_container > div {
