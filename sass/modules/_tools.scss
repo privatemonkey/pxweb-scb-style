@@ -41,6 +41,7 @@
       top: 0;
       left: 0;
       width: 100vw;
+      background-color: colors.$color-lightest;
       box-shadow: 0 0 8px rgba(25, 25, 25, 0.4);
       min-height: calc(2 * #{sizes.$space-extra-large});
 
