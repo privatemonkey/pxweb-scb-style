@@ -62,6 +62,10 @@ input[type="submit"].variableselector_continue_button {
 
 .variableselector_valuesselect_search_textstart_checkbox {
   width: fit-content;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: stretch;
+
   padding: sizes.$space-extra-small 0 sizes.$space-medium;
   display: flex;
   white-space: nowrap;
