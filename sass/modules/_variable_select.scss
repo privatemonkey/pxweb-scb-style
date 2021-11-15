@@ -77,6 +77,10 @@ input[type="submit"].variableselector_continue_button {
   gap: 2rem;
 }
 
+.variableselector_valuesselect_box_compact, .variableselector_valuesselect_box_list {
+  width: min-content;
+}
+
 .variableselector_variable_box_container > div {
   background-color: colors.$panel-background;
   padding: 1rem;
