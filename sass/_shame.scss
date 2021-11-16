@@ -356,7 +356,8 @@ div:empty, span:empty, a:empty, p:empty {
   }
   
 /* Hierarchy tree */
-.AspNet-TreeView li {
+
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView .AspNet-TreeView li {
   &.AspNet-TreeView-Parent,&.AspNet-TreeView-Root {
     display: grid;
     grid-template-columns: 1rem auto 1fr;
@@ -378,6 +379,6 @@ div:empty, span:empty, a:empty, p:empty {
   margin-top: sizes.$space-medium;
 }
 
-.hierarchical_selectionbuttonregion ul:first-of-type {
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView ul:first-of-type {
   margin-bottom: sizes.$space-large;
 }
