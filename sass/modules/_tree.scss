@@ -33,6 +33,12 @@
     background-image: none;
     border-bottom: 1px solid colors.$color-medium;
     padding: 0;
+
+    &:hover {
+        cursor: pointer;
+        color: typography.$link__hover-text;
+        background-color: typography.$link__hover-background;
+    }
 }
 
 .AspNet-TreeView a, .AspNet-TreeView-ClickableNonLink {
