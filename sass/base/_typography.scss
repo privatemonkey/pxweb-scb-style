@@ -91,18 +91,18 @@ body {
   @include bold;
   font-size: $font-size-h4;
   margin-bottom: sizes.$space-small;
-  &:first-letter {
+  /* &:first-letter {
     text-transform: capitalize;
-  }
+  }*/
 }
 
 /* For checkboxes, radios */
 @mixin list_option {
   font-size: $font-size-normal;
   margin-bottom: sizes.$space-small;
-  &:first-letter {
+  /*&:first-letter {
     text-transform: capitalize;
-  }
+  }*/
 }
 
 /* -- Headers -- */
@@ -110,10 +110,10 @@ body {
 @mixin header {
   @include extrabold;
   max-width: $max-header-width;
-  &:first-letter {
-    text-transform: capitalize;
-  }
   line-height: $line-height-header;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
 }
 
 @mixin h1 {
@@ -252,9 +252,9 @@ input, select, button {
 
 option {
   @include fontfamily;
-  &:first-letter {
+  /*&:first-letter {
     text-transform: capitalize;
-  }
+  }*/
 }
 
 button, button.accordion-header, button.nested-accordion-header  {

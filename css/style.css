@@ -158,13 +158,13 @@ h1 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 2.25rem;
   line-height: 1.25;
   margin-bottom: 2rem;
   /* margin-top: 1rem;*/
-}
-h1:first-letter {
-  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   h1 {
@@ -176,11 +176,11 @@ h2 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.6875rem;
   margin: 1.5rem 0;
-}
-h2:first-letter {
-  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   h2 {
@@ -192,11 +192,11 @@ h3, .siteLogoText {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.3125rem;
   margin-bottom: 0.75rem;
-}
-h3:first-letter, .siteLogoText:first-letter {
-  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   h3, .siteLogoText {
@@ -208,26 +208,26 @@ h4 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
-}
-h4:first-letter {
-  text-transform: capitalize;
 }
 
 h5 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-weight: 700;
   width: 100%;
   text-align: left;
   padding: 0;
   margin-bottom: 0.75rem;
-}
-h5:first-letter {
-  text-transform: capitalize;
 }
 
 /* TODO: Alla dessa borde göras till riktiga headers */
@@ -235,26 +235,26 @@ h5:first-letter {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
-}
-.container_titletext:first-letter, .heading:first-letter, .variableselector_valuesselect_variabletitle > label:first-letter, .about-table .accordion-body .header-text span:first-letter {
-  text-transform: capitalize;
 }
 
 button.nested-accordion-header, .commandbar_changepresentation_changetext {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-weight: 700;
   width: 100%;
   text-align: left;
   padding: 0;
   margin-bottom: 0.75rem;
-}
-button.nested-accordion-header:first-letter, .commandbar_changepresentation_changetext:first-letter {
-  text-transform: capitalize;
 }
 
 .container_titletext {
@@ -271,18 +271,18 @@ label span {
   font-weight: 600;
   font-size: 1.125rem;
   margin-bottom: 0.75rem;
+  /* &:first-letter {
+    text-transform: capitalize;
+  }*/
   display: block;
-}
-:not(fieldset) label:first-letter, legend span.font-heading:first-letter, label.font-heading:first-letter, span.font-heading:first-letter {
-  text-transform: capitalize;
 }
 
 input + label {
   font-size: 16px;
   margin-bottom: 0.75rem;
-}
-input + label:first-letter {
-  text-transform: capitalize;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
 }
 
 /* -- Bold text -- */
@@ -317,9 +317,9 @@ input, select, button {
 
 option {
   font-family: "Public Sans", "system", sans-serif;
-}
-option:first-letter {
-  text-transform: capitalize;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
 }
 
 button, button.accordion-header, button.nested-accordion-header {
@@ -507,11 +507,11 @@ main {
   font-weight: 600;
   font-size: 1.125rem;
   margin-bottom: 0.75rem;
+  /* &:first-letter {
+    text-transform: capitalize;
+  }*/
   margin-bottom: 0;
   font-weight: 700;
-}
-.about-table dt:first-letter {
-  text-transform: capitalize;
 }
 
 .about-table dd {
@@ -1951,11 +1951,11 @@ input[type=submit].variableselector_continue_button {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.3125rem;
   margin-bottom: 0.75rem;
-}
-.ui-dialog-title:first-letter {
-  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   .ui-dialog-title {
@@ -1967,12 +1967,12 @@ input[type=submit].variableselector_continue_button {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
-}
-.table_cellinformation_cell:first-letter, .table_cellinformation_notes:first-letter {
-  text-transform: capitalize;
 }
 
 .ui-dialog {
@@ -2066,6 +2066,9 @@ div:empty, span:empty, a:empty, p:empty {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   /* 
   font-weight: 700;
   font-size: 1rem;
@@ -2077,9 +2080,6 @@ div:empty, span:empty, a:empty, p:empty {
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem;
-}
-.header-text:first-letter, .commandbar_changedecimal_titletext:first-letter, .commandbar_changetexts_titletext:first-letter {
-  text-transform: capitalize;
 }
 
 .commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext, .commandbar_changepresentation_changetext, .commandbar_sum_sumallvaluestext {
@@ -2413,13 +2413,13 @@ input.fetch-all-button {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.3125rem;
   margin-bottom: 0.75rem;
   margin-top: 1.5rem;
   margin-bottom: 0;
-}
-.hierarchical_selectionbuttonregion + p:first-of-type:first-letter {
-  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   .hierarchical_selectionbuttonregion + p:first-of-type {
