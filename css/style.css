@@ -2415,6 +2415,7 @@ input.fetch-all-button {
   line-height: 1.4;
   font-size: 1.3125rem;
   margin-bottom: 0.75rem;
+  margin-top: 1rem;
 }
 .hierarchical_selectionbuttonregion + p:first-of-type:first-letter {
   text-transform: capitalize;
@@ -2423,6 +2424,10 @@ input.fetch-all-button {
   .hierarchical_selectionbuttonregion + p:first-of-type {
     font-size: 1.125rem;
   }
+}
+
+.hierarchical_selectionbuttonregion ul:first-of-type {
+  margin-bottom: 1.5rem;
 }
 
 .screenreader-only {

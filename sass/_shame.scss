@@ -375,4 +375,9 @@ div:empty, span:empty, a:empty, p:empty {
 
 .hierarchical_selectionbuttonregion + p:first-of-type {
   @include typography.h3;
+  margin-top: sizes.$space-medium;
+}
+
+.hierarchical_selectionbuttonregion ul:first-of-type {
+  margin-bottom: sizes.$space-large;
 }
