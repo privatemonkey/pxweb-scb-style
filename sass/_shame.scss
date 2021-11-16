@@ -357,7 +357,7 @@ div:empty, span:empty, a:empty, p:empty {
   
 /* Hierarchy tree */
 
-#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView .AspNet-TreeView li {
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView.AspNet-TreeView li {
   &.AspNet-TreeView-Parent,&.AspNet-TreeView-Root {
     display: grid;
     grid-template-columns: 1rem auto 1fr;
