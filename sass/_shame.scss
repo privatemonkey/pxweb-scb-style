@@ -84,7 +84,7 @@ div:empty, span:empty, a:empty, p:empty {
 
 .pxweb-input {
     display: block;
-    width: calc(100% - 2rem);
+    // width: calc(100% - 2rem);
 }
 
 .xs-margin-left {
@@ -355,4 +355,31 @@ div:empty, span:empty, a:empty, p:empty {
     padding: 0.75rem 0;
   }
   
-  
+/* Hierarchy tree */
+
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView.AspNet-TreeView li {
+  &.AspNet-TreeView-Parent,&.AspNet-TreeView-Root {
+    display: grid;
+    grid-template-columns: 1rem auto 1fr;
+    justify-items: start;
+    align-items: baseline;
+
+    input {
+      justify-self: center;
+    }
+    label {
+      padding: 0.5rem;
+      margin: 0;
+    }
+  }
+}
+
+.hierarchical_selectionbuttonregion + p:first-of-type {
+  @include typography.h3;
+  margin-top: sizes.$space-large;
+  margin-bottom: 0;
+}
+
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView ul:first-of-type {
+  margin-bottom: sizes.$space-large;
+}

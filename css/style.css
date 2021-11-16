@@ -451,6 +451,22 @@ main {
   overflow: auto;
 }
 
+/* Variable select resizable handle */
+.ui-resizable-e {
+  cursor: e-resize;
+  width: 7px;
+  right: -5px;
+  top: 0;
+  height: 100%;
+}
+
+.ui-resizable-handle {
+  position: absolute;
+  font-size: 0.1px;
+  display: block;
+  touch-action: none;
+}
+
 /* About area */
 .about-table {
   min-width: 100%;
@@ -550,6 +566,7 @@ button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, 
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 button.primary-btn, input[type=button].primary-btn, input[type=submit].primary-btn, #OperationsPanel input[type=submit].primary-btn, input[type=submit].container_continuebutton {
@@ -583,6 +600,7 @@ button.primary-btn:focus, button.primary-btn:hover, input[type=button].primary-b
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 button.secondary, input[type=button].secondary-btn, input[type=submit] {
@@ -596,6 +614,7 @@ button.secondary:focus, button.secondary:hover, input[type=button].secondary-btn
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 button.tertiar-btn, input.tertiar-btn {
@@ -610,6 +629,7 @@ button.tertiar-btn:focus, button.tertiar-btn:hover, input.tertiar-btn:focus, inp
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 /* Buttons with icons */
@@ -740,14 +760,29 @@ TODO: Add continue icon
 /* Special hierarchy button */
 .variableselector_valuesselect_select_hierarcical_imagebutton {
   background-repeat: no-repeat;
-  padding-left: 2.25rem;
+  padding: 0 1.5rem 0;
   padding-right: 1rem;
   background-size: 1.5rem;
-  background-position: 0.4rem center;
+  background-position: center;
+  cursor: pointer;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%231E00BE'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3z'/%3E%3C/svg%3E");
 }
 .variableselector_valuesselect_select_hierarcical_imagebutton:hover, .variableselector_valuesselect_select_hierarcical_imagebutton:active, .variableselector_valuesselect_select_hierarcical_imagebutton:focus {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23FFFFFF'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3z'/%3E%3C/svg%3E");
+  background-color: #222;
+  color: #fff;
+  border-color: #222;
+  outline-color: #222;
+}
+
+/* Hierarcy radios */
+.hierarchical_selectionbuttonregion {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+.hierarchical_selectionbuttonregion span {
+  margin-right: 1rem;
 }
 
 /* Sekundärknapper för val, med check */
@@ -947,6 +982,7 @@ select[multiple] {
   margin-bottom: 0.75rem;
   border-radius: 4px;
   height: 12rem;
+  width: max-content;
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
@@ -977,8 +1013,8 @@ option:checked {
 }
 
 option:hover, option:active, option:focus {
-  background-color: #000;
-  color: #fff;
+  background-color: #ccc;
+  color: #000;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -989,7 +1025,6 @@ option:hover, option:active, option:focus {
 .variableselector_variable_box_container > div, div.accordion {
   background-color: #f7f7f7;
   margin-bottom: 2rem;
-  padding: 1.5rem;
 }
 
 .accordion-panels legend {
@@ -1407,7 +1442,7 @@ hr.future {
     top: 0;
     left: 0;
     width: 100vw;
-    background-color: #eee;
+    background-color: #fff;
     box-shadow: 0 0 8px rgba(25, 25, 25, 0.4);
     min-height: calc(2 * 2rem);
   }
@@ -1442,7 +1477,7 @@ hr.future {
 .tools-header button {
   position: absolute;
   right: 1rem;
-  top: 1.25rem;
+  top: 2.9rem;
   background-color: #fff;
   color: #1e00be;
   border: #fff;
@@ -1612,6 +1647,15 @@ nav a span {
   content: "－";
 }
 
+.AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {
+  margin: 0;
+}
+.AspNet-TreeView-Collapse:hover, .AspNet-TreeView-Expand:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+}
+
 .AspNet-TreeView-Collapse::before:hover, .AspNet-TreeView-Collapse::before:focus, .AspNet-TreeView-Expand::before:hover, .AspNet-TreeView-Expand::before:focus {
   color: #fff;
   background-color: #000;
@@ -1636,6 +1680,8 @@ nav a span {
   outline-color: transparent;
   border-color: transparent;
   text-decoration: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLinkactive, .AspNet-TreeView a:hover, .AspNet-TreeView a:focus, .AspNet-TreeView aactive, .AspNet-TreeView a span:hover, .AspNet-TreeView a span:focus, .AspNet-TreeView a spanactive {
   color: #fff;
@@ -1650,13 +1696,32 @@ nav a span {
   text-decoration: underline;
 }
 
-.AspNet-TreeView-Collapse:hover, .AspNet-TreeView-Expand:hover {
-  cursor: pointer;
-}
-
 /* Icons */
 .AspNet-TreeView img {
   margin-left: 1rem;
+}
+
+/* Hierarcy tree */
+.AspNet-TreeView li label {
+  width: fit-content;
+}
+.AspNet-TreeView li.AspNet-TreeView-Leaf, .AspNet-TreeView li.AspNet-TreeView-Parent, .AspNet-TreeView li.AspNet-TreeView-Root {
+  white-space: nowrap;
+}
+.AspNet-TreeView li.AspNet-TreeView-Leaf {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.AspNet-TreeView li.AspNet-TreeView-Parent, .AspNet-TreeView li.AspNet-TreeView-Root {
+  display: block;
+}
+.AspNet-TreeView li input[type=checkbox] {
+  margin: 0.75rem;
+}
+.AspNet-TreeView li input[type=checkbox] + label {
+  width: auto;
+  width: fit-content;
 }
 
 #datasort_description {
@@ -1745,13 +1810,17 @@ input[type=submit].variableselector_continue_button {
   max-width: 100%;
   margin-top: 0;
   margin-bottom: 22px;
-  width: 100%;
+  width: fit-content;
 }
 
 .variableselector_valuesselect_search_textstart_checkbox {
-  width: 100%;
+  width: fit-content;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: stretch;
   padding: 0.5rem 0 1rem;
   display: flex;
+  white-space: nowrap;
 }
 
 .variableselector_valuesselect_aggregations {
@@ -1760,19 +1829,33 @@ input[type=submit].variableselector_continue_button {
 
 .variableselector_variable_box_container.flex-row.flex-wrap {
   justify-content: start;
+  gap: 2rem;
+}
+
+.variableselector_valuesselect_box_compact, .variableselector_valuesselect_box_list {
+  width: min-content;
 }
 
 .variableselector_variable_box_container > div {
   background-color: #f7f7f7;
+  padding: 1rem;
+}
+@media (max-width: 660px) {
+  .variableselector_variable_box_container > div {
+    width: revert;
+    min-width: unset;
+    max-width: unset;
+    margin-right: unset;
+  }
 }
 
-.variableselector_variable_box_container > div, .selectfromgroup-container {
+.selectfromgroup-container {
   margin-right: 2rem;
   min-width: 20rem;
   max-width: 25vw;
 }
 @media (max-width: 660px) {
-  .variableselector_variable_box_container > div, .selectfromgroup-container {
+  .selectfromgroup-container {
     width: revert;
     min-width: unset;
     max-width: unset;
@@ -1826,6 +1909,7 @@ input[type=submit].variableselector_continue_button {
 .search-panel .input-wrapper {
   display: flex;
   flex-direction: row;
+  width: fit-content;
 }
 
 /* Result page specific styling */
@@ -2010,7 +2094,6 @@ div:empty, span:empty, a:empty, p:empty {
 
 .pxweb-input {
   display: block;
-  width: calc(100% - 2rem);
 }
 
 .xs-margin-left {
@@ -2209,6 +2292,7 @@ a.search-icon:focus, a.search-icon:hover {
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 a.go-to-advanced-search::before {
@@ -2229,6 +2313,7 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 .tools-header button::before, button.ui-dialog-titlebar-close::before {
@@ -2242,6 +2327,7 @@ a.search-icon:hover:focus, a.search-icon:hover:hover, a.search-icon:focus:focus,
   cursor: pointer;
   border-color: #222;
   outline-color: #222;
+  text-decoration: underline;
 }
 
 .savequery_rblist input + label {
@@ -2306,6 +2392,43 @@ input.fetch-all-button {
 /* Advanced workflow styling */
 .arrow-right-pxbox-icon {
   padding: 0.75rem 0;
+}
+
+/* Hierarchy tree */
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView.AspNet-TreeView li.AspNet-TreeView-Parent, #ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView.AspNet-TreeView li.AspNet-TreeView-Root {
+  display: grid;
+  grid-template-columns: 1rem auto 1fr;
+  justify-items: start;
+  align-items: baseline;
+}
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView.AspNet-TreeView li.AspNet-TreeView-Parent input, #ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView.AspNet-TreeView li.AspNet-TreeView-Root input {
+  justify-self: center;
+}
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView.AspNet-TreeView li.AspNet-TreeView-Parent label, #ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView.AspNet-TreeView li.AspNet-TreeView-Root label {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.hierarchical_selectionbuttonregion + p:first-of-type {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.4;
+  font-size: 1.3125rem;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.hierarchical_selectionbuttonregion + p:first-of-type:first-letter {
+  text-transform: capitalize;
+}
+@media (max-width: 799px) {
+  .hierarchical_selectionbuttonregion + p:first-of-type {
+    font-size: 1.125rem;
+  }
+}
+
+#ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView ul:first-of-type {
+  margin-bottom: 1.5rem;
 }
 
 .screenreader-only {

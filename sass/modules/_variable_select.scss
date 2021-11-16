@@ -57,13 +57,18 @@ input[type="submit"].variableselector_continue_button {
 
 .variableselector_valuesselect_search_textstart_checkbox label {
   @include typography.text;
-  width: 100%;
+  width: fit-content;
 }
 
 .variableselector_valuesselect_search_textstart_checkbox {
-  width: 100%;
+  width: fit-content;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: stretch;
+
   padding: sizes.$space-extra-small 0 sizes.$space-medium;
   display: flex;
+  white-space: nowrap;
 }
 
 .variableselector_valuesselect_aggregations {
@@ -73,13 +78,26 @@ input[type="submit"].variableselector_continue_button {
 
 .variableselector_variable_box_container.flex-row.flex-wrap {
   justify-content: start;
+  gap: 2rem;
+}
+
+.variableselector_valuesselect_box_compact, .variableselector_valuesselect_box_list {
+  width: min-content;
 }
 
 .variableselector_variable_box_container > div {
   background-color: colors.$panel-background;
+  padding: 1rem;
+
+  @media (max-width: 660px) {
+    width: revert;
+    min-width: unset;
+    max-width: unset;
+    margin-right: unset;
+  }
 }
 
-  .variableselector_variable_box_container > div, .selectfromgroup-container {
+.selectfromgroup-container {
     margin-right: sizes.$space-extra-large;
     min-width: 20rem;
     max-width: 25vw;
@@ -146,4 +164,5 @@ input[type="submit"].variableselector_continue_button {
   .search-panel .input-wrapper {
     display: flex;
     flex-direction: row;
+    width: fit-content;
   }

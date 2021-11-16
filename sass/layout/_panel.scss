@@ -10,5 +10,5 @@ $panel-padding: 1rem 1rem;
 @mixin panel {
     background-color: colors.$panel-background;
     margin-bottom: sizes.$space-extra-large;
-    padding: sizes.$space-large;
+    // padding: sizes.$space-large;
 }
