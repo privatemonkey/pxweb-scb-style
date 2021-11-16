@@ -792,6 +792,15 @@ TODO: Add continue icon
 .AspNet-TreeView li.AspNet-TreeView-Leaf, .AspNet-TreeView li.AspNet-TreeView-Parent, .AspNet-TreeView li.AspNet-TreeView-Root {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.AspNet-TreeView li input[type=checkbox] {
+  margin: 0.75rem;
+}
+.AspNet-TreeView li label {
+  width: auto;
+  width: fit-content;
 }
 
 /* Sekundärknapper för val, med check */

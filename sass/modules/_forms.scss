@@ -273,6 +273,17 @@ TODO: Add continue icon
   &.AspNet-TreeView-Leaf, &.AspNet-TreeView-Parent, &.AspNet-TreeView-Root {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+
+  input[type="checkbox"] {
+    margin: sizes.$space-small;
+  }
+
+  label {
+    width: auto;
+    width: fit-content;
   }
   
 }
