@@ -58,7 +58,7 @@
 }
 
 .AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {
-    margin: sizes.$space-small;
+    margin: sizes.$space-small 0;
 
     &:hover {
         cursor: pointer;
@@ -91,6 +91,8 @@
     @include typography.textlink;
     @include typography.textlink__hover;
     text-decoration: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .AspNet-TreeView .AspNet-TreeView-Leaf a {

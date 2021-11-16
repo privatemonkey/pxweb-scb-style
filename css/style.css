@@ -1648,7 +1648,7 @@ nav a span {
 }
 
 .AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {
-  margin: 0.75rem;
+  margin: 0.75rem 0;
 }
 .AspNet-TreeView-Collapse:hover, .AspNet-TreeView-Expand:hover {
   cursor: pointer;
@@ -1680,6 +1680,8 @@ nav a span {
   outline-color: transparent;
   border-color: transparent;
   text-decoration: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:hover, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLink:focus, .AspNet-TreeView ul li span.AspNet-TreeView-ClickableNonLinkactive, .AspNet-TreeView a:hover, .AspNet-TreeView a:focus, .AspNet-TreeView aactive, .AspNet-TreeView a span:hover, .AspNet-TreeView a span:focus, .AspNet-TreeView a spanactive {
   color: #fff;
