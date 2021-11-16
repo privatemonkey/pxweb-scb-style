@@ -1648,7 +1648,7 @@ nav a span {
 }
 
 .AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {
-  margin: 0.75rem 0;
+  margin: 0;
 }
 .AspNet-TreeView-Collapse:hover, .AspNet-TreeView-Expand:hover {
   cursor: pointer;
@@ -2405,7 +2405,8 @@ input.fetch-all-button {
   justify-self: center;
 }
 .AspNet-TreeView li.AspNet-TreeView-Parent label, .AspNet-TreeView li.AspNet-TreeView-Root label {
-  justify-self: unset;
+  padding: 0.5rem;
+  margin: 0;
 }
 
 .screenreader-only {

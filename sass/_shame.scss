@@ -367,7 +367,8 @@ div:empty, span:empty, a:empty, p:empty {
       justify-self: center;
     }
     label {
-      justify-self: unset;
+      padding: 0.5rem;
+      margin: 0;
     }
   }
 }
