@@ -355,4 +355,19 @@ div:empty, span:empty, a:empty, p:empty {
     padding: 0.75rem 0;
   }
   
-  
+/* Hierarchy tree */
+.AspNet-TreeView li {
+  &.AspNet-TreeView-Parent,&.AspNet-TreeView-Root {
+    display: grid;
+    grid-template-columns: 1rem auto 1fr;
+    justify-items: start;
+    align-items: baseline;
+
+    input {
+      justify-self: center;
+    }
+    label {
+      justify-self: unset;
+    }
+  }
+}

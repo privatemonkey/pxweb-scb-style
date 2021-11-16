@@ -17,6 +17,7 @@
 - [x] input + label width kan bli fel eftersom den beräknas ifrån 100%
 - [x] Refactor input + label code
 - [x] Refactor API button
+- [ ] Hierarchy view - Add classes to seperate from regular treeview
 - [ ] Print CSS
 - [ ] Sizes - Skapa margin och padding variablar för text, headings och annat
 - [x] Huvudet - Se över storlekar
