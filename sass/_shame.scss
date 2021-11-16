@@ -376,7 +376,8 @@ div:empty, span:empty, a:empty, p:empty {
 
 .hierarchical_selectionbuttonregion + p:first-of-type {
   @include typography.h3;
-  margin-top: sizes.$space-medium;
+  margin-top: sizes.$space-large;
+  margin-bottom: 0;
 }
 
 #ctl00_ContentPlaceHolderMain_VariableSelector1_VariableSelector1_SelectHierarchichalVariable_SelectHierarchichalVariable_VariableTreeView ul:first-of-type {
