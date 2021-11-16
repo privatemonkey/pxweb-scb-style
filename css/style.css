@@ -785,24 +785,6 @@ TODO: Add continue icon
   margin-right: 1rem;
 }
 
-/* Hierarcy tree */
-.AspNet-TreeView li label {
-  width: fit-content;
-}
-.AspNet-TreeView li.AspNet-TreeView-Leaf, .AspNet-TreeView li.AspNet-TreeView-Parent, .AspNet-TreeView li.AspNet-TreeView-Root {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  white-space: nowrap;
-}
-.AspNet-TreeView li input[type=checkbox] {
-  margin: 0.75rem;
-}
-.AspNet-TreeView li label {
-  width: auto;
-  width: fit-content;
-}
-
 /* Sekundärknapper för val, med check */
 input.selectfromgroup-groupsbutton {
   background-repeat: no-repeat;
@@ -1665,6 +1647,15 @@ nav a span {
   content: "－";
 }
 
+.AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {
+  margin: 0.75rem;
+}
+.AspNet-TreeView-Collapse:hover, .AspNet-TreeView-Expand:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+}
+
 .AspNet-TreeView-Collapse::before:hover, .AspNet-TreeView-Collapse::before:focus, .AspNet-TreeView-Expand::before:hover, .AspNet-TreeView-Expand::before:focus {
   color: #fff;
   background-color: #000;
@@ -1703,13 +1694,27 @@ nav a span {
   text-decoration: underline;
 }
 
-.AspNet-TreeView-Collapse:hover, .AspNet-TreeView-Expand:hover {
-  cursor: pointer;
-}
-
 /* Icons */
 .AspNet-TreeView img {
   margin-left: 1rem;
+}
+
+/* Hierarcy tree */
+.AspNet-TreeView li label {
+  width: fit-content;
+}
+.AspNet-TreeView li.AspNet-TreeView-Leaf, .AspNet-TreeView li.AspNet-TreeView-Parent, .AspNet-TreeView li.AspNet-TreeView-Root {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.AspNet-TreeView li input[type=checkbox] {
+  margin: 0.75rem;
+}
+.AspNet-TreeView li input[type=checkbox] + label {
+  width: auto;
+  width: fit-content;
 }
 
 #datasort_description {

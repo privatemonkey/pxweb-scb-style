@@ -264,30 +264,6 @@ TODO: Add continue icon
   }
 }
 
-/* Hierarcy tree */
-.AspNet-TreeView li {
-  label {
-    width: fit-content;
-  }
-
-  &.AspNet-TreeView-Leaf, &.AspNet-TreeView-Parent, &.AspNet-TreeView-Root {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    white-space: nowrap;
-  }
-
-  input[type="checkbox"] {
-    margin: sizes.$space-small;
-  }
-
-  label {
-    width: auto;
-    width: fit-content;
-  }
-  
-}
-
 /* Sekundärknapper för val, med check */
 input.selectfromgroup-groupsbutton {
   @include icon-button;

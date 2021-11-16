@@ -57,6 +57,17 @@
     content: "－";
 }
 
+.AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {
+    margin: sizes.$space-small;
+
+    &:hover {
+        cursor: pointer;
+        color: typography.$link__hover-text;
+        background-color: typography.$link__hover-background;
+    }
+}
+
+
 .AspNet-TreeView-Collapse::before, .AspNet-TreeView-Expand::before {
     &:hover, &:focus {
         color: typography.$link__hover-text;
@@ -93,13 +104,31 @@
     }
 }
 
-.AspNet-TreeView-Collapse, .AspNet-TreeView-Expand {
-    &:hover {
-        cursor: pointer;
-    }
-}
-
 /* Icons */
 .AspNet-TreeView img {
     margin-left:sizes.$space-medium;
+}
+
+/* Hierarcy tree */
+.AspNet-TreeView li {
+    label {
+        width: fit-content;
+    }
+
+    &.AspNet-TreeView-Leaf, &.AspNet-TreeView-Parent, &.AspNet-TreeView-Root {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        white-space: nowrap;
+    }
+
+    input[type="checkbox"] {
+        margin: sizes.$space-small;
+    }
+
+    input[type="checkbox"] + label {
+        width: auto;
+        width: fit-content;
+    }
+
 }
