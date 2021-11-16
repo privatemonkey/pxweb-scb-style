@@ -2409,6 +2409,22 @@ input.fetch-all-button {
   margin: 0;
 }
 
+.hierarchical_selectionbuttonregion + p:first-of-type {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.4;
+  font-size: 1.3125rem;
+  margin-bottom: 0.75rem;
+}
+.hierarchical_selectionbuttonregion + p:first-of-type:first-letter {
+  text-transform: capitalize;
+}
+@media (max-width: 799px) {
+  .hierarchical_selectionbuttonregion + p:first-of-type {
+    font-size: 1.125rem;
+  }
+}
+
 .screenreader-only {
   position: absolute;
   left: -10000px;

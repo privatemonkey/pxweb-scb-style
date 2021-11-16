@@ -372,3 +372,7 @@ div:empty, span:empty, a:empty, p:empty {
     }
   }
 }
+
+.hierarchical_selectionbuttonregion + p:first-of-type {
+  @include typography.h3;
+}
