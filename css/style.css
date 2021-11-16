@@ -1704,10 +1704,15 @@ nav a span {
   width: fit-content;
 }
 .AspNet-TreeView li.AspNet-TreeView-Leaf, .AspNet-TreeView li.AspNet-TreeView-Parent, .AspNet-TreeView li.AspNet-TreeView-Root {
+  white-space: nowrap;
+}
+.AspNet-TreeView li.AspNet-TreeView-Leaf {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  white-space: nowrap;
+}
+.AspNet-TreeView li.AspNet-TreeView-Parent, .AspNet-TreeView li.AspNet-TreeView-Root {
+  display: block;
 }
 .AspNet-TreeView li input[type=checkbox] {
   margin: 0.75rem;

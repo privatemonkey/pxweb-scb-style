@@ -116,12 +116,19 @@
     }
 
     &.AspNet-TreeView-Leaf, &.AspNet-TreeView-Parent, &.AspNet-TreeView-Root {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
         white-space: nowrap;
     }
 
+    &.AspNet-TreeView-Leaf {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;    
+    }
+
+    &.AspNet-TreeView-Parent, &.AspNet-TreeView-Root {
+        display: block;
+    }
+    
     input[type="checkbox"] {
         margin: sizes.$space-small;
     }
