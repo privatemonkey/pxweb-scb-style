@@ -2017,6 +2017,7 @@ input[type=submit].variableselector_continue_button {
   align-items: first baseline;
 }
 
+/* Link in header */
 /* SCB only - Move */
 #testMiljoText {
   display: flex;
