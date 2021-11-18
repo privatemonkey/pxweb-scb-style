@@ -1,5 +1,15 @@
 @charset "UTF-8";
 /*
+* Text and typography
+*
+* Uses Public Sans variable font to allow many weights with a small footprint. The font is locally served.
+* https://public-sans.digital.gov/
+*
+* Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
+*/
+/* Use local font or CDN */
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap");
+/*
 * Sizes
 */
 /* Default spacing */
@@ -126,19 +136,6 @@ Extra large: 2560
     font-family: var(f-family);
 }
 */
-/*
-* Text and typography
-*
-* Uses Public Sans variable font to allow many weights with a small footprint. The font is locally served.
-* https://public-sans.digital.gov/
-*
-* Fallback to OS fonts. Remove reference to Public Sans to further increase page load.
-*/
-/* Use local font or CDN */
-@font-face {
-  font-family: "Public Sans";
-  src: url("/assets/PublicSans-VariableFont_wght.ttf");
-}
 @font-face {
   font-family: system;
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
@@ -421,6 +418,11 @@ img.logo-quality, .officialStatisticsImage {
 .siteLogoText {
   align-self: center;
   margin: 0;
+}
+
+.headerright {
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-column {
@@ -2017,7 +2019,6 @@ input[type=submit].variableselector_continue_button {
   align-items: first baseline;
 }
 
-/* Link in header */
 /* SCB only - Move */
 #testMiljoText {
   display: flex;
@@ -2303,7 +2304,7 @@ a.go-to-advanced-search::before {
   margin-right: 0.25rem;
 }
 
-a.search-icon::before, a.go-to-advanced-search::before {
+a.search-icon::before, a.go-to-advanced-search::before, a.search-link {
   content: "🔎︎";
 }
 
