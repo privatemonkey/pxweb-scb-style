@@ -423,6 +423,9 @@ img.logo-quality, .officialStatisticsImage {
 .headerright {
   display: flex;
   flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .flex-column {
@@ -2304,7 +2307,7 @@ a.go-to-advanced-search::before {
   margin-right: 0.25rem;
 }
 
-a.search-icon::before, a.go-to-advanced-search::before, a.search-link {
+a.search-icon::before, a.go-to-advanced-search::before, a.search-link::before {
   content: "🔎︎";
 }
 
