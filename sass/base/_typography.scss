@@ -45,7 +45,7 @@ $line-height-header: 1.4;
 $line-height-text: 1.4;
 
 /* Use local font or CDN */
-$use_localfont: true !default;
+$use_localfont: false !default;
 
 @if not $use_localfont {
   @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');

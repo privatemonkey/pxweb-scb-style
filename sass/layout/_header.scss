@@ -4,34 +4,39 @@
 
 
 header, #header {
-    border-bottom: 1px solid colors.$panel-border-color;
-    margin-bottom: 1rem;
-    padding: 0 0 sizes.$space-medium 0;
-    background-color: #fff;
-  }
+  border-bottom: 1px solid colors.$panel-border-color;
+  margin-bottom: 1rem;
+  padding: 0 0 sizes.$space-medium 0;
+  background-color: #fff;
+}
 
-  img.logo, .imgSiteLogo {
-    max-height: 50px;
-    margin-right: 1rem;
-  }
-  
-  img.logo-quality, .officialStatisticsImage {
-    max-width: 220px;
-    margin-bottom: sizes.$space-extra-small;
-  }
-  
-  .top-link {
-    position: fixed;
-    bottom: 0;
-    right: 48vw;
-    padding: sizes.$space-large;
-    background: colors.$panel-background;
-    display: flex;
-    transition: 0.3s;
-  }
+img.logo, .imgSiteLogo {
+  max-height: 50px;
+  margin-right: 1rem;
+}
 
-  .siteLogoText {
-    @extend h3;
-    align-self: center;
-    margin: 0;
-  }
+img.logo-quality, .officialStatisticsImage {
+  max-width: 220px;
+  margin-bottom: sizes.$space-extra-small;
+}
+
+.top-link {
+  position: fixed;
+  bottom: 0;
+  right: 48vw;
+  padding: sizes.$space-large;
+  background: colors.$panel-background;
+  display: flex;
+  transition: 0.3s;
+}
+
+.siteLogoText {
+  @extend h3;
+  align-self: center;
+  margin: 0;
+}
+
+.headerright {
+  display: flex;
+  flex-direction: row;
+}
