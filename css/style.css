@@ -445,6 +445,7 @@ footer .footer-bottom {
 }
 @media (max-width: 640px) {
   footer .footer-bottom {
+    padding-top: 2rem;
     margin-left: 0;
     margin-right: 0;
   }

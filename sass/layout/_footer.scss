@@ -12,7 +12,9 @@ footer .footer-bottom {
     margin: 0 auto 60px;
     padding-top: 49px;
     max-width: 1440px;
+
     @media (max-width: 640px) {
+        padding-top: 2rem;
         margin-left:0;
         margin-right:0;
     }
