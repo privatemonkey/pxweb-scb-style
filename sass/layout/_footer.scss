@@ -31,6 +31,10 @@ footer .footer-bottom .columns {
 
 .three.columns {
     width: 31.3%;
+
+    @media (max-width: 640px) {
+        width: 94%;
+    }
 }
 
 .inverted {
@@ -41,6 +45,11 @@ footer .footer-bottom a {
     font-weight: 500;
     padding: 2px;
     color: #fff;
+
+    &:hover, &:focus {
+        color: #222;
+        background-color: #fff;
+    }
 }
 
 footer .footer-bottom ul {
