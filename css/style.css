@@ -443,10 +443,22 @@ footer .footer-bottom {
   padding-top: 49px;
   max-width: 1440px;
 }
+@media (max-width: 640px) {
+  footer .footer-bottom {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 footer .footer-bottom .columns {
   padding-right: 2%;
   padding-left: 2%;
+}
+@media (max-width: 640px) {
+  footer .footer-bottom .columns {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 }
 
 .columns {
@@ -484,6 +496,11 @@ footer .footer-bottom a:hover, footer .footer-bottom a:focus {
 
 footer .footer-bottom ul {
   margin: 12px 0 0;
+}
+@media (max-width: 640px) {
+  footer .footer-bottom ul {
+    margin-bottom: 2rem;
+  }
 }
 
 footer ul {
