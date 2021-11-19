@@ -1110,6 +1110,10 @@ select[multiple] option:checked {
   -webkit-text-fill-color: #fff;
   color: #fff;
 }
+select[multiple] option:checked::before {
+  content: "🗸";
+  margin-right: 0.25rem;
+}
 
 select:disabled {
   background-image: none;
