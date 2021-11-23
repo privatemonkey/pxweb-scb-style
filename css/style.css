@@ -462,9 +462,11 @@ footer .footer-bottom {
   padding-top: 72px;
   max-width: 1440px;
   display: flex;
+  flex-direction: row;
 }
 @media (max-width: 920px) {
   footer .footer-bottom {
+    flex-direction: column;
     padding-top: 2rem;
     margin-left: 0;
     margin-right: 0;
