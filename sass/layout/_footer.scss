@@ -1,6 +1,6 @@
 /* SCB specific footer */
 footer {
-    width: calc(100% - 2rem);
+    width: 100%;
     padding: 0 0 1px;
     position: relative;
     background: #222;
@@ -12,6 +12,7 @@ footer .footer-bottom {
     margin: 0 auto;
     padding-top: 72px;
     max-width: 1440px;
+    display: flex;
 
     @media (max-width: 920px) {
         padding-top: 2rem;
@@ -25,7 +26,7 @@ footer .footer-bottom .columns {
     padding-left: 2%;
     margin-bottom: 2rem;
 
-    @media (max-width: 640px) {
+    @media (max-width: 920px) {
         padding-right: 1rem;
         padding-left: 1rem;
     }
@@ -42,10 +43,8 @@ footer .footer-bottom .columns {
 }
 
 .three.columns {
-    width: 31.3%;
-
-    @media (max-width: 640px) {
-        width: 94%;
+    @media (max-width: 920px) {
+        width: 100%;
     }
 }
 
