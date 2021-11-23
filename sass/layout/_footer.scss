@@ -1,6 +1,6 @@
 /* SCB specific footer */
 footer {
-    width: 100%;
+    width: calc(100% - 4rem);
     padding: 0 0 1px;
     position: relative;
     background: #222;
@@ -13,7 +13,7 @@ footer .footer-bottom {
     padding-top: 72px;
     max-width: 1440px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 920px) {
         padding-top: 2rem;
         margin-left:0;
         margin-right:0;
