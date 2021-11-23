@@ -164,7 +164,6 @@ h1 {
   font-size: 2.25rem;
   line-height: 1.25;
   margin-bottom: 2rem;
-  /* margin-top: 1rem;*/
 }
 @media (max-width: 799px) {
   h1 {
@@ -184,6 +183,22 @@ h2 {
 }
 @media (max-width: 799px) {
   h2 {
+    font-size: 1.5rem;
+  }
+}
+
+footer h2 {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem;
+}
+@media (max-width: 799px) {
+  footer h2 {
     font-size: 1.3125rem;
   }
 }
@@ -454,6 +469,7 @@ footer .footer-bottom {
 footer .footer-bottom .columns {
   padding-right: 2%;
   padding-left: 2%;
+  margin-bottom: 2rem;
 }
 @media (max-width: 640px) {
   footer .footer-bottom .columns {
@@ -487,7 +503,6 @@ footer .footer-bottom .columns {
 
 footer .footer-bottom a {
   font-weight: 500;
-  padding: 2px;
   color: #fff;
 }
 footer .footer-bottom a:hover, footer .footer-bottom a:focus {
@@ -510,17 +525,16 @@ footer ul {
 }
 
 footer .footer-bottom li {
-  margin-bottom: 13px;
+  margin-bottom: 16px;
 }
 
 footer .copyright {
   text-align: center;
   clear: both;
   max-width: 440px;
-  margin: 66px auto;
-  line-height: 20px;
-  padding-bottom: 6px;
+  margin: 48px auto;
   text-align: center;
+  font-size: 14px;
 }
 
 footer .copyright img {
@@ -1109,10 +1123,6 @@ select[multiple] option:checked {
   background: #222 linear-gradient(0deg, #222 0%, #222 100%);
   -webkit-text-fill-color: #fff;
   color: #fff;
-}
-select[multiple] option:checked::before {
-  content: "🗸";
-  margin-right: 0.25rem;
 }
 
 select:disabled {

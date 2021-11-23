@@ -38,6 +38,7 @@ $font-size-medium:      1.15rem !default;
 
 $font-size-h1:          2.25rem !default;
 $font-size-h2:        1.6875rem !default;
+$font-size-h2-smaller: 1.5rem !default;
 $font-size-h3:        1.3125rem !default;
 $font-size-h4:         1.125rem !default;
 
@@ -122,7 +123,6 @@ body {
   font-size: $font-size-h1;
   line-height: 1.25;
   margin-bottom: 2rem;
-  /* margin-top: 1rem;*/
 
   @media (max-width: breakpoints.$small) {
     font-size: $font-size-h2;
@@ -133,8 +133,17 @@ body {
   @include header;
 
   font-size: $font-size-h2;
-  // margin: 2rem 0 1.5rem;
   margin: 1.5rem 0;
+
+  @media (max-width: breakpoints.$small) {
+    font-size: $font-size-h2-smaller;
+  }
+}
+
+@mixin h2smaller {
+  @include header;
+
+  font-size: $font-size-h2-smaller;
 
   @media (max-width: breakpoints.$small) {
     font-size: $font-size-h3;
@@ -176,6 +185,11 @@ h1 {
 
 h2 {
   @include h2;
+}
+
+footer h2 {
+  @include h2smaller();
+  margin: 0 0 sizes.$space-large;
 }
 
 h3 {

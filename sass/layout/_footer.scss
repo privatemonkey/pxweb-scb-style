@@ -23,6 +23,8 @@ footer .footer-bottom {
 footer .footer-bottom .columns {
     padding-right: 2%;
     padding-left: 2%;
+    margin-bottom: 2rem;
+
     @media (max-width: 640px) {
         padding-right: 1rem;
         padding-left: 1rem;
@@ -53,7 +55,6 @@ footer .footer-bottom .columns {
 
 footer .footer-bottom a {
     font-weight: 500;
-    padding: 2px;
     color: #fff;
 
     &:hover, &:focus {
@@ -75,17 +76,16 @@ footer ul {
 }
 
 footer .footer-bottom li {
-    margin-bottom: 13px;
+    margin-bottom: 16px;
 }
 
 footer .copyright {
     text-align: center;
     clear: both;
     max-width: 440px;
-    margin: 66px auto;
-    line-height: 20px;
-    padding-bottom: 6px;
+    margin: 48px auto;
     text-align: center;
+    font-size: 14px;
 }
 
 footer .copyright img {
