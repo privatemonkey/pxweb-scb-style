@@ -60,6 +60,14 @@ function __doPostBack(eventTarget, eventArgument) {
                         <span class="siteLogoText">PxWeb 2021 v1</span>
                 </div>
                 <div class="headerright">
+                    <div class="px-external-search-div flex-column">
+                        <div class="pxweb-link">
+                            <a href=https://www.google.com class="px-external-search" >
+                                <span class="link-text px-external-search">Search</span>
+                            </a>
+                        </div>
+                    </div>
+
                     <div class="px-change-lang-div flex-column">
                           <div class="pxweb-link"> <a class="px-change-lang" href="/pxweb/sv/"> <span class="link-text px-change-lang">Svenska</span></a> </div> 
                     </div>
@@ -121,14 +129,49 @@ function __doPostBack(eventTarget, eventArgument) {
             </main>
             
             <footer id="pxfooter">
-                <div class="footerleft">
-                    <span id="ctl00_lblFooterText"></span>
-                </div>
-                <div class="footerright">
-                    
-  
-                </div>
-                <div style="clear: both;"> </div>               
+
+            <div id="sitemap" class="row inverted footer-bottom centered-container" role="contentinfo">
+                    <div class="three columns">
+                        <h2>Hjälp</h2>
+                        <ul>
+                            <li><a href="https://www.scb.se/kom_igang_SSD">Komma igång</a></li>
+                            <li><a href="https://www.scb.se/statistikdatabasen/tips-och-hjalp-nar-du-jobbar-i-statistikdatabasen/">Använda variabelväljaren</a></li>
+                            <li><a href="https://www.scb.se/statistikdatabasen/spara-sokningen-i-statistikdatabasen/">Spara sökningar</a></li>
+                            <li><a href="https://scb.se/vara-tjanster/oppna-data/api-for-statistikdatabasen/">Använda API:et</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class="three columns">
+                        <h2>Om innehållet</h2>
+                        <ul>
+                            <li><a href="https://www.scb.se/omscbse">Användarvillkor</a></li>
+                            <li><a href="https://scb.se/om-scb/om-scb.se-och-anvandningsvillkor/tillganglighetsredogorelse/">Tillgänglighetsredogörelse</a></li>
+                            <li><a href="https://scb.se/om-scb/om-scb.se-och-anvandningsvillkor/kakor-cookies/">Om kakor (cookies)</a></li>
+                            <li><a href="https://scb.se/om-scb/personuppgifter/">Personuppgifter</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="three columns">
+                        <h2>Hitta snabbt</h2>
+                        <ul>
+                            <li><a href="https://www.scb.se/hitta-statistik/regional-statistik-och-kartor/regionala-indelningar/deso---demografiska-statistikomraden/deso-tabellerna-i-ssd--information-och-instruktioner/">Demografisk statistik i Statistikdatabasen, DeSO</a></li>
+                            <li><a href="https://www.scb.se/hitta-statistik/regional-statistik-och-kartor/regionala-indelningar/regso---regionala-statistikomraden/regso-tabellerna-i-statistikdatabasen---information-och-instruktioner/">Regionala statistikområden i Statistikdatabasen, RegSO</a></li>
+                            <li><a href="https://scb.se/vara-tjanster/oppna-data/">Öppna data från SCB</a></li>
+                            <li><a href="https://scb.se/vara-tjanster/bestall-data-och-statistik/">Beställa data och statistik</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="three columns">
+                        <h2>Kontakt</h2>
+                        <ul>
+                            <li><a href="https://www.scb.se/om-scb/kontakta-oss/statistikservice/">Kontakta oss</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="copyright inverted">
+                <img class="footer_logo" src="/assets/SCB_logotyp_vit.png" alt="SCB Logotyp">
+                <div class="footer-vision">Statistikmyndigheten SCB förser samhället med statistik för beslutsfattande, debatt och forskning.</div>
+            </div>         
             </footer>
         </div>
     </form>

@@ -263,8 +263,12 @@ div:empty, span:empty, a:empty, p:empty {
     margin-right: sizes.$space-tiny;
   }
 
-  a.search-icon::before,  a.go-to-advanced-search::before {
+  a.search-icon::before {
     content: '🔎︎';
+  }
+
+  .px-external-search-div a::before {
+    margin-right: 0.25rem;
   }
 
   a.search-icon:hover::before, a.search-icon:focus::before, .go-to-advanced-search::before {

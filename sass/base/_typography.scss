@@ -38,6 +38,7 @@ $font-size-medium:      1.15rem !default;
 
 $font-size-h1:          2.25rem !default;
 $font-size-h2:        1.6875rem !default;
+$font-size-h2-smaller: 1.5rem !default;
 $font-size-h3:        1.3125rem !default;
 $font-size-h4:         1.125rem !default;
 
@@ -54,7 +55,7 @@ $use_localfont: false !default;
 @if $use_localfont {
   @font-face {
     font-family: 'Public Sans';
-    src: url('/dev/assets/PublicSans-VariableFont_wght.ttf');
+    src: url('/assets/PublicSans-VariableFont_wght.ttf');
   }
 }
 
@@ -91,18 +92,18 @@ body {
   @include bold;
   font-size: $font-size-h4;
   margin-bottom: sizes.$space-small;
-  &:first-letter {
+  /* &:first-letter {
     text-transform: capitalize;
-  }
+  }*/
 }
 
 /* For checkboxes, radios */
 @mixin list_option {
   font-size: $font-size-normal;
   margin-bottom: sizes.$space-small;
-  &:first-letter {
+  /*&:first-letter {
     text-transform: capitalize;
-  }
+  }*/
 }
 
 /* -- Headers -- */
@@ -110,10 +111,10 @@ body {
 @mixin header {
   @include extrabold;
   max-width: $max-header-width;
-  &:first-letter {
-    text-transform: capitalize;
-  }
   line-height: $line-height-header;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
 }
 
 @mixin h1 {
@@ -122,7 +123,6 @@ body {
   font-size: $font-size-h1;
   line-height: 1.25;
   margin-bottom: 2rem;
-  /* margin-top: 1rem;*/
 
   @media (max-width: breakpoints.$small) {
     font-size: $font-size-h2;
@@ -133,8 +133,17 @@ body {
   @include header;
 
   font-size: $font-size-h2;
-  // margin: 2rem 0 1.5rem;
   margin: 1.5rem 0;
+
+  @media (max-width: breakpoints.$small) {
+    font-size: $font-size-h2-smaller;
+  }
+}
+
+@mixin h2smaller {
+  @include header;
+
+  font-size: $font-size-h2-smaller;
 
   @media (max-width: breakpoints.$small) {
     font-size: $font-size-h3;
@@ -176,6 +185,11 @@ h1 {
 
 h2 {
   @include h2;
+}
+
+footer h2 {
+  @include h2smaller();
+  margin: 0 0 sizes.$space-large;
 }
 
 h3 {
@@ -252,9 +266,9 @@ input, select, button {
 
 option {
   @include fontfamily;
-  &:first-letter {
+  /*&:first-letter {
     text-transform: capitalize;
-  }
+  }*/
 }
 
 button, button.accordion-header, button.nested-accordion-header  {
@@ -289,6 +303,10 @@ button, button.accordion-header, button.nested-accordion-header  {
 a, a > span {
   @include textlink;
   @include textlink__hover;
+}
+
+footer a, header a, header a span {
+  font-weight: $font-weight-medium;
 }
 
 /* Selected text */

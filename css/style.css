@@ -158,13 +158,12 @@ h1 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 2.25rem;
   line-height: 1.25;
   margin-bottom: 2rem;
-  /* margin-top: 1rem;*/
-}
-h1:first-letter {
-  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   h1 {
@@ -176,14 +175,30 @@ h2 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.6875rem;
   margin: 1.5rem 0;
 }
-h2:first-letter {
-  text-transform: capitalize;
-}
 @media (max-width: 799px) {
   h2 {
+    font-size: 1.5rem;
+  }
+}
+
+footer h2 {
+  font-weight: 700;
+  max-width: 920px;
+  line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem;
+}
+@media (max-width: 799px) {
+  footer h2 {
     font-size: 1.3125rem;
   }
 }
@@ -192,11 +207,11 @@ h3, .siteLogoText {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.3125rem;
   margin-bottom: 0.75rem;
-}
-h3:first-letter, .siteLogoText:first-letter {
-  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   h3, .siteLogoText {
@@ -208,26 +223,26 @@ h4 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
-}
-h4:first-letter {
-  text-transform: capitalize;
 }
 
 h5 {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-weight: 700;
   width: 100%;
   text-align: left;
   padding: 0;
   margin-bottom: 0.75rem;
-}
-h5:first-letter {
-  text-transform: capitalize;
 }
 
 /* TODO: Alla dessa borde göras till riktiga headers */
@@ -235,26 +250,26 @@ h5:first-letter {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
-}
-.container_titletext:first-letter, .heading:first-letter, .variableselector_valuesselect_variabletitle > label:first-letter, .about-table .accordion-body .header-text span:first-letter {
-  text-transform: capitalize;
 }
 
 button.nested-accordion-header, .commandbar_changepresentation_changetext {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-weight: 700;
   width: 100%;
   text-align: left;
   padding: 0;
   margin-bottom: 0.75rem;
-}
-button.nested-accordion-header:first-letter, .commandbar_changepresentation_changetext:first-letter {
-  text-transform: capitalize;
 }
 
 .container_titletext {
@@ -271,18 +286,18 @@ label span {
   font-weight: 600;
   font-size: 1.125rem;
   margin-bottom: 0.75rem;
+  /* &:first-letter {
+    text-transform: capitalize;
+  }*/
   display: block;
-}
-:not(fieldset) label:first-letter, legend span.font-heading:first-letter, label.font-heading:first-letter, span.font-heading:first-letter {
-  text-transform: capitalize;
 }
 
 input + label {
   font-size: 16px;
   margin-bottom: 0.75rem;
-}
-input + label:first-letter {
-  text-transform: capitalize;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
 }
 
 /* -- Bold text -- */
@@ -317,9 +332,9 @@ input, select, button {
 
 option {
   font-family: "Public Sans", "system", sans-serif;
-}
-option:first-letter {
-  text-transform: capitalize;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
 }
 
 button, button.accordion-header, button.nested-accordion-header {
@@ -354,6 +369,10 @@ a:hover, a:focus, aactive, a > span:hover, a > span:focus, a > spanactive {
   color: #fff;
   background-color: #000;
   cursor: pointer;
+}
+
+footer a, header a, header a span {
+  font-weight: 500;
 }
 
 /* Selected text */
@@ -391,7 +410,7 @@ a:hover, a:focus, aactive, a > span:hover, a > span:focus, a > spanactive {
 header, #header {
   border-bottom: 1px solid #949494;
   margin-bottom: 1rem;
-  padding: 0 0 1rem 0;
+  padding: 0 0 1.25rem 0;
   background-color: #fff;
 }
 
@@ -418,6 +437,121 @@ img.logo-quality, .officialStatisticsImage {
 .siteLogoText {
   align-self: center;
   margin: 0;
+}
+
+.headerright {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SCB specific footer */
+footer {
+  width: 100%;
+  padding: 0 0 1px;
+  position: relative;
+  background: #222;
+  margin-top: 0;
+  margin-top: 2rem;
+}
+
+footer .footer-bottom {
+  margin: 0 auto;
+  padding-top: 72px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 920px) {
+  footer .footer-bottom {
+    flex-direction: column;
+    padding-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+footer .footer-bottom .columns {
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-bottom: 2rem;
+}
+@media (max-width: 920px) {
+  footer .footer-bottom .columns {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  max-width: 1440px;
+  padding: 0;
+  padding-right: 0px;
+  margin-left: 0;
+}
+
+@media (max-width: 920px) {
+  .three.columns {
+    width: 100%;
+  }
+}
+
+.inverted {
+  color: #fff;
+}
+
+footer .footer-bottom a {
+  font-weight: 500;
+  color: #fff;
+}
+footer .footer-bottom a:hover, footer .footer-bottom a:focus {
+  color: #222;
+  background-color: #fff;
+}
+
+footer .footer-bottom ul {
+  margin: 12px 0 0;
+}
+@media (max-width: 640px) {
+  footer .footer-bottom ul {
+    margin-bottom: 2rem;
+  }
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .footer-bottom li {
+  margin-bottom: 16px;
+}
+
+footer .copyright {
+  text-align: center;
+  clear: both;
+  max-width: 440px;
+  margin: 48px auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer .copyright img {
+  margin-bottom: 18px;
+}
+
+.footer_logo {
+  width: 40px;
+}
+
+footer img {
+  height: auto;
+  max-width: 100%;
 }
 
 .flex-column {
@@ -507,11 +641,11 @@ main {
   font-weight: 600;
   font-size: 1.125rem;
   margin-bottom: 0.75rem;
+  /* &:first-letter {
+    text-transform: capitalize;
+  }*/
   margin-bottom: 0;
   font-weight: 700;
-}
-.about-table dt:first-letter {
-  text-transform: capitalize;
 }
 
 .about-table dd {
@@ -1951,11 +2085,11 @@ input[type=submit].variableselector_continue_button {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.3125rem;
   margin-bottom: 0.75rem;
-}
-.ui-dialog-title:first-letter {
-  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   .ui-dialog-title {
@@ -1967,12 +2101,12 @@ input[type=submit].variableselector_continue_button {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
-}
-.table_cellinformation_cell:first-letter, .table_cellinformation_notes:first-letter {
-  text-transform: capitalize;
 }
 
 .ui-dialog {
@@ -2066,6 +2200,9 @@ div:empty, span:empty, a:empty, p:empty {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   /* 
   font-weight: 700;
   font-size: 1rem;
@@ -2077,9 +2214,6 @@ div:empty, span:empty, a:empty, p:empty {
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem;
-}
-.header-text:first-letter, .commandbar_changedecimal_titletext:first-letter, .commandbar_changetexts_titletext:first-letter {
-  text-transform: capitalize;
 }
 
 .commandbar_changedecimal_selectvaluetext, .commandbar_changedecimal_titletext, .commandbar_changepresentation_changetext, .commandbar_sum_sumallvaluestext {
@@ -2299,8 +2433,12 @@ a.go-to-advanced-search::before {
   margin-right: 0.25rem;
 }
 
-a.search-icon::before, a.go-to-advanced-search::before {
+a.search-icon::before {
   content: "🔎︎";
+}
+
+.px-external-search-div a::before {
+  margin-right: 0.25rem;
 }
 
 a.search-icon:hover::before, a.search-icon:focus::before, .go-to-advanced-search::before {
@@ -2413,13 +2551,13 @@ input.fetch-all-button {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
+  /*&:first-letter {
+    text-transform: capitalize;
+  }*/
   font-size: 1.3125rem;
   margin-bottom: 0.75rem;
   margin-top: 1.5rem;
   margin-bottom: 0;
-}
-.hierarchical_selectionbuttonregion + p:first-of-type:first-letter {
-  text-transform: capitalize;
 }
 @media (max-width: 799px) {
   .hierarchical_selectionbuttonregion + p:first-of-type {
