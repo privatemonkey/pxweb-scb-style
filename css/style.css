@@ -2419,11 +2419,11 @@ a.go-to-advanced-search::before {
   margin-right: 0.25rem;
 }
 
-a.search-icon::before, a.go-to-advanced-search::before, a.search-link::before {
+a.search-icon::before, a.go-to-advanced-search::before, .px-external-search-div a::before {
   content: "🔎︎";
 }
 
-a.search-link::before {
+.px-external-search-div a::before {
   margin-right: 0.25rem;
 }
 
