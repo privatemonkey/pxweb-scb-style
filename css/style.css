@@ -371,6 +371,10 @@ a:hover, a:focus, aactive, a > span:hover, a > span:focus, a > spanactive {
   cursor: pointer;
 }
 
+footer a {
+  font-weight: 500;
+}
+
 /* Selected text */
 ::selection, ::-moz-selection, ::-webkit-selection {
   color: #fff;

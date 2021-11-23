@@ -305,6 +305,10 @@ a, a > span {
   @include textlink__hover;
 }
 
+footer a {
+  font-weight: $font-weight-medium;
+}
+
 /* Selected text */
 ::selection, ::-moz-selection, ::-webkit-selection {
   color: $selected-text;
