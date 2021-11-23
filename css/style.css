@@ -449,7 +449,7 @@ img.logo-quality, .officialStatisticsImage {
 
 /* SCB specific footer */
 footer {
-  width: calc(100% - 4rem);
+  width: calc(100% - 2rem);
   padding: 0 0 1px;
   position: relative;
   background: #222;
