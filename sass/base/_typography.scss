@@ -305,7 +305,7 @@ a, a > span {
   @include textlink__hover;
 }
 
-footer a {
+footer a, header a, header a span {
   font-weight: $font-weight-medium;
 }
 

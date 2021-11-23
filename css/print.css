@@ -363,7 +363,7 @@ a:hover, a:focus, aactive, a > span:hover, a > span:focus, a > spanactive {
   cursor: pointer;
 }
 
-footer a {
+footer a, header a, header a span {
   font-weight: 500;
 }
 
