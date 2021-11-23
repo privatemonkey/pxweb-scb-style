@@ -39,7 +39,7 @@ img.logo-quality, .officialStatisticsImage {
 .headerright {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: sizes.$space-extra-large;
   justify-content: space-between;
   align-items: center;
 }

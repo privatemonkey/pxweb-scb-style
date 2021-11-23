@@ -263,7 +263,7 @@ div:empty, span:empty, a:empty, p:empty {
     margin-right: sizes.$space-tiny;
   }
 
-  a.search-icon::before,  a.go-to-advanced-search::before, .px-external-search-div a::before {
+  a.search-icon::before {
     content: '🔎︎';
   }
 

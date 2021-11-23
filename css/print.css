@@ -404,7 +404,7 @@ img.logo-quality, .officialStatisticsImage {
 .headerright {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: space-between;
   align-items: center;
 }

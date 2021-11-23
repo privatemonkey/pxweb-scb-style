@@ -438,7 +438,7 @@ img.logo-quality, .officialStatisticsImage {
 .headerright {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -454,8 +454,8 @@ footer {
 }
 
 footer .footer-bottom {
-  margin: 0 auto 60px;
-  padding-top: 49px;
+  margin: 0 auto;
+  padding-top: 72px;
   max-width: 1440px;
 }
 @media (max-width: 640px) {
@@ -2429,7 +2429,7 @@ a.go-to-advanced-search::before {
   margin-right: 0.25rem;
 }
 
-a.search-icon::before, a.go-to-advanced-search::before, .px-external-search-div a::before {
+a.search-icon::before {
   content: "🔎︎";
 }
 
