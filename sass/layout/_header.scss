@@ -10,9 +10,14 @@ header, #header {
   background-color: #fff;
 }
 
-.headerleft a {
+#header .headerleft a {
+  span {
+    text-decoration: none;
+    color: typography.$text;
+  }
   &:hover, &:focus {
     img, span {
+      color: typography.$text;
       background-color: transparent;
     }
   }

@@ -414,7 +414,12 @@ header, #header {
   background-color: #fff;
 }
 
-.headerleft a:hover img, .headerleft a:hover span, .headerleft a:focus img, .headerleft a:focus span {
+#header .headerleft a span {
+  text-decoration: none;
+  color: #222;
+}
+#header .headerleft a:hover img, #header .headerleft a:hover span, #header .headerleft a:focus img, #header .headerleft a:focus span {
+  color: #222;
   background-color: transparent;
 }
 
