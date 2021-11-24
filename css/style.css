@@ -418,6 +418,11 @@ header, #header {
   text-decoration: none;
   color: #222;
 }
+#header .headerleft a span:hover, #header .headerleft a span:focus, #header .headerleft a spanactive {
+  color: #222;
+  background-color: transparent;
+  cursor: pointer;
+}
 #header .headerleft a:hover, #header .headerleft a:focus, #header .headerleft aactive {
   color: #222;
   background-color: transparent;
