@@ -16,12 +16,15 @@ header, #header {
     color: typography.$text;
   }
   &:hover, &:focus {
-    img, span {
-      color: typography.$text;
-      background-color: transparent;
-    }
+    color: typography.$text;
+    background-color: transparent;
   }
 }
+
+#header .headerright a {
+  @include typography.textlink__hover;
+}
+
 img.logo, .imgSiteLogo {
   max-height: 50px;
   margin-right: 1rem;

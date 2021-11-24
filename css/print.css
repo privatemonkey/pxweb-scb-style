@@ -384,9 +384,15 @@ header, #header {
   text-decoration: none;
   color: #222;
 }
-#header .headerleft a:hover img, #header .headerleft a:hover span, #header .headerleft a:focus img, #header .headerleft a:focus span {
+#header .headerleft a:hover, #header .headerleft a:focus {
   color: #222;
   background-color: transparent;
+}
+
+#header .headerright a:hover, #header .headerright a:focus, #header .headerright aactive {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
 }
 
 img.logo, .imgSiteLogo {
