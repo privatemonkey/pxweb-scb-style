@@ -414,6 +414,27 @@ header, #header {
   background-color: #fff;
 }
 
+#header .headerleft a span {
+  text-decoration: none;
+  color: #222;
+}
+#header .headerleft a span:hover, #header .headerleft a span:focus, #header .headerleft a spanactive {
+  color: #222;
+  background-color: transparent;
+  cursor: pointer;
+}
+#header .headerleft a:hover, #header .headerleft a:focus, #header .headerleft aactive {
+  color: #222;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#header .headerright a:hover, #header .headerright a:focus, #header .headerright aactive {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
 img.logo, .imgSiteLogo {
   max-height: 50px;
   margin-right: 1rem;
