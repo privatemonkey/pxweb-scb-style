@@ -414,6 +414,10 @@ header, #header {
   background-color: #fff;
 }
 
+.headerleft a:hover img, .headerleft a:hover span, .headerleft a:focus img, .headerleft a:focus span {
+  background-color: transparent;
+}
+
 img.logo, .imgSiteLogo {
   max-height: 50px;
   margin-right: 1rem;
