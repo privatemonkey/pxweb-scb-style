@@ -15,9 +15,11 @@ header, #header {
     text-decoration: none;
     color: typography.$text;
   }
-  &:hover, &:focus {
+  
+  &:hover, &:focus, &active {
     color: typography.$text;
     background-color: transparent;
+    cursor: pointer;
   }
 }
 
