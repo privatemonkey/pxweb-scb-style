@@ -139,5 +139,9 @@
         width: auto;
         width: fit-content;
     }
+    
+    a > span, a {
+       max-width: unset;
+    }
 
 }

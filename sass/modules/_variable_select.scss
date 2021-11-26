@@ -93,7 +93,8 @@ input[type="submit"].variableselector_continue_button {
     width: revert;
     min-width: unset;
     max-width: unset;
-    margin-right: unset;
+    margin-right: -1rem;
+    margin-left: -1rem;
   }
 }
 
