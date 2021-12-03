@@ -26,7 +26,7 @@ The goal for this repo is to provide a setup that is easy to customize and simpl
 
 ### Stats
 
-**The PxWeb alternative style**
+**The alternative SCB style**
 
 50kb of CSS and 50kb of fonts
 
