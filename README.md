@@ -4,6 +4,8 @@ This is SCBs own alternative UI to use with default PxWeb.
 
 The goal for this repo is to provide a setup that is easy to customize and simpler to maintain. 
 
+[The original SASS code for PxWeb](https://github.com/statisticssweden/PxWeb/tree/master/PXWeb/Resources/Styles)
+
 ## Read about
 
 - [Getting started](docs/start.md)
@@ -21,6 +23,22 @@ The goal for this repo is to provide a setup that is easy to customize and simpl
 - Offer a lightweight default font
 - Create a more maintainable CSS build
 - Make it easier to co-op with design
+
+### Stats
+
+**The PxWeb alternative style**
+
+50kb of CSS and 50kb of fonts
+
+**Default PxWeb**
+
+220kb of CSS and 120kb of fonts
+
+**Statistical database**
+
+310kb of CSS and 150kb of fonts
+
+The number of request has been reduced from 25-28 to a meager 4-8 (Depending on font load).
 
 ## CDN
 
