@@ -1676,15 +1676,19 @@ hr.future {
   border-top: 1px solid colors.$panel-border-color;*/
 }
 
-.px_setting_checkbox {
-  display: flex;
-}
-
 #SettingsBody .chartsettings label {
   margin: 0;
   font-size: 1rem;
+  width: fit-content;
 }
 #SettingsBody .chartsettings input {
+  margin-bottom: 0.5rem;
+}
+#SettingsBody .chartsettings input[type=checkbox] {
+  margin-bottom: 0;
+}
+#SettingsBody .chartsettings .px_setting_checkbox, #SettingsBody .chartsettings .px_setting_radiobuttonlist {
+  display: flex;
   margin-bottom: 0.5rem;
 }
 

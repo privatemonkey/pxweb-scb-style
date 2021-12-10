@@ -117,18 +117,26 @@
 }
 
 // Chart setting styles
-.px_setting_checkbox {
-  display: flex;
-}
+
 
 #SettingsBody .chartsettings {
   label {
     margin: 0;
     font-size: 1rem;
+    width: fit-content;
   }
 
   input {
     margin-bottom: 0.5rem;
+  }
+
+  input[type="checkbox"] {
+    margin-bottom: 0;
+  }
+
+  .px_setting_checkbox, .px_setting_radiobuttonlist {
+    display: flex;
+    margin-bottom: 0.5rem; 
   }
 }
 
