@@ -246,7 +246,7 @@ h5 {
 }
 
 /* TODO: Alla dessa borde göras till riktiga headers */
-.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
+.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
@@ -631,7 +631,7 @@ main {
 .about-table .accordion-body button.accordion-header, .about-table .accordion-body button.nested-accordion-header {
   padding: 0.75rem 0 0;
   font-weight: 700;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
 }
 .about-table .accordion-body button.accordion-header:hover > .header-text > span, .about-table .accordion-body button.accordion-header:hover > .header-text, .about-table .accordion-body button.accordion-header:focus > .header-text > span, .about-table .accordion-body button.accordion-header:focus > .header-text, .about-table .accordion-body button.nested-accordion-header:hover > .header-text > span, .about-table .accordion-body button.nested-accordion-header:hover > .header-text, .about-table .accordion-body button.nested-accordion-header:focus > .header-text > span, .about-table .accordion-body button.nested-accordion-header:focus > .header-text {
   text-decoration: none;
@@ -648,6 +648,11 @@ main {
 .information_definitionlist button.nested-accordion-header:hover .header-text, .information_definitionlist button.nested-accordion-header:focus .header-text {
   text-decoration: none;
   cursor: default;
+}
+
+.about-table .accordion-body .header-text span {
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .information_definitionlist .nested-accordion-body {

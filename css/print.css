@@ -238,7 +238,7 @@ h5 {
 }
 
 /* TODO: Alla dessa borde göras till riktiga headers */
-.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
+.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
