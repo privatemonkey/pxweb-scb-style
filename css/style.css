@@ -641,6 +641,9 @@ main {
   cursor: unset;
 }
 
+.information_definitionlist {
+  columns: 320px 3;
+}
 .information_definitionlist button.nested-accordion-header {
   background-color: transparent;
   margin-bottom: 0;
@@ -653,6 +656,9 @@ main {
 .about-table .accordion-body .header-text span {
   font-weight: 600;
   font-size: 1rem;
+}
+.about-table .accordion-body dl {
+  margin: 0;
 }
 
 .information_definitionlist .nested-accordion-body {
@@ -680,7 +686,7 @@ main {
 .about-table dt {
   font-size: 1rem;
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .about-table dd {
