@@ -4,16 +4,21 @@
 * Navigation related styling. Breadcrumbs, tree.
 */
 
-nav#breadcrumb a:first-of-type {
-    /*text-decoration: none;
-    padding: 0;*/
-    font-size: 1.25rem;
-    line-height: 1;
-
-    &::before {
-        content: '⌂';
+nav#breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    
+    a:first-of-type {
+        /*text-decoration: none;
+        padding: 0;*/
+        font-size: 1.25rem;
+        line-height: 1;
+    
+        &::before {
+            content: '⌂';
+        }
     }
-}
+} 
 
 nav a {
     /* font-weight: typography.$font-weight-medium;

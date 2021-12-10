@@ -46,27 +46,6 @@ button.accordion-header, button.nested-accordion-header  {
   }
 }
 
-.about-table .accordion-body button.accordion-header, .about-table  .accordion-body button.nested-accordion-header {
-  // padding: 0;
-  // border-top-width: 0;
-
-  padding: 1.5rem 0 0;
-  border-top: 1px solid #949494;
-  font-weight: 700;
-  margin-bottom: 1.75rem;
-
-
-  &:hover, &:focus {
-    > .header-text > span, > .header-text  {
-      text-decoration: none;
-    }
-  }
-}
-
-.about-table .accordion-body button {
-  cursor: unset;
-}
-
 button.accordion-header.closed, button.nested-accordion-header.closed {
   display: inline-block;
   border-top: 1px solid colors.$panel-border-color;
@@ -96,10 +75,14 @@ button.accordion-header:before {
 
 }
 
-.pxweb-nested-accordion dl {
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
+.pxweb-nested-accordion {
+  break-inside: avoid;
+  
+  dl {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
 }
 
 .accordion-body {

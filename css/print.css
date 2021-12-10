@@ -238,7 +238,7 @@ h5 {
 }
 
 /* TODO: Alla dessa borde göras till riktiga headers */
-.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label, .about-table .accordion-body .header-text span {
+.container_titletext, .heading, .variableselector_valuesselect_variabletitle > label {
   font-weight: 700;
   max-width: 920px;
   line-height: 1.4;
@@ -276,7 +276,7 @@ label span {
 /* TODO: replace spans with labels and legends */
 :not(fieldset) label, legend span.font-heading, label.font-heading, span.font-heading {
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 1ren;
   margin-bottom: 0.75rem;
   /* &:first-letter {
     text-transform: capitalize;
