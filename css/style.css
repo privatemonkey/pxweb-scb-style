@@ -643,6 +643,7 @@ main {
 
 .information_definitionlist {
   columns: 320px 3;
+  column-gap: 1rem;
 }
 .information_definitionlist button.nested-accordion-header {
   background-color: transparent;

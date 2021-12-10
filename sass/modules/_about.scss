@@ -38,6 +38,7 @@
     }
 
     columns: 320px 3;
+    column-gap: sizes.$space-medium;
 } 
 
 .about-table .accordion-body {
