@@ -115,4 +115,16 @@
   /* padding: sizes.$space-medium 0;
   border-top: 1px solid colors.$panel-border-color;*/
 }
-  
+
+// Chart setting styles
+.px_setting_checkbox {
+  display: flex;
+}
+
+#sizeSettings {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: min-content;
+  flex-wrap: wrap;
+}

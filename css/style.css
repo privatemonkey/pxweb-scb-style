@@ -1676,6 +1676,18 @@ hr.future {
   border-top: 1px solid colors.$panel-border-color;*/
 }
 
+.px_setting_checkbox {
+  display: flex;
+}
+
+#sizeSettings {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: min-content;
+  flex-wrap: wrap;
+}
+
 /* The toolbar - now named commandbar */
 /* Container for burger menu button */
 @media (min-width: 799px) {
