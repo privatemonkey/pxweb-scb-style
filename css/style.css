@@ -1680,12 +1680,25 @@ hr.future {
   display: flex;
 }
 
+#SettingsBody .chartsettings label {
+  margin: 0;
+  font-size: 1rem;
+}
+#SettingsBody .chartsettings input {
+  margin-bottom: 0.5rem;
+}
+
 #sizeSettings {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
   width: min-content;
   flex-wrap: wrap;
+}
+
+#legendSettings {
+  display: flex;
+  flex-direction: column;
 }
 
 /* The toolbar - now named commandbar */
