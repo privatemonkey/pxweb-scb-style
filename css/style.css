@@ -1377,11 +1377,11 @@ tbody tr th:last-child {
 }
 
 tbody tr th[rowspan]:first-child {
-  background-color: blue;
+  border-right: 1px solid #1e00be;
 }
 
 tbody tr th[rowspan="1"]:first-child {
-  background-color: green;
+  border-right: 1px solid #1e00be;
 }
 
 tbody tr th:first-child {

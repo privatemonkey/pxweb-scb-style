@@ -85,11 +85,11 @@ tbody tr th:last-child {
 }
 
 tbody tr th[rowspan]:first-child {
-  background-color: blue;
+  border-right: 1px solid colors.$table-border-color;
 }
 
 tbody tr th[rowspan="1"]:first-child {
-  background-color: green;
+  border-right: 1px solid colors.$table-border-color;
 }
 
 tbody tr th:first-child {
