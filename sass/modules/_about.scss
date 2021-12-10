@@ -6,6 +6,27 @@
 .about-table {
     min-width: 100%;
 }
+
+.about-table .accordion-body button.accordion-header, .about-table  .accordion-body button.nested-accordion-header {
+    // padding: 0;
+    // border-top-width: 0;
+  
+    padding: 0.75rem 0 0;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  
+  
+    &:hover, &:focus {
+      > .header-text > span, > .header-text  {
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .about-table .accordion-body button {
+    cursor: unset;
+  }
+
 .information_definitionlist button.nested-accordion-header {
     background-color: transparent;
     margin-bottom: 0;
@@ -39,14 +60,13 @@
 }
   
 .about-table dt {
-    @include typography.label;
-    // DESIGN CHANGES
+    font-size: 1rem;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: 500;
 }
 .about-table dd {
     margin-left: 0;
-    margin-bottom: sizes.$space-medium;
+    margin-bottom: sizes.$space-small;
 }
 
 .pxweb-accordion.about-table {

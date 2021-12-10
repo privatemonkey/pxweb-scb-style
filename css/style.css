@@ -628,6 +628,19 @@ main {
   min-width: 100%;
 }
 
+.about-table .accordion-body button.accordion-header, .about-table .accordion-body button.nested-accordion-header {
+  padding: 0.75rem 0 0;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.about-table .accordion-body button.accordion-header:hover > .header-text > span, .about-table .accordion-body button.accordion-header:hover > .header-text, .about-table .accordion-body button.accordion-header:focus > .header-text > span, .about-table .accordion-body button.accordion-header:focus > .header-text, .about-table .accordion-body button.nested-accordion-header:hover > .header-text > span, .about-table .accordion-body button.nested-accordion-header:hover > .header-text, .about-table .accordion-body button.nested-accordion-header:focus > .header-text > span, .about-table .accordion-body button.nested-accordion-header:focus > .header-text {
+  text-decoration: none;
+}
+
+.about-table .accordion-body button {
+  cursor: unset;
+}
+
 .information_definitionlist button.nested-accordion-header {
   background-color: transparent;
   margin-bottom: 0;
@@ -660,19 +673,14 @@ main {
 }
 
 .about-table dt {
-  font-weight: 600;
-  font-size: 1.125rem;
-  margin-bottom: 0.75rem;
-  /* &:first-letter {
-    text-transform: capitalize;
-  }*/
+  font-size: 1rem;
   margin-bottom: 0;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .about-table dd {
   margin-left: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .pxweb-accordion.about-table {
@@ -1216,20 +1224,6 @@ button.accordion-header:active, button.nested-accordion-header:active {
   color: #222;
 }
 
-.about-table .accordion-body button.accordion-header, .about-table .accordion-body button.nested-accordion-header {
-  padding: 1.5rem 0 0;
-  border-top: 1px solid #949494;
-  font-weight: 700;
-  margin-bottom: 1.75rem;
-}
-.about-table .accordion-body button.accordion-header:hover > .header-text > span, .about-table .accordion-body button.accordion-header:hover > .header-text, .about-table .accordion-body button.accordion-header:focus > .header-text > span, .about-table .accordion-body button.accordion-header:focus > .header-text, .about-table .accordion-body button.nested-accordion-header:hover > .header-text > span, .about-table .accordion-body button.nested-accordion-header:hover > .header-text, .about-table .accordion-body button.nested-accordion-header:focus > .header-text > span, .about-table .accordion-body button.nested-accordion-header:focus > .header-text {
-  text-decoration: none;
-}
-
-.about-table .accordion-body button {
-  cursor: unset;
-}
-
 button.accordion-header.closed, button.nested-accordion-header.closed {
   display: inline-block;
   border-top: 1px solid #949494;
@@ -1731,6 +1725,10 @@ select.variableselector_valuesselect_box_error {
 /*
 * Navigation related styling. Breadcrumbs, tree.
 */
+nav#breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+}
 nav#breadcrumb a:first-of-type {
   /*text-decoration: none;
   padding: 0;*/
