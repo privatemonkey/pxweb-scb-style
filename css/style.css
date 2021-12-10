@@ -1261,6 +1261,9 @@ button.accordion-header:before {
   line-height: 1;
 }
 
+.pxweb-nested-accordion {
+  break-inside: avoid;
+}
 .pxweb-nested-accordion dl {
   display: flex;
   justify-content: start;

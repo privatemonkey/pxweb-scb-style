@@ -75,10 +75,14 @@ button.accordion-header:before {
 
 }
 
-.pxweb-nested-accordion dl {
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
+.pxweb-nested-accordion {
+  break-inside: avoid;
+  
+  dl {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
 }
 
 .accordion-body {
