@@ -88,9 +88,9 @@ tbody tr th[rowspan]:first-child {
   border-right: 1px solid colors.$table-border-color;
 }
 
-tbody tr th[rowspan="1"]:first-child {
+/*tbody tr th[rowspan="1"]:first-child {
   border-right: 1px solid colors.$table-border-color;
-}
+}*/
 
 tbody tr th:first-child {
   text-align: left;
