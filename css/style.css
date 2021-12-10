@@ -1705,6 +1705,11 @@ hr.future {
   flex-direction: column;
 }
 
+/* Delete variable specific */
+.delete_variable_rootdiv .commandbar-listbox-container {
+  margin: 0;
+}
+
 /* The toolbar - now named commandbar */
 /* Container for burger menu button */
 @media (min-width: 799px) {

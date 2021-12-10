@@ -152,3 +152,8 @@
   display: flex;
   flex-direction: column;
 }
+
+/* Delete variable specific */
+.delete_variable_rootdiv .commandbar-listbox-container {
+  margin: 0;
+}
