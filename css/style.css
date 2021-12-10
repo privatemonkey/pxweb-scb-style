@@ -1710,6 +1710,11 @@ hr.future {
   margin: 0;
 }
 
+/* Change texts */
+.commandbar_changepresentation_inputrow .commandbar_changepresentation_changetext {
+  margin: 0;
+}
+
 /* The toolbar - now named commandbar */
 /* Container for burger menu button */
 @media (min-width: 799px) {
