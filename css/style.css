@@ -1684,7 +1684,7 @@ hr.future {
 #SettingsBody .chartsettings input {
   margin-bottom: 0.5rem;
 }
-#SettingsBody .chartsettings input[type=checkbox] {
+#SettingsBody .chartsettings input[type=checkbox], #SettingsBody .chartsettings input[type=radio] {
   margin-bottom: 0;
 }
 #SettingsBody .chartsettings .px_setting_checkbox, #SettingsBody .chartsettings .px_setting_radiobuttonlist {
