@@ -42,9 +42,13 @@
 } 
 
 .about-table .accordion-body {
-    .header-text span {
-        font-weight: 600;
-        font-size: 1rem;
+
+    .header-text {
+        border-bottom: 1px solid #222;
+        span {
+            font-weight: 600;
+            font-size: 1rem;
+        }
     }
 
     dl {
