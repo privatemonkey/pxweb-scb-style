@@ -327,6 +327,7 @@ input {
 }
 
 select {
+  @include field;
   min-width: 16rem;
 }
 
@@ -458,7 +459,8 @@ select[multiple] {
   height: fit-content; 
 
   @media only screen and (max-device-width: 480px) {
-    max-height: 2.4rem;   
+    max-height: 2.4rem;
+    padding: 0;
   }
 
   width: max-content;
