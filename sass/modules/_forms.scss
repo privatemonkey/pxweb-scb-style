@@ -451,7 +451,6 @@ select:not([multiple]):not([size]) {
 select[multiple] {
   @include field;
   appearance: none;
-  padding: 0;
   background-image: none;
   margin-bottom: sizes.$space-small;
   border-radius: 4px;
@@ -460,7 +459,6 @@ select[multiple] {
 
   @media only screen and (max-device-width: 480px) {
     max-height: 2.4rem;
-    padding: 0;
   }
 
   width: max-content;

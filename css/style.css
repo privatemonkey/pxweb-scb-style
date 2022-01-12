@@ -1168,7 +1168,6 @@ select[multiple] {
   background-color: #fff;
   border-radius: 4px;
   appearance: none;
-  padding: 0;
   background-image: none;
   margin-bottom: 0.75rem;
   border-radius: 4px;
@@ -1184,7 +1183,6 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
 @media only screen and (max-device-width: 480px) {
   select[multiple] {
     max-height: 2.4rem;
-    padding: 0;
   }
 }
 
