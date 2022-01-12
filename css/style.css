@@ -1161,13 +1161,19 @@ select[multiple] {
   background-image: none;
   margin-bottom: 0.75rem;
   border-radius: 4px;
-  height: 12rem;
+  max-height: 12rem;
+  height: fit-content;
   width: max-content;
   max-width: calc(100vw - 2rem);
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
   outline: 1px solid #222;
+}
+@media only screen and (max-device-width: 480px) {
+  select[multiple] {
+    max-height: 1rem;
+  }
 }
 
 select[multiple] option:checked {

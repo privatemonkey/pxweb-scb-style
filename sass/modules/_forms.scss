@@ -454,7 +454,13 @@ select[multiple] {
   background-image: none;
   margin-bottom: sizes.$space-small;
   border-radius: 4px;
-  height: 12rem;
+  max-height: 12rem;
+  height: fit-content; 
+
+  @media only screen and (max-device-width: 480px) {
+    max-height: 1rem;   
+  }
+
   width: max-content;
   max-width: calc(100vw - 2rem);
 }
