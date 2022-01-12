@@ -1185,6 +1185,11 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     max-height: 2.4rem;
   }
 }
+@media only screen and (min-device-width: 481px) {
+  select[multiple] {
+    padding: 0;
+  }
+}
 
 select[multiple] option:checked {
   background: #222 linear-gradient(0deg, #222 0%, #222 100%);
