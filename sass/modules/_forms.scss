@@ -467,7 +467,7 @@ select[multiple] {
   }
 
   width: max-content;
-  max-width: calc(100vw - 4rem);
+  max-width: 100%;
 }
 
 select[multiple] option:checked {
