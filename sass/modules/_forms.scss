@@ -459,6 +459,7 @@ select[multiple] {
 
   @media only screen and (max-device-width: 480px) {
     max-height: 2.4rem;
+    padding: 0;
   }
 
   @media only screen and (min-device-width: 481px) {

@@ -1183,6 +1183,7 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
 @media only screen and (max-device-width: 480px) {
   select[multiple] {
     max-height: 2.4rem;
+    padding: 0;
   }
 }
 @media only screen and (min-device-width: 481px) {
