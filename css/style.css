@@ -1190,6 +1190,9 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   select[multiple] {
     padding: 0;
   }
+  select[multiple]::before {
+    content: "...";
+  }
 }
 
 select[multiple] option:checked {
