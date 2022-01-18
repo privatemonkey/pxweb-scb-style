@@ -1190,7 +1190,7 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   select[multiple] {
     padding: 0;
   }
-  select[multiple]::before {
+  select[multiple] option:first-of-type::before {
     content: "...";
   }
 }
