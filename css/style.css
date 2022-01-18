@@ -1174,7 +1174,7 @@ select[multiple] {
   max-height: 12rem;
   height: fit-content;
   width: max-content;
-  max-width: calc(100vw - 2rem);
+  max-width: calc(100vw - 1.5rem - 1.5rem);
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
