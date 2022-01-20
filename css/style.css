@@ -1204,9 +1204,9 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     font-size: 115%;
     color: #222;
     border-radius: 5px;
-    font-size: 115%;
-    margin-right: 0.5rem;
-    margin-top: -2.75rem;
+    font-size: 150%;
+    margin-right: 0.65rem;
+    margin-top: -3.1rem;
     padding: 0;
     position: relative;
   }
