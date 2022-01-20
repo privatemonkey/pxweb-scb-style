@@ -464,7 +464,7 @@ select[multiple] {
   @media only screen and (max-device-width: 480px) {
     max-height: 2.4rem;
     padding: 0;
-    width: calc(100vw - 4rem);
+    width: 100vw;
 
     option:first-of-type {
       margin-right: 0;
