@@ -1189,6 +1189,7 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   select[multiple] {
     max-height: 2.4rem;
     padding: 0;
+    width: calc(100vw - 4rem);
   }
   select[multiple] option:first-of-type {
     margin-right: 0;
