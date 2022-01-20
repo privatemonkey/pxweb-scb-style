@@ -500,9 +500,15 @@ select[multiple] {
   color: #fff;
   background: colors.$button-primary-background;
   border-radius: 5px;
-  margin-top: -0.35rem;
-  padding: .25rem .5rem .25rem;
-  margin-right: 0;
+  font-size: 115%;
+  margin-right: 0.25rem;
+  margin-top: -3.150rem;
+  padding: .25rem .5rem;
+  position: relative;
+  &:hover, &:focus {
+      background: transparent;
+      color: colors.$btn-secondary-icon__hover;
+  }
 }
 
 select[multiple] option:checked {

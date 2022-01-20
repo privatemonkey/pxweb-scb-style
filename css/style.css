@@ -1218,9 +1218,15 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   color: #fff;
   background: #1e00be;
   border-radius: 5px;
-  margin-top: -0.35rem;
-  padding: 0.25rem 0.5rem 0.25rem;
-  margin-right: 0;
+  font-size: 115%;
+  margin-right: 0.25rem;
+  margin-top: -3.15rem;
+  padding: 0.25rem 0.5rem;
+  position: relative;
+}
+.variableselector_valuesselect_valuesselect_panel::after:hover, .variableselector_valuesselect_valuesselect_panel::after:focus {
+  background: transparent;
+  color: "%23FFFFFF";
 }
 
 select[multiple] option:checked {
