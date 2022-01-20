@@ -465,6 +465,8 @@ select[multiple] {
   @media only screen and (min-device-width: 481px) {
     padding: 0;
     option:first-of-type {
+      margin-right: 0;
+      
       &::after {
         content: '⏷';
         font-size: 115%;
