@@ -466,12 +466,13 @@ select[multiple] {
     padding: 0;
     option:first-of-type {
       margin-right: 0;
-      
+
       &::after {
         content: '⏷';
+        float: right;
         font-size: 115%;
         margin-top: -0.25rem;
-        color: colors.$btn-primary-icon;
+        color: colors.$btn-secondary-icon;
         background: colors.$button-primary-background;
         border-radius: 5px;
         padding: 0.15rem 0.5rem 0.25rem;
@@ -481,7 +482,7 @@ select[multiple] {
       &:hover, &:focus {
         &::after {
           background: colors.$button__hover-background;
-          color: colors.$btn-primary-icon__hover;
+          color: colors.$btn-secondary-icon__hover;
         }
       }
     }

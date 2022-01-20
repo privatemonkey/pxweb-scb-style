@@ -1195,9 +1195,10 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   }
   select[multiple] option:first-of-type::after {
     content: "⏷";
+    float: right;
     font-size: 115%;
     margin-top: -0.25rem;
-    color: "%23FFFFFF";
+    color: "%231E00BE";
     background: #1e00be;
     border-radius: 5px;
     padding: 0.15rem 0.5rem 0.25rem;
