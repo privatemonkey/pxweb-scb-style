@@ -1198,11 +1198,11 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     content: "...";
     float: right;
     font-size: 115%;
-    margin-top: -0.45rem;
     color: #fff;
     background: #1e00be;
     border-radius: 5px;
-    padding: 0.15rem 0.3rem 0.25rem;
+    margin-top: -0.35rem;
+    padding: 0.25rem 0.5rem 0.25rem;
     margin-right: 0;
   }
   select[multiple] option:first-of-type:hover::after, select[multiple] option:first-of-type:focus::after, select[multiple] option:first-of-type:checked::after {
