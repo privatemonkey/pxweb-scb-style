@@ -1211,18 +1211,6 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   }
 }
 
-.variableselector_valuesselect_valuesselect_panel::after {
-  content: "...";
-  float: right;
-  font-size: 115%;
-  color: #fff;
-  background: red;
-  border-radius: 5px;
-  margin-top: -0.35rem;
-  padding: 0.25rem 0.5rem 0.25rem;
-  margin-right: 0;
-}
-
 select[multiple] option:checked {
   background: #222 linear-gradient(0deg, #222 0%, #222 100%);
   -webkit-text-fill-color: #fff;
