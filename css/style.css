@@ -1196,6 +1196,7 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   }
 }
 
+/* Mobile hack */
 @media only screen and (max-device-width: 480px) {
   .variableselector_valuesselect_valuesselect_panel::after {
     content: "...";
@@ -1205,7 +1206,7 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     border-radius: 5px;
     font-size: 115%;
     margin-right: 0.5rem;
-    margin-top: -2.5rem;
+    margin-top: -2.75rem;
     padding: 0;
     position: relative;
   }

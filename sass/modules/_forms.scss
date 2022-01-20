@@ -475,6 +475,7 @@ select[multiple] {
   max-width: 100%;
 }
 
+/* Mobile hack */
 .variableselector_valuesselect_valuesselect_panel::after {
   @media only screen and (max-device-width: 480px) {
     content: '...';
@@ -484,7 +485,7 @@ select[multiple] {
     border-radius: 5px;
     font-size: 115%;
     margin-right: 0.5rem;
-    margin-top: -2.5rem;
+    margin-top: -2.75rem;
     padding: 0;
     position: relative;
     &:hover, &:focus {
