@@ -1180,25 +1180,25 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
   outline: 1px solid #222;
 }
+@media only screen and (min-device-width: 481px) {
+  select[multiple] {
+    padding: 0;
+  }
+}
 @media only screen and (max-device-width: 480px) {
   select[multiple] {
     max-height: 2.4rem;
     padding: 0;
   }
-}
-@media only screen and (min-device-width: 481px) {
-  select[multiple] {
-    padding: 0;
-  }
   select[multiple] option:first-of-type {
     margin-right: 0;
-    padding-right: 0.1rem;
+    padding-right: 0.25rem;
   }
   select[multiple] option:first-of-type::after {
     content: "⏷";
     float: right;
     font-size: 115%;
-    margin-top: -0.3rem;
+    margin-top: -0.4rem;
     color: #fff;
     background: #1e00be;
     border-radius: 5px;

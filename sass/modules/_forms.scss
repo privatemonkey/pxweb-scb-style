@@ -457,22 +457,22 @@ select[multiple] {
   max-height: 12rem;
   height: fit-content; 
 
-  @media only screen and (max-device-width: 480px) {
-    max-height: 2.4rem;
+  @media only screen and (min-device-width: 481px) { 
     padding: 0;
   }
 
-  @media only screen and (min-device-width: 481px) {
+  @media only screen and (max-device-width: 480px) {
+    max-height: 2.4rem;
     padding: 0;
     option:first-of-type {
       margin-right: 0;
-      padding-right: 0.1rem;
+      padding-right: 0.25rem;
 
       &::after {
         content: '⏷';
         float: right;
         font-size: 115%;
-        margin-top: -0.3rem;
+        margin-top: -0.4rem;
         color: #fff;
         background: colors.$button-primary-background;
         border-radius: 5px;
