@@ -1190,41 +1190,24 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     padding: 0;
     width: 100vw;
   }
-  select[multiple] option:first-of-type {
-    margin-right: 0;
-    padding-right: 0.25rem;
-  }
-  select[multiple] option:first-of-type::after {
+}
+
+@media only screen and (max-device-width: 480px) {
+  .variableselector_valuesselect_valuesselect_panel::after {
     content: "...";
     float: right;
     font-size: 115%;
-    color: #fff;
-    background: #1e00be;
+    color: #222;
     border-radius: 5px;
-    margin-top: -0.35rem;
-    padding: 0.25rem 0.5rem 0.25rem;
-    margin-right: 0;
+    font-size: 115%;
+    margin-right: 0.5rem;
+    margin-top: -2.5rem;
+    padding: 0;
+    position: relative;
   }
-  select[multiple] option:first-of-type:hover::after, select[multiple] option:first-of-type:focus::after, select[multiple] option:first-of-type:checked::after {
-    background: #222;
+  .variableselector_valuesselect_valuesselect_panel::after:hover, .variableselector_valuesselect_valuesselect_panel::after:focus {
     color: "%23FFFFFF";
   }
-}
-
-.variableselector_valuesselect_valuesselect_panel::after {
-  content: "...";
-  float: right;
-  font-size: 115%;
-  color: #222;
-  border-radius: 5px;
-  font-size: 115%;
-  margin-right: 0.5rem;
-  margin-top: -2.5rem;
-  padding: 0;
-  position: relative;
-}
-.variableselector_valuesselect_valuesselect_panel::after:hover, .variableselector_valuesselect_valuesselect_panel::after:focus {
-  color: "%23FFFFFF";
 }
 
 select[multiple] option:checked {
