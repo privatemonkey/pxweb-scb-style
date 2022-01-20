@@ -466,6 +466,7 @@ select[multiple] {
     padding: 0;
     option:first-of-type {
       margin-right: 0;
+      padding-right: 0;
 
       &::after {
         content: '⏷';

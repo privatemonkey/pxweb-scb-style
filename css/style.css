@@ -1192,6 +1192,7 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   }
   select[multiple] option:first-of-type {
     margin-right: 0;
+    padding-right: 0;
   }
   select[multiple] option:first-of-type::after {
     content: "⏷";
