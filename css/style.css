@@ -1190,6 +1190,17 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     max-height: 2.4rem;
     padding: 0;
   }
+  select[multiple]::after {
+    content: "...";
+    float: right;
+    font-size: 115%;
+    color: #fff;
+    background: red;
+    border-radius: 5px;
+    margin-top: -0.35rem;
+    padding: 0.25rem 0.5rem 0.25rem;
+    margin-right: 0;
+  }
   select[multiple] option:first-of-type {
     margin-right: 0;
     padding-right: 0.25rem;
