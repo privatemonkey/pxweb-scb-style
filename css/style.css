@@ -1197,8 +1197,8 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     content: "⏷";
     float: right;
     font-size: 115%;
-    margin-top: -0.25rem;
-    color: "%231E00BE";
+    margin-top: -0.15rem;
+    color: #fff;
     background: #1e00be;
     border-radius: 5px;
     padding: 0.15rem 0.5rem 0.25rem;
