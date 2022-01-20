@@ -497,16 +497,14 @@ select[multiple] {
   content: '...';
   float: right;
   font-size: 115%;
-  color: #fff;
-  background: colors.$button-primary-background;
+  color: #222;
   border-radius: 5px;
   font-size: 115%;
   margin-right: 0.25rem;
   margin-top: -3.150rem;
-  padding: .25rem .5rem;
+  padding: 0;
   position: relative;
   &:hover, &:focus {
-      background: transparent;
       color: colors.$btn-secondary-icon__hover;
   }
 }
