@@ -466,13 +466,13 @@ select[multiple] {
     padding: 0;
     option:first-of-type {
       margin-right: 0;
-      padding-right: 0;
+      padding-right: 0.1rem;
 
       &::after {
         content: '⏷';
         float: right;
         font-size: 115%;
-        margin-top: -0.15rem;
+        margin-top: -0.3rem;
         color: #fff;
         background: colors.$button-primary-background;
         border-radius: 5px;
