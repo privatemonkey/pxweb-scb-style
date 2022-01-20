@@ -463,10 +463,15 @@ select[multiple] {
 
   @media only screen and (max-device-width: 480px) {
     max-height: 2.4rem;
-    padding: 0;
+    padding: 0.6rem 0.75rem;
     width: 100vw;
+
+    option {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
-  
+
   max-width: 100%;
 }
 
