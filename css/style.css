@@ -1185,17 +1185,6 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     padding: 0;
   }
 }
-select[multiple] .variableselector_valuesselect_valuesselect_panel::after {
-  content: "...";
-  float: right;
-  font-size: 115%;
-  color: #fff;
-  background: red;
-  border-radius: 5px;
-  margin-top: -0.35rem;
-  padding: 0.25rem 0.5rem 0.25rem;
-  margin-right: 0;
-}
 @media only screen and (max-device-width: 480px) {
   select[multiple] {
     max-height: 2.4rem;
@@ -1220,6 +1209,18 @@ select[multiple] .variableselector_valuesselect_valuesselect_panel::after {
     background: #222;
     color: "%23FFFFFF";
   }
+}
+
+.variableselector_valuesselect_valuesselect_panel::after {
+  content: "...";
+  float: right;
+  font-size: 115%;
+  color: #fff;
+  background: red;
+  border-radius: 5px;
+  margin-top: -0.35rem;
+  padding: 0.25rem 0.5rem 0.25rem;
+  margin-right: 0;
 }
 
 select[multiple] option:checked {
