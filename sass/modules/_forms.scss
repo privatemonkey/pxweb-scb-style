@@ -490,9 +490,19 @@ select[multiple] {
       }
     }
   }
-
-  width: max-content;
   max-width: 100%;
+}
+
+.variableselector_valuesselect_valuesselect_panel::after {
+  content: '...';
+  float: right;
+  font-size: 115%;
+  color: #fff;
+  background: colors.$button-primary-background;
+  border-radius: 5px;
+  margin-top: -0.35rem;
+  padding: .25rem .5rem .25rem;
+  margin-right: 0;
 }
 
 select[multiple] option:checked {
