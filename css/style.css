@@ -1205,7 +1205,7 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     padding: 0.15rem 0.3rem 0.25rem;
     margin-right: 0;
   }
-  select[multiple] option:first-of-type:hover::after, select[multiple] option:first-of-type:focus::after {
+  select[multiple] option:first-of-type:hover::after, select[multiple] option:first-of-type:focus::after, select[multiple] option:first-of-type::selection::after {
     background: #222;
     color: "%23FFFFFF";
   }

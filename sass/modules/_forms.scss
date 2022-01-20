@@ -480,7 +480,7 @@ select[multiple] {
         margin-right: 0;
       }
 
-      &:hover, &:focus {
+      &:hover, &:focus, &::selection {
         &::after {
           background: colors.$button__hover-background;
           color: colors.$btn-secondary-icon__hover;
