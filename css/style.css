@@ -1179,12 +1179,12 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
   outline: 1px solid #222;
 }
-@media only screen and (min-device-width: 481px) {
+@media only screen and (min-device-width: 799px) {
   select[multiple] {
     padding: 0;
   }
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 799px) {
   select[multiple] {
     max-height: 2.4rem;
     padding: 0.6rem 0.75rem;
@@ -1197,7 +1197,7 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
 }
 
 /* Mobile hack */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 799px) {
   .variableselector_valuesselect_valuesselect_panel::after {
     content: "...";
     float: right;

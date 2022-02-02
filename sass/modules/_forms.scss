@@ -1,4 +1,5 @@
 @use "../base/sizes";
+@use "../base/breakpoints";
 @use "../base/colors";
 @use "../base/typography";
 /*
@@ -457,11 +458,11 @@ select[multiple] {
   max-height: 12rem;
   height: fit-content; 
 
-  @media only screen and (min-device-width: 481px) { 
+  @media only screen and (min-device-width: breakpoints.$small) { 
     padding: 0;
   }
 
-  @media only screen and (max-device-width: 480px) {
+  @media only screen and (max-device-width: breakpoints.$small) {
     max-height: 2.4rem;
     padding: 0.6rem 0.75rem;
     width: 100vw;
@@ -477,7 +478,7 @@ select[multiple] {
 
 /* Mobile hack */
 .variableselector_valuesselect_valuesselect_panel::after {
-  @media only screen and (max-device-width: 480px) {
+  @media only screen and (max-device-width: breakpoints.$small) {
     content: '...';
     float: right;
     font-size: 115%;
