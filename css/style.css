@@ -1029,7 +1029,18 @@ input:hover, input:focus, input:active {
 }
 
 select {
+  padding: 0.5rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  border: 1px solid #949494;
+  outline: 1px solid transparent;
+  background-color: #fff;
+  border-radius: 4px;
   min-width: 16rem;
+}
+select:hover, select:focus, select:active {
+  border: 1px solid #222;
+  outline: 1px solid #222;
 }
 
 input[type=text] {
@@ -1157,17 +1168,55 @@ select[multiple] {
   background-color: #fff;
   border-radius: 4px;
   appearance: none;
-  padding: 0;
   background-image: none;
   margin-bottom: 0.75rem;
   border-radius: 4px;
-  height: 12rem;
-  width: max-content;
-  max-width: calc(100vw - 2rem);
+  max-height: 12rem;
+  height: fit-content;
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
   outline: 1px solid #222;
+}
+@media only screen and (min-device-width: 799px) {
+  select[multiple] {
+    padding: 0;
+  }
+}
+@media only screen and (max-device-width: 599px) {
+  select[multiple] {
+    width: 100vw;
+  }
+}
+@media only screen and (max-device-width: 799px) {
+  select[multiple] {
+    max-height: 2.4rem;
+    padding: 0.6rem 0.75rem;
+    width: 100%;
+  }
+  select[multiple] option {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Mobile hack */
+@media only screen and (max-device-width: 799px) {
+  .variableselector_valuesselect_valuesselect_panel::after {
+    content: "...";
+    float: right;
+    font-size: 115%;
+    color: #222;
+    border-radius: 5px;
+    font-size: 150%;
+    margin-right: 0.65rem;
+    margin-top: -3.1rem;
+    padding: 0;
+    position: relative;
+  }
+  .variableselector_valuesselect_valuesselect_panel::after:hover, .variableselector_valuesselect_valuesselect_panel::after:focus {
+    color: "%23FFFFFF";
+  }
 }
 
 select[multiple] option:checked {
@@ -1650,7 +1699,7 @@ hr.future {
 
 .presentation-left.mobilemenu.mobilemenuhidden {
   top: 0;
-  right: -420px;
+  right: -460px;
   padding-left: 0;
 }
 

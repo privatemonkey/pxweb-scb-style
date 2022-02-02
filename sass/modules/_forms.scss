@@ -1,4 +1,5 @@
 @use "../base/sizes";
+@use "../base/breakpoints";
 @use "../base/colors";
 @use "../base/typography";
 /*
@@ -327,6 +328,7 @@ input {
 }
 
 select {
+  @include field;
   min-width: 16rem;
 }
 
@@ -450,13 +452,50 @@ select:not([multiple]):not([size]) {
 select[multiple] {
   @include field;
   appearance: none;
-  padding: 0;
   background-image: none;
   margin-bottom: sizes.$space-small;
   border-radius: 4px;
-  height: 12rem;
-  width: max-content;
-  max-width: calc(100vw - 2rem);
+  max-height: 12rem;
+  height: fit-content; 
+
+  @media only screen and (min-device-width: breakpoints.$small) { 
+    padding: 0;
+  }
+
+  @media only screen and (max-device-width: breakpoints.$extra-small) { 
+    width: 100vw;
+  }
+
+
+  @media only screen and (max-device-width: breakpoints.$small) {
+    max-height: 2.4rem;
+    padding: 0.6rem 0.75rem;
+    width: 100%;
+
+    option {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+/* Mobile hack */
+.variableselector_valuesselect_valuesselect_panel::after {
+  @media only screen and (max-device-width: breakpoints.$small) {
+    content: '...';
+    float: right;
+    font-size: 115%;
+    color: #222;
+    border-radius: 5px;
+    font-size: 150%;
+    margin-right: 0.65rem;
+    margin-top: -3.1rem;
+    padding: 0;
+    position: relative;
+    &:hover, &:focus {
+        color: colors.$btn-secondary-icon__hover;
+    }
+  }
 }
 
 select[multiple] option:checked {
