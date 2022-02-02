@@ -462,18 +462,21 @@ select[multiple] {
     padding: 0;
   }
 
+  @media only screen and (max-device-width: breakpoints.$extra-small) { 
+    width: 100vw;
+  }
+
+
   @media only screen and (max-device-width: breakpoints.$small) {
     max-height: 2.4rem;
     padding: 0.6rem 0.75rem;
-    width: 100vw;
+    width: 100%;
 
     option {
       padding-left: 0;
       padding-right: 0;
     }
   }
-
-  max-width: 100%;
 }
 
 /* Mobile hack */

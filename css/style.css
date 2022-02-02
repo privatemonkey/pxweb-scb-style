@@ -1173,7 +1173,6 @@ select[multiple] {
   border-radius: 4px;
   max-height: 12rem;
   height: fit-content;
-  max-width: 100%;
 }
 select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
   border: 1px solid #222;
@@ -1184,11 +1183,16 @@ select[multiple]:hover, select[multiple]:focus, select[multiple]:active {
     padding: 0;
   }
 }
+@media only screen and (max-device-width: 599px) {
+  select[multiple] {
+    width: 100vw;
+  }
+}
 @media only screen and (max-device-width: 799px) {
   select[multiple] {
     max-height: 2.4rem;
     padding: 0.6rem 0.75rem;
-    width: 100vw;
+    width: 100%;
   }
   select[multiple] option {
     padding-left: 0;
@@ -1695,7 +1699,7 @@ hr.future {
 
 .presentation-left.mobilemenu.mobilemenuhidden {
   top: 0;
-  right: -420px;
+  right: -460px;
   padding-left: 0;
 }
 
