@@ -407,8 +407,8 @@ img.logo, .imgSiteLogo {
 }
 
 img.logo-quality, .officialStatisticsImage {
-  max-width: 220px;
   margin-bottom: 0.5rem;
+  height: 24px;
 }
 
 .top-link {
