@@ -441,8 +441,8 @@ img.logo, .imgSiteLogo {
 }
 
 img.logo-quality, .officialStatisticsImage {
-  max-width: 220px;
   margin-bottom: 0.5rem;
+  height: 24px;
 }
 
 .top-link {
@@ -1789,6 +1789,10 @@ hr.future {
   width: calc(100% - 2rem);
 }
 
+#pxwebcontent .variableselector_selectionerror_label_text {
+  display: none;
+}
+
 .variableselector_error_summary {
   background-color: #ffbebe;
 }
@@ -1981,11 +1985,13 @@ nav a span {
 }
 
 /* Hierarcy tree */
+.AspNet-TreeView li {
+  /* &.AspNet-TreeView-Leaf, &.AspNet-TreeView-Parent, &.AspNet-TreeView-Root {
+      white-space: nowrap;
+  }*/
+}
 .AspNet-TreeView li label {
   width: fit-content;
-}
-.AspNet-TreeView li.AspNet-TreeView-Leaf, .AspNet-TreeView li.AspNet-TreeView-Parent, .AspNet-TreeView li.AspNet-TreeView-Root {
-  white-space: nowrap;
 }
 .AspNet-TreeView li.AspNet-TreeView-Leaf {
   display: flex;

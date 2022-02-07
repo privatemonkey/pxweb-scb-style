@@ -10,6 +10,11 @@
     background-color: colors.$message-background-default;
     width: calc(100% - 2rem);
 }
+
+#pxwebcontent .variableselector_selectionerror_label_text {
+    display: none;
+}
+
 .variableselector_error_summary {
     background-color: colors.$warning-background;
 }

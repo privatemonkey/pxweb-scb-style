@@ -117,9 +117,9 @@
         width: fit-content;
     }
 
-    &.AspNet-TreeView-Leaf, &.AspNet-TreeView-Parent, &.AspNet-TreeView-Root {
+    /* &.AspNet-TreeView-Leaf, &.AspNet-TreeView-Parent, &.AspNet-TreeView-Root {
         white-space: nowrap;
-    }
+    }*/
 
     &.AspNet-TreeView-Leaf {
         display: flex;
