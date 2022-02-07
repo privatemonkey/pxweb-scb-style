@@ -1789,6 +1789,13 @@ hr.future {
   width: calc(100% - 2rem);
 }
 
+#pxwebcontent .variableselector_selectionerror_label {
+  color: #b70000;
+  background-color: #ffbebe;
+  margin-left: -1rem;
+  padding: 1rem;
+}
+
 #pxwebcontent .variableselector_selectionerror_label_text {
   display: none;
 }
