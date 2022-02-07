@@ -11,6 +11,12 @@
     width: calc(100% - 2rem);
 }
 
+#pxwebcontent .variableselector_selectionerror_label {
+    color: colors.$color-warning;
+    background-color: colors.$warning-background;
+    margin-left: -1rem;
+    padding: 1rem;
+}
 #pxwebcontent .variableselector_selectionerror_label_text {
     display: none;
 }
